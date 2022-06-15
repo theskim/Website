@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
 
 .NavbarItems {
-  background: rgb(44, 41, 41);
-  height: 100px;
+  background: rgb(74, 71, 71);
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Changa One', cursive;
   font-size: 2rem;
   margin-bottom: 2rem;
-}
-
-li{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .NavbarItems .inner {
@@ -38,14 +33,14 @@ li{
 }
 
 .nav-links {
-  color: white;
+  color: rgb(255, 246, 237);
+  padding: 2rem;
   text-decoration: none;
-  padding: 0.5rem 1rem;
   white-space: nowrap;
 }
 
 .nav-links:hover {
-  background-color: #b09e9a;
+  background-color: #ea9e05;
   border-radius: 3px;
   transition: all 0.4s ease-out;
 }
@@ -80,7 +75,7 @@ li{
   }
 
   .nav-menu.active {
-    background: #0df9b2;
+    background: #474949;
     right: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -95,7 +90,7 @@ li{
   }
 
   .nav-links:hover {
-    background-color: #0df9b2;
+    background-color: #ffaa00;
     border-radius: 0;
   }
 
@@ -126,7 +121,7 @@ li{
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #b09e9a;
+    color: #ffaa00;
     transition: 250ms;
   }
 }
