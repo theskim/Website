@@ -4,13 +4,17 @@ import "./Education.css";
 function Education (){
   return (
     <div className = 'school-information'>
-      <div className='text' >
-        <p>
-          University of Toronto 
-          <img src={uoftImage} alt='main' />
-          Bachelor of Applied Science in Computer Engineering (~ 2021)
-        </p>
-      </div>
+      <p className = 'title'>
+        &#x1F393;&nbsp;&nbsp;EDUCATION
+      </p>
+      <img src={uoftImage} alt='main' /> <br/>
+      <p className = 'text'>
+        University of Toronto - St. George <br/>
+        Bachelor of Applied Science in Computer Engineering 
+      </p>
+      <p className = 'number'>
+        2021 - 2026 (PEY CO-OP)
+      </p>
     </div>
   );
 }

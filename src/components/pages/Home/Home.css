@@ -13,3 +13,24 @@
   background-color: #727e7a;
   color: rgb(6, 4, 4);
 }
+
+.stripe1, .stripe2 {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stripe1 {
+  background: linear-gradient(
+      rgb(241, 254, 255) 0%,
+      rgb(228, 250, 255) 100%
+  );
+}
+
+.stripe2 {
+  background: linear-gradient(
+      rgb(228, 250, 255) 0%,
+      rgb(177, 249, 254) 100%
+  );
+}

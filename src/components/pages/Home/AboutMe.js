@@ -4,11 +4,15 @@ function AboutMe (){
     return (
         <div className = 'about-me'>
             <div className = 'title'>
-            &#x1F9D0; WHO AM I?
+            &#x1F464;&nbsp;&nbsp;SEAN KIM
             </div>
-            <div className = 'text'>
-                
-            </div>
+            <p className = 'bold'>
+                Oakville, ON, Canada <br/>
+            </p>
+            <p className = 'text'>
+                Computer Engineering Student hugely interested <br/>
+                in the field of Frontend, Backend, and Artificial Intelligence. 
+            </p>
         </div>
     );
 }

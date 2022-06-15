@@ -1,23 +1,33 @@
 .about-me {
-    background-color: aliceblue;
+    background-color: rgb(241, 254, 255);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
-    padding-top: 4rem;
+    flex-direction: column;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.about-me .title, .text, .bold {
+    display: inline-block;
+    text-align: center;
 }
 
 .about-me .title {
-    display: inline-block;
     font-family: 'Changa One', cursive;
-    font-size: 4rem;
-    text-align: center;
+    font-size: 7rem;
+    line-height: 5rem;
 }
 
 .about-me .text {
-    display: inline-block;
-    font-family: 'Changa One', cursive;
-    font-size: 4rem;
-    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.about-me .bold {
+    font-family: 'Raleway Bold', sans-serif;
+    line-height: 3rem;
+    font-size: 3rem;
 }

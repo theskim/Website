@@ -1,22 +1,39 @@
 .school-information {
+    background-color: rgb(228, 250, 255);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
-  .school-information img {
-    z-index: -1;
-    min-width: 50%;
-    height: 3rem;
-    object-fit: contain;
-    flex-grow: 3;
-  }
-  
-  .school-information .text {
-    display: inline-block;
-    font-family: 'Changa One', cursive;
-    width: min-content;
-    flex: 0 0;
-  }
+.school-information img {
+  min-width: 50%;
+  height: 13rem;
+  padding-bottom: 1rem;
+  object-fit: contain;
+}
+
+.school-information .title, .text, .number {
+  display: inline-block;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.school-information .title {
+  font-family: 'Changa One', cursive;
+  font-size: 5rem;
+}
+
+.school-information .text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+.school-information .number {
+  font-family: 'Raleway Bold', cursive;
+  font-size: 1.8rem;
+}
