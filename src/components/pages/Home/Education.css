@@ -1,32 +1,22 @@
 .school-information {
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row-reverse;
-    align-items: flex-start;
-    padding: 2rem 0 4rem 0;
-    left: 30px;
   }
   
   .school-information img {
     z-index: -1;
     min-width: 50%;
-    height: auto;
+    height: 3rem;
     object-fit: contain;
-    flex-grow: 1;
+    flex-grow: 3;
   }
   
   .school-information .text {
     display: inline-block;
+    font-family: 'Changa One', cursive;
     width: min-content;
     flex: 0 0;
-  }
-  .school-information .title-wrapper {
-    font-weight: normal;
-    color: #2f9b7b;
-  }
-  
-  .school-information .title-wrapper .cheapify {
-    margin-top: 2em;
-    font-size: 3rem;
-    font-weight: bold;
   }
