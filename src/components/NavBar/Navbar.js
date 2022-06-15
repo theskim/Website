@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { ListItems } from "./ListItems";
-import "./Navbar.css";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
+import { ListItems } from "./ListItems";
 
 class Navbar extends Component {
   state = 
