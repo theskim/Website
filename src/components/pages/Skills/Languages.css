@@ -1,28 +1,27 @@
 .languages {
-    background-color:rgb(244, 255, 241);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: relative;
+    text-align: center;
+    background-color: rgb(244, 255, 241);
     padding-top: 5rem;
     padding-bottom: 15rem;
 }
 
-.languages .bold {
+.languages p {
     font-family: 'Raleway Bold', cursive;
     font-size: 3.5rem;
     line-height: 3.5rem;
     padding-bottom: 5rem;
 }
 
-.languages .tooltip-wrap {
-    align-items: center;
+.tooltip-wrap {
     justify-content: center;
-    position: relative;
 }
 
-
-.languages .tooltip-wrap img {
-    display: flex;
+.tooltip-wrap img {
+    position: flex;
+    text-align: center;
+    cursor: pointer;
+    padding : 0 10px 0 10px;
     height: 13rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -30,14 +29,12 @@
     margin-bottom: 3rem;
 }
 
-.languages .tooltip-wrap .tooltip-content {
+.tooltip-wrap .tooltip-content {
     display: none;
-    cursor: pointer;
 }
 
-.languages .tooltip-wrap:hover .tooltip-content {
+.tooltip-wrap:hover .tooltip-content {
     display: inline-block;
-    font-family: 'Raleway Bold', cursive;
+    font-family: 'Raleway Bold';
     font-size: 2rem;
-    bottom: 10%;
 }
