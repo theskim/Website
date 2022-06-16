@@ -8,3 +8,5 @@ export const LinkedIn = require('./linkedin-logo.png');
 export const Github = require('./github-logo.png');
 export const Resume = require('./resume-logo.png');
 export const UofT = require('./uoft-logo.png');
+export const Git = require('./git-logo.png');
+export const ReactLogo = require('./react-logo.png');

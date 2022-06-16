@@ -1,37 +1,39 @@
 .skills {
+    background-color: rgb(237, 255, 232);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills .title {
     background-color: rgb(245, 252, 244);
     position: relative;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 5rem;
-    padding-bottom: 20rem;
-}
-
-.skills .title {
     text-align: center;
     font-family: 'Changa One', cursive;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-size: 5rem;
     line-height: 5rem;
 }
 
 .skills .stripe1, .stripe2 {
-    height: 10rem;
+    height: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 .skills .stripe1 {
     background: linear-gradient(
         rgb(245, 252, 244) 0%,
         rgb(244, 255, 241) 100%
     );
-  }
+}
   
 .skills .stripe2 {
-background: linear-gradient(
-    rgb(244, 255, 241) 0%,
-    rgb(202, 251, 255) 100%
-);
+    background: linear-gradient(
+        rgb(244, 255, 241) 0%,
+        rgb(237, 255, 232) 100%
+    );
 }

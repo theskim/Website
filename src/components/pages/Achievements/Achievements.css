@@ -9,7 +9,7 @@
     padding-bottom: 15rem;
 }
 
-.achievements.title, .text, .bold, .bold2{
+.achievements .title, .text, .bold {
     display: inline-block;
     text-align: center;
 }
