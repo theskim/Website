@@ -1,4 +1,4 @@
-import uoftImage from './../../../assets/uoft-logo.png';
+import { UofT } from "../../../assets";
 import "./Education.css";
 
 function Education (){
@@ -7,12 +7,12 @@ function Education (){
       <p className = 'title'>
         &#x1F393;&nbsp;&nbsp;EDUCATION
       </p>
-      <img src={uoftImage} alt='main' /> <br/>
+      <img src={UofT} alt='main' /> <br/>
       <p className = 'text'>
         University of Toronto - St. George <br/>
         Bachelor of Applied Science in Computer Engineering
       </p>
-      <p className = 'number'>
+      <p className = 'bold'>
         2021 - 2026 (PEY CO-OP)
       </p>
     </div>

@@ -16,7 +16,7 @@
   object-fit: contain;
 }
 
-.school-information .title, .text, .number {
+.school-information .title, .text, .bold {
   display: inline-block;
   line-height: 1rem;
   text-align: center;
@@ -33,7 +33,7 @@
   line-height: 3.5rem;
 }
 
-.school-information .number {
+.school-information .bold {
   font-family: 'Raleway Bold', cursive;
   font-size: 1.8rem;
   line-height: 3.5rem;

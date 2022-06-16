@@ -1,0 +1,10 @@
+export const Html = require('./html-logo.png');
+export const Css = require('./css-logo.png');
+export const Js = require('./js-logo.png');
+export const C = require('./c-logo.png');
+export const Python = require('./python-logo.png');
+export const Java = require('./java-logo.png');
+export const LinkedIn = require('./linkedin-logo.png');
+export const Github = require('./github-logo.png');
+export const Resume = require('./resume-logo.png');
+export const UofT = require('./uoft-logo.png');

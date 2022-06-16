@@ -1,7 +1,5 @@
 import "./ContactMe.css";
-import githubLogo from './../../../assets/github.png';
-import linkedinLogo from './../../../assets/linkedin.png';
-import resumeLogo from './../../../assets/resume.png';
+import { Github, LinkedIn, Resume } from "../../../assets";
 
 function ContactMe (){
     return (
@@ -21,13 +19,13 @@ function ContactMe (){
         </p>
         <div className = 'logos'>
             <a href="https://github.com/skim1601" class="button">
-                <img src={githubLogo} width="150" height="150" alt=""/>
+                <img src={Github} width="150" height="150" alt=""/>
             </a>
             <a href="https://www.linkedin.com/in/sean-kim-752685212/" class="button">
-                <img src={linkedinLogo} width="150" height="150" alt=""/>
+                <img src={LinkedIn} width="150" height="150" alt=""/>
             </a>
             <a href="https://drive.google.com/file/d/1m5JcJFL_ofws0u5jlNKEvaAkJsbd-ptC/view?usp=sharing" class="button">
-                <img src={resumeLogo} width="150" height="150" alt=""/>
+                <img src={Resume} width="150" height="150" alt=""/>
             </a>
         </div>
       </div>

@@ -31,24 +31,25 @@
     font-size: 1.5rem;
 }
 
-.tooltip-wrap {
+.achievements .tooltip-wrap {
     position: relative;
 }
 
-.tooltip-wrap .tooltip-content {
+.achievements .tooltip-wrap .tooltip-content {
     display: none;
     position: absolute;
     justify-content: center;
-    bottom: 5%;
+    cursor: pointer;
+    top: 0%;
+    bottom: 0%;
     left: 0%;
     right: 0%;
+}
+
+.achievements .tooltip-wrap:hover .tooltip-content {
+    display: inline-block;
     background-color: rgb(254, 255, 241);
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
     line-height: 1rem;
-    padding: .5em;
-}
-
-.tooltip-wrap:hover .tooltip-content {
-    display: inline-block;
 }
