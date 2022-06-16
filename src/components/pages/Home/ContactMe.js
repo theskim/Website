@@ -12,7 +12,11 @@ function ContactMe (){
         <p className = 'text'>
             Phone Number:&nbsp;&nbsp;
             <a href="tel:+1 647-887-1601">
-                647-887-1601
+                647-887-1601<br />
+            </a>
+            Email:&nbsp;&nbsp;
+            <a href = "mailto:top030216@gmail.com?subject = Feedback&body = Message">
+                top030216@gmail.com
             </a>
         </p>
         <div className = 'logos'>

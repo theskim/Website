@@ -1,0 +1,54 @@
+.achievements {
+    background-color: rgb(241, 254, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.achievements.title, .text, .bold, .bold2{
+    display: inline-block;
+    text-align: center;
+}
+
+.achievements .title {
+    font-family: 'Changa One', cursive;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.achievements .text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+}
+
+.achievements .bold {
+    font-family: 'Raleway Bold', cursive;
+    font-size: 1.5rem;
+}
+
+.tooltip-wrap {
+    position: relative;
+}
+
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    bottom: 5%;
+    left: 0%;
+    right: 0%;
+    background-color: rgb(241, 254, 255);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: .5em;
+}
+
+.tooltip-wrap:hover .tooltip-content {
+    display: inline-block;
+}
