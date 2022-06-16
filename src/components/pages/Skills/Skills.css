@@ -1,0 +1,21 @@
+.skills {
+    background-color: rgb(245, 252, 244);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.skills .title, .text, .bold, .bold2{
+    display: inline-block;
+    text-align: center;
+}
+
+.skills .title {
+    font-family: 'Changa One', cursive;
+    font-size: 5rem;
+    line-height: 5rem;
+}
