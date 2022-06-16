@@ -5,58 +5,33 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 5rem;
-    padding-bottom: 15rem;
-}
-
-.skills .languages {
-    align-items: center;
-}
-
-.skills .title, .bold{
-    text-align: center;
+    padding-bottom: 20rem;
 }
 
 .skills .title {
+    text-align: center;
     font-family: 'Changa One', cursive;
     font-size: 5rem;
     line-height: 5rem;
 }
 
-.skills .bold {
-    font-family: 'Raleway Bold', cursive;
-    font-size: 2rem;
-    line-height: 3.5rem;
-}
-
-.tooltip-wrap {
-    justify-content: center;
-    display: inline-block;
-    position: relative;
-    padding-bottom: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.tooltip-wrap img {
-    object-fit: contain;
-    height: 13rem;
+.skills .stripe1, .stripe2 {
+    height: 10rem;
+    display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.tooltip-wrap .tooltip-content {
-    display: none;
-    background-color: rgb(254, 255, 241);
-    justify-content: center;
-    cursor: pointer;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-}
-
-.tooltip-wrap:hover .tooltip-content {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
-    line-height: 1rem;
+.skills .stripe1 {
+    background: linear-gradient(
+        rgb(245, 252, 244) 0%,
+        rgb(244, 255, 241) 100%
+    );
+  }
+  
+.skills .stripe2 {
+background: linear-gradient(
+    rgb(244, 255, 241) 0%,
+    rgb(202, 251, 255) 100%
+);
 }
