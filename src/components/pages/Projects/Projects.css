@@ -1,0 +1,41 @@
+.title-box {
+    background-color: rgb(250, 247, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+
+.title-box .title {
+    font-family: 'Changa One', cursive;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.projects1 {
+    background-color: rgb(250, 247, 255);
+}
+
+.project-box {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-box .project-title {
+    font-family: 'Raleway Bold';
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.project-box img {
+    min-width: 50%;
+    height: 13rem;
+    padding-bottom: 1rem;
+    object-fit: contain;
+  }
+  
