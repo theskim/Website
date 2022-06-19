@@ -9,24 +9,24 @@
 .tools .bold {    
     display: block;
     font-family: 'Raleway Bold', cursive;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    padding-bottom: 5rem;
+    font-size: min(7.5vw, 4rem);
+    line-height: min(7.5vw, 4rem);
+    padding-bottom: min(10vw, 5rem);
 }
 
 .tooltip-wrap {
     display: inline-block;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: min(3vw, 3rem);
+    padding-right: min(3vw, 3rem);
 }
 
 .tooltip-wrap img {
     cursor: pointer;
-    height: 13rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    height: min(30vw, 13rem);
+    margin-top: min(16vw, 5rem);
+    margin-bottom: min(10vw, 3rem);
+    margin-left: min(10vw, 3rem);
+    margin-right: min(10vw, 3rem);
 }
 
 .tooltip-wrap .tooltip-content {
@@ -36,5 +36,5 @@
 .tooltip-wrap:hover .tooltip-content {
     display: inline-block;
     font-family: 'Raleway Bold';
-    font-size: 2rem;
+    font-size: min(7vw, 2rem);
 }

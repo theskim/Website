@@ -3,28 +3,28 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: min(30vw, 15rem);
+    padding-bottom: min(30vw, 15rem);
 }
 
 .contact-me title, .contact-info {
     display: inline-block;
     text-align: center;
+    padding-left: min(5vw, 5rem);
+    padding-right: min(5vw, 5rem);
 }
 
 .contact-me title {
     font-family: 'Changa One';
-    font-size: 5rem;
-    line-height: 5rem;
-    padding-bottom: 5rem;
+    font-size: min(10.5vw, 5rem);
+    line-height: min(10.5vw, 5rem);
+    padding-bottom: min(10vw, 5rem);
 }
 
 .contact-me .contact-info {
     font-family: 'DM Sans';
-    font-size: 1.7rem;
-    line-height: 3.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;  
+    font-size: min(4.3vw, 2rem);
+    line-height: min(6.5vw, 3rem);
 }
 
 .contact-me .contact-info a {
@@ -45,8 +45,8 @@
 
 .contact-me .logos .logo {
     display: inline-block;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    padding-left: min(3vw, 3rem);
+    padding-right: min(3vw, 3rem);
     margin-top: 3rem;
 }
 
@@ -58,5 +58,9 @@
 .contact-me .logos .logo a:hover {
     border-radius: 100%;
     transition: 0.2s;
-    color: inset 0 0 0 10px #ffeb14, 0 0 0 10px #ffeb14;
+    color: inset 0 0 0 5rem #ffeb14, 0 0 0 10px #ffeb14;
+}
+
+.contact-me .logos .logo a img {
+    width: min(20vw, 9.5rem)
 }

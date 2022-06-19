@@ -15,28 +15,28 @@
 
 .achievements .title {
     font-family: 'Changa One';
-    font-size: 5rem;
-    line-height: 5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;  
-    padding-bottom: 10rem;
+    font-size: min(10.5vw, 5rem);
+    line-height: min(10.5vw, 5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
+    padding-bottom: min(20vw, 10rem);
 }
 
 .achievements .text {
     font-family: 'DM Sans';
-    font-size: 1.5rem;
-    line-height: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;  
+    font-size: min(5vw, 2rem);
+    line-height: min(6vw, 2.5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
 }
 
 .achievements .bold {
     font-family: 'Raleway Bold';
-    font-size: 1.5rem;
-    line-height: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 5rem;  
+    font-size: min(5vw, 1.5rem);
+    line-height: min(5vw, 1.5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
+    padding-bottom: min(20vw, 10rem);
 }
 
 .achievements .tooltip-wrap {
@@ -58,8 +58,8 @@
     display: inline-block;
     background-color: rgb(254, 255, 241);
     font-family: 'DM Sans', sans-serif;
-    font-size: 1.25rem;
-    line-height: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;  
+    font-size: min(5vw, 1.25rem);
+    line-height: min(5vw, 2.5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
 }

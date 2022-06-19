@@ -20,17 +20,17 @@ function ContactMe (){
         <div className = 'logos'>
             <div className = 'logo'>
                 <a href="https://github.com/skim1601" class="button">
-                    <img src={Github} width="150" height="150" alt=""/>
+                    <img src={Github} alt=""/>
                 </a>
             </div>
             <div className = 'logo'>
                 <a href="https://www.linkedin.com/in/sean-kim-752685212/" class="button">
-                    <img src={LinkedIn} width="150" height="150" alt=""/>
+                    <img src={LinkedIn} alt=""/>
                 </a>     
             </div>
             <div className = 'logo'>
                 <a href="https://drive.google.com/file/d/1m5JcJFL_ofws0u5jlNKEvaAkJsbd-ptC/view?usp=sharing" class="button">
-                    <img src={Resume} width="150" height="150" alt=""/>
+                    <img src={Resume} alt=""/>
                 </a>      
             </div>
         </div>

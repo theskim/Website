@@ -4,35 +4,31 @@
     position: relative;
     align-items: center;
     flex-direction: column;
-    padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-top: min(20vw, 10rem);
+    padding-bottom: min(40vw, 20rem);
 }
 
 .about-me title, .location-text, .description-text {
     display: inline-block;
     text-align: center;
+    padding-left: min(5vw, 5rem);
+    padding-right: min(5vw, 5rem);
 }
 
 .about-me title {
     font-family: 'Changa One';
-    font-size: 7rem;
-    line-height: 8rem;
-    padding-left: 8rem;
-    padding-right: 8rem;  
+    font-size: min(15vw, 7rem);
+    line-height: min(17vw, 8rem);
 }
 
 .about-me .location-text {
     font-family: 'Raleway Bold', sans-serif;
-    line-height: 4rem;
-    font-size: 3rem;
-    padding-left: 5rem;
-    padding-right: 5rem; 
+    font-size: min(6.5vw, 3rem);
+    line-height: min(8.5vw, 4rem);
 }
 
 .about-me .description-text {
     font-family: 'Raleway';
-    line-height: 3rem;
-    font-size: 2rem;
-    padding-left: 5rem;
-    padding-right: 5rem;  
+    font-size: min(4.3vw, 2rem);
+    line-height: min(6.5vw, 3rem);
 }
