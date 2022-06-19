@@ -4,7 +4,7 @@ import { Html, Css, Js, Python, Java, C } from "../../../assets";
 function Languages(){
     return (
         <div className = "languages">
-            <div className = "bold"><ul>Languages</ul></div><br/>
+            <div className = "bold"><ul>&#128187;&nbsp;&nbsp;Languages</ul></div><br/>
             <div class="tooltip-wrap">
                 <img src={Html} alt='main' /> <br/>
                 <div class="tooltip-content">Html</div> 
