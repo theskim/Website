@@ -1,58 +1,62 @@
 .contact-me {
     background-color: rgb(202, 251, 255);
-    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 15rem;
     padding-bottom: 15rem;
 }
 
-.contact-me .title, .text {
+.contact-me title, .contact-info {
     display: inline-block;
     text-align: center;
 }
 
-.contact-me .title {
-    font-family: 'Changa One', cursive;
+.contact-me title {
+    font-family: 'Changa One';
     font-size: 5rem;
     line-height: 5rem;
+    padding-bottom: 5rem;
 }
 
-.contact-me .text {
-    font-family: 'DM Sans', sans-serif;
+.contact-me .contact-info {
+    font-family: 'DM Sans';
     font-size: 1.7rem;
     line-height: 3.5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;  
+    padding-left: 5rem;
+    padding-right: 5rem;  
 }
 
-.contact-me .text a {
+.contact-me .contact-info a {
     text-decoration: none;
     color: #000;    
 }
 
-.contact-me .text a:hover{
+.contact-me .contact-info a:hover {
     transition: 0.2s;
     box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
     border-radius: 5%;
     color: rgb(202, 251, 255);
 }
 
-.contact-me .logos a {
+.contact-me .logos {
     text-align: center;
+}
+
+.contact-me .logos .logo {
     display: inline-block;
-    position: relative;
-    justify-content: center;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 3rem;
-    align-items: center;
 }
 
-.contact-me .logos a:hover {
+.contact-me .logos .logo a {
+    color: #000;
+    border-radius: 100%;
+}
+
+.contact-me .logos .logo a:hover {
     border-radius: 100%;
     transition: 0.2s;
-    box-shadow: inset 0 0 0 10px #ffeb14, 0 0 0 10px #ffeb14;
+    color: inset 0 0 0 10px #ffeb14, 0 0 0 10px #ffeb14;
 }

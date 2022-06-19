@@ -1,20 +1,20 @@
-import { UofT } from "../../../assets";
 import "./Education.css";
+import { UofT } from "../../../assets";
 
 function Education (){
   return (
     <div className = 'school-information'>
-      <p className = 'title'>
+      <title>
         &#x1F393;&nbsp;&nbsp;EDUCATION
-      </p>
-      <img src={UofT} alt='main' /> <br/>
-      <p className = 'text'>
-        University of Toronto - St. George <br/>
+      </title>
+      <img src={UofT} alt='main'/><br/>
+      <p className = 'description-text'>
+        University of Toronto - St. George<br/>
         Bachelor of Applied Science in Computer Engineering
       </p>
-      <p className = 'bold'>
+      <h2 className = 'year-text'>
         2021 - 2026 (PEY CO-OP)
-      </p>
+      </h2>
     </div>
   );
 }

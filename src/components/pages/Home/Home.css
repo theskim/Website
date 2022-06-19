@@ -1,17 +1,5 @@
 .home {
-  font-family: "M PLUS Rounded 1c", sans-serif;
   scroll-behavior: smooth;
-}
-
-.home .reveal {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-}
-
-.home .accent {
-  background-color: #727e7a;
-  color: rgb(6, 4, 4);
 }
 
 .stripe1, .stripe2 {
