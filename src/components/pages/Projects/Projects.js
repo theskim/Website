@@ -4,7 +4,7 @@ function Projects(){
     return (
         <div>
             <div className = "title-box">
-                <p className = "title">PROJECTS</p>
+                <p className = "title">&#128221;&nbsp;&nbsp;PROJECTS</p>
             </div>
             <div className = "projects1">
                 <div className = "project-box">

@@ -17,6 +17,20 @@
     line-height: 5rem;
 }
 
+.skills .text-box {
+    background-color: rgb(245, 252, 244);
+    display: flex;
+    justify-content: center;
+}
+
+.skills .text-box .text {
+    font-family: "Raleway";
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;    
+}
+
 .skills .stripe1, .stripe2 {
     height: 15rem;
     display: flex;

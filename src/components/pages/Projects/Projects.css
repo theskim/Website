@@ -10,9 +10,11 @@
 }
 
 .title-box .title {
-    font-family: 'Changa One', cursive;
+    font-family: 'Changa One';
     font-size: 5rem;
     line-height: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .projects1 {
