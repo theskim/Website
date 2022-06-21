@@ -1,7 +1,8 @@
+import "./Home.css";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import ContactMe from "./ContactMe";
-import "./Home.css";
+import Footer from "./../../Footer/Footer";
 
 function Home(){
   return (
@@ -11,6 +12,7 @@ function Home(){
       <Education />
       <div className = "stripe2"/>
       <ContactMe />
+      <Footer />
     </div>
   );
 }

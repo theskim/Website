@@ -10,3 +10,4 @@ export const Resume = require('./resume-logo.png');
 export const UofT = require('./uoft-logo.png');
 export const Git = require('./git-logo.png');
 export const ReactLogo = require('./react-logo.png');
+export const SkimLogo = require('./SK-logo.png');

@@ -19,28 +19,29 @@
     line-height: min(10.5vw, 5rem);
     padding-left: min(10vw, 5rem);
     padding-right: min(10vw, 5rem);
-    padding-bottom: min(20vw, 10rem);
+    padding-bottom: min(10vw, 5rem);
 }
 
 .achievements .text {
     font-family: 'DM Sans';
-    font-size: min(5vw, 2rem);
-    line-height: min(6vw, 2.5rem);
+    font-size: min(4vw, 2rem);
+    line-height: min(5vw, 2.5rem);
     padding-left: min(10vw, 5rem);
     padding-right: min(10vw, 5rem);
 }
 
 .achievements .bold {
     font-family: 'Raleway Bold';
-    font-size: min(5vw, 1.5rem);
-    line-height: min(5vw, 1.5rem);
+    font-size: min(3.5vw, 1.5rem);
+    line-height: min(5vw, 2.5rem);
     padding-left: min(10vw, 5rem);
     padding-right: min(10vw, 5rem);
-    padding-bottom: min(20vw, 10rem);
+    padding-bottom: min(10vw, 5rem);
 }
 
 .achievements .tooltip-wrap {
     position: relative;
+    text-align: center;
 }
 
 .achievements .tooltip-wrap .tooltip-content {

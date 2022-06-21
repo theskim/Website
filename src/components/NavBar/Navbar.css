@@ -1,65 +1,89 @@
-.upper-stripe {
-  background: linear-gradient(
-    #00fff7 0%,
-    #4b4a4a 100%
-  );
-  height: min(8vw, 1.5rem);
+.nav-bar {
+  background: #434343;
+  height: min(100vw, 8rem);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.lower-stripe {
-  background: linear-gradient(
-    #4b4a4a 0%,
-    #00fff7 100%
-  );
-  height: min(8vw, 1.5rem);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-bar img {
+  width: min(100vw, 8rem);
+  margin-left: min(4vw, 4rem);
+  margin-right: min(4vw, 4rem);
 }
 
-.NavbarItems {
-  background: #4b4a4a;
-  height: min(150vw, 6rem);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Changa One', cursive;
-  font-size: min(4.4vw, 2.2rem);
-}
-
-.NavbarItems .inner {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5);
-  grid-gap: min(1vw, 0.5rem);
-  grid-auto-flow: row;
-  list-style: none;
-  text-align: center;
-  justify-content: end;
-}
-
-.nav-links {
-  color: #ffffff;
-  padding: min(4vw, 2rem); 
+a:-webkit-any-link {
   text-decoration: none;
-  white-space: nowrap;
+  color: inherit;
 }
 
-.nav-links:hover {
+.nav-link {
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  padding: min(2vw, 1rem); 
+  margin-left: min(2vw, 1rem); 
+  margin-right: min(2vw, 1rem); 
+  text-decoration: none;
+  font-family: 'Changa One', cursive;
+  font-size: min(2.7vw, 2.5rem);
+}
+
+.nav-link:hover {
   background-color: #ffffff;
   color: #4b4a4a;
+  text-decoration: none;
   border-radius: min(5vw, 2.5rem);
   transition: all 0.3s ease-out;
 }
 
-.fa-bars {
-  color: #fff;
+.nav-bar .nav-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.upper-stripe {
+  background: linear-gradient(
+  #00fff7 0%,
+  #434343 100%
+  );
+  height: min(8vw, 1.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+  
+.lower-stripe {
+  background: linear-gradient(
+  #434343 0%,
+  #00fff7 100%
+  );
+  height: min(8vw, 1.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+@media screen and (min-width: 1100px) {
+  .nav-bar .fa-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav-bar img {
+    position: absolute;
+    left: 20%;
+  }
+  
+  .nav-bar .fa-bar {
+    position: absolute;
+    right: 20%;
+    top: 8%;
+  }
+
+  .nav-bar .nav-menu {
+    display: none;
+  } 
 }

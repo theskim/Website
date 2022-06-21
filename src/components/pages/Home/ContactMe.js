@@ -8,7 +8,7 @@ function ContactMe (){
             &#x1F4F2;&nbsp;&nbsp;CONTACT ME
         </title>
         <p className = 'contact-info'>
-            Phone:&nbsp;&nbsp;
+           Phone:&nbsp;&nbsp;
             <a href="tel:+1 647-887-1601">
                 647-887-1601<br/>
             </a>
@@ -21,7 +21,7 @@ function ContactMe (){
             <div className = 'logo'>
                 <a href="https://github.com/skim1601" class="button">
                     <img src={Github} alt=""/>
-                </a>
+                </a> 
             </div>
             <div className = 'logo'>
                 <a href="https://www.linkedin.com/in/sean-kim-752685212/" class="button">

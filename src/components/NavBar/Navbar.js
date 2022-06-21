@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 import "./Navbar.css";
-import { ListItems } from "./ListItems";
+import Sidebar from './Sidebar';
+import { SkimLogo } from "../../assets";
 
 class Navbar extends Component {
   state = 
@@ -14,31 +16,32 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className = "upper-stripe">
-        </nav>
-        <nav className="NavbarItems">
-          <div className="inner">
-            <div className="menu-icon" onClick={this.handleClick}>
-              <i
-                className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-              ></i>
-            </div>
-            <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-              {ListItems.map((item, index) => {
-                return (
-                  <li key={index}>
-                    <Link className={item.cName} to={item.url}>
-                      {item.title}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        </nav>
-        <nav className = "lower-stripe">
-        </nav>
-      </>
+      <nav className = "upper-stripe"/>
+      <div className = "nav-bar">
+        <img src={SkimLogo} alt='SK' />
+        <div className = "fa-bar">
+          <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        </div>
+        <div className = "nav-menu">
+          <Link to='/'>
+          <p className = "nav-link">Home</p>
+          </Link>
+          <Link to='/skills'>
+          <p className = "nav-link">Skills</p>
+          </Link>
+          <Link to='/experiences'>
+          <p className = "nav-link">Experiences</p>
+          </Link>
+          <Link to='/projects'>
+          <p className = "nav-link">Projects</p>
+          </Link>
+          <Link to='/achievements'>
+          <p className = "nav-link">Achievements</p>
+          </Link>
+        </div>
+      </div>
+      <nav className = "lower-stripe"/>
+    </>
     );
   }
 }
