@@ -7,7 +7,7 @@ function Tools(){
             <div className = "bold"><ul>&#128736;&#65039;&nbsp;&nbsp;Tools</ul></div><br/>
             <div class="tooltip-wrap">
                 <img src={ReactLogo} alt='main' /> <br/>
-                <div class="tooltip-content">React</div> 
+                <div class="tooltip-content">React.js</div> 
             </div>
             <div class="tooltip-wrap">
                 <img src={Git} alt='main' /> <br/>

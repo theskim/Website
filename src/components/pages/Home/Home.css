@@ -2,21 +2,21 @@
   scroll-behavior: smooth;
 }
 
-.stripe1, .stripe2 {
+.home .stripe1, .stripe2 {
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.stripe1 {
+.home .stripe1 {
   background: linear-gradient(
       rgb(241, 254, 255) 0%,
       rgb(228, 250, 255) 100%
   );
 }
 
-.stripe2 {
+.home .stripe2 {
   background: linear-gradient(
       rgb(228, 250, 255) 0%,
       rgb(202, 251, 255) 100%
