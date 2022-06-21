@@ -10,8 +10,9 @@ function AboutMe (){
                 Oakville, ON, Canada<br/>
             </h1>
             <p className = 'description-text'>
-                Computer Engineering Student hugely interested <br/>
-                in the field of Frontend, Backend, and Artificial Intelligence. 
+                Computer Engineering Student with a huge
+                interest in the field of Frontend, 
+                Backend, and Artificial Intelligence. 
             </p>
         </div>
     );

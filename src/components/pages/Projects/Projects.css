@@ -1,4 +1,4 @@
-.title-box {
+.projects .title-box {
     background-color: rgb(250, 243, 255);
     position: relative;
     display: flex;
@@ -8,7 +8,7 @@
     padding-top: min(10vw, 5rem);
 }
 
-.title-box .title {
+.projects .title-box .title {
     font-family: 'Changa One';
     font-size: min(10.5vw, 5rem);
     line-height: min(10.5vw, 5rem);
@@ -16,7 +16,7 @@
     padding-right: 10rem;
 }  
 
-.text-box {
+.projects .text-box {
     background-color: rgb(250, 243, 255);
     position: relative;
     display: flex;
@@ -25,7 +25,7 @@
     flex-direction: column;
 }
 
-.text-box .description {
+.projects .text-box .description {
     font-family: "Raleway";
     font-size: min(4.3vw, 2rem);
     line-height: min(6.5vw, 3rem);
