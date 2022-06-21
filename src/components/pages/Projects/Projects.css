@@ -1,12 +1,11 @@
 .title-box {
-    background-color: rgb(250, 247, 255);
+    background-color: rgb(250, 243, 255);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: min(10vw, 5rem);
-    padding-bottom: min(20vw, 10rem);
 }
 
 .title-box .title {
@@ -17,99 +16,59 @@
     padding-right: 10rem;
 }  
 
-.projects1 {
+.text-box {
+    background-color: rgb(250, 243, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-box .description {
+    font-family: "Raleway";
+    font-size: min(4.3vw, 2rem);
+    line-height: min(6.5vw, 3rem);
+    padding-left: min(15vw, 70rem);
+    padding-right: min(15vw, 70rem);
+}
+
+.projects .projects1 {
     background-color: rgb(247, 243, 255);
 }
 
-.projects2 {
+.projects .projects2 {
     background-color: rgb(245, 239, 255);
 }
 
-.stripe1, .stripe2 {
+.projects .projects3 {
+    background-color: rgb(243, 236, 255);
+}
+
+.projects .stripe1, .stripe2, .stripe3 {
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
   
-.stripe1 {
+.projects .stripe1 {
     background: linear-gradient(
-        rgb(250, 247, 255) 0%,
+        rgb(250, 243, 255) 0%,
         rgb(247, 243, 255) 100%
     );
 }
   
-.stripe2 {
+.projects .stripe2 {
     background: linear-gradient(
         rgb(247, 243, 255) 0%,
         rgb(245, 239, 255) 100%
     );
 }
-.project-box {
-    display: absolute;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
-    padding-left: 7vw;
-    padding-right: 7vw;
-    padding-top: min(40vw, 15rem);
-    padding-bottom: min(40vw, 15rem);
-}
 
-.project-box .project-title {
-    font-family: 'Raleway Bold';
-    font-size: min(5vw, 2.5rem);
-    line-height: min(6.5vw, 3rem);
-}
-
-.project-box .project-tools {
-    font-family: 'Raleway';
-    font-size: min(4vw, 2rem);
-    line-height: min(5vw, 2.5rem);
-}
-
-.project-tools img {
-    min-width: 50%;
-    width: min(20vw, 9.5rem);
-    padding-bottom: min(2.1vw, 1rem);
-    object-fit: contain;
-}
-
-.project-box .project-description {
-    font-family: 'Raleway';
-    font-size: min(3vw, 1.5rem);
-    line-height: min(5vw, 2.5rem);
-    text-align: left;  
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-.project-box .project-links {
-    font-family: 'Raleway';
-    font-size: min(3vw, 1.5rem);
-    line-height: min(5vw, 2.5rem);
-    text-align: center;  
-    padding-left: 3vw;
-    padding-right: 3vw;
-}
-
-.project-links img {
-    width: min(4vw, 2rem);
-    object-fit: contain;
-}
-
-.project-box a {
-    text-decoration: none;
-    color: #000;    
-}
-
-.project-box a:hover {
-    transition: 0.2s;
-    box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
-    border-radius: 5%;
-    color: #fff;
-}
-
-.gray {
-    color: rgb(98, 98, 98);
+.projects .stripe3 {
+    background: linear-gradient(
+        rgb(245, 239, 255) 0%,
+        rgb(243, 236, 255) 100%
+    );
 }

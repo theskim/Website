@@ -16,7 +16,6 @@ class Navbar extends Component {
   render() {
     return (
       <>
-      <nav className = "upper-stripe"/>
       <div className = "nav-bar">
         <img src={SkimLogo} alt='SK' />
         <div className = "fa-bar">
@@ -40,7 +39,6 @@ class Navbar extends Component {
           </Link>
         </div>
       </div>
-      <nav className = "lower-stripe"/>
     </>
     );
   }
