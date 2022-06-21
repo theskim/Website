@@ -1,0 +1,11 @@
+.slide-container {
+    border-width: min(3vw, 1.5rem);
+    border-color: #777;
+    border-style: solid;
+    align-self: center;
+    width: min(70vw, 30rem);
+    height: min(70vw, 30rem);
+    margin-left: min(15vw, 7.5rem);
+    margin-right: min(15vw, 7.5rem);
+    margin-top: min(6vw, 3rem);
+}

@@ -32,9 +32,9 @@
     line-height: min(5vw, 2.5rem);
 }
 
-.project-tools img {
-    min-width: 50%;
-    width: min(20vw, 9.5rem);
+.project-image-box {
+    display: flex;
+    justify-content: center;  
     padding-bottom: min(2.1vw, 1rem);
     object-fit: contain;
 }

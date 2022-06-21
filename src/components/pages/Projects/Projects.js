@@ -1,11 +1,11 @@
 import "./Projects.css";
 import Footer from "./../../Footer/Footer";
-import PortfolioTwoDes from "./PortfolioTwoDescription";
-import PortfolioOneDes from "./PortfolioOneDescription";
-import HsodeDes from "./HsodeDescription";
-import ReversiDes from "./ReversiDescription";
-import TicTacToeDes from "./TictactoeDescription";
-import LeagueSimDes from "./LeagueSimulatorDescription";
+import PortfolioTwoDes from "./PortfolioTwoDescription/PortfolioTwoDes";
+import PortfolioOneDes from "./PortfolioOneDescription/PortfolioOneDes";
+import HsodeDes from "./HsodeDescription/HsodeDescription";
+import ReversiDes from "./ReversiDescription/ReversiDes";
+import TicTacToeDes from "./TictactoeDescription/TictactoeDes";
+import LeagueSimDes from "./LeagueSimulatorDescription/LeagueSimulatorDescription";
 
 function Projects(){
     return (

@@ -1,5 +1,5 @@
-import "./Style.css";
-import { Github } from "../../../assets";
+import "../Style.css";
+import { Github } from "../../../../assets";
 
 function TictactoeDes() {
     return (

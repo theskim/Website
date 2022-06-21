@@ -1,5 +1,6 @@
-import "./Style.css";
-import { Github } from "../../../assets";
+import "../Style.css";
+import ImageSlide from "./Imageslide";
+import { Github } from "../../../../assets";
 
 function PortfolioTwoDes() {
     return (
@@ -11,8 +12,8 @@ function PortfolioTwoDes() {
                     <h4>&#128197;&nbsp;&nbsp;Jun 2022&nbsp;&nbsp;</h4>
                     <p><b>Skills:&nbsp;</b> HTML, CSS, JavaScript, React.js</p>
                 </div>
-            <div className = "project-tools">
-                <img alt = "" />
+            <div className = "project-image-box">
+                <ImageSlide/>
             </div>
             <div className = "project-description">
                 <p>A personal website designed to share myself, skills, and experiences. 

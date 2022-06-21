@@ -1,5 +1,6 @@
-import "./Style.css";
-import { Github } from "../../../assets";
+import "../Style.css";
+import ImageSlide from "./Imageslide";
+import { Github } from "../../../../assets";
 
 function PortfolioOneDes () {
     return (
@@ -10,6 +11,9 @@ function PortfolioOneDes () {
             <div className = "project-tools">
                 <h4>&#128197;&nbsp;Mar 2022&nbsp;&nbsp;</h4>
                 <p><b>Skills:&nbsp;</b> HTML, CSS</p>
+            </div>
+            <div className = "project-image-box">
+                <ImageSlide/>
             </div>
             <div className = "project-tools">
             </div>
