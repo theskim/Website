@@ -4,7 +4,6 @@ import PortfolioTwoDes from "./PortfolioTwoDescription/PortfolioTwoDes";
 import PortfolioOneDes from "./PortfolioOneDescription/PortfolioOneDes";
 import HsodeDes from "./HsodeDescription/HsodeDescription";
 import ReversiDes from "./ReversiDescription/ReversiDes";
-import TicTacToeDes from "./TictactoeDescription/TictactoeDes";
 import LeagueSimDes from "./LeagueSimulatorDescription/LeagueSimulatorDescription";
 
 function Projects(){
@@ -35,7 +34,6 @@ function Projects(){
                 </div>
                 <div className = "stripe3"/>
                 <div className = "projects3">
-                    <TicTacToeDes/>
                     <LeagueSimDes/>
                 </div>
             </div>

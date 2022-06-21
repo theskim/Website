@@ -3,7 +3,6 @@ export const Css = require('./logos/css-logo.png');
 export const Js = require('./logos/js-logo.png');
 export const C = require('./logos/c-logo.png');
 export const Python = require('./logos/python-logo.png');
-export const Java = require('./logos/java-logo.png');
 export const LinkedIn = require('./logos/linkedin-logo.png');
 export const Github = require('./logos/github-logo.png');
 export const Resume = require('./logos/resume-logo.png');

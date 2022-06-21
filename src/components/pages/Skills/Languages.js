@@ -1,5 +1,5 @@
 import "./Languages.css";
-import { Html, Css, Js, Python, Java, C } from "../../../assets";
+import { Html, Css, Js, Python, C } from "../../../assets";
 
 function Languages(){
     return (
@@ -20,10 +20,6 @@ function Languages(){
             <div class="tooltip-wrap">
                 <img src={Python} alt='main' /> <br/>
                 <div class="tooltip-content">Python</div> 
-            </div>
-            <div class="tooltip-wrap">
-                <img src={Java} alt='main' /> <br/>
-                <div class="tooltip-content">Java</div> 
             </div>
             <div class="tooltip-wrap">
                 <img src={C} alt='main' /> <br/>
