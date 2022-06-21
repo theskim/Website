@@ -55,12 +55,14 @@
     border-radius: 100%;
 }
 
-.contact-me .logos .logo a:hover {
-    border-radius: 100%;
-    transition: 0.2s;
-    color: inset 0 0 0 5rem #ffeb14, 0 0 0 10px #ffeb14;
-}
-
 .contact-me .logos .logo a img {
     width: min(20vw, 9.5rem)
+}
+
+.contact-me .logos .logo a img:hover {
+    border-radius: 100%;
+    transition: 0.5s;
+    border-width: 1rem;
+    border-color: #ffc720;
+    border-style: groove;
 }

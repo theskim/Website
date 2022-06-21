@@ -32,6 +32,9 @@ a:-webkit-any-link {
 .nav-link:hover {
   background-color: #ffffff;
   color: #4b4a4a;
+  border-width: 0.5rem;
+  border-color: #e5e5e5;
+  border-style: groove;
   text-decoration: none;
   border-radius: min(5vw, 2.5rem);
   transition: all 0.3s ease-out;
@@ -65,13 +68,13 @@ a:-webkit-any-link {
   align-items: center;
 }
     
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1150px) {
   .nav-bar .fa-bar {
     display: none;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
   .nav-bar img {
     position: absolute;
     left: 20%;

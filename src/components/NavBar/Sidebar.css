@@ -6,26 +6,22 @@
     top: 0rem;
 }
 
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
     background: #ffffff;
 }
 
-/* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
     background: #00fff7;
 }
 
-/* Position and sizing of clickable cross button */
 .bm-cross-button {
     width: 0.6rem !important;
     height: 1.7rem !important;
-    top: 1em !important;
+    top: 2em !important;
     right: 4em !important;
     position: fixed !important;
 }
 
-/* Color/shape of close button cross */
 .bm-cross {
     background: #ffffff;
     width: 0.4rem !important;
@@ -33,15 +29,11 @@
 }
 
 .bm-cross-button > span {
-    top: 1em !important;
+    top: 2em !important;
     right: 4em !important;
     position: fixed !important;
 }
 
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
 .bm-menu-wrap {
     position: fixed;
     right: 0rem !important;
@@ -66,6 +58,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .menu-item:hover {
     background-color: #ffffff;
     color: #4b4a4a;
+    border-radius: 20%;
+    border-width: 0.5rem;
+    border-color: #e5e5e5;
+    border-style: groove;
     text-decoration: none;
     transition: all 0.3s ease-out;
 }
@@ -74,15 +70,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
     background: #434343;
 }
 
-/* Wrapper for item list */
 .bm-item-list {
     color: #ffffff;
-    padding-top: 1.5em;
+    padding-top: 2em;
     padding-left: 0.5em;
     margin-top: 1em;
 }
 
-/* Individual item */
 .bm-item {
     display: inline-block;
 }
