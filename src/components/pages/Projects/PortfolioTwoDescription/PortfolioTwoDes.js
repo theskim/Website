@@ -18,8 +18,9 @@ function PortfolioTwoDes() {
             <div className = "project-description">
                 <p>A personal website designed to share myself, skills, and experiences. 
                     This project enhanced my understanding in frontend development as well as
-                    JavaScript frameworks. And yes, you are currently on this website.
-                    It was my first time implementing a responsive website.<br/><br/>
+                    JavaScript frameworks. It also introduced me to the idea of responsive design.
+                    And yes, you are currently on the website that I am talking about.
+                    <br/><br/>
                 </p>
                 <div className = "project-links">
                     <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>

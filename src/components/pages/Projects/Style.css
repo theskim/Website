@@ -16,8 +16,8 @@
     text-align: center;  
     padding-left: 7vw;
     padding-right: 7vw;
-    padding-top: min(40vw, 15rem);
-    padding-bottom: min(40vw, 15rem);
+    padding-top: min(20vw, 10rem);
+    padding-bottom: min(20vw, 10rem);
 }
 
 .project-box .project-title {

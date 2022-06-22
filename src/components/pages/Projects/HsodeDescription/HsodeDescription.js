@@ -1,4 +1,5 @@
 import "../Style.css";
+import ImageSlide from "./Imageslide";
 import { Github } from "../../../../assets";
 
 function HsodeDes () {
@@ -11,8 +12,8 @@ function HsodeDes () {
                     <h4>&#128197;&nbsp;Feb 2022&nbsp;&nbsp;</h4>
                     <p><b>Skills:&nbsp;</b> C</p>
                 </div>
-            <div className = "project-tools">
-                <img alt = "" />
+            <div className = "project-image-box">
+                <ImageSlide/>
             </div>
             <div className = "project-description">
                 <p>A small project started off from a small thought; integrating my Calculus knowledge
