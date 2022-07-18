@@ -1,6 +1,6 @@
 import Footer from "../../Footer/Footer";
 import './Experiences.css';
-import EspDes from './EspDes/EspDes';
+import EspDes from './EspDes';
 
 const Title = () => {
     return(
