@@ -1,0 +1,37 @@
+{
+    "deansList2": {
+        "name": "Winter 2022 University of Toronto Engineering Dean's List",
+        "date": "TBA",
+        "description": "Achieved a weighted term average of 79.5% or higher in the Winter 2022 semester."
+    },
+    "deansList1": {
+        "name": "Fall 2022 University of Toronto Engineering Dean's List",
+        "date": "Apr 2022",
+        "description": "Achieved a weighted term average of 79.5% or higher in the Fall 2021 semester."
+    },
+    "scholarship": {
+        "name": "Edward S Rogers Sr. Admission Scholarship",
+        "date": "Oct 2021",
+        "description": "Received this scholarship based on my academic achievements and extracurricular activities entering Electrical and Computer Engineering." 
+    },
+    "contest3": {
+        "name": "School Champion of Euclid Math Contest",
+        "date": "Jun 2021",
+        "description": "The School Champion of 2021 Euclid Math Contest at Holy Trinity Catholic Secondary School." 
+    },
+    "scholar": {
+        "name": "Ontario Scholar",
+        "date": "Jun 2021",
+        "description": "Ontario Scholars are high school graduates in the Canadian province of Ontario who attain an average of 80% or greater in their six best Grade 12 courses."
+    },
+    "contest2": {
+        "name": "School Champion of Euclid Math Contest",
+        "date": "Nov 2018",
+        "description": "The School Champion of 2018 Pascal Math Contest at Holy Trinity Catholic Secondary School."
+    },
+    "contest1": {
+        "name": "School Champion of CIMC Math Contest",
+        "date": "Nov 2018",
+        "description": "The School Champion of 2018 CIMC Math Contest at Holy Trinity Catholic Secondary School."
+    }
+}

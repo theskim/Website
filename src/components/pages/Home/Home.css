@@ -1,0 +1,11 @@
+.home {
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, rgba(247, 255, 254, 0.5), rgba(4, 234, 242, 0.5));
+}
+
+.home .stripe1, .stripe2 {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,35 @@
+.experiences {
+    background: linear-gradient(to right, rgba(255, 194, 168, 0.5), rgba(165, 227, 255, 0.5));
+}
+
+.experiences .title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: min(30vh, 20rem);
+}
+
+.experiences .title-box .title {
+    font-family: 'Changa One';
+    font-size: min(10.5vw, 4rem);
+    line-height: min(10.5vw, 5rem);
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.experiences .text-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experiences .text-box .description {
+    font-family: "Raleway";
+    font-size: min(4.3vw, 1.5rem);
+    line-height: min(6.5vw, 3rem);
+    padding-left: min(15vw, 70rem);
+    padding-right: min(15vw, 70rem);
+}

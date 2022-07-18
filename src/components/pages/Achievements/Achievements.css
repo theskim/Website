@@ -1,0 +1,76 @@
+.achievements {
+    background: linear-gradient(to right, rgb(245, 255, 214), rgb(255, 197, 150));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: min(30vh, 20rem);
+}
+
+.achievements .title, .text, .bold {
+    display: absolute;
+    text-align: center;
+}
+
+.achievements .text-box {
+    margin: 0 auto; 
+    width: 100vw;
+    background: linear-gradient(to right, rgb(245, 255, 214), rgb(255, 197, 150));
+}
+
+.achievements .title {
+    font-family: 'Changa One';
+    font-size: min(10.5vw, 4rem);
+    line-height: min(10.5vw, 5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
+    padding-bottom: min(10vw, 5rem);
+}
+
+.achievements .text {
+    font-family: 'DM Sans';
+    font-size: min(4vw, 1.5rem);
+    line-height: min(5vw, 2.5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
+}
+
+.achievements .bold {
+    font-family: 'Raleway Bold';
+    font-size: min(3.5vw, 1.2rem);
+    line-height: min(5vw, 2.5rem);
+    padding-left: min(10vw, 5rem);
+    padding-right: min(10vw, 5rem);
+    padding-bottom: min(10vw, 5rem);
+}
+
+.achievements .tooltip-wrap {
+    position: relative;
+    text-align: center;
+}
+
+.achievements .tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    cursor: pointer;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.achievements .tooltip-wrap:hover .tooltip-content {
+    display: block;
+    background: linear-gradient(to right, rgb(245, 255, 214), rgb(255, 197, 150));
+}
+
+.achievements .tooltip-wrap:hover .tooltip-content p {
+    display: block;
+    font-family: 'DM Sans';
+    font-size: min(3vw, 1.2rem);
+    line-height: min(5vw, 2.5rem);
+    margin-left: min(15vw, 30rem);
+    margin-right: min(15vw, 30rem);
+}

@@ -1,0 +1,38 @@
+.school-information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: min(30vw, 15rem);
+    padding-bottom: min(30vw, 15rem);
+}
+  
+.school-information title, .text, .year-text {
+    display: inline-block;
+    text-align: center;
+    padding-left: min(5vw, 5rem);
+    padding-right: min(5vw, 5rem);
+}
+
+.school-information title {
+    font-family: 'Changa One';
+    font-size: min(10.5vw, 4rem);
+    padding-bottom: 5rem;
+}
+
+.school-information img {
+    width: min(40vw, 17rem);
+    padding-bottom: min(2.1vw, 1rem);
+    object-fit: contain;
+}
+
+.school-information .description-text {
+    font-family: 'Raleway';
+    font-size: min(4.3vw, 1.5rem);
+    line-height: min(6.5vw, 3rem);
+}
+
+.school-information .year-text {
+    font-family: 'Raleway Bold', cursive;
+    font-size: min(4.3vw, 1.5rem);
+    line-height: min(6.5vw, 3rem);
+}

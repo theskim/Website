@@ -1,0 +1,77 @@
+.bm-burger-button {
+    position: fixed; 
+    width: 3.5rem;
+    height: 2.5rem;
+    top: 4.2rem;
+    right: 25%;
+}
+
+.bm-burger-bars {
+    background: #ffffff;
+}
+
+.bm-cross-button {
+    width: 0.6rem !important;
+    height: 1.7rem !important;
+    top: 2em !important;
+    right: 4em !important;
+    position: fixed !important;
+}
+
+.bm-cross {
+    background: #ffffff;
+    width: 0.4rem !important;
+    height: 1.5rem !important;
+}
+
+.bm-cross-button > span {
+    top: 2em !important;
+    right: 4em !important;
+    position: fixed !important;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    right: 0rem !important;
+    top: 0%;
+    width: min(50vw, 20rem) !important;
+}
+
+.bm-menu {
+    background: linear-gradient(to right, #767676, #434343);
+    border-width: 0.7rem;
+    border-color: #ffffff;
+    border-style: groove;
+    font-size: min(5vw, 1.3rem); 
+    font-family: 'Changa One', cursive;
+}
+
+.menu-item {
+    padding: 1rem;
+}
+
+.menu-item:hover {
+    background-color: #ffffff;
+    color: #4b4a4a;
+    border-radius: 20%;
+    border-width: 0.5rem;
+    border-color: #e5e5e5;
+    border-style: groove;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.bm-morph-shape {
+    background: #434343;
+}
+
+.bm-item-list {
+    color: #ffffff;
+    padding-top: 2em;
+    padding-left: 0.5em;
+    margin-top: 1em;
+}
+
+.bm-item {
+    display: inline-block;
+}
