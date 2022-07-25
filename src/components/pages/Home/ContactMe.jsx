@@ -33,7 +33,7 @@ const Logos = () => {
                 </a> 
             </div>
             <div className = 'logo'>
-                <a href="https://www.linkedin.com/in/sean-kim-752685212/" class="button">
+                <a href="https://www.linkedin.com/in/skim1601/" class="button">
                     <img src={LinkedIn} alt=""/>
                 </a>     
             </div>
