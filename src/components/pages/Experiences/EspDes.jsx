@@ -3,7 +3,7 @@ import ExperienceSample from "./ExperienceSample";
 
 const HsodeDes = () => {
     const hsode = {
-        title: "Engineering Strategies &#38; Practice Project Manager",
+        title: "Engineering Strategies Practice Project Manager",
         duration: "Sep 2021 - Apr 2022",
         skills: "Project Management, Gantt Chart, Engineering Design, Presentation",
     }
