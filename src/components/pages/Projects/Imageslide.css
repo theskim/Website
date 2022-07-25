@@ -1,7 +1,7 @@
 .slide-container {
-    border-width: min(3vw, 1.5rem);
-    border-color: #777;
-    border-style: solid;
+    border: min(3vw, 1.5rem) solid transparent;
+    border-image: linear-gradient(45deg, rgb(0, 0, 0) , rgb(160, 160, 160));
+    border-image-slice: 1;
     align-self: center;
     width: min(70vw, 30rem);
     height: min(70vw, 30rem);
