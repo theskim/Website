@@ -23,16 +23,24 @@ const Language = (props) => {
     )
 }
 
-const Languages = () => {
+const LanguagesBox = (props) => {
     return (
         <div className = "languages">
+            {props.children}
+        </div>
+    );
+}
+
+const Languages = () => {
+    return (
+        <LanguagesBox>
             <Title/>
             <Language location={Html} name="HTML5"/>
             <Language location={Css} name="CSS3"/>
             <Language location={Js} name="Javascript"/>
             <Language location={Python} name="Python"/>
             <Language location={C} name="C"/>
-        </div>
+        </LanguagesBox>
     );
 }
 

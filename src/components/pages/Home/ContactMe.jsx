@@ -45,14 +45,21 @@ const Logos = () => {
         </div>
     )
 }
+const ContactMeBox = (props) => {
+    return (
+        <div className = 'contact-me'>
+            {props.children}
+        </div>
+    )
+}
 
 const ContactMe = () => {
     return (
-      <div className = 'contact-me'>
+      <ContactMeBox>
         <Title/>
         <ContactInfo/>
         <Logos/>
-      </div>
+      </ContactMeBox>
     );
   }
   

@@ -19,14 +19,22 @@ const Title = () => {
     )
 }
 
+const SkillsBox = (props) => {
+    return (
+        <div className = "skills">
+            {props.children}
+        </div>
+    );
+}
+
 const Skills = () => {
     return (
         <>
-            <div className = "skills">
+            <SkillsBox>
                 <Title/>
                 <Languages/>
                 <Tools/>
-            </div>
+            </SkillsBox>
             <Footer/>
         </>
     );

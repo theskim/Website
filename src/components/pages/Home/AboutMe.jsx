@@ -26,13 +26,21 @@ const Description = () => {
     )
 }
 
-const AboutMe = () => {
+const AboutMeBox = (props) => {
     return (
         <div className = 'about-me'>
+            {props.children}
+        </div>
+    );
+}
+
+const AboutMe = () => {
+    return (
+        <AboutMeBox>
             <Title/>
             <Location/>
             <Description/>
-        </div>
+        </AboutMeBox>
     );
 }
 

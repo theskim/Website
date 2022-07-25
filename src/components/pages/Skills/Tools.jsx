@@ -23,14 +23,22 @@ const Tool = (props) => {
     )
 }
 
-const Tools = () => {
+const ToolsBox = (props) => {
     return (
         <div className = "tools">
+            {props.children}
+        </div>
+    );
+}
+
+const Tools = () => {
+    return (
+        <ToolsBox>
             <Title/>
             <Tool location={ReactLogo} name="React"/>
             <Tool location={Git} name="Git"/>
             <Tool location={Github} name="GitHub"/>
-        </div>
+        </ToolsBox>
     );
 }
 

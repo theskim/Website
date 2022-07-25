@@ -5,7 +5,7 @@ import PortfolioOneDes from "./PortfolioOneDes";
 import HsodeDes from "./HsodeDes";
 import ReversiDes from "./ReversiDes";
 import LeagueSimDes from "./LeagueSimulatorDescription";
-
+  
 const Title = () => {
     return(
         <>

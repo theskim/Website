@@ -24,12 +24,20 @@ const Description = () => {
   )
 }
 
-const Education = () => {
+const EducationBox = (props) => {
   return (
     <div className = 'school-information'>
+      {props.children}
+    </div>
+  );
+}
+
+const Education = () => {
+  return (
+    <EducationBox>
       <Title/>
       <Description/>
-    </div>
+    </EducationBox>
   );
 }
 

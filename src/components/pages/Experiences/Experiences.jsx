@@ -18,13 +18,21 @@ const Title = () => {
     )
 };
 
+const ExperiencesBox = (props) => {
+    return (
+        <div className = "experiences">
+            {props.children}
+        </div>
+    );
+}
+
 const Experiences = () => {
     return (
         <>
-            <div className = "experiences">
+            <ExperiencesBox>
                 <Title/>
                 <EspDes/>
-            </div>
+            </ExperiencesBox>
             <Footer/>
         </>
     );
