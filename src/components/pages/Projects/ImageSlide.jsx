@@ -7,9 +7,7 @@ const SlideShow = (props) => {
     return (
         <div className="slide-container">
           <Slide>
-            {
-              props.img.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt = ""/>)
-            }
+            {props.img.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt = ""/>)}
           </Slide>
         </div>
     )

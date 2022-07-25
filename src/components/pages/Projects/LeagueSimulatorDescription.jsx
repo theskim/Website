@@ -15,13 +15,6 @@ const LeagueSimDes = () => {
         date: "Dec 2021",
         skills: "Python",
         img: images,
-        description: "A python program that simulates the entire season (total 38 games per team) " + 
-                "of Top 4 European Soccer (Football) Leagues. This project started of " +
-                "from my predictions when I was watching Premier League. I built the " +
-                "league as an object, allowing the user to add and remove teams and change " +
-                "the rating of each team. This means that any soccer league can be simulated through " +
-                "this program, of course with a little manipulation. " +
-                "Update: 22/23 leagues are now available. ",
         link: {
             availability: false,
         }, 
@@ -32,7 +25,15 @@ const LeagueSimDes = () => {
     }
 
     return (
-        <Project project={leaguesim}/>
+        <Project project={leaguesim}>
+            A python program that simulates the entire season (total 38 games per team) 
+            of Top 4 European Soccer (Football) Leagues. This project started of
+            from my predictions when I was watching Premier League. I built the 
+            league as an object, allowing the user to add and remove teams and change 
+            the rating of each team. This means that any soccer league can be simulated through 
+            this program, of course with a little manipulation.
+            Update: 22/23 leagues are now available. 
+        </Project>
     );
 }
 

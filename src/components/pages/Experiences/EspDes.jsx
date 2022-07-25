@@ -10,9 +10,7 @@ const HsodeDes = () => {
 
     return (
        <ExperienceSample experience={hsode}>
-            Project and team based first year course at University of Toronto Engineering.
-            In both semesters, I was selected as the project manager for two teams that consist of 
-            six engineering students. I was responsible for accelerating and
+            As a Project Manager, was responsible for accelerating and
             improving the team's workflow through using Gantt charts and setting
             internal deadlines, allowing the team to complete tasks 1 to 3 days advance 
             before the actual deadline. <br/><br/>

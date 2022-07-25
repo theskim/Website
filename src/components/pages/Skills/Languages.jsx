@@ -37,7 +37,7 @@ const Languages = () => {
             <Title/>
             <Language location={Html} name="HTML5"/>
             <Language location={Css} name="CSS3"/>
-            <Language location={Js} name="Javascript"/>
+            <Language location={Js} name="JavaScript"/>
             <Language location={Python} name="Python"/>
             <Language location={C} name="C"/>
         </LanguagesBox>

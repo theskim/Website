@@ -15,10 +15,6 @@ const PortfolioTwoDes = () => {
         date: "Jun 2022",
         skills: "HTML5, CSS3, JavaScript, React.js",
         img: images,
-        description: "A personal website designed to share myself, skills, and experiences. " + 
-                     "This project enhanced my understanding in frontend development as well as " +
-                     "JavaScript frameworks. It also introduced me to the idea of responsive design. " +
-                     "And yes, you are currently on the website that I am talking about.",
         link: {
             availability: true,
             url: "https://skim1601.com",
@@ -30,7 +26,12 @@ const PortfolioTwoDes = () => {
     }
 
     return (
-        <Project project={portfolio2}/>
+        <Project project={portfolio2}>
+            A personal website for portfolio usage developed with React. 
+            This project enhanced my understanding in frontend development as well as 
+            JavaScript frameworks. It also introduced me to the idea of responsive design. 
+            And yes, you are currently on the website that I am talking about.
+        </Project>
     );
 }
 

@@ -15,11 +15,6 @@ const HsodeDes = () => {
         date: "Feb 2022",
         skills: "C",
         img: images,
-        description: "A small project started off from a small thought; integrating my Calculus knowledge " +
-                    "in C programming. Developed an algorithm within 5 hours that solves a Homogenous Linear Second Order " +
-                    "Differential Equation. The idea of it is quite simple; I used characteristic equations and " +
-                    "evaluated the characterstic root (two, one, or no root). Then I applied the appropriate formula " +
-                    "to calculate each case seperately.",
         link: {
             availability: false,
         }, 
@@ -30,7 +25,9 @@ const HsodeDes = () => {
     }
 
     return (
-        <Project project={hsode}/>
+        <Project project={hsode}>
+             An algorithm that solves a Homogenous Linear Second Order Differential Equation The idea of it is quite simple; I used characteristic equations and evaluated the characterstic root (two, one, or no root). Then I applied the appropriate formula to calculate each case seperately.
+        </Project>
     );
 }
 

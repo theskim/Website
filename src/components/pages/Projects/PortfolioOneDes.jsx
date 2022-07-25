@@ -15,11 +15,6 @@ const PortfolioOneDes = () => {
         date: "Mar 2022",
         skills: "HTML5, CSS3",
         img: images,
-        description: "A personal website designed to share myself, skills, and experiences. " +
-                    "This project introduced me to scripting languages and provided me a brief "  +
-                    "idea of how websites work. There was no dynamic part of the website as it was " + 
-                    "only made with HTML and CSS. The contents in the website remain in " +
-                    "Spring 2022.",
         link: {
             availability: true,
             url: "https://skim1601.github.io/",
@@ -31,7 +26,13 @@ const PortfolioOneDes = () => {
     }
 
     return (
-        <Project project={portfolio1}/>
+        <Project project={portfolio1}>
+            A personal website initially designed to share myself, skills, and experiences.
+            This project introduced me to scripting languages and provided me a brief 
+            idea of how websites work. However, there was a huge problem with its
+            non-responsive nature. Now I made a new website with React,
+            thus the contents in this website remain in Spring 2022.
+        </Project>
     );
 }
 

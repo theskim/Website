@@ -11,7 +11,7 @@ const Title = () => {
             <div className = "text-box">
                 <p className = "description">
                     This section lists different experiences I gained through
-                    work, school, and volunteering.
+                    work, school, and volunteering. 
                 </p>
             </div>
         </>

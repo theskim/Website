@@ -7,7 +7,7 @@ import ReversiDes from "./ReversiDes";
 import LeagueSimDes from "./LeagueSimulatorDescription";
   
 const Title = () => {
-    return(
+    return (
         <>
             <div className = "title-box">
                 <p className = "title">&#128221;&nbsp;&nbsp;PROJECTS</p>
@@ -15,8 +15,8 @@ const Title = () => {
             <div className = "text-box">
                 <p className = "description">
                     This section lists different Software Projects I have
-                    created before, mostly the ones that
-                    I obtained certain skills.
+                    created before. Mostly, I want to list everything and
+                    observe my progress throughout my career.
                 </p>
             </div>
         </>
@@ -24,7 +24,7 @@ const Title = () => {
 }
 
 const Projects = () => {
-    return(
+    return (
         <>
             <div className = "projects">
                 <Title/>
