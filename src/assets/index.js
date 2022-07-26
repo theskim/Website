@@ -29,3 +29,4 @@ export const LeagueSimulatorFirst = require('./LeagueSimulatorImages/league-simu
 export const LeagueSimulatorSecond = require('./LeagueSimulatorImages/league-simulator-image2.png');
 export const LeagueSimulatorThird = require('./LeagueSimulatorImages/league-simulator-image3.png');
 export const LeagueSimulatorFourth = require('./LeagueSimulatorImages/league-simulator-image4.png'); 
+export const ESP = require('./ExperienceImages/ESP.png');

@@ -12,6 +12,7 @@ const ExperienceSample = (props) => {
                         <b>Skills:&nbsp;</b>{props.experience.skills}
                     </p>
                 </div>
+            <img src={props.experience.image} alt=""/><br/>
             <div className = "experience-description">
                 {props.children}
             </div>

@@ -1,15 +1,17 @@
 import "./Style.css";
 import ExperienceSample from "./ExperienceSample";
+import { ESP } from "../../../assets";
 
-const HsodeDes = () => {
-    const hsode = {
+const EspDes = () => {
+    const Esp = {
         title: "Engineering Strategies Practice Project Manager",
         duration: "Sep 2021 - Apr 2022",
         skills: "Project Management, Gantt Chart, Engineering Design, Presentation",
+        image: ESP,
     }
 
     return (
-       <ExperienceSample experience={hsode}>
+       <ExperienceSample experience={Esp}>
             As a Project Manager, was responsible for accelerating and
             improving the team's workflow through using Gantt charts and setting
             internal deadlines, allowing the team to complete tasks 1 to 3 days advance 
@@ -31,4 +33,4 @@ const HsodeDes = () => {
     );
 }
 
-export default HsodeDes;
+export default EspDes;

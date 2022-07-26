@@ -50,3 +50,10 @@
         padding-right: 5vw;
     }
 }
+
+.experience-box img {
+    width: min(40vw, 17rem);
+    padding-bottom: min(2.1vw, 1rem);
+    object-fit: contain;
+    pointer-events: none;
+}
