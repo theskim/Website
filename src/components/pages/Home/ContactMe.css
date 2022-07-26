@@ -55,7 +55,7 @@
 }
 
 .contact-me .logos .logo a img {
-    width: min(20vw, 7rem)
+    width: min(20vw, 7rem);
 }
 
 .contact-me .logos .logo a img:hover {

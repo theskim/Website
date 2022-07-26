@@ -23,6 +23,7 @@
     width: min(40vw, 17rem);
     padding-bottom: min(2.1vw, 1rem);
     object-fit: contain;
+    pointer-events: none;
 }
 
 .school-information .description-text {

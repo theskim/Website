@@ -20,6 +20,7 @@
   width: min(100vw, 8rem);
   margin-left: min(4vw, 4rem);
   margin-right: min(4vw, 4rem);
+  pointer-events: none;
 }
 
 a:-webkit-any-link {
@@ -66,6 +67,7 @@ a:-webkit-any-link {
   .nav-bar img {
     position: absolute;
     left: 15%;
+    pointer-events: none;
   }
   
   .nav-bar .fa-bar {
