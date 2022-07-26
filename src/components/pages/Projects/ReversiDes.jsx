@@ -33,6 +33,7 @@ const ReversiDes = () => {
             Through this project, I became more familiar with the syntax of C.
             The source code will not be available due to the 
             possibility of assisting potential academic misconduct.
+            However I can always provide a video of my algorithm's gameplay if needed.
         </Project>
     );
 }

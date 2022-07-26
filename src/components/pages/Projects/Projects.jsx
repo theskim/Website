@@ -15,8 +15,8 @@ const Title = () => {
             <div className = "text-box">
                 <p className = "description">
                     This section lists different Software Projects I have
-                    created before. Mostly, I want to list everything and
-                    observe my progress throughout my career.
+                    created before. Started off from simple ones to complex ones, the main purpose is to
+                    observe my progress.
                 </p>
             </div>
         </>

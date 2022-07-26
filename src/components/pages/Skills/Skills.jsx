@@ -12,7 +12,7 @@ const Title = () => {
             <div className = "text-box">
                 <p className = "text">
                     This section lists different Programming Languages, 
-                    Frameworks, and Tools I have experienced before.
+                    Frameworks, and Tools I have familiarized myself with.
                 </p>
             </div>  
         </>
