@@ -2,22 +2,6 @@ import "./Style.css";
 import ImageSlide from "./ImageSlide";
 import { Github } from "../../../assets";
 
-const DoesLinkExist = (props) => {
-    if (props.link.availability){
-        return (
-            <a href = {props.link.url}>
-                Click Here
-            </a>
-        );
-    } else{
-        return (
-            <span className = "gray">
-                Unavailable
-            </span>
-        );
-    }
-}
-
 const ProjectSample = (props) => {
     return (
         <div className = "project-box">
@@ -39,15 +23,33 @@ const ProjectSample = (props) => {
                 <ImageSlide img={props.project.img}/>
             </div>
             <div className = "project-description">
-                <p>{props.children}
-                <br/><br/>
-                </p>
+                <p>{props.children}<br/><br/></p>
                 <div className = "project-links">
-                    <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>
-                    <DoesLinkExist link={props.project.link}/><br/><br/>
-                    <img src={Github} alt='main'/>
-                    <b>&nbsp;GitHub:&nbsp;&nbsp;</b>
-                    <DoesLinkExist link={props.project.github}/>
+                    <div className = "link-availability"> 
+                        <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
+                        {props.project.link.availability ? (
+                            <a href = {props.project.link.url}>
+                                Click Here
+                            </a>
+                        ):(
+                            <span className = "gray">
+                                Unavailable
+                            </span>
+                        )}
+                    </div><br/><br/>
+                    <div className = "github-availability"> 
+                        <img src={Github} alt='main'/>
+                        <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
+                        {props.project.github.availability ? (
+                            <a href = {props.project.github.url}>
+                                Click Here
+                            </a>
+                        ):(
+                            <span className = "gray">
+                                Unavailable
+                            </span>
+                        )}
+                    </div><br/><br/>
                 </div>
             </div>
         </div>

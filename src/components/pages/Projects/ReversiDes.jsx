@@ -15,8 +15,8 @@ const ReversiDes = () => {
         skills: "C",
         img: images,
         link: {
-                availability: false,
-              }, 
+            availability: false,
+        }, 
         github: {
             availability: false,
         }, 

@@ -23,11 +23,6 @@
   pointer-events: none;
 }
 
-a:-webkit-any-link {
-  text-decoration: none;
-  color: inherit;
-}
-
 .nav-link {
   color: #ffffff;
   display: flex;
@@ -38,6 +33,7 @@ a:-webkit-any-link {
   text-decoration: none;
   font-family: 'Changa One', cursive;
   font-size: min(2.7vw, 2.2rem);
+  scroll-behavior: smooth;
 }
 
 .nav-link:hover {
