@@ -1,5 +1,5 @@
 import "./ContactMe.css";
-import { Github, LinkedIn, Resume } from "../../../assets";
+import { Github, Resume, LinkedIn } from "../../../assets";
 
 const Title = () => {
     return(
@@ -45,6 +45,7 @@ const Logos = () => {
         </div>
     )
 }
+
 const ContactMeBox = (props) => {
     return (
         <div className = 'contact-me'>

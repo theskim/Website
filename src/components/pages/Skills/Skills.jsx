@@ -2,6 +2,7 @@ import "./Skills.css";
 import Footer from "../../Footer/Footer";
 import Languages from "./Languages";
 import Tools from "./Tools";
+import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
     return( 
@@ -34,6 +35,7 @@ const Skills = () => {
                 <Title/>
                 <Languages/>
                 <Tools/>
+                <ContactMe/>
             </SkillsBox>
             <Footer/>
         </>

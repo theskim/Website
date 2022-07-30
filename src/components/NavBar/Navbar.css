@@ -24,14 +24,14 @@
 
 .nav-link {
   color: #ffffff;
-  margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem); 
+  margin-left: min(4.5vw, 1.5rem); margin-right: min(4.5vw, 1.5rem); 
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
 .nav-links .nav-link p {
-  font-family: 'Raleway Bold'; font-size: min(2vw, 2rem);
+  font-family: 'Raleway Bold'; font-size: min(3vw, 1.75rem);
 }
 
 .nav-links .nav-link p:hover {
@@ -66,18 +66,19 @@
   position: fixed; cursor: pointer;
   width: min(9vw, 3rem);
   right: min(21vw, 7rem);
-  top: min(10.5vw, 3.5rem);
+  top: min(11.25vw, 3.75rem);
   vertical-align: middle;
 }
 
 .x-bar {
   position: fixed; cursor: pointer;
-  width: min(6vw, 2rem);
-  top: min(9vw, 3rem); right: 5%; z-index: 10;
+  width: min(4.5vw, 1.5rem);
+  top: min(10.5vw, 3.5rem); right: 5%; z-index: 10;
 }
 
 .side-bar-box {
   position: fixed;
+  display: inline;
   right: 0%;
   background: #434343;
   height: 100vh;
@@ -96,12 +97,13 @@
   color: #ffffff;
   padding: min(2vw, 1rem); 
   margin-top: min(2vw, 1rem); 
-  margin-left: min(2vw, 1rem); 
   margin-right: min(2vw, 1rem); 
+  padding-right: min(36vw, 12rem); 
   text-decoration: none;
   font-family: 'Raleway Bold'; font-size: min(3.5vw, 1.2rem);
   scroll-behavior: smooth;
 }
+
 
 .side-bar-box p:hover {
   background-color: #ffffff;
@@ -110,12 +112,7 @@
   transition: all 0.3s ease-out;
 }
 
-.right-arrow {
-  display: inline;
-  float: right;
-}
-
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1350px){
   .nav-bar .top-bar {
     display: none;
   } 

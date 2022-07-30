@@ -3,5 +3,6 @@ import Skills from './Skills/Skills.jsx';
 import Projects from './Projects/Projects.jsx';
 import Experiences from './Experiences/Experiences.jsx';
 import Achievements from './Achievements/Achievements.jsx';
+import Resume from './Resume/Resume.jsx';
 
-export { Home, Skills, Projects, Experiences, Achievements };
+export { Home, Skills, Projects, Experiences, Achievements, Resume };

@@ -1,6 +1,7 @@
 import "./Achievements.css"
 import Footer from "../../Footer/Footer";
 import achievementList from "./Achievements.json"
+import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
     return(
@@ -34,13 +35,22 @@ const ScanAchievements = () => {
     return allAchievements;
 }
 
+const AchievementBox = (props) => {
+    return (
+        <div className = "achievements">
+            {props.children}
+        </div>
+    );
+}
+
 const Achievements = () => {
     return (
         <>
-            <div className = "achievements">
+            <AchievementBox>
                 <Title/>
                 <ScanAchievements/>
-            </div>
+                <ContactMe/>
+            </AchievementBox>
             <Footer/>
         </>
     );

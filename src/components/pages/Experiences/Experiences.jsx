@@ -1,6 +1,7 @@
 import Footer from "../../Footer/Footer";
 import './Experiences.css';
 import EspDes from './EspDes';
+import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
     return(
@@ -32,6 +33,7 @@ const Experiences = () => {
             <ExperiencesBox>
                 <Title/>
                 <EspDes/>
+                <ContactMe/>
             </ExperiencesBox>
             <Footer/>
         </>

@@ -20,8 +20,7 @@ const Description = () => {
     return(
         <p className = 'description-text'>
             Computer Engineering Student with a huge
-            interest in the field of Frontend, 
-            Backend, and Artificial Intelligence. 
+            interest in the field of Web Development. 
         </p>
     )
 }

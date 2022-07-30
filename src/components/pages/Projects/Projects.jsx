@@ -1,4 +1,5 @@
 import "./Projects.css";
+import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../../Footer/Footer";
 import PortfolioTwoDes from "./PortfolioTwoDes";
 import PortfolioOneDes from "./PortfolioOneDes";
@@ -23,17 +24,26 @@ const Title = () => {
     )
 }
 
+const ProjectsBox = (props) => {
+    return (
+        <div className = "projects">
+            {props.children}
+        </div> 
+    );
+}
+
 const Projects = () => {
     return (
         <>
-            <div className = "projects">
+            <ProjectsBox>
                 <Title/>
                 <PortfolioTwoDes/>
                 <PortfolioOneDes/>
                 <ReversiDes/>
                 <HsodeDes/>
                 <LeagueSimDes/>
-            </div>
+                <ContactMe/>
+            </ProjectsBox>
             <Footer/>
         </>
     );
