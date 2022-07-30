@@ -40,7 +40,7 @@ const NavOptions = (props) => {
       <a href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" className = "nav-link" onClick={SmoothScroll}>
         {props.sideBar
           ? <p>Resume</p>
-          : <p>&#127942;&nbsp;&nbsp;Resume</p>
+          : <p>&#128195;&nbsp;&nbsp;Resume</p>
         }
       </a>
     </>
