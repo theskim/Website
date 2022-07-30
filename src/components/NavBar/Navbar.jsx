@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { SmoothScroll } from './SmoothScroll';
-import "./NavBar.css";
+import "./Navbar.css";
 import { SkimLogo, burgerBar, xBar } from "../../assets";
 
 const NavOptions = (props) => {
