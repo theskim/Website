@@ -1,78 +1,125 @@
 .nav-bar {
-  position: fixed;
-  background: #434343;
-  height: min(100vw, 8rem);
-  top: 0rem;
-  width: 100%;
-  border-top: #ffffff;
-  border-bottom: #ffffff;
-  border-top-width: min(8vw, 1.5rem);
-  border-bottom-width: min(8vw, 1.5rem);
-  border-top-style: groove;
-  border-bottom-style: groove;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1090;
+  width: 100%;
+  height: min(21vw, 7rem);
+  background: #434343;
+  border-top: #ffffff; border-bottom: #ffffff;
+  border-top-width: min(8vw, 1.5rem); border-bottom-width: min(8vw, 1.5rem); 
+  border-top-style: groove; border-bottom-style: groove;
+  z-index: 15; position: fixed;
 }
 
-.nav-bar img {
-  width: min(100vw, 8rem);
-  margin-left: min(4vw, 4rem);
-  margin-right: min(4vw, 4rem);
+.nav-bar-image img {
+  margin-left: min(21vw, 7rem);
+  display: inline-block;
+  vertical-align: middle;
+  width: min(21vw, 7rem);
   pointer-events: none;
+}
+
+.nav-links {
+  display: flex;
+  padding-left: min(20vw, 6rem);
 }
 
 .nav-link {
   color: #ffffff;
-  display: flex;
-  align-items: flex-start;
-  padding: min(2vw, 1rem); 
-  margin-left: min(2vw, 1rem); 
-  margin-right: min(2vw, 1rem); 
+  margin-left: min(6vw, 2rem); margin-right: min(6vw, 2rem); 
   text-decoration: none;
-  font-family: 'Changa One', cursive;
-  font-size: min(2.7vw, 2.2rem);
-  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
 }
 
-.nav-link:hover {
+.nav-links .nav-link p {
+  font-family: 'Raleway Bold'; font-size: min(2vw, 2rem);
+}
+
+.nav-links .nav-link p:hover {
   background-color: #ffffff;
   color: #4b4a4a;
   border-width: 0.5rem;
   border-color: #e5e5e5;
   border-style: groove;
   text-decoration: none;
-  border-radius: min(5vw, 2.5rem);
+  padding: min(2vw, 1rem);
+  border-radius: min(16vw, 4rem);
   transition: all 0.3s ease-out;
 }
 
-.nav-bar .nav-menu {
+.side-bar {
+  display: none;
+  position: sticky;
+  vertical-align: middle;
+}
+
+.top-bar {
   display: flex;
-  align-items: center;
-  margin-right: 24px;
-}
-    
-@media screen and (min-width: 1150px) {
-  .nav-bar .fa-bar {
-    display: none;
-  }
+  flex-direction: row;
+  vertical-align: bottom;
 }
 
-@media screen and (max-width: 1150px) {
-  .nav-bar img {
-    position: absolute;
-    left: 15%;
-    pointer-events: none;
-  }
-  
-  .nav-bar .fa-bar {
-    position: absolute;
-    right: 20%;
-    top: 8%;
-  }
+.side-bar {
+  display: none;
+}
 
-  .nav-bar .nav-link {
+.burger-bar {
+  position: fixed; cursor: pointer;
+  width: min(9vw, 3rem);
+  right: min(21vw, 7rem);
+  top: min(10.5vw, 3.5rem);
+  vertical-align: middle;
+}
+
+.x-bar {
+  position: fixed; cursor: pointer;
+  width: min(6vw, 2rem);
+  top: min(9vw, 3rem); right: 5%; z-index: 10;
+}
+
+.side-bar-box {
+  position: fixed;
+  right: 0%;
+  background: #434343;
+  height: 100vh;
+  width: min(45vw, 20rem);
+  border-width: 0.7rem;
+  border-color: #ffffff;
+  border-style: inset;
+  border-radius: 5%;
+}
+
+.side-bar-links {
+  margin-top: min(16vw, 4rem);
+}
+
+.side-bar-box p {
+  color: #ffffff;
+  padding: min(2vw, 1rem); 
+  margin-top: min(2vw, 1rem); 
+  margin-left: min(2vw, 1rem); 
+  margin-right: min(2vw, 1rem); 
+  text-decoration: none;
+  font-family: 'Raleway Bold'; font-size: min(3.5vw, 1.2rem);
+  scroll-behavior: smooth;
+}
+
+.side-bar-box p:hover {
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+.right-arrow {
+  display: inline;
+  float: right;
+}
+
+@media screen and (max-width: 1150px){
+  .nav-bar .top-bar {
     display: none;
   } 
+  .nav-bar .side-bar {
+    display: flex;
+  }
 }

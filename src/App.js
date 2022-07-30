@@ -8,7 +8,7 @@ import Skills from "./components/pages/Skills/Skills";
 import Experiences from "./components/pages/Experiences/Experiences";
 import Projects from "./components/pages/Projects/Projects";
 import Achievements from "./components/pages/Achievements/Achievements";
-import Navbar from "./components/NavBar/Navbar";
+import Navbar from "./components/NavBar/NavBar";
 
 function App() {
   return (     
