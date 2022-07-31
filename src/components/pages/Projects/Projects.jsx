@@ -3,7 +3,6 @@ import ContactMe from "../ContactMe/ContactMe";
 import Footer from "../../Footer/Footer";
 import PortfolioTwoDes from "./PortfolioTwoDes";
 import PortfolioOneDes from "./PortfolioOneDes";
-import HsodeDes from "./HsodeDes";
 import ReversiDes from "./ReversiDes";
 import LeagueSimDes from "./LeagueSimulatorDescription";
   
@@ -40,7 +39,6 @@ const Projects = () => {
                 <PortfolioTwoDes/>
                 <PortfolioOneDes/>
                 <ReversiDes/>
-                <HsodeDes/>
                 <LeagueSimDes/>
                 <ContactMe/>
             </ProjectsBox>

@@ -2,6 +2,7 @@ import Footer from "../../Footer/Footer";
 import './Experiences.css';
 import EspDescription from './EspDescription';
 import DeepDescription from './DeepDescription';
+import UofTHacksDescription from './UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
@@ -33,6 +34,7 @@ const Experiences = () => {
         <>
             <ExperiencesBox>
                 <Title/>
+                <UofTHacksDescription/>
                 <DeepDescription/>
                 <EspDescription/>
                 <ContactMe/>

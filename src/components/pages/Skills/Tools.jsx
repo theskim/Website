@@ -35,7 +35,7 @@ const Tools = () => {
     return (
         <ToolsBox>
             <Title/>
-            <Tool location={ReactLogo} name="React"/>
+            <Tool location={ReactLogo} name="React.js"/>
             <Tool location={Git} name="Git"/>
             <Tool location={Github} name="GitHub"/>
         </ToolsBox>
