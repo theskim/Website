@@ -13,6 +13,7 @@
     font-family: 'Raleway Bold';
     font-size: min(5vw, 2rem);
     line-height: min(6.5vw, 3rem);
+    padding-left: 10vw; padding-right: 10vw;
 }
 
 .experience-box .experience-skills {
@@ -29,23 +30,17 @@
     object-fit: contain;
 }
 
-@media screen and (min-width: 1150px) {
-    .experience-box .experience-description {
-        font-family: 'Raleway';
-        font-size: min(3vw, 1.3rem);
-        line-height: min(5vw, 2.5rem);
-        text-align: left;  
-        padding-left: 15vw;
-        padding-right: 15vw;
-    }
+.experience-box .experience-description {
+    font-family: 'Raleway';
+    font-size: min(3vw, 1.3rem);
+    line-height: min(5vw, 2.5rem);
+    text-align: left;  
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
   
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
     .experience-box .experience-description {
-        font-family: 'Raleway';
-        font-size: min(3vw, 1.3rem);
-        line-height: min(5vw, 2.5rem);
-        text-align: left;  
         padding-left: 5vw;
         padding-right: 5vw;
     }

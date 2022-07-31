@@ -71,6 +71,13 @@
     font-family: 'DM Sans';
     font-size: min(3vw, 1.2rem);
     line-height: min(5vw, 2.5rem);
-    margin-left: min(15vw, 30rem);
-    margin-right: min(15vw, 30rem);
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+@media screen and (max-width: 1350px){
+    .achievements .tooltip-wrap:hover .tooltip-content p {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
 }

@@ -2,7 +2,7 @@ import "./Style.css";
 import ExperienceSample from "./ExperienceSample";
 import { ESP } from "../../../assets";
 
-const EspDes = () => {
+const EspDescription = () => {
     const Esp = {
         title: "Engineering Strategies and Practice - Engineering Project Manager",
         duration: "Sep 2021 - Apr 2022",
@@ -33,4 +33,4 @@ const EspDes = () => {
     );
 }
 
-export default EspDes;
+export default EspDescription;

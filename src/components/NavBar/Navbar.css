@@ -75,12 +75,10 @@
 
 .side-bar-box {
   position: fixed;
-  display: inline;
-  right: 0%;
   background: #434343;
-  height: 100vh;
-  overflow-y: auto;
-  width: min(45vw, 20rem);
+  height: 100vh; width: min(45vw, 20rem);
+  overflow-x: hidden; overflow-y: auto;
+  display: inline; right: 0%;
   border-width: 0.7rem;
   border-color: #ffffff;
   border-style: inset;
