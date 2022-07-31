@@ -58,9 +58,6 @@
   vertical-align: bottom;
 }
 
-.side-bar {
-  display: none;
-}
 
 .burger-bar {
   position: fixed; cursor: pointer;
@@ -82,6 +79,7 @@
   right: 0%;
   background: #434343;
   height: 100vh;
+  overflow-y: auto;
   width: min(45vw, 20rem);
   border-width: 0.7rem;
   border-color: #ffffff;
