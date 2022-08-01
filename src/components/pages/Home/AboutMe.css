@@ -29,6 +29,13 @@
     font-family: 'Raleway';
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
-    padding-left: min(20vw, 30rem);
-    padding-right: min(20vw, 30rem);
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+@media screen and (max-width: 1350px){
+    .about-me .description-text {
+        padding-left: 10vw;
+        padding-right: 10vw;   
+    }
 }
