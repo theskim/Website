@@ -30,6 +30,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  background: linear-gradient(-45deg, rgba(255, 132, 132, 0.5), rgba(255, 154, 82, 0.5), rgba(96, 255, 117, 0.5), rgba(92, 255, 250, 0.5), rgba(205, 99, 250, 0.5));
+  background-size: 1000% 100%;
+  animation: gradient 15s ease infinite;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 code {
