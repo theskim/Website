@@ -25,8 +25,8 @@ const Achievement = (props) => {
             </div>
             <button type="button" onClick={() => update(!click)}>
                 { click
-                ? <p>Award Description</p>
-                : <p>Award Title</p>
+                ? <p>Description</p>
+                : <p>Title</p>
                 }   
             </button>
         </div>
