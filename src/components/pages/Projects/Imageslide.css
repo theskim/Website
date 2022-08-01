@@ -8,5 +8,8 @@
     margin-left: min(15vw, 7.5rem);
     margin-right: min(15vw, 7.5rem);
     margin-top: min(6vw, 3rem);
+}
 
+.slide-container img {
+    pointer-events: none;
 }

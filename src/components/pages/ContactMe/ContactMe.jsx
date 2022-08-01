@@ -26,20 +26,20 @@ const ContactInfo = () => {
 
 const Logos = () => {
     return(
-        <div className = 'logos'>
-            <div className = 'logo'>
-                <a href="https://github.com/skim1601" class="button">
-                    <img src={Github} alt=""/>
+        <div className="logos">
+            <div className="logo">
+                <a className="external-link" href="https://github.com/skim1601" class="button">
+                    <img src={Github} draggable="false" alt=""/>
                 </a> 
             </div>
-            <div className = 'logo'>
-                <a href="https://www.linkedin.com/in/skim1601/" class="button">
-                    <img src={LinkedIn} alt=""/>
+            <div className="logo">
+                <a className="external-link" href="https://www.linkedin.com/in/skim1601/" class="button">
+                    <img src={LinkedIn} draggable="false" alt=""/>
                 </a>     
             </div>
-            <div className = 'logo'>
-                <a href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" class="button">
-                    <img src={Resume} alt=""/>
+            <div className="logo">
+                <a className="external-link" href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" class="button">
+                    <img src={Resume} draggable="false" alt=""/>
                 </a>      
             </div>
         </div>

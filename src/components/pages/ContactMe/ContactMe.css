@@ -49,16 +49,16 @@
     margin-top: 3rem;
 }
 
-.contact-me .logos .logo a {
+.contact-me .logos .logo .external-link {
     color: #000;
     border-radius: 100%;
 }
 
-.contact-me .logos .logo a img {
+.contact-me .logos .logo img {
     width: min(20vw, 7rem);
 }
 
-.contact-me .logos .logo a img:hover {
+.contact-me .logos .logo img:hover {
     border-radius: 100%;
     transition: all 0.5s ease-out;
     border-width: 1rem;
