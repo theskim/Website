@@ -56,25 +56,17 @@ code {
 
 /* Button */
 .my-button {
-  width: 10rem;
   position: relative;
   cursor: pointer;
   border: #000; border-style: solid; border-radius: 5%;
   color: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0);
   border-color: #000;
-  font-family: 'Raleway'; font-size: 100%;
+  font-family: 'Raleway'; font-size: min(3vw, 1rem);
 }
 
 .my-button:hover {
   transition: all 0.5s ease-out;
   box-shadow: inset 0 0 0 40px #000;
   color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 300px){
-  .my-button {
-      width: 50vw;
-      font-size: 5vw;
-  }
 }

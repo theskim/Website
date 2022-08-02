@@ -11,7 +11,7 @@ const images = [
 
 const PortfolioTwoDes = () => {
     const portfolio2 = {
-        title: "Personal Portfolio Website v2.0",
+        title: "skim1601.com",
         date: "Jun 2022",
         skills: "HTML5, CSS3, JavaScript, React.js",
         img: images,

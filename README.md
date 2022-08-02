@@ -1,5 +1,6 @@
-# Personal Portfolio Website v2.0
+# skim1601.com
 
+This is my personal portfolio website.
 Link: https://skim1601.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
