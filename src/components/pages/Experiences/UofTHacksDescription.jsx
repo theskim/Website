@@ -12,9 +12,9 @@ const EspDescription = () => {
 
     return (
        <ExperienceSample experience={UofTHacks}>
-            UofTHacks is first student-run hackathon in Canada. 
+            UofTHacks is the first student-run hackathon in Canada. 
             As a Frontend Developer, my task is to work on maintaining
-            and developing the User Interface of hackathon website.
+            and developing the User Interface of the hackathon website.
             We are currently in the beginning phase. By the end, I plan to familiarize myself with
             TypeScript, SASS, Next.js, and Backend Frameworks (Node.js and Express.js). 
         </ExperienceSample>

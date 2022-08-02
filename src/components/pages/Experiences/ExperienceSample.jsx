@@ -7,9 +7,12 @@ const ExperienceSample = (props) => {
                 <p>{props.experience.title}</p>
             </div>
             <div className = "experience-skills">
-                    <h4>&#128197;&nbsp;{props.experience.duration}&nbsp;&nbsp;</h4>
+                    <h4>
+                        &#128197;&nbsp;{props.experience.duration}&nbsp;&nbsp;
+                        </h4>
                     <p>
-                        <b>Skills:&nbsp;</b>{props.experience.skills}
+                        <b>Skills:&nbsp;</b>
+                        {props.experience.skills}
                     </p>
                 </div>
             <img src={props.experience.image} alt=""/><br/>

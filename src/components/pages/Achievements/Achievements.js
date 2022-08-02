@@ -19,14 +19,14 @@ const Achievement = (props) => {
         <div className = "achievement-box">
             <div className = "achievement-overview">
                 { click
-                ? <p>&emsp;&#x1F4CB;&nbsp;&nbsp;{props.achievement.name}<br/><b>{props.achievement.date}</b><br/><br/></p>
-                : <p>{props.achievement.description}<br/><br/></p>
+                    ? <p>&emsp;&#x1F4CB;&nbsp;&nbsp;{props.achievement.name}<br/><b>{props.achievement.date}</b><br/><br/></p>
+                    : <p>{props.achievement.description}<br/><br/></p>
                 }   
             </div>
             <button type="button" onClick={() => update(!click)}>
                 { click
-                ? <p>Description</p>
-                : <p>Title</p>
+                    ? <p>Description</p>
+                    : <p>Title</p>
                 }   
             </button>
         </div>
