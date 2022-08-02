@@ -1,8 +1,11 @@
+import { useState } from "react";
 import "./Style.css";
 import ImageSlide from "./ImageSlide";
 import { Github } from "../../../assets";
 
 const ProjectSample = (props) => {
+    const [click, update] = useState(false);
+
     return (
         <div className = "project-box">
             <div className = "project-title">
@@ -22,8 +25,17 @@ const ProjectSample = (props) => {
             <div className = "project-image-box">
                 <ImageSlide img={props.project.img}/>
             </div>
+            <button className="my-button" type="button" onClick={() => update(!click)}>
+                { click
+                    ?  <p>Hide Description</p>
+                    :  <p>View Description</p>
+                }  
+            </button>
             <div className = "project-description">
-                <p>{props.children}<br/><br/></p>
+                { click
+                    ?  <p>{props.children}<br/><br/></p>
+                    :  <></>
+                }  
                 <div className = "project-links">
                     <div className = "link-availability"> 
                         <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
@@ -36,12 +48,12 @@ const ProjectSample = (props) => {
                         <img src={Github} alt='main'/>
                         <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
                         {props.project.github.availability 
-                        ?   <a href = {props.project.github.url}>
-                                Click Here
-                            </a>
-                        :   <span className = "gray">
-                                Unavailable
-                            </span>
+                        ?<a href = {props.project.github.url}>
+                            Click Here
+                         </a>
+                        :<span className = "gray">
+                             Unavailable
+                        </span>
                         }
                     </div><br/><br/>
                 </div>

@@ -8,25 +8,6 @@
     padding-top: min(30vh, 20rem);
 }
 
-.achievements button {
-    position: relative;
-    cursor: pointer;
-    width: max(8rem, 6vw);
-    color: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0);
-    border-color: #000;
-    font-family: 'Raleway Bold'; font-size: 100%;
-    margin-bottom: 10vh;
-    border-radius: 15%;
-}
-
-.achievements button:hover {
-    transition: all 0.5s ease-out;
-    box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
-    color: rgb(255, 255, 255);
-    border: none;
-}
-
 .achievements .achievement-title {
     display: absolute;
     text-align: center;
@@ -57,6 +38,9 @@
     padding-right: min(10vw, 5rem);
 }
 
+.achievements .my-button {
+    margin-bottom: 15vh;
+}
 
 @media screen and (max-width: 1350px){
     .achievement-overview p  {
