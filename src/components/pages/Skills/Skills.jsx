@@ -5,7 +5,7 @@ import Tools from "./Tools";
 import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
-    return( 
+    return ( 
         <>
             <div className = "title">
                 <p> &#128104;&#8205;&#128187;&nbsp;&nbsp;SKILLS</p>
