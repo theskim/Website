@@ -5,9 +5,7 @@ const Title = () => {
     return(
         <>
             <div className = "tools-bold">
-                <ul>
-                    &#128736;&#65039;&nbsp;&nbsp;Tools
-                </ul>
+                <p>&#128736;&#65039;&nbsp;&nbsp;Tools</p>
             </div>
             <br/>
         </>

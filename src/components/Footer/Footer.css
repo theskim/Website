@@ -11,7 +11,8 @@
 
 .footer p {
     color: #ffffff;
-    font-size: 1.5rem;
-    font-family: 'Changa One';
+    font-size: min(3vh, 1rem);
+    line-height: min(3vh, 1rem);
+    font-family: 'Raleway Bold';
     text-align: center;
 }

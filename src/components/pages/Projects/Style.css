@@ -64,12 +64,13 @@
 }
 
 .project-box a {
+    transition: all 0.7s ease-out;
     text-decoration: none;
     color: #000;    
 }
 
 .project-box a:hover {
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
     box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
     border-radius: 5%;
     color: #fff;

@@ -97,11 +97,10 @@ const NavBar = () => {
           </div>
       </div>
       <div className = "side-bar">      
-        {toggle 
-          ? <img className = "x-bar" src={xBar} onClick={() => update(false)} alt=""/>
-          : <img className = "burger-bar" src={burgerBar} onClick={() => update(true)} alt=""/>
+        {toggle
+          ? <><img className = "x-bar" src={xBar} onClick={() => update(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
+          : <><img className = "burger-bar" src={burgerBar} onClick={() => update(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
         }
-        {toggle && (<div className = "side-bar-box"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div>)}
       </div>
     </div>
   );

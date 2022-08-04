@@ -26,8 +26,8 @@ const LeagueSimDes = () => {
 
     return (
         <Project project={leaguesim}>
-            A python program that simulates the entire season (total 38 games per team) 
-            of Top 4 European Soccer (Football) Leagues. This project started of
+            A Python program that simulates the entire season (total of 38 games per team) 
+            of Top 4 European Soccer (Football) Leagues. This project started off
             from my predictions when I was watching Premier League. I built the 
             league as an object, allowing the user to add and remove teams and change 
             the rating of each team. This means that any soccer league can be simulated through 

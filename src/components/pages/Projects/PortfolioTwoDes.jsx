@@ -28,9 +28,10 @@ const PortfolioTwoDes = () => {
     return (
         <Project project={portfolio2}>
             A personal website for portfolio usage developed with React. 
-            This project enhanced my understanding in frontend development as well as 
+            This project enhanced my understanding of frontend development as well as 
             JavaScript frameworks. It also introduced me to the idea of responsive design. 
-            And yes, you are currently on the website that I am talking about.
+            And yes, you are currently on the website that I am talking about. 
+            I am planning to continuously improve this website as my career progresses.
         </Project>
     );
 }

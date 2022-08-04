@@ -32,13 +32,13 @@
 }
 
 .contact-info a {
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
     text-decoration: none;
     color: #000;    
 }
 
 .contact-info a:hover {
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
     box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
     border-radius: 5%;
     color: rgb(202, 251, 255);
@@ -60,15 +60,21 @@
     border-radius: 100%;
 }
 
-.contact-me .logos .logo img {
-    transition: all 0.5s ease-out;
+.logo {
     width: min(20vw, 7rem);
+    border-radius: 100%;
 }
 
-.contact-me .logos .logo img:hover {
-    border-radius: 100%;
-    transition: all 0.5s ease-out;
+.logos .logo img {
+    width: min(20vw, 7rem);
     border-width: 1rem;
-    border-color: #ffc720;
+    border-radius: 100%;
+    border-color: rgba(255, 0, 0, 0); 
     border-style: groove;
+    transition: all 0.7s linear;
+}
+
+.logos .logo img:hover {
+    border-color: #ffc720;   
+    transition: all 0.4s linear;
 }

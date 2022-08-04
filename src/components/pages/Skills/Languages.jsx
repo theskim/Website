@@ -5,9 +5,7 @@ const Title = () => {
     return(
         <>
             <div className = "languages-bold">
-                <ul>
-                    &#128187;&nbsp;&nbsp;Languages
-                </ul>
+                <p>&#128187;&nbsp;&nbsp;Languages</p>
             </div>
             <br/>   
         </>

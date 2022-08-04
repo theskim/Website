@@ -44,12 +44,14 @@
   text-decoration: none;
   padding: min(2vw, 1rem);
   border-radius: min(16vw, 4rem);
-  transition: all 0.s ease-out;
+  transition: all 0.8s ease-out;
 }
 
 .side-bar {
   display: none;
-  position: sticky;
+  width: 100vw;
+  left: 0;
+  position: sticky; 
   vertical-align: middle;
 }
 
@@ -58,7 +60,6 @@
   flex-direction: row;
   vertical-align: bottom;
 }
-
 
 .burger-bar {
   position: fixed; cursor: pointer;
@@ -71,26 +72,36 @@
 .x-bar {
   position: fixed; cursor: pointer;
   width: min(4.5vw, 1.5rem);
-  top: min(10.5vw, 3.5rem); right: 5%; z-index: 10;
+  top: min(10.5vw, 3.5rem); right: 5%; 
+  z-index: 20;
+  visibility: hidden;
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
 }
 
-.side-bar-box {
-  position: fixed;
+.side-bar-box, .side-bar-box__activate {
+  position: absolute;
+  right: -100%; top: 0%;  
   background: #434343;
   height: 100vh; width: min(45vw, 20rem);
   overflow-x: hidden; overflow-y: auto;
-  display: inline; right: 0%;
   border-width: 0.7rem;
   border-color: #ffffff;
   border-style: inset;
   border-radius: 5%;
+  transition: all 0.7s ease-out;
+}
+
+.side-bar-box__activate {
+  right: 0%; top: 0%;  
+  transition: all 1s ease-out;
 }
 
 .side-bar-links {
   margin-top: min(16vw, 4rem);
 }
 
-.side-bar-box p {
+.side-bar-box p, .side-bar-box__activate p {
   color: #ffffff;
   padding: min(2vw, 1rem); 
   margin-top: min(2vw, 1rem); 
@@ -99,14 +110,14 @@
   text-decoration: none;
   font-family: 'Raleway Bold'; font-size: min(3.5vw, 1.2rem);
   scroll-behavior: smooth;
+  transition: all 0.7s ease-out;
 }
 
-
-.side-bar-box p:hover {
+.side-bar-box p:hover, .side-bar-box__activate p:hover {
   background-color: #ffffff;
   color: #000;
   text-decoration: none;
-  transition: all 0.5s ease-out;
+  transition: all 0.7s ease-out;
 }
 
 @media screen and (max-width: 1350px){
