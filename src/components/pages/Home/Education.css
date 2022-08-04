@@ -1,6 +1,7 @@
 .school-information {
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     padding-top: min(30vw, 15rem);
     padding-bottom: min(30vw, 15rem);

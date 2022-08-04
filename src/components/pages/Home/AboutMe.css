@@ -6,7 +6,7 @@
     padding-bottom: min(40vw, 20rem);
 }
 
-.about-me title, .location-text, .description-text {
+.about-me title, .about-me-description {
     display: inline-block;
     text-align: center;
     padding-left: min(10vw, 10rem);
@@ -19,23 +19,21 @@
     line-height: min(17vw, 8rem);
 }
 
-.about-me .location-text {
+.about-me .about-me-description h4 {
     font-family: 'Raleway Bold', sans-serif;
-    font-size: min(6.5vw, 2.5rem);
+    font-size: min(6vw, 2rem);
     line-height: min(8.5vw, 4rem);
 }
 
-.location-text img {
+.about-me-description img {
     height: min(6.5vw, 2.5rem);
     pointer-events: none;
 }
 
-.about-me .description-text {
+.about-me-description p {
     font-family: 'Raleway';
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
-    padding-left: 20vw;
-    padding-right: 20vw;
 }
 
 @media screen and (max-width: 1350px){

@@ -9,25 +9,21 @@ const Title = () => {
     )
 }
 
-const Location = () => {
+const Description = () => {
     return (
-        <h1 className = 'location-text'>
-            <img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada<br/>
-        </h1>
+        <div className = 'about-me-description'>
+            <h4><img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada</h4><br/>
+            <p>
+                I am a second year Computer Engineering Student at the University
+                of Toronto with a huge interest in the field of Web Development and Software Engineering. 
+                In my first year, I have taken a fundamental programming course  
+                as well as various engineering design courses. Currently, I am a Frontend Developer at UofTHacks
+                to develop the hackathon's website which will be visited by hundreds of applicants. 
+            </p>
+        </div>
     )
 }
 
-const Description = () => {
-    return (
-        <p className = 'description-text'>
-            I am a second year Computer Engineering Student at the University
-            of Toronto with a huge interest in the field of Web Development and Software Engineering. 
-            In my first year, I have taken a fundamental programming course  
-            as well as various engineering design courses. Currently, I am a Frontend Developer at UofTHacks
-            to develop the hackathon's website which will be visited by hundreds of applicants. 
-        </p>
-    )
-}
 
 const AboutMeBox = (props) => {
     return (
@@ -41,7 +37,6 @@ const AboutMe = () => {
     return (
         <AboutMeBox>
             <Title/>
-            <Location/>
             <Description/>
         </AboutMeBox>
     );
