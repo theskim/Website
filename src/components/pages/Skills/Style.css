@@ -10,7 +10,7 @@
     display: block;
     font-family: 'Raleway Bold';
     font-size: min(9vw, 3rem);
-    line-height: min(7.5vw, 2.5rem);
+    line-height: min(10vh, 3rem);
     padding-bottom: min(6vw, 3rem);
 }
 
