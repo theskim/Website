@@ -9,8 +9,8 @@
 .about-me title, .about-me-description {
     display: inline-block;
     text-align: center;
-    padding-left: min(10vw, 10rem);
-    padding-right: min(10vw, 10rem);
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 .about-me title {
@@ -37,8 +37,8 @@
 }
 
 @media screen and (max-width: 1350px){
-    .about-me .description-text {
-        padding-left: 10vw;
-        padding-right: 10vw;   
+    .about-me title, .about-me-description {
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }
