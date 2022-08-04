@@ -25,6 +25,11 @@
     line-height: min(8.5vw, 4rem);
 }
 
+.location-text img {
+    height: min(6.5vw, 2.5rem);
+    pointer-events: none;
+}
+
 .about-me .description-text {
     font-family: 'Raleway';
     font-size: min(4.3vw, 1.5rem);

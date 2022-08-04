@@ -20,18 +20,23 @@
     padding-bottom: min(10vw, 5rem);
 }
 
-.contact-me .contact-info {
+.contact-info {
     font-family: 'DM Sans';
     font-size: min(4.3vw, 1.5rem);
-    line-height: min(6.5vw, 3rem);
+    line-height: min(6.5vh, 3rem);
 }
 
-.contact-me .contact-info a {
+.contact-info img {
+    height: min(4.3vw, 1.5rem);
+    pointer-events: none;
+}
+
+.contact-info a {
     text-decoration: none;
     color: #000;    
 }
 
-.contact-me .contact-info a:hover {
+.contact-info a:hover {
     transition: all 0.5s ease-out;
     box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
     border-radius: 5%;

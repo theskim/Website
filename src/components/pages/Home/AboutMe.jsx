@@ -1,7 +1,8 @@
 import "./AboutMe.css";
+import { locationLogo } from "../../../assets";
 
 const Title = () => {
-    return(
+    return (
         <title>
             &#x1F464;&nbsp;&nbsp;SEAN KIM
         </title>   
@@ -9,15 +10,15 @@ const Title = () => {
 }
 
 const Location = () => {
-    return(
+    return (
         <h1 className = 'location-text'>
-            Oakville, ON, Canada<br/>
+            <img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada<br/>
         </h1>
     )
 }
 
 const Description = () => {
-    return(
+    return (
         <p className = 'description-text'>
             I am a second year Computer Engineering Student at the University
             of Toronto with a huge interest in the field of Web Development and Software Engineering. 

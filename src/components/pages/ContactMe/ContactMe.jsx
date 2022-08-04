@@ -1,8 +1,8 @@
 import "./ContactMe.css";
-import { Github, Resume, LinkedIn } from "../../../assets";
+import { Github, Resume, LinkedIn, phoneLogo, mailLogo } from "../../../assets";
 
 const Title = () => {
-    return(
+    return (
         <title>
             &#x1F4F2;&nbsp;&nbsp;CONTACT ME
         </title>
@@ -10,17 +10,17 @@ const Title = () => {
 }
 
 const ContactInfo = () => {
-    return(
-        <p className = 'contact-info'>
-            Phone:&nbsp;&nbsp;
+    return (
+        <div className="contact-info">
+            <img src={phoneLogo} alt=""/>&nbsp;&nbsp;
             <a href="tel:+1 647-887-1601">
                 647-887-1601<br/>
             </a>
-            Email:&nbsp;&nbsp;
-            <a href = "mailto:kimsihy093@gmail.com?subject = Feedback&body = Message">
+            <img src={mailLogo} alt=""/>&nbsp;&nbsp;
+            <a href="mailto:kimsihy093@gmail.com?subject = Feedback&body = Message">
                 kimsihy093@gmail.com
             </a>
-        </p>
+        </div>
     )
 }
 

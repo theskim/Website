@@ -1,14 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// Importing individual pages
-import Home from "./components/pages/Home/Home";
-import Skills from "./components/pages/Skills/Skills";
-import Experiences from "./components/pages/Experiences/Experiences";
-import Projects from "./components/pages/Projects/Projects";
-import Achievements from "./components/pages/Achievements/Achievements";
-import Navbar from "./components/NavBar/Navbar";
+import { Home, Skills, Projects, Experiences, Achievements, Navbar } from "./components/imports";
 
 function App() {
   return (     

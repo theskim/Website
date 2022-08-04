@@ -6,7 +6,7 @@ import UofTHacksDescription from './UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
-    return(
+    return (
         <>
             <div className = "title-box">
                 <p className = "title">&#128188;&nbsp;&nbsp;EXPERIENCES</p>

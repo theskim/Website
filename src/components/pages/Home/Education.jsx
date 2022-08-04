@@ -2,7 +2,7 @@ import "./Education.css";
 import { UofT } from "../../../assets";
 
 const Title = () => {
-  return(
+  return ( 
     <title>
       &#x1F393;&nbsp;&nbsp;EDUCATION
     </title>
@@ -10,7 +10,7 @@ const Title = () => {
 }
 
 const Description = () => {
-  return(
+  return (
     <>
       <img src={UofT} alt='main'/><br/>
       <p className = 'description-text'>
