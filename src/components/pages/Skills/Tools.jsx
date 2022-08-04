@@ -1,11 +1,11 @@
 import "./Style.css"
-import { ReactLogo, Git, Github } from "../../../assets";
+import { ReactLogo, Git, Github, NetlifyLogo } from "../../../assets";
 
-const Title = () => {
+const ToolsTitle = (props) => {
     return(
         <>
             <div className = "tools-bold">
-                <p>&#128736;&#65039;&nbsp;&nbsp;Tools</p>
+                <p>{props.emoji}&nbsp;&nbsp;{props.children}</p>
             </div>
             <br/>
         </>
@@ -32,10 +32,15 @@ const ToolsBox = (props) => {
 const Tools = () => {
     return (
         <ToolsBox>
-            <Title/>
+            <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
             <Tool location={ReactLogo} name="React.js"/>
+            <br/>
+            <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
             <Tool location={Git} name="Git"/>
             <Tool location={Github} name="GitHub"/>
+            <br/>
+            <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
+            <Tool location={NetlifyLogo} name="Netlify"/>
         </ToolsBox>
     );
 }

@@ -9,6 +9,7 @@ export const Resume = require('./logos/resume-logo.png');
 export const UofT = require('./logos/uoft-logo.png');
 export const Git = require('./logos/git-logo.png');
 export const ReactLogo = require('./logos/react-logo.png');
+export const NetlifyLogo = require('./logos/netlify-logo.png');
 export const SkimLogo = require('./logos/SK-logo.png');
 export const burgerBar = require('./logos/burger_bar.png');
 export const xBar = require('./logos/x_bar.png');
