@@ -32,6 +32,7 @@
 }
 
 .contact-info a {
+    transition: all 0.5s ease-out;
     text-decoration: none;
     color: #000;    
 }
@@ -60,6 +61,7 @@
 }
 
 .contact-me .logos .logo img {
+    transition: all 0.5s ease-out;
     width: min(20vw, 7rem);
 }
 

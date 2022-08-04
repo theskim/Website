@@ -32,6 +32,7 @@
 
 .nav-links .nav-link p {
   font-family: 'Raleway Bold'; font-size: min(3vw, 1.75rem);
+  transition: all 0.8s ease-out;
 }
 
 .nav-links .nav-link p:hover {
@@ -43,7 +44,7 @@
   text-decoration: none;
   padding: min(2vw, 1rem);
   border-radius: min(16vw, 4rem);
-  transition: all 0.5s ease-out;
+  transition: all 0.s ease-out;
 }
 
 .side-bar {

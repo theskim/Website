@@ -1,10 +1,10 @@
-import "./Tools.css"
+import "./Style.css"
 import { ReactLogo, Git, Github } from "../../../assets";
 
 const Title = () => {
     return(
         <>
-            <div className = "bold">
+            <div className = "tools-bold">
                 <ul>
                     &#128736;&#65039;&nbsp;&nbsp;Tools
                 </ul>

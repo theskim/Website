@@ -1,10 +1,10 @@
-import "./Languages.css";
+import "./Style.css";
 import { Html, Css, Js, Python, C } from "../../../assets";
 
 const Title = () => {
     return(
         <>
-            <div className = "bold">
+            <div className = "languages-bold">
                 <ul>
                     &#128187;&nbsp;&nbsp;Languages
                 </ul>

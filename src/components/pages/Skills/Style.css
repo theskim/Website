@@ -1,11 +1,11 @@
-.languages {
+.languages, .tools {
     align-items: center;
     text-align: center;
     padding-top: min(10vw, 5rem);
     padding-bottom: min(30vw, 15rem);
 }
 
-.languages .bold {    
+.languages-bold, .tools-bold {    
     display: block;
     font-family: 'Raleway Bold';
     font-size: min(7.5vw, 2.5rem);
@@ -30,11 +30,14 @@
 }
 
 .tooltip-wrap .tooltip-content {
-    display: none;
+    transition: all 0.3s ease-out;
+    opacity: 0;
 }
 
 .tooltip-wrap:hover .tooltip-content {
     display: inline-block;
+    opacity: 1;
     font-family: 'Raleway Bold';
+    transition: all 0.3s ease-out;
     font-size: min(4.3vw, 2rem);
 }
