@@ -32,6 +32,8 @@ const PortfolioOneDes = () => {
             idea of how websites work. However, there was a huge problem with its
             non-responsive nature. Now I made a new website with React,
             thus the contents in this website remain in Spring 2022.
+            I know that this website is not the best in terms of User Interface or responsive design, yet it has a special 
+            meaning for me. 
         </Project>
     );
 }

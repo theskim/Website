@@ -24,6 +24,7 @@
     cursor: pointer;
     width: min(30vw, 10rem);
     margin: min(10vw, 5rem);
+    pointer-events: none;
 }
 
 .tooltip-wrap .tooltip-content {
