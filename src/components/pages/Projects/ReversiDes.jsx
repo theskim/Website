@@ -10,7 +10,7 @@ const images = [
 
 const ReversiDes = () => {
     const reversi = {
-        title: "Reversi AI",
+        title: "Reversi AI Algorithm",
         date: "Mar 2022",
         skills: "C",
         img: images,
