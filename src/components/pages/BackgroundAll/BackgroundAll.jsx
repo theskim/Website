@@ -1,4 +1,4 @@
-import './background.css';
+import './Background.css';
 import { blackBurgerBar } from '../../../assets';
 
 const BackgroundAll = (props) => {
