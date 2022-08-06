@@ -9,7 +9,7 @@
 .languages-bold p, .tools-bold p {    
     display: block;
     font-family: 'Raleway Bold';
-    font-size: min(9vw, 3rem);
+    font-size: min(6vw, 2.5rem);
     line-height: min(10vh, 3rem);
     padding-bottom: min(6vw, 3rem);
 }
@@ -31,7 +31,7 @@
     transition: all 0.3s ease-out;
     font-family: 'Raleway Bold';
     opacity: 0;
-    margin-bottom: min(9vh, 3rem);
+    margin-bottom: min(10vh, 3rem);
 }
 
 .tooltip-wrap:hover .tooltip-content {

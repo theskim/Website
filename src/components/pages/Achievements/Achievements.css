@@ -1,22 +1,12 @@
-.achievements {
-    position: relative;
+.achievement-title {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
-    padding-top: min(30vh, 20rem);
-}
-
-.achievements .achievement-title {
-    display: absolute;
-    text-align: center;
     font-family: 'Changa One';
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
-    padding-left: min(10vw, 5rem);
-    padding-right: min(10vw, 5rem);
-    padding-bottom: min(10vw, 5rem);
+    padding-left: 5vw; padding-right: 5vw;
+    padding-top: 20vh; padding-bottom: 10vh;
 }
 
 .achievement-overview p {
@@ -38,11 +28,20 @@
     padding-right: min(10vw, 5rem);
 }
 
-.achievements .my-button {
+.achievement-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.achievement-box .my-button {
     margin-bottom: 15vh;
 }
 
 @media screen and (max-width: 1350px){
+    .achievement-title {
+        font-size: min(10.5vw, 3rem);
+    }
     .achievement-overview p  {
         margin-left: 5vw;
         margin-right: 5vw;

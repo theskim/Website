@@ -1,17 +1,17 @@
 import "./Skills.css";
-import Footer from "../../Footer/Footer";
 import Languages from "./Languages";
 import Tools from "./Tools";
 import ContactMe from "../ContactMe/ContactMe";
+import BackgroundAll from "../BackgroundAll/BackgroundAll";
 
 const Title = () => {
     return ( 
         <>
-            <div className = "title">
+            <div className = "skills__title">
                 <p> &#128104;&#8205;&#128187;&nbsp;&nbsp;SKILLS</p>
             </div>  
-            <div className = "text-box">
-                <p className = "text">
+            <div className = "skills__text-box">
+                <p>
                     This section lists different Programming Languages, 
                     Frameworks, and Tools I have familiarized myself with.
                 </p>
@@ -20,25 +20,14 @@ const Title = () => {
     )
 }
 
-const SkillsBox = (props) => {
-    return (
-        <div className = "skills">
-            {props.children}
-        </div>
-    );
-}
-
 const Skills = () => {
     return (
-        <>
-            <SkillsBox>
-                <Title/>
-                <Languages/>
-                <Tools/>
-                <ContactMe/>
-            </SkillsBox>
-            <Footer/>
-        </>
+        <BackgroundAll>
+            <Title/>
+            <Languages/>
+            <Tools/>
+            <ContactMe/>
+        </BackgroundAll>
     );
 }
 

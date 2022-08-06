@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./Achievements.css"
-import Footer from "../../Footer/Footer";
 import achievementData from "./AchievementsData.json"
 import ContactMe from "../ContactMe/ContactMe";
+import BackgroundAll from "../BackgroundAll/BackgroundAll";
 
 const Title = () => {
     return (
@@ -33,24 +33,13 @@ const Achievement = (props) => {
     )
 }
 
-const AchievementBox = (props) => {
-    return (
-        <div className = "achievements">
-            {props.children}
-        </div>
-    );
-}
-
 const Achievements = () => {
     return (
-        <>
-            <AchievementBox>
-                <Title/>
-                {(Object.values(Object.values(achievementData))).map(key => (<Achievement name={key.name} date={key.date} description={key.description} />))}
-                <ContactMe/>
-            </AchievementBox>
-            <Footer/>
-        </>
+        <BackgroundAll>
+            <Title/>
+            {(Object.values(Object.values(achievementData))).map(key => (<Achievement name={key.name} date={key.date} description={key.description} />))}
+            <ContactMe/>
+        </BackgroundAll>
     );
 }
 

@@ -1,25 +1,15 @@
-import "./Home.css";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import ContactMe from "../ContactMe/ContactMe";
-import Footer from "../../Footer/Footer";
-
-const HomeBox = (props) => {
-  return (
-    <div className = "home">
-      {props.children}
-    </div>
-  );
-}
+import BackgroundAll from "../BackgroundAll/BackgroundAll";
 
 const Home = () => {
   return (
-    <HomeBox>
+    <BackgroundAll>
       <AboutMe/>
       <Education/>
       <ContactMe/>
-      <Footer/>
-    </HomeBox>
+    </BackgroundAll>
   );
 }
 

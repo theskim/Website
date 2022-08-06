@@ -5,7 +5,7 @@ import { Github } from "../../../assets";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
-
+    
     return (
         <div className = "project-box">
             <div className = "project-title">

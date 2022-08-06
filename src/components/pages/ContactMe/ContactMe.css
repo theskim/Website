@@ -74,7 +74,6 @@
 }
 
 .logos .logo img:hover {
-    border-color: #ffc720;   
     box-shadow: 0 0 0 min(1.5vw, 0.5rem) #5aff8c;
     transition: all 0.4s linear;
 }

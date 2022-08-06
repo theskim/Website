@@ -1,19 +1,19 @@
-.projects .title-box {
+.projects__title {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: min(30vh, 20rem);
 }
 
-.projects .title-box .title {
+.projects__title p {
     font-family: 'Changa One';
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }  
 
-.projects .text-box {
+.projects__text-box {
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,10 +22,10 @@
     flex-direction: column;
 }
 
-.projects .text-box .description {
+.projects__text-box p {
     font-family: "Raleway";
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
-    padding-left: min(20vw, 30rem);
-    padding-right: min(20vw, 30rem);
+    padding-left: 10vw;
+    padding-right: 10vw;
 }

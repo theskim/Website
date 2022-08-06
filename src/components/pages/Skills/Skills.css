@@ -1,28 +1,23 @@
-.skills {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.skills .title {
+.skills__title {
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Changa One';
-    padding-top: min(30vh, 20rem);
-    padding-bottom: min(10vw, 5rem);
+    padding-top: 20vh;
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
 }
 
-.skills .text-box {
+.skills__text-box {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-.skills .text-box .text {
+.skills__text-box p {
     font-family: "Raleway";
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
-    padding-left: min(20vw, 70rem);
-    padding-right: min(20vw, 70rem);
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
