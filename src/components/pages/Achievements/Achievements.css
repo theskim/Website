@@ -35,12 +35,12 @@
 }
 
 .achievement-box .my-button {
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 1350px){
     .achievement-title {
-        font-size: min(10.5vw, 3rem);
+        font-size: min(7.5vw, 2.5rem);
     }
     .achievement-overview p  {
         margin-left: 5vw;

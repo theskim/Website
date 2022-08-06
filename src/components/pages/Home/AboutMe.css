@@ -1,21 +1,22 @@
 .about-me {
-    display: flex;
     align-items: center;
     flex-direction: column;
+    display: inline-block;
+    text-align: center;
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
 
-.about-me title, .about-me-description {
+.about-me title {
     display: inline-block;
     text-align: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .about-me-description p {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .about-me title {

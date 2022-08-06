@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: min(30vh, 20rem);
+    padding-top: 20vh;
 }
 
 .projects__title p {
