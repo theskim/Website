@@ -34,11 +34,9 @@ const Tools = () => {
         <ToolsBox>
             <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
             <Tool location={ReactLogo} name="React.js"/>
-            <br/><br/>
             <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
             <Tool location={Git} name="Git"/>
             <Tool location={Github} name="GitHub"/>
-            <br/><br/>
             <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
             <Tool location={NetlifyLogo} name="Netlify"/>
         </ToolsBox>

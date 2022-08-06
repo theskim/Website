@@ -1,8 +1,7 @@
 .languages, .tools {
     align-items: center;
     text-align: center;
-    padding-top: 15vh;
-    padding-bottom: min(30vw, 15rem);
+    padding-top: 20vh;
     margin-left: min(10vw, 5rem); margin-right: min(10vw, 5rem);
 }
 
@@ -11,6 +10,7 @@
     font-family: 'Raleway Bold';
     font-size: min(6vw, 2.5rem);
     line-height: min(10vh, 3rem);
+    padding-top: 10vw;
     padding-bottom: min(6vw, 3rem);
 }
 

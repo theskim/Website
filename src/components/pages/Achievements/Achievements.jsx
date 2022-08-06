@@ -18,7 +18,7 @@ const Achievement = (props) => {
         <div className = "achievement-box">
             <div className = "achievement-overview">
                 { click
-                    ? <p>&emsp;&#x1F4CB;{props.name}<br/>
+                    ? <p>&emsp;&#x1F4CB;&emsp;{props.name}<br/>
                       <b>{props.date}</b><br/><br/></p>
                     : <p>{props.description}<br/><br/></p>
                 }   
