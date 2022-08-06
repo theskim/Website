@@ -12,6 +12,7 @@ export const ReactLogo = require('./logos/react-logo.png');
 export const NetlifyLogo = require('./logos/netlify-logo.png');
 export const SkimLogo = require('./logos/SK-logo.png');
 export const burgerBar = require('./logos/burger_bar.png');
+export const blackBurgerBar = require('./logos/black-nav-bar.png');
 export const xBar = require('./logos/x_bar.png');
 export const mailLogo = require('./logos/mail-logo.png');
 export const phoneLogo = require('./logos/phone-logo.png');

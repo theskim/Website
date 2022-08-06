@@ -1,20 +1,51 @@
 .background__all {
-    background: linear-gradient(45deg,  rgba(75, 138, 255), rgb(14, 33, 119), rgba(75, 255, 201, 0.847), rgb(14, 33, 119), rgba(180, 75, 255, 0.864));
+    background: linear-gradient(45deg,  rgba(75, 138, 255), rgb(14, 33, 119), rgba(75, 255, 201, 0.847), rgb(14, 33, 119), rgba(75, 138, 255));
     background-size: 2000% 100%;
     animation: gradient 15s ease infinite;
     padding-top: 20vh; padding-bottom: 20vh;
+}
+
+.nav__suggestion {
+    display: none;    
+    text-align: center;
+    background-color: #eeffff;
+    margin-left: 20vw; margin-right: 20vw;    
+    border-radius: min(3vh, 1rem);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 3, 0.2);
+}
+
+.nav__suggestion h4 {
+    font-family: "Raleway";
+    color: #000;
+    font-size: min(5vw, 1.5rem);
+    padding: 1rem;
+}
+
+.nav__suggestion img {
+    height: min(5vw, 1.5rem);
+    pointer-events: none;
 }
 
 .box__all {
     margin-top: min(10vh, 5rem);
     background-color: #eeffff;
     margin-left: 15vw; margin-right: 15vw;
-    border-radius: min(10vh, 5rem);
+    border-radius: min(10vh, 5rem);    
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 3, 0.2);
+}
+
+@media screen and (max-width: 1350px){
+    .nav__suggestion {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1100px){
+    .nav__suggestion {
+        margin-left: 5vw; margin-right: 5vw;  
+    }
     .box__all {
-        margin-top: 10vh;
+
         margin-left: 3vw; margin-right: 3vw;
     }
 }

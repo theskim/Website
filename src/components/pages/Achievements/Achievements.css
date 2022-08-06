@@ -6,7 +6,7 @@
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
     padding-left: 5vw; padding-right: 5vw;
-    padding-top: 20vh; padding-bottom: 10vh;
+    padding-top: 15vh; padding-bottom: 10vh;
 }
 
 .achievement-overview p {
@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 1350px){
     .achievement-title {
-        font-size: min(7.5vw, 3rem);
+        font-size: min(7.5vw, 3.5rem);
     }
     .achievement-overview p  {
         margin-left: 5vw;

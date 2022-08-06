@@ -1,7 +1,7 @@
 .languages, .tools {
     align-items: center;
     text-align: center;
-    padding-top: min(10vw, 5rem);
+    padding-top: 15vh;
     padding-bottom: min(30vw, 15rem);
     margin-left: min(10vw, 5rem); margin-right: min(10vw, 5rem);
 }
