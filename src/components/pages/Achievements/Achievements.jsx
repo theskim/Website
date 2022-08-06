@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Achievements.css"
 import Footer from "../../Footer/Footer";
-import achievementList from "./Achievements.json"
+import achievementData from "./AchievementsData.json"
 import ContactMe from "../ContactMe/ContactMe";
 
 const Title = () => {
@@ -14,13 +14,13 @@ const Title = () => {
 
 const Achievement = (props) => { 
     const [click, update] = useState(true);
-
     return (
         <div className = "achievement-box">
             <div className = "achievement-overview">
                 { click
-                    ? <p>&emsp;&#x1F4CB;&nbsp;&nbsp;{props.achievement.name}<br/><b>{props.achievement.date}</b><br/><br/></p>
-                    : <p>{props.achievement.description}<br/><br/></p>
+                    ? <p>&emsp;&#x1F4CB;&nbsp;&nbsp;{props.name}<br/>
+                      <b>{props.date}</b><br/><br/></p>
+                    : <p>{props.description}<br/><br/></p>
                 }   
             </div>
             <button className="my-button" type="button" onClick={() => update(!click)}>
@@ -31,14 +31,6 @@ const Achievement = (props) => {
             </button>
         </div>
     )
-}
-
-const ScanAchievements = () => {
-    var allAchievements = []
-    for (var prop in achievementList){
-        allAchievements.push(<Achievement achievement={achievementList[prop]}/>);
-    }
-    return allAchievements;
 }
 
 const AchievementBox = (props) => {
@@ -54,7 +46,7 @@ const Achievements = () => {
         <>
             <AchievementBox>
                 <Title/>
-                <ScanAchievements/>
+                {(Object.values(Object.values(achievementData))).map(key => (<Achievement name={key.name} date={key.date} description={key.description} />))}
                 <ContactMe/>
             </AchievementBox>
             <Footer/>
