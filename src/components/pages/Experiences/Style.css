@@ -35,16 +35,10 @@
     font-size: min(3vw, 1.3rem);
     line-height: min(5vw, 2.5rem);
     text-align: left;  
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
   
-@media screen and (max-width: 1350px) {
-    .experience-box .experience-description {
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
-}
 
 .experience-box img {
     border: 1%;

@@ -33,19 +33,8 @@
     font-size: min(3vw, 1.3rem);
     line-height: min(5vw, 2.5rem);
     text-align: left;  
-    padding-left: 15vw;
-    padding-right: 15vw;
-}
-
-@media screen and (max-width: 1150px) {
-    .project-box .project-description {
-        font-family: 'Raleway';
-        font-size: min(3vw, 1.3rem);
-        line-height: min(5vw, 2.5rem);
-        text-align: left;  
-        padding-left: 5vw;
-        padding-right: 5vw;
-    }
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .project-box .project-links {

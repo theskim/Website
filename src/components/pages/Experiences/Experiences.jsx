@@ -9,10 +9,10 @@ const Title = () => {
     return (
         <>
             <div className = "experiences__title-box">
-                <p className = "title">&#128188;&nbsp;&nbsp;EXPERIENCES</p>
+                <p>&#128188;&nbsp;&nbsp;EXPERIENCES</p>
             </div>
             <div className = "experiences__text-box">
-                <p className = "description">
+                <p>
                     This section lists different experiences I gained through
                     work, school, and volunteering. 
                 </p>
