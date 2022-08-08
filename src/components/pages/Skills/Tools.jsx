@@ -1,5 +1,5 @@
 import "./Style.css"
-import { ReactLogo, Git, Github, NetlifyLogo } from "../../../assets";
+import { ReactLogo, NextLogo, Git, Github, NetlifyLogo } from "../../../assets";
 
 const ToolsTitle = (props) => {
     return(
@@ -34,6 +34,7 @@ const Tools = () => {
         <ToolsBox>
             <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
             <Tool location={ReactLogo} name="React.js"/>
+            <Tool location={NextLogo} name="Next.js"/>
             <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
             <Tool location={Git} name="Git"/>
             <Tool location={Github} name="GitHub"/>
