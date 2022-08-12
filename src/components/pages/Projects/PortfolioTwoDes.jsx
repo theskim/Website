@@ -15,14 +15,8 @@ const PortfolioTwoDes = () => {
         date: "Jun 2022",
         skills: "HTML5, CSS3, JavaScript, React.js",
         img: images,
-        link: {
-            availability: true,
-            url: "https://skim1601.com",
-        }, 
-        github: {
-            availability: true,
-            url: "https://github.com/skim1601/sean-kim-website",
-        }, 
+        link: "https://skim1601.com",
+        github: "https://github.com/skim1601/sean-kim-website"
     }
 
     return (

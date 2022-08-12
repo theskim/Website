@@ -15,13 +15,8 @@ const LeagueSimDes = () => {
         date: "Dec 2021",
         skills: "Python",
         img: images,
-        link: {
-            availability: false,
-        }, 
-        github: {
-            availability: true,
-            url: "https://github.com/skim1601/LeagueSimulator",
-        }, 
+        link: false,
+        github: "https://github.com/skim1601/LeagueSimulator"
     }
 
     return (

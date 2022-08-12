@@ -14,12 +14,6 @@ const ReversiDes = () => {
         date: "Mar 2022",
         skills: "C",
         img: images,
-        link: {
-            availability: false,
-        }, 
-        github: {
-            availability: false,
-        }, 
     }
 
     return (

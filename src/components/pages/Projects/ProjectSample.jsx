@@ -39,16 +39,16 @@ const ProjectSample = (props) => {
                 <div className = "project-links">
                     <div className = "link-availability"> 
                         <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
-                        {props.project.link.availability 
-                            ? <a href = {props.project.link.url}>Click Here</a>
+                        {props.project.link !== undefined
+                            ? <a href = {props.project.link}>Click Here</a>
                             : <span className = "gray">Unavailable</span>
                         }
                     </div><br/><br/>
                     <div className = "github-availability"> 
                         <img src={Github} alt='main'/>
                         <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
-                        {props.project.github.availability 
-                        ?<a href = {props.project.github.url}>
+                        {props.project.github !== undefined
+                        ?<a href = {props.project.github}>
                             Click Here
                          </a>
                         :<span className = "gray">

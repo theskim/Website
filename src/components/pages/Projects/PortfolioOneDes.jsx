@@ -15,14 +15,8 @@ const PortfolioOneDes = () => {
         date: "Mar 2022",
         skills: "HTML5, CSS3",
         img: images,
-        link: {
-            availability: true,
-            url: "https://skim1601.github.io/",
-        }, 
-        github: {
-            availability: true,
-            url: "https://github.com/skim1601/skim1601.github.io",
-        }, 
+        link: "https://skim1601.github.io/",
+        github: "https://github.com/skim1601/skim1601.github.io"
     }
 
     return (

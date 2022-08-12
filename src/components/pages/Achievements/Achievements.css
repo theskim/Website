@@ -5,8 +5,7 @@
     font-family: 'Changa One';
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
-    padding-left: min(5vw, 5rem);
-    padding-right: min(5vw, 5rem);
+    padding-left: min(5vw, 5rem); padding-right: min(5vw, 5rem);
     padding-top: 15vh; padding-bottom: 10vh;
 }
 
@@ -40,7 +39,7 @@
     .achievement-title {
         font-size: min(7.5vw, 3.5rem);
     }
-    .achievement-overview p  {
+    .achievement-overview p {
         margin-left: 5vw;
         margin-right: 5vw;
     }

@@ -14,4 +14,4 @@ const BackgroundAll = (props) => {
     )
 }
 
-export default BackgroundAll
+export default BackgroundAll 
