@@ -63,17 +63,18 @@
 .logo {
     width: min(20vw, 7rem);
     border-radius: 100%;
-    margin-left: min(3vw, 1rem); margin-right: min(3vw, 1rem);
+    margin-left: min(1.5vw, 0.5rem); margin-right: min(1.5vw, 0.5rem);
 }
 
 .logos .logo img {
     width: min(20vw, 7rem);
     border-radius: 50%;    
-    box-shadow: 0 0 0 min(1.5vw, 0.5rem) #ff7e5a;
+    box-shadow: 0 0 1rem min(1.5vw, 0.5rem) #ff7e5a;
+    background-color: #ff7e5a;
     transition: all 0.7s linear;
 }
 
 .logos .logo img:hover {
-    box-shadow: 0 0 0 min(1.5vw, 0.5rem) #5aff8c;
-    transition: all 0.4s linear;
+    box-shadow: 0 0 1rem min(1.5vw, 0.5rem) #5aff8c;
+    background-color: #5aff8c;
 }
