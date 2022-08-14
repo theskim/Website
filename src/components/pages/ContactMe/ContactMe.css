@@ -70,11 +70,9 @@
     width: min(20vw, 7rem);
     border-radius: 50%;    
     box-shadow: 0 0 1rem min(1.5vw, 0.5rem) #ff7e5a;
-    background-color: #ff7e5a;
     transition: all 0.7s linear;
 }
 
 .logos .logo img:hover {
-    box-shadow: 0 0 1rem min(1.5vw, 0.5rem) #5aff8c;
-    background-color: #5aff8c;
+    box-shadow: 0 0 3rem min(1.5vw, 0.5rem) #5aff8c;
 }
