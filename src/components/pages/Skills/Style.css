@@ -24,6 +24,7 @@
     display: inline-block;
     margin-left: min(3vw, 3rem);
     margin-right: min(3vw, 3rem);
+    padding-bottom: 7vh;
 }
 
 .tooltip-wrap img {
