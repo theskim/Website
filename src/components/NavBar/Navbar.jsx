@@ -91,7 +91,7 @@ const NavBar = () => {
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
-    updateDisplay(currentYPos < yPos || currentYPos < 300 || toggle);
+    updateDisplay(currentYPos < yPos || currentYPos < 300);
     setYPos(currentYPos);
   }, [yPos]);
 
@@ -101,7 +101,7 @@ const NavBar = () => {
 
   return (
       <>
-      { display
+      { display || toggle
         ? <div className = "nav-bar">
             <div className = "nav-bar-image">
               <img src={SkimLogo} alt='SK'/>
