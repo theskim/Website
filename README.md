@@ -1,8 +1,12 @@
-# skim1601.com
-
+## skim1601.com
 This is my personal portfolio website.
-Link: https://skim1601.com
+I am planning to continuously improve this website as my career progresses.
 
+## Link: 
+https://skim1601.com
+
+## Tools
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
