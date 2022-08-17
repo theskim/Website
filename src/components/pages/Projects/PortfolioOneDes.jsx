@@ -10,7 +10,7 @@ const images = [
 
 const PortfolioOneDes = () => { 
     const portfolio1 = {
-        title: "skim1601.github.io",
+        title: "Portfolio Website - Old",
         date: "Mar 2022",
         skills: "HTML5, CSS3",
         img: images,
