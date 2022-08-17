@@ -1,5 +1,5 @@
 import "./Style.css"
-import { ReactLogo, NextLogo, Git, Github, NetlifyLogo } from "../../../assets";
+import { Html, Css, Js, Python, C, ReactLogo, NextLogo, Git, Github, NetlifyLogo } from "../../../assets";
 
 const ToolsTitle = (props) => {
     return(
@@ -33,15 +33,26 @@ const Tools = () => {
     return (
         <ToolsBox>
             <div className="tool__section">
+                <ToolsTitle emoji={<>&#128187;</>}>Languages</ToolsTitle>
+                <Tool location={Html} name="HTML5"/>
+                <Tool location={Css} name="CSS3"/>
+                <Tool location={Js} name="JavaScript (ES6+)"/>
+                <Tool location={Python} name="Python"/>
+                <Tool location={C} name="C"/>
+            </div>
+            <div className="divider"/>
+            <div className="tool__section">
                 <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
                 <Tool location={ReactLogo} name="React.js"/>
                 <Tool location={NextLogo} name="Next.js"/>
             </div>
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
                 <Tool location={Git} name="Git"/>
                 <Tool location={Github} name="GitHub"/>
             </div>
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
                 <Tool location={NetlifyLogo} name="Netlify"/>

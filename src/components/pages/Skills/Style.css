@@ -1,19 +1,14 @@
-.languages, .tools {
+.tools {
     align-items: center;
     text-align: center;
 }
 
-.languages {
-    background-color: rgb(206, 206, 206);
-    color: rgb(0, 0, 0);
-}
-
-.languages, .tool__section {
+.tool__section {
     padding-top: 15vh;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
 }
 
-.languages-bold p, .tools-bold p {    
+.tools-bold p {    
     display: block;
     font-family: var(--default-header-font);
     font-size: min(6vw, 2.5rem);
@@ -46,9 +41,4 @@
     font-family: var(--default-header-font);
     transition: all 0.3s ease-out;
     font-size: min(6vw, 2rem);
-}
-
-.tool__section:nth-child(2n) {
-    background-color: rgb(206, 206, 206);
-    color: rgb(0, 0, 0);
 }

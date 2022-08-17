@@ -7,7 +7,9 @@ const Home = () => {
   return (
     <BackgroundAll>
       <AboutMe/>
+      <div className="divider"/>
       <Education/>
+      <div className="divider"/>
       <ContactMe/>
     </BackgroundAll>
   );

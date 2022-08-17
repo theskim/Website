@@ -36,11 +36,6 @@
     margin-bottom: 10vh;
 }
 
-.achievement-box:nth-child(2n){
-    background-color: rgb(206, 206, 206);
-    color: rgb(0, 0, 0);
-}
-
 @media screen and (max-width: 1350px){
     .achievement-title {
         font-size: min(9vw, 3.8rem);

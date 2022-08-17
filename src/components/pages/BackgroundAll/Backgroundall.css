@@ -1,5 +1,5 @@
 .background__all {
-    background: linear-gradient(245deg, rgb(241, 124, 88), rgb(233, 69, 132), rgb(36, 170, 219), rgb(38, 219, 177), rgb(255, 220, 24), rgb(255, 55, 6));
+    background: linear-gradient(95deg, rgb(115, 88, 249), rgb(112, 172, 250) 20%, rgb(115, 88, 249) 30%, rgb(112, 172, 250) 40%, rgb(115, 88, 249) 90%, rgb(112, 172, 250) 60%,  rgb(115, 88, 249) 70%, rgb(112, 172, 250) 80%, rgb(115, 88, 249) 90%, rgb(112, 172, 250));
     background-size: 600% 100%;
     animation: gradient 15s ease infinite;
     animation-direction: alternate;
@@ -28,6 +28,10 @@
 }
 
 .box__all {
+    padding: 1vw 1vw;
+    border-radius: 20px;
+    background-origin: content-box, padding-box;
+    background-clip: content-box, padding-box;
     margin-top: min(10vh, 5rem);
     background-color: #eeffff;
     margin-left: 15vw; margin-right: 15vw;

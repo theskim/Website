@@ -27,10 +27,15 @@ const Projects = () => {
     return (
         <BackgroundAll>
             <Title/>
+            <div className="divider"/>
             <PortfolioTwoDes/>
+            <div className="divider"/>
             <PortfolioOneDes/>
+            <div className="divider"/>
             <ReversiDes/>
+            <div className="divider"/>
             <LeagueSimDes/>
+            <div className="divider"/>
             <ContactMe/>
         </BackgroundAll>
     );

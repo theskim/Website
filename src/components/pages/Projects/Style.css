@@ -9,11 +9,6 @@
     padding-bottom: min(20vw, 10rem);
 }
 
-.project-box:nth-child(2n+1){
-    background-color: rgb(206, 206, 206);
-    color: rgb(0, 0, 0);
-}
-
 .project-box .project-title {
     font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);

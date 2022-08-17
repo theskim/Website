@@ -9,11 +9,6 @@
     padding-bottom: 10vh;
 }
 
-.experience-box:nth-child(2n+1){
-    background-color: rgb(206, 206, 206);
-    color: rgb(0, 0, 0);
-}
-
 .experience-box .experience-title {
     font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);

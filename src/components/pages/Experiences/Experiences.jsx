@@ -25,9 +25,13 @@ const Experiences = () => {
     return (
         <BackgroundAll>
             <Title/>
+            <div className="divider"/>
             <UofTHacksDescription/>
+            <div className="divider"/>
             <DeepDescription/>
+            <div className="divider"/>
             <EspDescription/>
+            <div className="divider"/>
             <ContactMe/>
         </BackgroundAll>
     );

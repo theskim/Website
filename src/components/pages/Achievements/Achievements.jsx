@@ -37,7 +37,9 @@ const Achievements = () => {
     return (
         <BackgroundAll>
             <Title/>
+            <div className="divider"/>
             {(Object.values(Object.values(achievementData))).map(key => (<Achievement name={key.name} date={key.date} description={key.description} />))}
+            <div className="divider"/>
             <ContactMe/>
         </BackgroundAll>
     );
