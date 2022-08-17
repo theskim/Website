@@ -9,14 +9,19 @@
     padding-bottom: min(20vw, 10rem);
 }
 
+.project-box:nth-child(2n+1){
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
+}
+
 .project-box .project-title {
-    font-family: 'Raleway Bold';
+    font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);
     line-height: min(6.5vw, 3rem);
 }
 
 .project-box .project-tools {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(4vw, 1.5rem);
     line-height: min(5vw, 2.5rem);
 }
@@ -29,7 +34,7 @@
 }
 
 .project-box .project-description {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(3vw, 1.3rem);
     line-height: min(5vw, 2.5rem);
     text-align: left;  
@@ -38,7 +43,7 @@
 }
 
 .project-box .project-links {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(3vw, 1.3rem);
     line-height: min(5vw, 2.5rem);
     text-align: center;  

@@ -6,7 +6,7 @@
 }
 
 .projects__title p {
-    font-family: 'Changa One';
+    font-family: var(--default-title-font);
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
     padding-left: 5vw;
@@ -23,9 +23,10 @@
 }
 
 .projects__text-box p {
-    font-family: "Raleway";
+    font-family: var(--default-text-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-bottom: 15vh;
 }

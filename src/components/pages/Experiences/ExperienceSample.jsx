@@ -12,7 +12,7 @@ const ExperienceSample = (props) => {
             <div className = "experience-skills">
                     <h4>
                         &#128197;&nbsp;{props.experience.duration}&nbsp;&nbsp;
-                        </h4>
+                    </h4>
                     <p>
                         <b>Skills:&nbsp;</b>
                         {props.experience.skills}

@@ -20,13 +20,13 @@
 }
 
 .about-me title {
-    font-family: 'Changa One';
+    font-family: var(--default-title-font);
     font-size: min(13vw, 6rem);
     line-height: min(17vw, 8rem);
 }
 
 .about-me .about-me-description h4 {
-    font-family: 'Raleway Bold', sans-serif;
+    font-family: var(--default-header-font);
     font-size: min(6vw, 2rem);
     line-height: min(8.5vw, 4rem);
 }
@@ -37,7 +37,7 @@
 }
 
 .about-me-description p {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
 }

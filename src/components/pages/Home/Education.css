@@ -5,6 +5,8 @@
     flex-direction: column;
     padding-top: 20vh;
     padding-bottom: 20vh;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
 }
   
 .school-information title, .text, .year-text, .description-text {
@@ -15,7 +17,7 @@
 }
 
 .school-information title {
-    font-family: 'Changa One';
+    font-family: var(--default-title-font);
     font-size: min(10.5vw, 4rem);
     padding-bottom: 5rem;
 }
@@ -28,13 +30,13 @@
 }
 
 .school-information .description-text {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
 }
 
 .school-information .year-text {
-    font-family: 'Raleway Bold', cursive;
+    font-family: var(--default-header-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState, useEffect, useCallback } from "react";
 import { NavLink } from "react-router-dom";
 import { SmoothScroll } from './SmoothScroll';
 import "./Navbar.css";
@@ -86,24 +86,42 @@ const NavOptions = (props) => {
 
 const NavBar = () => {
   const [toggle, update] = useState(false);
+  const [yPos, setYPos] = useState(0);
+  const [display, updateDisplay] = useState(true);
+
+  const handleScroll = useCallback(() => {
+    const currentYPos = window.pageYOffset;
+    updateDisplay(currentYPos < yPos || currentYPos < 300);
+    setYPos(currentYPos);
+  }, [yPos]);
+
+  useEffect (() => {
+    window.addEventListener("scroll", handleScroll);
+  }, [yPos, handleScroll]);
+
   return (
-    <div className = "nav-bar">
-      <div className = "nav-bar-image">
-        <img src={SkimLogo} alt='SK'/>
-      </div>
-      <div className = "top-bar">
-        <div className = "nav-links">
-          <NavOptions disableSideBar={true}/>
+      <>
+      { display
+        ? <div className = "nav-bar">
+            <div className = "nav-bar-image">
+              <img src={SkimLogo} alt='SK'/>
+            </div>
+            <div className = "top-bar">
+              <div className = "nav-links">
+                <NavOptions disableSideBar={true}/>
+              </div>
+            </div>
+            <div className = "side-bar">      
+              {toggle
+                ? <><img className = "x-bar" src={xBar} onClick={() => update(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
+                : <><img className = "burger-bar" src={burgerBar} onClick={() => update(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
+              }
+            </div>
           </div>
-      </div>
-      <div className = "side-bar">      
-        {toggle
-          ? <><img className = "x-bar" src={xBar} onClick={() => update(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
-          : <><img className = "burger-bar" src={burgerBar} onClick={() => update(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
-        }
-      </div>
-    </div>
-  );
+        : <></>
+      }
+      </>
+    );
 }
 
 export default NavBar;

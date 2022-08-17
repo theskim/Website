@@ -5,19 +5,24 @@
     text-align: center;  
     padding-left: 7vw;
     padding-right: 7vw;
-    padding-top: min(20vw, 10rem);
-    padding-bottom: min(20vw, 10rem);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.experience-box:nth-child(2n+1){
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
 }
 
 .experience-box .experience-title {
-    font-family: 'Raleway Bold';
+    font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);
     line-height: min(6.5vw, 3rem);
     padding-left: 10vw; padding-right: 10vw;
 }
 
 .experience-box .experience-skills {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(4vw, 1.5rem);
     line-height: min(5vw, 2.5rem);
     padding-bottom: min(4vw, 2rem);
@@ -31,7 +36,7 @@
 }
 
 .experience-box .experience-description {
-    font-family: 'Raleway';
+    font-family: var(--default-text-font);
     font-size: min(3vw, 1.3rem);
     line-height: min(5vw, 2.5rem);
     text-align: left;  

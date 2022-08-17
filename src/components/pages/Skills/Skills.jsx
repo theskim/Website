@@ -6,7 +6,7 @@ import BackgroundAll from "../BackgroundAll/BackgroundAll";
 
 const Title = () => {
     return ( 
-        <>
+        <div className="skills">
             <div className = "skills__title">
                 <p> &#128104;&#8205;&#128187;&nbsp;&nbsp;SKILLS</p>
             </div>  
@@ -16,7 +16,7 @@ const Title = () => {
                     Frameworks, and Tools I have familiarized myself with.
                 </p>
             </div>  
-        </>
+        </div>
     )
 }
 

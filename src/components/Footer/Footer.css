@@ -11,8 +11,8 @@
 
 .footer p {
     color: #ffffff;
-    font-size: min(3vh, 1rem);
+    font-size: min(3vh, 1.5rem);
     line-height: min(3vh, 1rem);
-    font-family: 'Raleway Bold';
+    font-family: var(--default-header-font);
     text-align: center;
 }

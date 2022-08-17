@@ -32,14 +32,20 @@ const ToolsBox = (props) => {
 const Tools = () => {
     return (
         <ToolsBox>
-            <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
-            <Tool location={ReactLogo} name="React.js"/>
-            <Tool location={NextLogo} name="Next.js"/>
-            <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
-            <Tool location={Git} name="Git"/>
-            <Tool location={Github} name="GitHub"/>
-            <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
-            <Tool location={NetlifyLogo} name="Netlify"/>
+            <div className="tool__section">
+                <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
+                <Tool location={ReactLogo} name="React.js"/>
+                <Tool location={NextLogo} name="Next.js"/>
+            </div>
+            <div className="tool__section">
+                <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
+                <Tool location={Git} name="Git"/>
+                <Tool location={Github} name="GitHub"/>
+            </div>
+            <div className="tool__section">
+                <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
+                <Tool location={NetlifyLogo} name="Netlify"/>
+            </div>
         </ToolsBox>
     );
 }

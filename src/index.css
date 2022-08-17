@@ -4,23 +4,13 @@
 }
 
 @font-face {
-  font-family: "Raleway";
-  src: url('./assets/fonts/Raleway-Medium.ttf');
-}
-
-@font-face {
   font-family: "Raleway Bold";
   src: url('./assets/fonts/Raleway-ExtraBold.ttf');
 }
 
 @font-face {
-  font-family: "Russo";
-  src: url('./assets/fonts/RussoOne-Regular.ttf');
-}
-
-@font-face {
   font-family: "DM Sans";
-  src: url('./assets/fonts/DMSans-Medium.ttf');
+  src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 
 @keyframes fadeIn {
@@ -68,11 +58,17 @@ code {
   color: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0);
   border-color: #000;
-  font-family: 'Raleway'; font-size: min(3vw, 1rem);
+  font-family: var(--default-text-font); font-size: min(3vw, 1rem);
 }
 
 .my-button:hover {
   transition: all 1s ease-out;
   box-shadow: inset 0 0 0 40px #000;
   color: rgb(255, 255, 255);
+}
+
+:root {
+  --default-title-font: "Changa One";
+  --default-header-font: "Raleway Bold";
+  --default-text-font: "DM Sans";
 }

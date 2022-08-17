@@ -7,6 +7,7 @@
   border-top-width: min(8vw, 1.5rem); border-bottom-width: min(8vw, 1.5rem); 
   border-top-style: groove; border-bottom-style: groove;
   z-index: 15; position: fixed;
+  top: 0;
 }
 
 .nav-bar-image img {
@@ -31,7 +32,7 @@
 }
 
 .nav-links .nav-link p {
-  font-family: 'Raleway Bold'; font-size: min(3vw, 1.75rem);
+  font-family: var(--default-header-font); font-size: min(3vw, 1.75rem);
   transition: all 0.8s ease-out;
 }
 
@@ -108,7 +109,7 @@
   margin-right: min(2vw, 1rem); 
   padding-right: min(36vw, 12rem); 
   text-decoration: none;
-  font-family: 'Raleway Bold'; font-size: min(3.5vw, 1.2rem);
+  font-family: var(--default-header-font); font-size: min(3.5vw, 1.2rem);
   scroll-behavior: smooth;
   transition: all 0.7s ease-out;
 }
