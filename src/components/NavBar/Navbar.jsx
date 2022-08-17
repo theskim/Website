@@ -91,7 +91,7 @@ const NavBar = () => {
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
-    updateDisplay(currentYPos < yPos || currentYPos < 300);
+    updateDisplay(currentYPos < yPos || currentYPos < 300 || toggle);
     setYPos(currentYPos);
   }, [yPos]);
 
