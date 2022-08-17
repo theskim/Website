@@ -1,7 +1,6 @@
 .languages, .tools {
     align-items: center;
     text-align: center;
-    padding-bottom: 20vh;
 }
 
 .languages {
@@ -9,19 +8,22 @@
     color: rgb(0, 0, 0);
 }
 
+.languages, .tool__section {
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+}
+
 .languages-bold p, .tools-bold p {    
     display: block;
     font-family: var(--default-header-font);
     font-size: min(6vw, 2.5rem);
     line-height: min(10vh, 3rem);
-    padding-top: 7vw;
 }
 
 .tooltip-wrap {
     display: inline-block;
     margin-left: min(3vw, 3rem);
     margin-right: min(3vw, 3rem);
-    padding-bottom: 7vw;
 }
 
 .tooltip-wrap img {
@@ -47,5 +49,5 @@
 
 .tool__section:nth-child(2n) {
     background-color: rgb(206, 206, 206);
-    color: rgb(68, 68, 68);
+    color: rgb(0, 0, 0);
 }
