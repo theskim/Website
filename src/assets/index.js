@@ -22,6 +22,7 @@ export const PortfolioTwoFirst = require('./PortfolioTwoImages/Portfolio-two-ima
 export const PortfolioTwoSecond = require('./PortfolioTwoImages/Portfolio-two-image2.png');
 export const PortfolioTwoThird = require('./PortfolioTwoImages/Portfolio-two-image3.png');
 export const PortfolioTwoFourth = require('./PortfolioTwoImages/Portfolio-two-image4.png');
+export const PortfolioTwoFive = require('./PortfolioTwoImages/Portfolio-two-image5.png');
 export const PortfolioOneFirst = require('./PortfolioOneImages/Portfolio-one-image1.png');
 export const PortfolioOneSecond = require('./PortfolioOneImages/Portfolio-one-image2.png');
 export const PortfolioOneThird = require('./PortfolioOneImages/Portfolio-one-image3.png');

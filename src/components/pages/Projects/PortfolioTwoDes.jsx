@@ -1,12 +1,13 @@
 import "./Style.css";
 import Project from "./ProjectSample";
-import { PortfolioTwoFirst, PortfolioTwoSecond, PortfolioTwoThird, PortfolioTwoFourth } from '../../../assets';
+import { PortfolioTwoFirst, PortfolioTwoSecond, PortfolioTwoThird, PortfolioTwoFourth, PortfolioTwoFive } from '../../../assets';
 
 const images = [
   PortfolioTwoFirst, 
   PortfolioTwoSecond, 
   PortfolioTwoThird, 
-  PortfolioTwoFourth
+  PortfolioTwoFourth,
+  PortfolioTwoFive
 ];
 
 const PortfolioTwoDes = () => {
