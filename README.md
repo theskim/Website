@@ -1,4 +1,4 @@
-## skim1601.com
+# skim1601.com
 This is my personal portfolio website.
 I am planning to continuously improve this website as my career progresses.
 
