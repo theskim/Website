@@ -1,12 +1,11 @@
 import "./Style.css";
 import Project from "./ProjectSample";
-import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird, PortfolioOneFourth } from '../../../assets';
+import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../assets';
 
 const images = [
   PortfolioOneFirst, 
   PortfolioOneSecond, 
-  PortfolioOneThird, 
-  PortfolioOneFourth
+  PortfolioOneThird
 ];
 
 const PortfolioOneDes = () => { 
@@ -15,8 +14,8 @@ const PortfolioOneDes = () => {
         date: "Mar 2022",
         skills: "HTML5, CSS3",
         img: images,
-        link: "https://skim1601.github.io/",
-        github: "https://github.com/skim1601/skim1601.github.io"
+        link: "https://sean-kim-portfolio.netlify.app/",
+        github: "https://github.com/skim1601/sean-kim-old-website"
     }
 
     return (

@@ -26,7 +26,6 @@ export const PortfolioTwoFive = require('./PortfolioTwoImages/Portfolio-two-imag
 export const PortfolioOneFirst = require('./PortfolioOneImages/Portfolio-one-image1.png');
 export const PortfolioOneSecond = require('./PortfolioOneImages/Portfolio-one-image2.png');
 export const PortfolioOneThird = require('./PortfolioOneImages/Portfolio-one-image3.png');
-export const PortfolioOneFourth = require('./PortfolioOneImages/Portfolio-one-image4.png');
 export const ReversiFirst = require('./ReversiImages/Reversi-image1.png');
 export const ReversiSecond = require('./ReversiImages/Reversi-image2.png');
 export const ReversiThird = require('./ReversiImages/Reversi-image3.png');
