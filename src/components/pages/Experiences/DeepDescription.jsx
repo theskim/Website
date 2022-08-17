@@ -18,6 +18,7 @@ const DeepDescription = () => {
             I supported a group of up to 20 high school students; prepared pre-class multiple-choice questions and took attendance for each class.
             I also assisted students during challenging in-class activities that incorporated concepts such as object-oriented programming, recursion, 
             and Python Libraries such as PyGame, NumPy, and Pandas.
+            Through DEEP, I became more familiar with mentoring and assisting other students.
         </ExperienceSample>
     );
 }

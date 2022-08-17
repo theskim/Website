@@ -14,7 +14,7 @@ const Title = () => {
             </div>
             <div className = "projects__text-box">
                 <p>
-                    This section lists different Software Projects I have
+                    This section showcases different Software Projects I have
                     created before. Started off from simple ones to complex ones, the main purpose is to
                     observe my progress.
                 </p>

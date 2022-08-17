@@ -74,10 +74,10 @@
 .logos .logo img {
     width: min(20vw, 7rem);
     border-radius: 50%;    
-    box-shadow: 0 0 0 min(1.5vw, 0.5rem) #ff7e5a;
+    box-shadow: 0 0 0 min(1.5vw, 0.5rem) rgb(112, 172, 250);
     transition: all 0.7s linear;
 }
 
 .logos .logo img:hover {
-    box-shadow: 0 0 0 min(1.5vw, 0.5rem) #5aff8c;
+    box-shadow: 0 0 0 min(1.5vw, 0.5rem) rgb(115, 88, 249);
 }

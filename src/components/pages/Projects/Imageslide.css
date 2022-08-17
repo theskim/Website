@@ -1,6 +1,6 @@
 .slide-container {
     border: min(3vw, 1rem) solid transparent;
-    border-image: linear-gradient(45deg, rgb(0, 0, 0) , rgb(160, 160, 160));
+    border-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(160, 160, 160));
     border-image-slice: 1;
     align-self: center;
     width: min(70vw, 30rem);
