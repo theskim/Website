@@ -2,7 +2,7 @@ const DegreeTable = () => {
     const firstYear = {
         "First Semester": [
             {"APS100: Orientation to Engineering": "https://engineering.calendar.utoronto.ca/course/aps100h1"}, 
-            {"APS110: Engineering Chemistry & Materials Science": "https://engineering.calendar.utoronto.ca/course/aps105h1"}, 
+            {"APS110: Engineering Chemistry & Materials Science": "https://engineering.calendar.utoronto.ca/course/aps110h1"}, 
             {"APS111: Engineering Strategies & Practice I": "https://engineering.calendar.utoronto.ca/course/aps111h1"},
             {"CIV100: Mechanics": "https://engineering.calendar.utoronto.ca/course/civ100h1"},
             {"MAT186: Calculus I": "https://engineering.calendar.utoronto.ca/course/mat186h1"},
