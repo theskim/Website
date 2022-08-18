@@ -21,6 +21,11 @@ const Description = () => {
       <h2>
         2021 - 2026 (PEY CO-OP)
       </h2>
+      <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
+        {padding:"min(1rem, 3vw)", textDecoration:"none", margin:"3rem"}
+      }>
+        Learn More
+      </a>
       <DegreeTable/>
     </>
   )

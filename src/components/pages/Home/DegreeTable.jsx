@@ -51,7 +51,7 @@ const DegreeTable = () => {
 
     return (
         <details>
-            <summary>My Degree</summary>
+            <summary>My Courses</summary>
             <span>
                 <details>
                     <summary>First Year</summary>

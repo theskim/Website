@@ -41,7 +41,7 @@
 
 .school-information details {
     font-family: var(--default-text-font);
-    font-size: min(3vw, 1rem);
+    font-size: min(3.6vw, 1.2rem);
     border-radius: 1rem;
     margin-top: min(9vw, 3rem);
     margin: min(3vw, 1rem);
@@ -60,7 +60,7 @@
     padding: 1rem;
 }
 
-.school-information a, .school-information a:visited {
+.school-information table a, .school-information table a:visited {
     color: rgb(49, 53, 182);
     transition: all 0.7s ease-out;
 }
