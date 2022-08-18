@@ -7,7 +7,7 @@
     padding-bottom: 20vh;
 }
   
-.school-information title, .text, .year-text, .description-text {
+.school-information title, .school-information h2, .school-information p {
     display: inline-block;
     text-align: center;
     margin-left: 7vw;
@@ -39,11 +39,33 @@
     line-height: min(6.5vw, 3rem);
 }
 
-.school-information select {
-    background: #f1f1f1;
-    border-color: #000;
-    height: 5vh;
-    width: 19rem;
+.school-information details {
     font-family: var(--default-text-font);
+    font-size: min(3vw, 1rem);
     border-radius: 1rem;
+    margin-top: min(9vw, 3rem);
+    margin: min(3vw, 1rem);
+}
+
+.school-information table, .school-information th, .school-information td {
+    border: 1px solid rgb(79, 84, 255);
+}
+
+.school-information th {
+    background-color: rgb(79, 84, 255);
+    color: rgb(244, 254, 255);
+}
+
+.school-information td {
+    padding: 1rem;
+}
+
+.school-information a, .school-information a:visited {
+    color: rgb(49, 53, 182);
+    transition: all 0.7s ease-out;
+}
+
+.school-information summary {
+    margin-top: min(3rem, 9vw);
+    margin-bottom: min(2rem, 6vw);
 }
