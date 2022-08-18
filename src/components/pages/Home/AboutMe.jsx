@@ -16,9 +16,8 @@ const Description = () => {
             <p>
                 I am a second year Computer Engineering Student at the University
                 of Toronto with a huge interest in the field of Web Development and Software Engineering. 
-                In my first year, I have taken a fundamental programming course  
-                as well as various engineering design courses. Currently, I am a Frontend Developer at UofTHacks
-                to develop the hackathon's website which will be visited by hundreds of applicants. 
+                Currently, I am a Frontend Developer at UofTHacks
+                to develop the hackathon's website and dashboard which will be visited by hundreds of applicants. 
             </p>
         </div>
     )

@@ -8,6 +8,7 @@
     margin-left: min(15vw, 7.5rem);
     margin-right: min(15vw, 7.5rem);
     margin-top: min(6vw, 3rem);
+    box-shadow: 6px 6px 1px 0.5px rgba(0, 0, 3, 0.2);
 }
 
 .slide-container img {

@@ -27,14 +27,23 @@
     pointer-events: none;
 }
 
-.school-information .description-text {
+.school-information p {
     font-family: var(--default-text-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
 }
 
-.school-information .year-text {
+.school-information h2 {
     font-family: var(--default-header-font);
     font-size: min(4.3vw, 1.5rem);
     line-height: min(6.5vw, 3rem);
+}
+
+.school-information select {
+    background: #f1f1f1;
+    border-color: #000;
+    height: 5vh;
+    width: 19rem;
+    font-family: var(--default-text-font);
+    border-radius: 1rem;
 }

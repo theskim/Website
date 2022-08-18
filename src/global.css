@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "DM Sans";
+  font-family: "Poppins";
   src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 
@@ -89,5 +89,5 @@ code {
 :root {
   --default-title-font: "Changa One";
   --default-header-font: "Raleway Bold";
-  --default-text-font: "DM Sans";
+  --default-text-font: "Poppins";
 }
