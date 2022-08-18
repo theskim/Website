@@ -63,10 +63,11 @@
 }
 
 .burger-bar {
-  position: fixed; cursor: pointer;
+  position: absolute; cursor: pointer;
   width: min(9vw, 3rem);
+  height: min(9vw, 3rem);
   right: min(21vw, 7rem);
-  top: min(10.5vw, 3.5rem);
+  top: calc(50% - min(9vw, 3rem) / 2);
 }
 
 .x-bar {
