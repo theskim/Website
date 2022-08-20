@@ -64,7 +64,7 @@
 
 .burger-bar {
   position: absolute; cursor: pointer;
-  width: min(9vw, 3rem);
+  width: min(9.9vw, 3.2rem);
   height: min(9vw, 3rem);
   right: min(21vw, 7rem);
   top: calc(50% - min(9vw, 3rem) / 2);

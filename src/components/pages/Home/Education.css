@@ -40,11 +40,22 @@
 }
 
 .school-information details {
+    margin: min(3vw, 1rem);
+}
+
+.degree_table__title, .degree_table__header, .degree_table__contents {
+    transition: 1s;
     font-family: var(--default-text-font);
     font-size: min(3.6vw, 1.2rem);
     border-radius: 1rem;
-    margin-top: min(9vw, 3rem);
-    margin: min(3vw, 1rem);
+}
+
+.school-information .degree_table__header {
+    font-size: min(3.3vw, 1.1rem);
+}
+
+.degree_table__contents {
+    font-size: min(3vw, 1rem);
 }
 
 .school-information table, .school-information th, .school-information td {

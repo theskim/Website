@@ -31,7 +31,7 @@ const DegreeTable = () => {
             {"ECE221: Electric and Magnetic Fields": "https://engineering.calendar.utoronto.ca/course/ece221h1"}, 
             {"ECE231: Introductory Electronics": "https://engineering.calendar.utoronto.ca/course/ece231h1"}, 
             {"ECE243: Computer Organization": "https://engineering.calendar.utoronto.ca/course/ece243h1"},
-            {"ECE297: Software Communication and Design": "https://engineering.calendar.utoronto.ca/course/ece297h1"},
+            {"ECE297: Software Design and Communication": "https://engineering.calendar.utoronto.ca/course/ece297h1"},
             {"": ""},
         ]
     };
@@ -51,27 +51,27 @@ const DegreeTable = () => {
 
     return (
         <details>
-            <summary>My Courses</summary>
+            <summary className="degree_table__title">My Courses</summary>
             <span>
                 <details>
-                    <summary>First Year</summary>
-                    <span>
+                    <summary className="degree_table__header">First Year</summary>
+                    <span className="degree_table__contents">
                         <table>
                             <tr>
                                 <th>Fall 2021</th>
-                                <th>Winter 2021</th>
+                                <th>Winter 2022</th>
                             </tr>
                             {mapObject(firstYear)}
                         </table>
                     </span>
                 </details>
                 <details>
-                    <summary>Second Year</summary>
-                    <span>
+                    <summary className="degree_table__header">Second Year</summary>
+                    <span className="degree_table__contents">
                         <table>
                             <tr>
                                 <th>Fall 2022</th>
-                                <th>Winter 2022</th>
+                                <th>Winter 2023</th>
                             </tr>
                             {mapObject(secondYear)}
                         </table>

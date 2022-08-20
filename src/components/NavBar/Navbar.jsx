@@ -15,10 +15,10 @@ const NavOptions = (props) => {
   return (
     <>
       <NavLink to='/' className ="nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update1(true)} onMouseOut={() => update1(false)}> 
               { hover1
-                ? <>&#127968;&nbsp;&nbsp; Home</>
+                ? <>&#127968;&nbsp;&nbsp;Home</>
                 : <>Home</>
               }
             </p>
@@ -26,7 +26,7 @@ const NavOptions = (props) => {
         }
       </NavLink>
       <NavLink to='/skills' className="nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update2(true)} onMouseOut={() => update2(false)}> 
               { hover2
                 ? <>&#128104;&#8205;&#128187;&nbsp;&nbsp;Skills</>
@@ -37,7 +37,7 @@ const NavOptions = (props) => {
         }
       </NavLink>
       <NavLink to='/experiences' className = "nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update3(true)} onMouseOut={() => update3(false)}> 
               { hover3
                 ? <>&#128188;&nbsp;&nbsp;Experiences</>
@@ -48,7 +48,7 @@ const NavOptions = (props) => {
         }
       </NavLink>
       <NavLink to='/projects' className = "nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update4(true)} onMouseOut={() => update4(false)}> 
               { hover4
                 ? <>&#128221;&nbsp;&nbsp;Projects</>
@@ -59,7 +59,7 @@ const NavOptions = (props) => {
         }
       </NavLink>
       <NavLink to='/achievements' className = "nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update5(true)} onMouseOut={() => update5(false)}> 
             { hover5
               ? <>&#127942;&nbsp;&nbsp;Achievements</>
@@ -70,7 +70,7 @@ const NavOptions = (props) => {
         }
       </NavLink>
       <a href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" className = "nav-link" onClick={SmoothScroll}>
-        {props.disableSideBar
+        {props.mobile
           ? <p onMouseOver={() => update6(true)} onMouseOut={() => update6(false)}> 
             { hover6
               ? <>&#128195;&nbsp;&nbsp;Resume</>
@@ -85,9 +85,9 @@ const NavOptions = (props) => {
 }
 
 const NavBar = () => {
-  const [toggle, update] = useState(false);
   const [yPos, setYPos] = useState(0);
   const [display, updateDisplay] = useState(true);
+  const [showSideBar, setShowSideBar] = useState(false);
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
@@ -98,27 +98,27 @@ const NavBar = () => {
   useEffect (() => {
     window.addEventListener("scroll", handleScroll);
   }, [yPos, handleScroll]);
-
+  
   return (
       <>
-      { display || toggle
+      { display || showSideBar
         ? <div className = "nav-bar">
             <div className = "nav-bar-image">
               <img src={SkimLogo} alt='SK'/>
             </div>
             <div className = "top-bar">
               <div className = "nav-links">
-                <NavOptions disableSideBar={true}/>
+                <NavOptions mobile={true}/>
               </div>
             </div>
             <div className = "side-bar">      
-              {toggle
-                ? <><img className = "x-bar" src={xBar} onClick={() => update(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
-                : <><img className = "burger-bar" src={burgerBar} onClick={() => update(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions disableSideBar={false}/></div></div></>
+              { showSideBar
+                ? <><img className = "x-bar" src={xBar} onClick={() => setShowSideBar(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div></>
+                : <><img className = "burger-bar" src={burgerBar} onClick={() => setShowSideBar(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div></>
               }
             </div>
           </div>
-        : <></>
+        : null
       }
       </>
     );

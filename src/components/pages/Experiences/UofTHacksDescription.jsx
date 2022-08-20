@@ -6,7 +6,7 @@ const EspDescription = () => {
     const UofTHacks = {
         title: "UofTHacks - Frontend Web Developer",
         duration: "Jul 2022 - Present",
-        skills: "HTML5, CSS3, JavaScript, React.js",
+        skills: "Next.js",
         image: UofTHacksLogo,
     }
 
