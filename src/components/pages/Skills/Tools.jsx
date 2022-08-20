@@ -1,5 +1,5 @@
 import "./Style.css"
-import { Html, Css, Js, Python, C, ReactLogo, NextLogo, Git, Github, NetlifyLogo } from "../../../assets";
+import { Html, Css, Js, Python, C, ReactLogo, NextLogo, Git, Github, NetlifyLogo, ReduxLogo } from "../../../assets";
 
 const ToolsTitle = (props) => {
     return(
@@ -45,6 +45,11 @@ const Tools = () => {
                 <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
                 <Tool location={ReactLogo} name="React.js"/>
                 <Tool location={NextLogo} name="Next.js"/>
+            </div>
+            <div className="divider"/>
+            <div className="tool__section">
+                <ToolsTitle emoji={<>&#128218;</>}>Libraries</ToolsTitle>
+                <Tool location={ReduxLogo} name="Redux"/>
             </div>
             <div className="divider"/>
             <div className="tool__section">

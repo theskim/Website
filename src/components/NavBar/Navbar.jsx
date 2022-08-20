@@ -1,8 +1,9 @@
 import { React, useState, useEffect, useCallback } from "react";
 import { NavLink } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import { SmoothScroll } from './SmoothScroll';
+import { SkimLogo, burgerBar } from "../../assets";
 import "./Navbar.css";
-import { SkimLogo, burgerBar, xBar } from "../../assets";
 
 const NavOptions = (props) => {
   const [hover1, update1] = useState(false);
@@ -87,7 +88,9 @@ const NavOptions = (props) => {
 const NavBar = () => {
   const [yPos, setYPos] = useState(0);
   const [display, updateDisplay] = useState(true);
-  const [showSideBar, setShowSideBar] = useState(false);
+
+  const showSideBar = useSelector( (state) => state );
+  const dispatch = useDispatch();
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
@@ -98,11 +101,12 @@ const NavBar = () => {
   useEffect (() => {
     window.addEventListener("scroll", handleScroll);
   }, [yPos, handleScroll]);
-  
+
+
   return (
       <>
       { display || showSideBar
-        ? <div className = "nav-bar">
+        ? <div className = "nav-bar" onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
             <div className = "nav-bar-image">
               <img src={SkimLogo} alt='SK'/>
             </div>
@@ -112,9 +116,10 @@ const NavBar = () => {
               </div>
             </div>
             <div className = "side-bar">      
+              <img className = "burger-bar" src={burgerBar} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}} alt=""/>
               { showSideBar
-                ? <><img className = "x-bar" src={xBar} onClick={() => setShowSideBar(false)} alt=""/><div className = "side-bar-box__activate"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div></>
-                : <><img className = "burger-bar" src={burgerBar} onClick={() => setShowSideBar(true)} alt=""/><div className = "side-bar-box"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div></>
+                ? <div className = "side-bar-box__activate" onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}><div className = "side-bar-links"><NavOptions mobile={false}/></div></div>
+                : <div className = "side-bar-box"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div>
               }
             </div>
           </div>

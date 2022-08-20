@@ -12,7 +12,7 @@ const Title = () => {
             <div className = "skills__text-box">
                 <p>
                     This section showcases different Programming Languages, 
-                    Frameworks, and Tools I have familiarized myself with.
+                    Frameworks, and Tools I had utilized in my career.
                 </p>
             </div>  
         </div>

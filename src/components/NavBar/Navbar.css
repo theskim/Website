@@ -70,16 +70,6 @@
   top: calc(50% - min(9vw, 3rem) / 2);
 }
 
-.x-bar {
-  position: fixed; cursor: pointer;
-  width: min(4.5vw, 1.5rem);
-  top: min(10.5vw, 3.5rem); right: 5%; 
-  z-index: 20;
-  visibility: hidden;
-  animation: 0.6s fadeIn;
-  animation-fill-mode: forwards;
-}
-
 .side-bar-box, .side-bar-box__activate {
   position: absolute;
   right: -100%; top: 0%;  
@@ -111,14 +101,13 @@
   text-decoration: none;
   font-family: var(--default-header-font); font-size: min(3.5vw, 1.2rem);
   scroll-behavior: smooth;
-  transition: all 0.7s ease-out;
 }
 
 .side-bar-box p:hover, .side-bar-box__activate p:hover {
   background-color: #ffffff;
   color: #000;
   text-decoration: none;
-  transition: all 0.7s ease-out;
+  transition-timing-function: cubic-bezier(.53, -0.41, .55, 1.2);
 }
 
 @media screen and (max-width: 1350px){
