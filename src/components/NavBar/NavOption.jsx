@@ -5,7 +5,7 @@ const NavOptionInner = (props) => {
     return (
         <>
             { props.mobile
-                ?   <p>{props.emoji}&nbsp;&nbsp;{props.title}</p>
+                ?   <p>&nbsp;&nbsp;{props.title}</p>
                 :   <p onMouseOver={() => props.update(true)} onMouseOut={() => props.update(false)}> 
                         { props.hover
                             ? <>{props.emoji}&nbsp;&nbsp;{props.title}</>

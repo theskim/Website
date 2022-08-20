@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import NavOption from "./NavOption";
 import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
 import "./Navbar.css";
+import "./Sidebar.css";
 
 const NavOptions = (props) => {
   const [hover1, update1] = useState(false);
@@ -56,9 +57,7 @@ const NavBar = () => {
             <div className = "side-bar">      
               <img className = "burger-bar" src={burgerBar} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}} alt=""/>
                 <div className = {showSideBar ? "side-bar-box__activate" : "side-bar-box"} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}>
-                  <div className = "side-bar__links">
                     <NavOptions mobile={true}/>
-                  </div>
                 </div>
             </div>
           </div>
