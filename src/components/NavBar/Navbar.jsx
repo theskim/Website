@@ -87,16 +87,16 @@ const NavOptions = (props) => {
 
 const NavBar = () => {
   const [yPos, setYPos] = useState(0);
-  const [display, updateDisplay] = useState(true);
+  const [displayNav, updateDisplayNav] = useState(true);
 
   const showSideBar = useSelector( (state) => state );
   const dispatch = useDispatch();
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
-    updateDisplay(currentYPos < yPos || currentYPos < 300);
+    updateDisplayNav(currentYPos < yPos || currentYPos < 300 || showSideBar);
     setYPos(currentYPos);
-  }, [yPos]);
+  }, [yPos, showSideBar]);
 
   useEffect (() => {
     window.addEventListener("scroll", handleScroll);
@@ -105,8 +105,7 @@ const NavBar = () => {
 
   return (
       <>
-      { display || showSideBar
-        ? <div className = "nav-bar" onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
+        ? <div className = {displayNav || showSideBar ? "nav-bar__activate" : "nav-bar"} onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
             <div className = "nav-bar-image">
               <img src={SkimLogo} alt='SK'/>
             </div>
@@ -117,14 +116,13 @@ const NavBar = () => {
             </div>
             <div className = "side-bar">      
               <img className = "burger-bar" src={burgerBar} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}} alt=""/>
-              { showSideBar
-                ? <div className = "side-bar-box__activate" onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}><div className = "side-bar-links"><NavOptions mobile={false}/></div></div>
-                : <div className = "side-bar-box"><div className = "side-bar-links"><NavOptions mobile={false}/></div></div>
-              }
+                <div className = {showSideBar ? "side-bar-box__activate" : "side-bar-box"} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}>
+                  <div className = "side-bar-links">
+                    <NavOptions mobile={false}/>
+                  </div>
+                </div>
             </div>
           </div>
-        : null
-      }
       </>
     );
 }
