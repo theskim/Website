@@ -50,14 +50,14 @@ const NavBar = () => {
             </div>
             <div className = "top-bar">
               <div className = "nav-bar__links">
-                <NavOptions mobile={true}/>
+                <NavOptions mobile={false}/>
               </div>
             </div>
             <div className = "side-bar">      
               <img className = "burger-bar" src={burgerBar} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}} alt=""/>
                 <div className = {showSideBar ? "side-bar-box__activate" : "side-bar-box"} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}>
                   <div className = "side-bar__links">
-                    <NavOptions mobile={false}/>
+                    <NavOptions mobile={true}/>
                   </div>
                 </div>
             </div>
