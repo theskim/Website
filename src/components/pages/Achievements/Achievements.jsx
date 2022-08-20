@@ -1,8 +1,9 @@
 import { useState } from "react";
-import "./Achievements.css"
 import achievementData from "./AchievementsData.json"
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../BackgroundAll/BackgroundAll";
+import BackgroundAll from "../../../assets/Background/Background";
+import Divider from "../../../assets/Divider/Divider";
+import "./Achievements.css"
 
 const Title = () => {
     return (
@@ -37,9 +38,11 @@ const Achievements = () => {
     return (
         <BackgroundAll>
             <Title/>
-            <div className="divider"/>
-            {(Object.values(Object.values(achievementData))).map(key => (<Achievement name={key.name} date={key.date} description={key.description} />))}
-            <div className="divider"/>
+            <Divider/>
+                {(Object.values(Object.values(achievementData))).map(key => (
+                    <Achievement name={key.name} date={key.date} description={key.description} />
+                ))}
+            <Divider/>
             <ContactMe/>
         </BackgroundAll>
     );

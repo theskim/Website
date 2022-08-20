@@ -6,15 +6,15 @@ import { Home, Skills, Projects, Experiences, Achievements, Navbar, Footer } fro
 function App() {
   return (     
     <Router>
-      <Navbar />
+      <Navbar/>
       <Routes>
-        <Route path="/skills" element={<Skills/>} />
-        <Route path="/projects" element={<Projects/>} />
-        <Route path="/experiences" element={<Experiences/>} />
-        <Route path="/achievements" element={<Achievements/>} />
-        <Route path="/" element={<Home/>} />
+        <Route path="/skills" element={<Skills/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/experiences" element={<Experiences/>}/>
+        <Route path="/achievements" element={<Achievements/>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
-      <Footer />
+      <Footer/>
     </Router>
   );
 }

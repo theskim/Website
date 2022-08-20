@@ -1,5 +1,8 @@
+import ContactInfo from "./ContactInfo";
+import SocialMedia from "./SocialMedia";
+import { ResumeLogo, LinkedInLogo, phoneLogo, mailLogo } from "../../../assets/GeneralLogos";
+import { GithubLogo } from "../../../assets/ToolLogos";
 import "./ContactMe.css";
-import { Github, Resume, LinkedIn, phoneLogo, mailLogo } from "../../../assets";
 
 const Title = () => {
     return (
@@ -9,46 +12,9 @@ const Title = () => {
     )
 }
 
-const ContactInfo = () => {
-    return (
-        <div className="contact-info">
-            <img src={phoneLogo} alt=""/>&nbsp;&nbsp;
-            <a href="tel:+1 647-887-1601">
-                647-887-1601<br/>
-            </a>
-            <img src={mailLogo} alt=""/>&nbsp;&nbsp;
-            <a href="mailto:kimsihy093@gmail.com?subject = Feedback&body = Message">
-                kimsihy093@gmail.com
-            </a>
-        </div>
-    )
-}
-
-const Logos = () => {
-    return(
-        <div className="logos">
-            <div className="logo">
-                <a className="external-link" href="https://github.com/skim1601" class="button">
-                    <img src={Github} draggable="false" alt=""/>
-                </a> 
-            </div>
-            <div className="logo">
-                <a className="external-link" href="https://www.linkedin.com/in/skim1601/" class="button">
-                    <img src={LinkedIn} draggable="false" alt=""/>
-                </a>     
-            </div>
-            <div className="logo">
-                <a className="external-link" href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" class="button">
-                    <img src={Resume} draggable="false" alt=""/>
-                </a>      
-            </div>
-        </div>
-    )
-}
-
 const ContactMeBox = (props) => {
     return (
-        <div className = 'contact-me'>
+        <div className='contact-me'>
             {props.children}
         </div>
     )
@@ -58,8 +24,15 @@ const ContactMe = () => {
     return (
       <ContactMeBox>
         <Title/>
-        <ContactInfo/>
-        <Logos/>
+        <ContactInfo 
+            src={[phoneLogo, mailLogo]}
+            href={["tel:+1 647-887-1601", "mailto:kimsihy093@gmail.com?subject = Feedback&body = Message"]}
+            display={["647-887-1601", "kimsihy093@gmail.com"]}
+        />
+        <SocialMedia 
+            src={[GithubLogo, LinkedInLogo, ResumeLogo]} 
+            href={["https://github.com/skim1601", "https://www.linkedin.com/in/skim1601/", "https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing"]}
+        />
       </ContactMeBox>
     );
   }

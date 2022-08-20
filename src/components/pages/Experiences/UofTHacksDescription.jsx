@@ -1,17 +1,14 @@
-import "./Style.css";
 import ExperienceSample from "./ExperienceSample";
-import { UofTHacksLogo } from "../../../assets";
+import { UofTHacksLogo } from "./imports";
 
 const EspDescription = () => {
-    const UofTHacks = {
-        title: "UofTHacks - Frontend Web Developer",
-        duration: "Jul 2022 - Present",
-        skills: "Next.js",
-        image: UofTHacksLogo,
-    }
-
     return (
-       <ExperienceSample experience={UofTHacks}>
+       <ExperienceSample
+        title="UofTHacks - Frontend Web Developer"
+        duration="Jul 2022 - Present"
+        skills="Next.js"
+        image={UofTHacksLogo}
+       >
             UofTHacks is the first student-run hackathon in Canada. 
             As a Frontend Developer, my task is to work on maintaining
             and developing the User Interface of the landing page and dashboard.

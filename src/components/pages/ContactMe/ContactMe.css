@@ -49,35 +49,36 @@
     color: rgb(202, 251, 255);
 }
 
-.contact-me .logos {
+.contact-me .social-media {
     text-align: center;
+    margin-top: min(3vw, 3rem);
 }
 
-.contact-me .logos .logo {
+.social__logo {
     display: inline-block;
     padding-left: min(3vw, 3rem);
     padding-right: min(3vw, 3rem);
     margin-top: 3rem;
 }
 
-.contact-me .logos .logo .external-link {
+.social__logo .external-link {
     color: #000;
     border-radius: 100%;
 }
 
-.logo {
+.social__logo {
     width: min(20vw, 7rem);
     border-radius: 100%;
     margin-left: min(1.5vw, 0.5rem); margin-right: min(1.5vw, 0.5rem);
 }
 
-.logos .logo img {
+.social__logo img {
     width: min(20vw, 7rem);
     border-radius: 50%;    
     box-shadow: 0 0 0 min(1.5vw, 0.5rem) rgb(112, 172, 250);
     transition: all 0.7s linear;
 }
 
-.logos .logo img:hover {
+.social__logo img:hover {
     box-shadow: 0 0 0 min(1.5vw, 0.5rem) rgb(115, 88, 249);
 }

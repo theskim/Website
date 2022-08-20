@@ -1,5 +1,5 @@
-import "./Style.css"
-import { Html, Css, Js, Python, C, ReactLogo, NextLogo, Git, Github, NetlifyLogo, ReduxLogo } from "../../../assets";
+import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../assets/ToolLogos";
+import "./Tools.css"
 
 const ToolsTitle = (props) => {
     return(
@@ -34,11 +34,11 @@ const Tools = () => {
         <ToolsBox>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128187;</>}>Languages</ToolsTitle>
-                <Tool location={Html} name="HTML5"/>
-                <Tool location={Css} name="CSS3"/>
-                <Tool location={Js} name="JavaScript (ES6+)"/>
-                <Tool location={Python} name="Python"/>
-                <Tool location={C} name="C"/>
+                <Tool location={HtmlLogo} name="HTML5"/>
+                <Tool location={CssLogo} name="CSS3"/>
+                <Tool location={JavascriptLogo} name="JavaScript (ES6+)"/>
+                <Tool location={PythonLogo} name="Python"/>
+                <Tool location={CLogo} name="C"/>
             </div>
             <div className="divider"/>
             <div className="tool__section">
@@ -54,8 +54,8 @@ const Tools = () => {
             <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
-                <Tool location={Git} name="Git"/>
-                <Tool location={Github} name="GitHub"/>
+                <Tool location={GitLogo} name="Git"/>
+                <Tool location={GithubLogo} name="GitHub"/>
             </div>
             <div className="divider"/>
             <div className="tool__section">

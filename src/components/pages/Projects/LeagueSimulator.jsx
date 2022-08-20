@@ -1,25 +1,20 @@
-import "./Style.css";
 import Project from "./ProjectSample";
-import { LeagueSimulatorFirst, LeagueSimulatorSecond, LeagueSimulatorThird, LeagueSimulatorFourth } from '../../../assets';
+import { LeagueSimulatorFirst, LeagueSimulatorSecond, LeagueSimulatorThird, LeagueSimulatorFourth } from '../../../assets/ProjectImages';
 
-const images = [
-  LeagueSimulatorFirst, 
-  LeagueSimulatorSecond, 
-  LeagueSimulatorThird, 
-  LeagueSimulatorFourth
-];
-
-const LeagueSimDes = () => {
-    const leaguesim = {
-        title: "Soccer League Simulator",
-        date: "Dec 2021",
-        skills: "Python",
-        img: images,
-        github: "https://github.com/skim1601/LeagueSimulator"
-    }
-
+const LeagueSimulator = () => {
     return (
-        <Project project={leaguesim}>
+        <Project
+            title="Soccer League Simulator"
+            date="Dec 2021"
+            skills="Python"
+            images={[
+                LeagueSimulatorFirst, 
+                LeagueSimulatorSecond, 
+                LeagueSimulatorThird, 
+                LeagueSimulatorFourth
+            ]}
+            github="https://github.com/skim1601/LeagueSimulator"
+        >
             A Python program that simulates the entire season (total of 38 games per team) 
             of Top 4 European Soccer (Football) Leagues. This project started off
             from my predictions when I was watching Premier League. I built the 
@@ -31,4 +26,4 @@ const LeagueSimDes = () => {
     );
 }
 
-export default LeagueSimDes;
+export default LeagueSimulator;

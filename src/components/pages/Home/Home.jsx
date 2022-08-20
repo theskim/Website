@@ -1,15 +1,16 @@
 import AboutMe from "./AboutMe";
 import Education from "./Education";
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../BackgroundAll/BackgroundAll";
+import BackgroundAll from "../../../assets/Background/Background";
+import Divider from "../../../assets/Divider/Divider";
 
 const Home = () => {
   return (
     <BackgroundAll>
       <AboutMe/>
-      <div className="divider"/>
+      <Divider/>
       <Education/>
-      <div className="divider"/>
+      <Divider/>
       <ContactMe/>
     </BackgroundAll>
   );

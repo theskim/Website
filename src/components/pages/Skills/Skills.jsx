@@ -1,7 +1,8 @@
-import "./Skills.css";
 import Tools from "./Tools";
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../BackgroundAll/BackgroundAll";
+import BackgroundAll from "../../../assets/Background/Background";
+import Divider from "../../../assets/Divider/Divider";
+import "./Skills.css";
 
 const Title = () => {
     return ( 
@@ -23,9 +24,9 @@ const Skills = () => {
     return (
         <BackgroundAll>
             <Title/>
-            <div className="divider"/>
+            <Divider/>
             <Tools/>
-            <div className="divider"/>
+            <Divider/>
             <ContactMe/>
         </BackgroundAll>
     );

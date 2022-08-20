@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Style.css";
-import ImageSlide from "./ImageSlide";
-import { Github } from "../../../assets";
+import ImageSlide from "./ImageSlide/ImageSlide";
+import { GithubLogo } from "../../../assets/ToolLogos";
+import "./Project.css";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
@@ -10,20 +10,20 @@ const ProjectSample = (props) => {
         <div className = "project-box">
             <div className = "project-title">
                 <p>
-                    {props.project.title}
+                    {props.title}
                 </p>
             </div>
             <div className = "project-tools">
                     <h4>
-                        &#128197;&nbsp;{props.project.date}&nbsp;&nbsp;
+                        &#128197;&nbsp;{props.date}&nbsp;&nbsp;
                     </h4>
                     <p>
                         <b>Skills:&nbsp;</b> 
-                        {props.project.skills}
+                        {props.skills}
                     </p>
                 </div>
             <div className = "project-image-box">
-                <ImageSlide img={props.project.img}/>
+                <ImageSlide img={props.images}/>
             </div>
             <button className="my-button" type="button" onClick={() => update(!click)}>
                 { click
@@ -37,25 +37,23 @@ const ProjectSample = (props) => {
                     :  <></>
                 }  
                 <div className = "project-links">
-                    <div className = "link-availability"> 
-                        <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
-                        {props.project.link !== undefined
-                            ? <a href = {props.project.link}>Click Here</a>
-                            : <span className = "gray">Unavailable</span>
-                        }
-                    </div><br/><br/>
-                    <div className = "github-availability"> 
-                        <img src={Github} alt='main'/>
-                        <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
-                        {props.project.github !== undefined
-                        ?<a href = {props.project.github}>
+                    <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
+                    {props.link !== undefined
+                        ? <a href = {props.link}>Click Here</a>
+                        : <span className = "gray">Unavailable</span>
+                    }
+                    <br/><br/>
+                    <img src={GithubLogo} alt='main'/>
+                    <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
+                    {props.github !== undefined
+                        ?<a href = {props.github}>
                             Click Here
                          </a>
                         :<span className = "gray">
                              Unavailable
                         </span>
-                        }
-                    </div><br/><br/>
+                    }
+                    <br/><br/>
                 </div>
             </div>
         </div>

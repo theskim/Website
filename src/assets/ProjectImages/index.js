@@ -1,0 +1,15 @@
+export const PortfolioTwoFirst = require('./PortfolioTwoImages/Portfolio-two-image1.png');
+export const PortfolioTwoSecond = require('./PortfolioTwoImages/Portfolio-two-image2.png');
+export const PortfolioTwoThird = require('./PortfolioTwoImages/Portfolio-two-image3.png');
+export const PortfolioTwoFourth = require('./PortfolioTwoImages/Portfolio-two-image4.png');
+export const PortfolioTwoFive = require('./PortfolioTwoImages/Portfolio-two-image5.png');
+export const PortfolioOneFirst = require('./PortfolioOneImages/Portfolio-one-image1.png');
+export const PortfolioOneSecond = require('./PortfolioOneImages/Portfolio-one-image2.png');
+export const PortfolioOneThird = require('./PortfolioOneImages/Portfolio-one-image3.png');
+export const ReversiFirst = require('./ReversiImages/Reversi-image1.png');
+export const ReversiSecond = require('./ReversiImages/Reversi-image2.png');
+export const ReversiThird = require('./ReversiImages/Reversi-image3.png');
+export const LeagueSimulatorFirst = require('./LeagueSimulatorImages/league-simulator-image1.png');
+export const LeagueSimulatorSecond = require('./LeagueSimulatorImages/league-simulator-image2.png');
+export const LeagueSimulatorThird = require('./LeagueSimulatorImages/league-simulator-image3.png');
+export const LeagueSimulatorFourth = require('./LeagueSimulatorImages/league-simulator-image4.png'); 

@@ -37,10 +37,10 @@ const DegreeTable = () => {
     };
 
     const mapObject = (obj) => {
-        return obj["First Semester"].map((x, i) => (
+        return obj["First Semester"].map((course, i) => (
             <tr>
                 <td>
-                    <a href={Object.values(x)}>{Object.keys(x)}</a>
+                    <a href={Object.values(course)}>{Object.keys(course)}</a>
                 </td>
                 <td>
                     <a href={Object.values(obj["Second Semester"][i])}>{Object.keys(obj["Second Semester"][i])}</a>

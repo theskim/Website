@@ -1,9 +1,10 @@
-import './Experiences.css';
 import EspDescription from './EspDescription';
 import DeepDescription from './DeepDescription';
 import UofTHacksDescription from './UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../BackgroundAll/BackgroundAll";
+import BackgroundAll from '../../../assets/Background/Background';
+import Divider from '../../../assets/Divider/Divider';
+import './Experiences.css';
 
 const Title = () => {
     return (
@@ -25,13 +26,13 @@ const Experiences = () => {
     return (
         <BackgroundAll>
             <Title/>
-            <div className="divider"/>
+            <Divider/>
             <UofTHacksDescription/>
-            <div className="divider"/>
+            <Divider/>
             <DeepDescription/>
-            <div className="divider"/>
+            <Divider/>
             <EspDescription/>
-            <div className="divider"/>
+            <Divider/>
             <ContactMe/>
         </BackgroundAll>
     );

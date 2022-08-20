@@ -1,8 +1,7 @@
 import { React, useState, useEffect, useCallback } from "react";
-import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { SmoothScroll } from './SmoothScroll';
-import { SkimLogo, burgerBar } from "../../assets";
+import NavOption from "./NavOption";
+import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
 import "./Navbar.css";
 
 const NavOptions = (props) => {
@@ -15,72 +14,12 @@ const NavOptions = (props) => {
 
   return (
     <>
-      <NavLink to='/' className ="nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update1(true)} onMouseOut={() => update1(false)}> 
-              { hover1
-                ? <>&#127968;&nbsp;&nbsp;Home</>
-                : <>Home</>
-              }
-            </p>
-          : <p>&#127968;&nbsp;&nbsp;Home</p>
-        }
-      </NavLink>
-      <NavLink to='/skills' className="nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update2(true)} onMouseOut={() => update2(false)}> 
-              { hover2
-                ? <>&#128104;&#8205;&#128187;&nbsp;&nbsp;Skills</>
-                : <>Skills</>
-              }
-            </p>
-          : <p>&#128104;&#8205;&#128187;&nbsp;&nbsp;Skills</p>
-        }
-      </NavLink>
-      <NavLink to='/experiences' className = "nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update3(true)} onMouseOut={() => update3(false)}> 
-              { hover3
-                ? <>&#128188;&nbsp;&nbsp;Experiences</>
-                : <>Experiences</>
-              }
-            </p>
-          : <p>&#128188;&nbsp;&nbsp;Experiences</p>
-        }
-      </NavLink>
-      <NavLink to='/projects' className = "nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update4(true)} onMouseOut={() => update4(false)}> 
-              { hover4
-                ? <>&#128221;&nbsp;&nbsp;Projects</>
-                : <>Projects</>
-              }
-            </p>
-          : <p>&#128221;&nbsp;&nbsp;Projects</p>
-        }
-      </NavLink>
-      <NavLink to='/achievements' className = "nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update5(true)} onMouseOut={() => update5(false)}> 
-            { hover5
-              ? <>&#127942;&nbsp;&nbsp;Achievements</>
-              : <>Achievements</>
-            }
-          </p>
-          : <p>&#127942;&nbsp;&nbsp;Achievements</p>
-        }
-      </NavLink>
-      <a href="https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing" className = "nav-link" onClick={SmoothScroll}>
-        {props.mobile
-          ? <p onMouseOver={() => update6(true)} onMouseOut={() => update6(false)}> 
-            { hover6
-              ? <>&#128195;&nbsp;&nbsp;Resume</>
-              : <>Resume</>
-            }
-          </p>
-          : <p>&#128195;&nbsp;&nbsp;Resume</p>
-        }
-      </a>
+      <NavOption to='/' title="Home" emoji={<>&#127968;</>} hover={hover1} update={update1} {...props}/>
+      <NavOption to='/skills' title="Skills" emoji={<>&#128104;&#8205;&#128187;</>} hover={hover2} update={update2} {...props}/>
+      <NavOption to='/experiences' title="Experiences" emoji={<>&#128188;</>} hover={hover3} update={update3} {...props}/>
+      <NavOption to='/projects' title="Projects" emoji={<>&#128221;</>} hover={hover4} update={update4} {...props}/>
+      <NavOption to='/achievements' title="Achievements" emoji={<>&#127942;</>} hover={hover5} update={update5} {...props}/>
+      <NavOption href='https://docs.google.com/document/d/1LYTIGA1HsmgeMmJBwkPYlB651evgiylYII6ETh6Bb4I/edit?usp=sharing' title="Resume" emoji={<>&#128195;</>} hover={hover6} update={update6} {...props}/>
     </>
   );
 }
@@ -89,7 +28,7 @@ const NavBar = () => {
   const [yPos, setYPos] = useState(0);
   const [displayNav, updateDisplayNav] = useState(true);
 
-  const showSideBar = useSelector( (state) => state );
+  const showSideBar = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const handleScroll = useCallback(() => {
@@ -106,18 +45,18 @@ const NavBar = () => {
   return (
       <>
         ? <div className = {displayNav || showSideBar ? "nav-bar__activate" : "nav-bar"} onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
-            <div className = "nav-bar-image">
+            <div className = "nav-bar__image">
               <img src={SkimLogo} alt='SK'/>
             </div>
             <div className = "top-bar">
-              <div className = "nav-links">
+              <div className = "nav-bar__links">
                 <NavOptions mobile={true}/>
               </div>
             </div>
             <div className = "side-bar">      
               <img className = "burger-bar" src={burgerBar} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}} alt=""/>
                 <div className = {showSideBar ? "side-bar-box__activate" : "side-bar-box"} onClick={(e) => {e.stopPropagation(); dispatch({type: "SHOW"})}}>
-                  <div className = "side-bar-links">
+                  <div className = "side-bar__links">
                     <NavOptions mobile={false}/>
                   </div>
                 </div>

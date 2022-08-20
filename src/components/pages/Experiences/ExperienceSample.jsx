@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./Style.css";
+import { React, useState } from "react";
+import "./Experience.css";
 
 const ExperienceSample = (props) => {
     const [click, update] = useState(false);
@@ -7,18 +7,18 @@ const ExperienceSample = (props) => {
     return (
         <div className = "experience-box">
             <div className = "experience-title">
-                <p>{props.experience.title}</p>
+                <p>{props.title}</p>
             </div>
             <div className = "experience-skills">
                     <h4>
-                        &#128197;&nbsp;{props.experience.duration}&nbsp;&nbsp;
+                        &#128197;&nbsp;{props.duration}&nbsp;&nbsp;
                     </h4>
                     <p>
                         <b>Skills:&nbsp;</b>
-                        {props.experience.skills}
+                        {props.skills}
                     </p>
                 </div>
-            <img src={props.experience.image} alt=""/><br/>
+            <img src={props.image} alt=""/><br/>
             <button className="my-button" type="button" onClick={() => update(!click)}>
                 { click
                     ?  <p>Hide Description</p>

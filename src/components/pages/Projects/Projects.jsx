@@ -1,11 +1,12 @@
 import "./Projects.css";
 import ContactMe from "../ContactMe/ContactMe";
-import PortfolioTwoDes from "./PortfolioTwoDes";
-import PortfolioOneDes from "./PortfolioOneDes";
-import ReversiDes from "./ReversiDes";
-import LeagueSimDes from "./LeagueSimulatorDescription";
-import BackgroundAll from "../BackgroundAll/BackgroundAll";
-  
+import NewPortfolio from "./NewPortfolio";
+import OldPortfolio from "./OldPortfolio";
+import Reversi from "./Reversi";
+import LeagueSimulator from "./LeagueSimulator";
+import BackgroundAll from "../../../assets/Background/Background";
+import Divider from "../../../assets/Divider/Divider";
+
 const Title = () => {
     return (
         <>
@@ -27,15 +28,15 @@ const Projects = () => {
     return (
         <BackgroundAll>
             <Title/>
-            <div className="divider"/>
-            <PortfolioTwoDes/>
-            <div className="divider"/>
-            <PortfolioOneDes/>
-            <div className="divider"/>
-            <ReversiDes/>
-            <div className="divider"/>
-            <LeagueSimDes/>
-            <div className="divider"/>
+            <Divider/>
+            <NewPortfolio/>
+            <Divider/>
+            <OldPortfolio/>
+            <Divider/>
+            <Reversi/>
+            <Divider/>
+            <LeagueSimulator/>
+            <Divider/>
             <ContactMe/>
         </BackgroundAll>
     );

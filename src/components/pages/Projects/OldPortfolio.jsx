@@ -1,25 +1,20 @@
-import "./Style.css";
 import Project from "./ProjectSample";
-import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../assets';
+import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../assets/ProjectImages';
 
-const images = [
-  PortfolioOneFirst, 
-  PortfolioOneSecond, 
-  PortfolioOneThird
-];
-
-const PortfolioOneDes = () => { 
-    const portfolio1 = {
-        title: "Portfolio Website - Old",
-        date: "Mar 2022",
-        skills: "HTML5, CSS3",
-        img: images,
-        link: "https://sean-kim-portfolio.netlify.app/",
-        github: "https://github.com/skim1601/sean-kim-old-website"
-    }
-
+const OldPortfolio = () => { 
     return (
-        <Project project={portfolio1}>
+        <Project 
+            title="Portfolio Website - Old"
+            date="Mar 2022"
+            skills="HTML5, CSS3"
+            images={[
+                PortfolioOneFirst, 
+                PortfolioOneSecond, 
+                PortfolioOneThird
+            ]}
+            link="https://sean-kim-portfolio.netlify.app/"
+            github="https://github.com/skim1601/sean-kim-old-website"
+        >
             A personal website initially designed to share myself, skills, and experiences.
             This project introduced me to scripting languages and provided me a brief 
             idea of how websites work. However, there was a huge problem with its
@@ -31,4 +26,4 @@ const PortfolioOneDes = () => {
     );
 }
 
-export default PortfolioOneDes;
+export default OldPortfolio;

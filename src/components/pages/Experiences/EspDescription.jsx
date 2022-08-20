@@ -1,17 +1,14 @@
-import "./Style.css";
 import ExperienceSample from "./ExperienceSample";
-import { ESP } from "../../../assets";
+import { ESPLogo } from "./imports";
 
 const EspDescription = () => {
-    const Esp = {
-        title: "Engineering Strategies and Practice - Engineering Project Manager",
-        duration: "Sep 2021 - Apr 2022",
-        skills: "Project Management, Gantt Chart, Engineering Design, Presentation",
-        image: ESP,
-    }
-
     return (
-       <ExperienceSample experience={Esp}>
+       <ExperienceSample 
+        title="Engineering Strategies and Practice - Engineering Project Manager"
+        duration="Sep 2021 - Apr 2022"
+        skills="Project Management, Gantt Chart, Engineering Design, Presentation"
+        image={ESPLogo}
+        >
             As a Project Manager, I was responsible for improving the team's workflow 
             through actively integrating the use of Gantt charts and setting
             internal deadlines, allowing the team to complete tasks 1 to 3 days in advance 

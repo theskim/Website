@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import { locationLogo } from "../../../assets";
+import { locationLogo } from "../../../assets/GeneralLogos";
 
 const Title = () => {
     return (
@@ -22,7 +22,6 @@ const Description = () => {
         </div>
     )
 }
-
 
 const AboutMeBox = (props) => {
     return (

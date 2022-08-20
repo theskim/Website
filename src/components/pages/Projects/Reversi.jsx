@@ -1,23 +1,18 @@
-import "./Style.css";
 import Project from "./ProjectSample";
-import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../assets';
+import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../assets/ProjectImages';
 
-const images = [
-  ReversiFirst, 
-  ReversiSecond, 
-  ReversiThird 
-];
-
-const ReversiDes = () => {
-    const reversi = {
-        title: "Reversi AI Algorithm",
-        date: "Mar 2022",
-        skills: "C",
-        img: images,
-    }
-
+const Reversi = () => {
     return (
-        <Project project={reversi}>
+        <Project 
+            title="Reversi AI Algorithm"
+            date="Mar 2022"
+            skills="C"
+            images={[
+                ReversiFirst, 
+                ReversiSecond, 
+                ReversiThird 
+            ]}
+        >
             A 3-week long course project to create a 
             "strong" Reversi game algorithm from APS105 (Computer Fundamentals) course
             at the University of Toronto. 
@@ -37,4 +32,4 @@ const ReversiDes = () => {
     );
 }
 
-export default ReversiDes;
+export default Reversi;
