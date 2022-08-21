@@ -42,7 +42,6 @@ const NavBar = () => {
     window.addEventListener("scroll", handleScroll);
   }, [yPos, handleScroll]);
 
-
   return (
       <>
         ? <div className = {displayNav || showSideBar ? "nav-bar__activate" : "nav-bar"} onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>

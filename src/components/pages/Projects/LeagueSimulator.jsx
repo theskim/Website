@@ -15,13 +15,11 @@ const LeagueSimulator = () => {
             ]}
             github="https://github.com/skim1601/LeagueSimulator"
         >
-            A Python program that simulates the entire season (total of 38 games per team) 
-            of Top 4 European Soccer (Football) Leagues. This project started off
-            from my predictions when I was watching Premier League. I built the 
-            league as an object, allowing the user to add and remove teams and change 
-            the rating of each team. This means that any soccer league can be simulated through 
-            this program, of course with a little manipulation.
-            Update: 22/23 leagues are now available. 
+            A Python program that simulates the entire season of the Top 4 European Soccer (Football) Leagues. 
+            I built the league as an object, allowing the user to access built-in methods and properties. 
+            This would allow the user to do something like adding and removing teams and changing the rating of each team.
+            Any soccer league without playoffs can be simulated through this program, with a little manipulation. 
+            Update: 22/23 leagues are available.
         </Project>
     );
 }
