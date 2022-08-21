@@ -9,11 +9,12 @@ const EspDescription = () => {
         skills="Next.js"
         image={UofTHacksLogo}
        >
-            UofTHacks is University of Toronto's annual hacathon, 
+            UofTHacks is known to be the University of Toronto's annual hackathon 
             and the first student-run hackathon in Canada. 
-            As a Frontend Developer, my role is to work on maintaining
-            and developing the hackathon's landing page and dashboard.
-            Our website is expected to handle more than 500 visitors. 
+            As a Frontend Developer, my task is to work on developing 
+            the hackathon's landing page and dashboard. This required me to follow
+            Figma prototypes and actively communicate with the team.
+            Our website is expected to handle more than 300 monthly visitors. 
         </ExperienceSample>
     );
 }

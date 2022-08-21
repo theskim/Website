@@ -10,13 +10,15 @@ const DeepDescription = () => {
         image={DEEPLogo}
         >
             The Da Vinci Engineering Enrichment Program is a summer camp for highly motivated high school students with
-            a huge interest in STEM. As a counsellor, I assisted graduate students or upper-year students in organizing
-            and mentoring students. I was involved in Python Basics, Computer Vision and Data Analytics, and Solar Cell Physics classes 
-            where I supported a group of up to 20 high school students. This was done by preparing pre-class multiple-choice questions 
-            and taking attendance for each class. I also assisted students during challenging in-class activities that 
+            a huge interest in STEM. <br/><br/>
+            As a counsellor, I assisted graduate students or upper-year students in organizing
+            and mentoring up to 20 motivated high school students. 
+            This was done by preparing pre-class multiple-choice questions, taking attendance, 
+            and supporting students during challenging in-class activities that 
             incorporated concepts such as object-oriented programming, recursion, 
-            and Python Libraries such as PyGame, NumPy, and Pandas.
-            Through DEEP, I became more familiar with mentoring and assisting other students.
+            and Python Libraries such as PyGame, NumPy, and Pandas. <br/><br/>
+            I encouraged students to pursue interests in STEM fields and provided information about opportunities 
+            for further study and careers in these areas. 
         </ExperienceSample>
     );
 }
