@@ -15,7 +15,7 @@ const EspDescription = () => {
             problem solving, systems thinking, and team dynamics. <br/><br/>
 
             As a Project Manager, I was responsible for improving the team's workflow.
-            This was done by implementing Gantt charts and set internal deadlines to improve team workflow, 
+            This was done by implementing Gantt charts and setting internal deadlines to improve team workflow, 
             resulting in the team completing tasks 1-3 days in advance of actual deadlines<br/><br/>
 
             The first project was mainly on developing an efficient unloading design for a delivery
