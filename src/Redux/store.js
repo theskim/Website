@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit"
 
-function showSideBar(state = false, action) {
+const showSideBar = (state = false, action) => {
   switch (action.type) {
     case 'SHOW':
       return true;

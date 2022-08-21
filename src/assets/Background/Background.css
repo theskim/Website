@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1450px){
     .nav__suggestion {
         margin-left: 5vw; margin-right: 5vw;  
     }

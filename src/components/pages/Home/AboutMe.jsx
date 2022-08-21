@@ -1,5 +1,6 @@
 import "./AboutMe.css";
 import { locationLogo } from "../../../assets/GeneralLogos";
+import GetDate from "../API/GetDate";
 
 const Title = () => {
     return (
@@ -12,8 +13,10 @@ const Title = () => {
 const Description = () => {
     return (
         <div className = 'about-me-description'>
-            <h4><img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada</h4><br/>
+            <h4><img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada</h4>
+            <h5><GetDate/></h5>
             <p>
+                Welcome!
                 I am a second year Computer Engineering Student at the University
                 of Toronto with a huge interest in the field of Web Development and Software Engineering. 
                 Currently, I am a Frontend Developer at UofTHacks

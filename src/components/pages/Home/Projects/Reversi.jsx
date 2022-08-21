@@ -1,5 +1,5 @@
 import Project from "./ProjectSample";
-import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../assets/ProjectImages';
+import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../../assets/ProjectImages';
 
 const Reversi = () => {
     return (

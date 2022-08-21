@@ -28,7 +28,13 @@
 .about-me .about-me-description h4 {
     font-family: var(--default-header-font);
     font-size: min(6vw, 2rem);
-    line-height: min(8.5vw, 4rem);
+    line-height: min(8vw, 3rem);
+}
+
+.about-me .about-me-description h5 {
+    font-family: var(--default-header-font);
+    font-size: min(5.25vw, 1.75rem);
+    line-height: min(8vw, 3rem);
 }
 
 .about-me-description img {
