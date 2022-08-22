@@ -44,7 +44,7 @@ const NavBar = () => {
 
   return (
       <>
-        ? <div className = {displayNav || showSideBar ? "nav-bar__activate" : "nav-bar"} onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
+          <div className = {displayNav || showSideBar ? "nav-bar__activate" : "nav-bar"} onClick={(e) => {e.stopPropagation(); dispatch({type: "UNSHOW"})}}>
             <div className = "nav-bar__image">
               <img src={SkimLogo} alt='SK'/>
             </div>

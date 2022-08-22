@@ -2,7 +2,7 @@ import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, ReactLogo, NextLo
 import "./Tools.css"
 
 const ToolsTitle = (props) => {
-    return(
+    return (
         <>
             <div className = "tools-bold">
                 <p>{props.emoji}&nbsp;&nbsp;{props.children}</p>
@@ -13,7 +13,7 @@ const ToolsTitle = (props) => {
 }
 
 const Tool = (props) => {
-    return(
+    return (
         <div class="tooltip-wrap">
             <img src={props.location} alt='main'/> <br/>
             <div class="tooltip-content">{props.name}</div> 

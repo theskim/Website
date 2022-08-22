@@ -1,5 +1,5 @@
 import Project from "./ProjectSample";
-import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../../assets/ProjectImages';
+import { ReversiFirst, ReversiSecond, ReversiThird } from '../../../assets/ProjectImages';
 
 const Reversi = () => {
     return (
@@ -21,15 +21,12 @@ const Reversi = () => {
             I initially played two "worse" algorithms I created against each other. 
             "Worse algorithm" selects a move based on the number of pieces flipped right away.
             Then I simulated five or six moves to see which move has the highest 
-            amount of pieces flipped out of all possible moves. 
-            This would allow my algorithm to find the best
-            move out of all possible moves. In addition to the number of pieces flipped,
+            amount of pieces flipped out of all possible moves. In addition to the number of pieces flipped,
             I also found the best move based on placing pieces on corners and edges. <br/><br/>
             As a result, my AI was able to beat the AIs created by the teaching team. 
             Through this project, I became more familiar with the syntax of C.
             The source code will not be available due to the 
             possibility of assisting potential academic misconduct.
-            However, I can always provide a video of my algorithm's gameplay if needed.
         </Project>
     );
 }

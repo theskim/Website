@@ -2,7 +2,7 @@ import EspDescription from './EspDescription';
 import DeepDescription from './DeepDescription';
 import UofTHacksDescription from './UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from '../../../assets/Background/Background';
+import Background from '../../../assets/Background/Background';
 import Divider from '../../../assets/Divider/Divider';
 import './Experiences.css';
 
@@ -24,7 +24,7 @@ const Title = () => {
 
 const Experiences = () => {
     return (
-        <BackgroundAll>
+        <Background>
             <Title/>
             <Divider/>
             <UofTHacksDescription/>
@@ -34,7 +34,7 @@ const Experiences = () => {
             <EspDescription/>
             <Divider/>
             <ContactMe/>
-        </BackgroundAll>
+        </Background>
     );
 };
 

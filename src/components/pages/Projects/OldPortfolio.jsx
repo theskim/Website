@@ -1,5 +1,5 @@
 import Project from "./ProjectSample";
-import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../../assets/ProjectImages';
+import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../assets/ProjectImages';
 
 const OldPortfolio = () => { 
     return (
@@ -18,13 +18,8 @@ const OldPortfolio = () => {
             A personal website initially designed to share myself, skills, and experiences.
             This project introduced me to scripting languages and provided me a brief 
             idea of how websites work. However, there was a huge problem with its
-            non-responsive nature. Now I made a new website with React,
-            thus the contents in this website remain in Spring 2022.
-            A personal website initially designed to share myself, skills, and experiences.
-            This project introduced me to scripting languages and provided me a brief 
-            idea of how websites work. However, there was a huge problem with its
-            non-responsive nature. The contents in this website remain in Spring 2022,
-            as I made a new website with React.
+            non-responsive nature.<br/><br/>
+            Now I made a new website with React, the contents in this website remain in Spring 2022.
         </Project>
     );
 }

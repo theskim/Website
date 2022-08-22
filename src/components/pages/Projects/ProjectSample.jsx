@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ImageSlide from "./ImageSlide/ImageSlide";
-import { GithubLogo } from "../../../../assets/ToolLogos";
+import { GithubLogo } from "../../../assets/ToolLogos";
 import "./Project.css";
 
 const ProjectSample = (props) => {

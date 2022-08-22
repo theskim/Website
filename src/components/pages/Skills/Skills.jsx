@@ -1,6 +1,6 @@
 import Tools from "./Tools";
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../../../assets/Background/Background";
+import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";
 import "./Skills.css";
 
@@ -22,13 +22,13 @@ const Title = () => {
 
 const Skills = () => {
     return (
-        <BackgroundAll>
+        <Background>
             <Title/>
             <Divider/>
             <Tools/>
             <Divider/>
             <ContactMe/>
-        </BackgroundAll>
+        </Background>
     );
 }
 

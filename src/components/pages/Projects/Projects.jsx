@@ -1,11 +1,11 @@
 import "./Projects.css";
-import ContactMe from "../../ContactMe/ContactMe";
+import ContactMe from "../ContactMe/ContactMe";
 import NewPortfolio from "./NewPortfolio";
 import OldPortfolio from "./OldPortfolio";
 import Reversi from "./Reversi";
 import LeagueSimulator from "./LeagueSimulator";
-import BackgroundAll from "../../../../assets/Background/Background";
-import Divider from "../../../../assets/Divider/Divider";
+import Background from "../../../assets/Background/Background";
+import Divider from "../../../assets/Divider/Divider";
 
 const Title = () => {
     return (
@@ -26,7 +26,7 @@ const Title = () => {
 
 const Projects = () => {
     return (
-        <BackgroundAll>
+        <Background>
             <Title/>
             <Divider/>
             <NewPortfolio/>
@@ -38,7 +38,7 @@ const Projects = () => {
             <LeagueSimulator/>
             <Divider/>
             <ContactMe/>
-        </BackgroundAll>
+        </Background>
     );
 }
 

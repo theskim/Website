@@ -79,4 +79,5 @@
 .school-information summary {
     margin-top: min(3rem, 9vw);
     margin-bottom: min(2rem, 6vw);
+    cursor: pointer;
 }
