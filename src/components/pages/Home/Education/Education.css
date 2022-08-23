@@ -10,8 +10,7 @@
 .school-information title, .school-information h2, .school-information p {
     display: inline-block;
     text-align: center;
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin: 0 7vw 0 7vw;
 }
 
 .school-information title {

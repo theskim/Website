@@ -14,11 +14,12 @@ const Modal = (props) => {
                 <img src={xBar} alt="&times;" onClick={() => {
                     props.update(false); 
                     SetOverflow(false);
+                
                 }}/>
             </div>
             <div className="modal__contents">
                 { props.image === undefined 
-                    ? <ImageSlide img={props.images}/>      
+                    ? <ImageSlide img={props.images}/>
                     : <img className="experience-logo" src={props.image} alt=""/> 
                 }
                 <p>

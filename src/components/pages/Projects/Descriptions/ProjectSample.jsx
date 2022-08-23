@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import ImageSlide from "../../../../assets/ImageSlide/ImageSlide";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
@@ -8,10 +8,12 @@ import SetOverflow from "../../Modal/SetOverflow";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
-    
+    const ref = useRef(null);
+    const scrollToElement = () => ref.current.scrollIntoView();
+
     return (
         <div className = "project-box">
-            <div className = "project-title">
+            <div className = "project-title" ref={ref}>
                 <p>
                     {props.title}
                 </p>
@@ -31,7 +33,7 @@ const ProjectSample = (props) => {
             <div className = "project-description">
                 { click
                     ?  <Modal update={update} {...props}/>
-                    :  <></>
+                    :  <>{scrollToElement()}</>
                 }  
                 <ProjectLinks {...props}/>
                 <br/><br/>

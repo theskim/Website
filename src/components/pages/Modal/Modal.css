@@ -38,25 +38,25 @@
 }
 
 .modal__contents {
-    display: flex;    
-    margin: 20vh 5vw 0 5vw;    
-}
-
-.modal__contents .experience-logo {
-    width: min(60vw, 20rem); height: min(60vw, 20rem);
-    margin: 0 min(15vw, 7.5rem) 0 min(15vw, 7.5rem);    
+    display: flex;  
+    margin: 15vh 1vw 0 1vw;
 }
 
 .modal__contents p {
-    margin-right: 5vw;
     color: #000;
     text-align: left;
     font-family: var(--default-text-font);
     font-size: var(--default-text-size);
 }
 
-.modal__contents .experience-logo, .modal__contents .slide-container {
-    width: min(55vw, 23rem); height: min(55vw, 23rem);
+.modal__contents .experience-logo {
+    width: min(50vw, 20rem); height: min(50vw, 20rem);
+    margin: 0 6vw 0 0; 
+}
+
+.modal__contents .slide-container {
+    width: min(60vw, 30rem); height: min(60vw, 30rem);
+    margin: 0 6vw 0 0; 
 }
 
 /* Disable Project Links under Experiences */
@@ -105,7 +105,7 @@
 }
 
 /* below 1250px */
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1200px){
     .modal__bar-title {
         display: none;
     }
@@ -125,10 +125,10 @@
     }
     .project-box .modal .project-links {
         text-align: center;  
+        margin-top: min(5vw, 3rem);
     }
     .project-box .modal .project-link {
         display: flex;
-        margin-top: min(5vw, 3rem);
         justify-content: center;
     }
     .modal__contents p {
@@ -136,7 +136,7 @@
     }
 }   
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1700px){
     .modal__contents {
         margin: 20vh 15vw 0 15vw;
     }
