@@ -9,7 +9,7 @@ import SetOverflow from "../../Modal/SetOverflow";
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
     const ref = useRef(null);
-    const scrollToElement = () => ref.current.scrollIntoView();
+    const scrollToElement = () => ref.current?.scrollIntoView();
 
     return (
         <div className = "project-box">
