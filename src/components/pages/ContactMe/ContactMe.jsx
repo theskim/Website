@@ -1,5 +1,5 @@
-import ContactInfo from "./ContactInfo";
-import SocialMedia from "./SocialMedia";
+import ContactInfo from "./Sections/ContactInfo";
+import SocialMedia from "./Sections/SocialMedia";
 import { ResumeLogo, LinkedInLogo, phoneLogo, mailLogo } from "../../../assets/GeneralLogos";
 import { GithubLogo } from "../../../assets/ToolLogos";
 import "./ContactMe.css";

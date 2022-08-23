@@ -1,0 +1,143 @@
+.modal {
+    display: block;
+    position: fixed;
+    justify-content: center;
+    top: 0; left: 0;
+    width: 100%; max-height: 100%; min-height: 100%;
+    z-index: 1000;
+    background: #eeffff;
+    overflow-y: auto;
+}  
+
+.modal__bar {
+    position: fixed; z-index: 1002;
+    background: #4a448d;
+    top: 0; left: 0;
+    width: 100%; height: min(15vw, 12vh);
+    vertical-align: middle;
+    display: flex;
+}
+
+.modal__bar-title, .modal__bar-title-alt {
+    margin: auto;
+    display: inline-block;
+    color: #eeffff;
+    font-family: var(--default-header-font);
+    font-size: min(5vw, 2rem);
+}
+
+.modal__bar-title-alt {
+    display: none;
+}
+
+.modal__bar img {
+    margin: auto;
+    display: inline-block;
+    height: min(5vw, 2.5rem);
+    cursor: pointer;
+}
+
+.modal__contents {
+    display: flex;    
+    margin: 20vh 5vw 0 5vw;    
+}
+
+.modal__contents .experience-logo {
+    width: min(60vw, 20rem); height: min(60vw, 20rem);
+    margin: 0 min(15vw, 7.5rem) 0 min(15vw, 7.5rem);    
+}
+
+.modal__contents p {
+    margin-right: 5vw;
+    color: #000;
+    text-align: left;
+    font-family: var(--default-text-font);
+    font-size: var(--default-text-size);
+}
+
+.modal__contents .experience-logo, .modal__contents .slide-container {
+    width: min(55vw, 23rem); height: min(55vw, 23rem);
+}
+
+/* Disable Project Links under Experiences */
+.experience-box .project-link {
+    display: none;
+}
+
+/* Project Box under Projects */
+.project-box .project-links {
+    font-family: var(--default-text-font);
+    font-size: min(4.3vw, 1.5rem);
+    line-height: min(6.5vw, 3rem);
+    text-align: center;
+}
+
+.project-box .project-link {
+    display: flex;
+    margin: min(5vw, 3rem) 2vw 0 2vw;
+}
+
+.project-box .modal .project-links {
+    margin-top: 10vh;
+}
+
+.project-box .modal .project-link {
+    text-align: center;
+    display: inline;
+}
+
+.project-links img {
+    width: min(4vw, 2rem);
+    object-fit: contain;
+}
+
+.project-box a {
+    transition: all 0.7s ease-out;
+    text-decoration: none;
+    color: #000;    
+}
+
+.project-box a:hover {
+    transition: all 0.7s ease-out;
+    box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+/* below 1250px */
+@media screen and (max-width: 1250px){
+    .modal__bar-title {
+        display: none;
+    }
+    .modal__bar-title-alt {
+        display: block;
+    }
+    .modal__contents .experience-logo, .modal__contents .slide-container {
+        margin: auto;
+        margin-bottom: 0;
+    }
+    .modal__bar img {
+        margin-right: 20vw;
+    }
+    .modal__contents {
+        display: grid; 
+        margin: 15vh 1vw 0 1vw;
+    }
+    .project-box .modal .project-links {
+        text-align: center;  
+    }
+    .project-box .modal .project-link {
+        display: flex;
+        margin-top: min(5vw, 3rem);
+        justify-content: center;
+    }
+    .modal__contents p {
+        margin: 10vw 10vw 5vh 10vw;
+    }
+}   
+
+@media screen and (min-width: 1600px){
+    .modal__contents {
+        margin: 20vh 15vw 0 15vw;
+    }
+}

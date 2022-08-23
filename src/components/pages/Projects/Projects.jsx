@@ -1,9 +1,9 @@
 import "./Projects.css";
 import ContactMe from "../ContactMe/ContactMe";
-import NewPortfolio from "./NewPortfolio";
-import OldPortfolio from "./OldPortfolio";
-import Reversi from "./Reversi";
-import LeagueSimulator from "./LeagueSimulator";
+import NewPortfolio from "./Descriptions/NewPortfolio";
+import OldPortfolio from "./Descriptions/OldPortfolio";
+import Reversi from "./Descriptions/Reversi";
+import LeagueSimulator from "./Descriptions/LeagueSimulator";
 import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";
 

@@ -1,5 +1,5 @@
-import AboutMe from "./AboutMe";
-import Education from "./Education";
+import AboutMe from "./AboutMe/AboutMe";
+import Education from "./Education/Education";
 import ContactMe from "../ContactMe/ContactMe";
 import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";

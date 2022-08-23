@@ -16,7 +16,7 @@
 
 .school-information title {
     font-family: var(--default-title-font);
-    font-size: min(10.5vw, 4rem);
+    font-size: var(--default-title-size);
     padding-bottom: 5rem;
 }
 
@@ -29,14 +29,18 @@
 
 .school-information p {
     font-family: var(--default-text-font);
-    font-size: min(4.3vw, 1.5rem);
-    line-height: min(6.5vw, 3rem);
+    font-size: var(--default-text-size);
+    line-height: var(--default-text-height);
 }
 
 .school-information h2 {
     font-family: var(--default-header-font);
-    font-size: min(4.3vw, 1.5rem);
-    line-height: min(6.5vw, 3rem);
+    font-size: var(--default-text-size);
+    line-height: var(--default-text-height);
+}
+
+.school-information summary {
+    cursor: pointer;
 }
 
 .school-information details {
@@ -76,8 +80,7 @@
     transition: all 0.7s ease-out;
 }
 
-.school-information summary {
+.school-information p {
     margin-top: min(3rem, 9vw);
     margin-bottom: min(2rem, 6vw);
-    cursor: pointer;
 }

@@ -4,12 +4,12 @@ import { DEEPLogo } from "./imports";
 const DeepDescription = () => {
     return (
        <ExperienceSample 
-        title="University of Toronto Engineering Outreach Office - Da Vinci Engineering Enrichment Program Counsellor"
-        duration="Jul 2022"
+        title="University of Toronto Engineering Outreach Office - DEEP Counsellor"
+        date="Jul 2022"
         skills="Python, Mentoring"
         image={DEEPLogo}
         >
-            The Da Vinci Engineering Enrichment Program is a summer camp for highly motivated high school students with
+            The Da Vinci Engineering Enrichment Program (DEEP) is a summer camp for highly motivated high school students with
             a huge interest in STEM. <br/><br/>
             As a counsellor, I assisted graduate students or upper-year students in organizing
             and mentoring up to 20 motivated high school students. 

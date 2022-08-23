@@ -1,4 +1,4 @@
-import Tools from "./Tools";
+import Tools from "./Tools/Tools";
 import ContactMe from "../ContactMe/ContactMe";
 import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";

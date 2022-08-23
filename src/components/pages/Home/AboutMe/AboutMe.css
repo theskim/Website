@@ -3,37 +3,27 @@
     flex-direction: column;
     display: inline-block;
     text-align: center;
-    padding-top: 15vh;
-    padding-bottom: 20vh;
+    padding: 15vh 0 20vh 0;
 }
 
 .about-me title {
     display: inline-block;
     text-align: center;
-    margin-left: 8vw;
-    margin-right: 8vw;
-}
-
-.about-me-description p {
-    margin-left: 8vw;
-    margin-right: 8vw;
-}
-
-.about-me title {
+    margin: 0 8vw 0 8vw;
     font-family: var(--default-title-font);
-    font-size: min(13vw, 6rem);
+    font-size: min(13vw, 5rem);
     line-height: min(17vw, 8rem);
 }
 
 .about-me .about-me-description h4 {
     font-family: var(--default-header-font);
-    font-size: min(6vw, 2rem);
+    font-size: min(6vw, 1.75rem);
     line-height: min(8vw, 3rem);
 }
 
 .about-me .about-me-description h5 {
     font-family: var(--default-header-font);
-    font-size: min(5.25vw, 1.75rem);
+    font-size: min(5.25vw, 1.5rem);
     line-height: min(8vw, 3rem);
 }
 
@@ -44,6 +34,13 @@
 
 .about-me-description p {
     font-family: var(--default-text-font);
-    font-size: min(4.3vw, 1.5rem);
-    line-height: min(6.5vw, 3rem);
+    font-size: var(--default-text-size);
+    line-height: var(--default-text-height);
+    margin: 0 8vw 0 8vw;
+}
+
+@media screen and (min-width: 1450px){
+    .about-me-description p {
+        margin: 0 10vw 0 10vw;
+    }
 }

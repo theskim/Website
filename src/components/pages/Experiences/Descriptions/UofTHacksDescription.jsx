@@ -5,7 +5,7 @@ const EspDescription = () => {
     return (
        <ExperienceSample
         title="UofTHacks - Frontend Web Developer"
-        duration="Jul 2022 - Present"
+        date="Jul 2022 - Present"
         skills="Next.js"
         image={UofTHacksLogo}
        >

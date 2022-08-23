@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
 import "./Tools.css"
 
 const ToolsTitle = (props) => {

@@ -8,7 +8,7 @@
     text-align: center;
     font-family: var(--default-title-font);
     padding-top: 15vh;
-    font-size: min(10.5vw, 4rem);
+    font-size:  var(--default-title-size);
     line-height: min(10.5vw, 5rem);
 }
 
@@ -20,8 +20,7 @@
 
 .skills__text-box p {
     font-family: var(--default-text-font);
-    font-size: min(4.3vw, 1.5rem);
+    font-size: var(--default-text-size);
     line-height: min(6.5vw, 3rem);
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 0 10vw 0 10vw;
 }

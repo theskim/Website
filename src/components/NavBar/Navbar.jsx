@@ -1,6 +1,6 @@
 import { React, useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import NavOption from "./NavOption";
+import NavOption from "./NavOption/NavOption";
 import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
 import "./Navbar.css";
 import "./Sidebar.css";

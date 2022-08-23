@@ -53,30 +53,26 @@ const DegreeTable = () => {
         <details>
             <summary className="degree_table__title">My Courses</summary>
             <span>
-                <details>
-                    <summary className="degree_table__header">First Year</summary>
-                    <span className="degree_table__contents">
-                        <table>
-                            <tr>
-                                <th>Fall 2021</th>
-                                <th>Winter 2022</th>
-                            </tr>
-                            {mapObject(firstYear)}
-                        </table>
-                    </span>
-                </details>
-                <details>
-                    <summary className="degree_table__header">Second Year</summary>
-                    <span className="degree_table__contents">
-                        <table>
-                            <tr>
-                                <th>Fall 2022</th>
-                                <th>Winter 2023</th>
-                            </tr>
-                            {mapObject(secondYear)}
-                        </table>
-                    </span>
-                </details>
+                <p className="degree_table__header">First Year</p>
+                <span className="degree_table__contents">
+                    <table>
+                        <tr>
+                            <th>Fall 2021</th>
+                            <th>Winter 2022</th>
+                        </tr>
+                        {mapObject(firstYear)}
+                    </table>
+                </span>
+                <p className="degree_table__header">Second Year</p>
+                <span className="degree_table__contents">
+                    <table>
+                        <tr>
+                            <th>Fall 2022</th>
+                            <th>Winter 2023</th>
+                        </tr>
+                        {mapObject(secondYear)}
+                    </table>
+                </span>
             </span>
         </details>
     );
