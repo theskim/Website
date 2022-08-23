@@ -1,7 +1,7 @@
 const Logo = (props) => {
     return (
         <div className="social__logo">
-            <a className="external-link" href={props.href} class="button">
+            <a className="external-link" href={props.href}>
                 <img src={props.src} alt="Loading.."/>
             </a> 
         </div>
@@ -12,7 +12,7 @@ const SocialMedia = (props) => {
     return (
         <div className="social-media">
             {props.src.map((image, i) =>
-                <Logo src={image} href={props.href[i]}/>
+                <Logo src={image} href={props.href[i]} key={props.href[i]}/>
             )}
         </div>
     )

@@ -14,9 +14,9 @@ const ToolsTitle = (props) => {
 
 const Tool = (props) => {
     return (
-        <div class="tooltip-wrap">
+        <div className="tooltip-wrap">
             <img src={props.location} alt='main'/> <br/>
-            <div class="tooltip-content">{props.name}</div> 
+            <div className="tooltip-content">{props.name}</div> 
         </div>
     )
 }

@@ -38,7 +38,7 @@ const DegreeTable = () => {
 
     const mapObject = (obj) => {
         return obj["First Semester"].map((course, i) => (
-            <tr>
+            <tr key={Object.values(course)}>
                 <td>
                     <a href={Object.values(course)}>{Object.keys(course)}</a>
                 </td>
@@ -56,21 +56,29 @@ const DegreeTable = () => {
                 <p className="degree_table__header">First Year</p>
                 <span className="degree_table__contents">
                     <table>
-                        <tr>
-                            <th>Fall 2021</th>
-                            <th>Winter 2022</th>
-                        </tr>
-                        {mapObject(firstYear)}
+                        <thead>
+                            <tr>
+                                <th>Fall 2021</th>
+                                <th>Winter 2022</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {mapObject(firstYear)}
+                        </tbody>
                     </table>
                 </span>
                 <p className="degree_table__header">Second Year</p>
                 <span className="degree_table__contents">
                     <table>
-                        <tr>
-                            <th>Fall 2022</th>
-                            <th>Winter 2023</th>
-                        </tr>
-                        {mapObject(secondYear)}
+                        <thead>
+                            <tr>
+                                <th>Fall 2022</th>
+                                <th>Winter 2023</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {mapObject(secondYear)}
+                        </tbody>
                     </table>
                 </span>
             </span>

@@ -13,7 +13,7 @@ const ContactInfo = (props) => {
     return (
         <div className="contact-info">
             {props.src.map((image, i) =>
-                <Contact src={image} href={props.href[i]}>
+                <Contact src={image} href={props.href[i]} key={props.display[i]}>
                     {props.display[i]}
                 </Contact>
             )}
