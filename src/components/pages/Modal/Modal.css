@@ -68,13 +68,13 @@
 .project-box .project-links {
     font-family: var(--default-text-font);
     font-size: min(4.3vw, 1.5rem);
-    line-height: min(8vw, 4rem);
+    line-height: min(5vw, 2.5rem);
     text-align: center;
 }
 
 .project-box .project-link {
     display: flex;
-    margin: min(5vw, 3rem) 2vw 0 2vw;
+    margin: min(10vw, 5rem) 2vw 0 2vw;
 }
 
 .project-box .modal .project-links {
