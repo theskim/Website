@@ -4,12 +4,12 @@ import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import "./Project.css";
 import ProjectLinks from "../../Modal/ProjectLinks";
-import SetOverflow from "../../Modal/SetOverflow";
+import setOverflow from "../../Modal/setOverflow";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
     const ref = useRef(null);
-    const scrollToElement = () => ref.current?.scrollIntoView();
+    const scrollToElement = () => ref.current?.scrollIntoView({ behavior: "auto" });
 
     return (
         <div className = "project-box">
@@ -26,7 +26,7 @@ const ProjectSample = (props) => {
             </div>
             <button className="my-button" type="button" onClick={() => {
                 update(true);
-                SetOverflow(true);
+                setOverflow(true);
             }}>
                 <p>View Description</p>
             </button>

@@ -1,4 +1,4 @@
-import Project from "./ProjectSample";
+import Project from "./Project";
 import { PortfolioOneFirst, PortfolioOneSecond, PortfolioOneThird } from '../../../../assets/ProjectImages';
 
 const OldPortfolio = () => { 

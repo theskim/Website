@@ -1,29 +1,15 @@
+import ContactMeBox from "./Sections/ContactMeBox";
+import ContactMeTitle from "./Sections/ContactMeTitle";
 import ContactInfo from "./Sections/ContactInfo";
 import SocialMedia from "./Sections/SocialMedia";
 import { ResumeLogo, LinkedInLogo, phoneLogo, mailLogo } from "../../../assets/GeneralLogos";
 import { GithubLogo } from "../../../assets/ToolLogos";
 import "./ContactMe.css";
 
-const Title = () => {
-    return (
-        <title>
-            &#x1F4F2;&nbsp;&nbsp;CONTACT ME
-        </title>
-    )
-}
-
-const ContactMeBox = (props) => {
-    return (
-        <div className='contact-me'>
-            {props.children}
-        </div>
-    )
-}
-
 const ContactMe = () => {
     return (
       <ContactMeBox>
-        <Title/>
+        <ContactMeTitle/>
         <ContactInfo 
             src={[phoneLogo, mailLogo]}
             href={["tel:+1 647-887-1601", "mailto:kimsihy093@gmail.com?subject = Feedback&body = Message"]}
@@ -35,6 +21,6 @@ const ContactMe = () => {
         />
       </ContactMeBox>
     );
-  }
+}
   
-  export default ContactMe;
+export default ContactMe;

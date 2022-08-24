@@ -1,4 +1,4 @@
-import Project from "./ProjectSample";
+import Project from "./Project";
 import { LeagueSimulatorFirst, LeagueSimulatorSecond, LeagueSimulatorThird, LeagueSimulatorFourth } from '../../../../assets/ProjectImages';
 
 const LeagueSimulator = () => {

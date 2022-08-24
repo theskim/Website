@@ -1,4 +1,4 @@
-const SetOverflow = (isModalOpen) => {
+const setOverflow = (isModalOpen) => {
     if (isModalOpen){
         document.getElementsByTagName('html')[0].style.overflowY = "hidden";
         document.getElementsByTagName('body')[0].style.overflowY = "hidden";
@@ -12,4 +12,4 @@ const SetOverflow = (isModalOpen) => {
     }
 }
 
-export default SetOverflow;
+export default setOverflow;

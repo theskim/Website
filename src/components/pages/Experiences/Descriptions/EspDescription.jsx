@@ -1,9 +1,9 @@
-import ExperienceSample from "./ExperienceSample";
+import Experience from "./Experience";
 import { ESPLogo } from "./imports";
 
 const EspDescription = () => {
     return (
-       <ExperienceSample 
+       <Experience 
         title="Engineering Strategies and Practice - Engineering Project Manager"
         date="Sep 2021 - Apr 2022"
         skills="Project Management, Gantt Chart, Engineering Design, Presentation"
@@ -34,7 +34,7 @@ const EspDescription = () => {
             To conclude, my experience in project management provided me with a solid understanding of 
             working with different people. For instance, having a weekly meeting with 
             the Engineering Manager and a monthly meeting with the client. <br/><br/>
-        </ExperienceSample>
+        </Experience>
     );
 }
 

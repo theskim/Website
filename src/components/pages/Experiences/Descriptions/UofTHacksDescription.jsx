@@ -1,9 +1,9 @@
-import ExperienceSample from "./ExperienceSample";
+import Experience from "./Experience";
 import { UofTHacksLogo } from "./imports";
 
 const EspDescription = () => {
     return (
-       <ExperienceSample
+       <Experience
         title="UofTHacks - Frontend Web Developer"
         date="Jul 2022 - Present"
         skills="Next.js"
@@ -15,7 +15,7 @@ const EspDescription = () => {
             the hackathon's landing page and dashboard. This required me to follow
             Figma prototypes and actively communicate with the team.
             Our website is expected to handle more than 300 monthly visitors. 
-        </ExperienceSample>
+        </Experience>
     );
 }
 

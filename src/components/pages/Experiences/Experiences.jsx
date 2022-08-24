@@ -1,3 +1,4 @@
+import ExperiencesTitle from './ExperiencesTitle';
 import EspDescription from './Descriptions/EspDescription';
 import DeepDescription from './Descriptions/DeepDescription';
 import UofTHacksDescription from './Descriptions/UofTHacksDescription';
@@ -6,26 +7,10 @@ import Background from '../../../assets/Background/Background';
 import Divider from '../../../assets/Divider/Divider';
 import './Experiences.css';
 
-const Title = () => {
-    return (
-        <>
-            <div className = "experiences__title-box">
-                <p>&#128188;&nbsp;&nbsp;EXPERIENCES</p>
-            </div>
-            <div className = "experiences__text-box">
-                <p>
-                    This section showcases different experiences I gained through
-                    work, school, and volunteering. 
-                </p>
-            </div>
-        </>
-    )
-};
-
 const Experiences = () => {
     return (
         <Background>
-            <Title/>
+            <ExperiencesTitle/>
             <Divider/>
             <UofTHacksDescription/>
             <Divider/>

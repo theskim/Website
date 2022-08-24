@@ -24,7 +24,7 @@ const NavOption = (props) => {
                 ?   <NavLink to={props.to} className ="nav-link" onClick={SmoothScroll}> 
                         <NavOptionInner {...props}/>
                     </NavLink>
-                :   <a href={props.href} className ="nav-link" onClick={SmoothScroll}> 
+                :   <a href={props.href} className ="nav-link"> 
                         <NavOptionInner {...props}/>
                     </a>
             }

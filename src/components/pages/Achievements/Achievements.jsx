@@ -1,17 +1,10 @@
 import { useState } from "react";
+import AchievementTitle from "./AchievementsTitle";
 import achievementData from "./AchievementsData.json"
 import ContactMe from "../ContactMe/ContactMe";
 import BackgroundAll from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";
 import "./Achievements.css"
-
-const Title = () => {
-    return (
-        <p className = "achievement-title">
-            &#127942;&nbsp;&nbsp;ACHIEVEMENTS
-        </p>
-    )
-}
 
 const Achievement = (props) => { 
     const [click, update] = useState(true);
@@ -37,7 +30,7 @@ const Achievement = (props) => {
 const Achievements = () => {
     return (
         <BackgroundAll>
-            <Title/>
+            <AchievementTitle/>
             <Divider/>
                 {(Object.values(Object.values(achievementData))).map(key => (
                     <Achievement name={key.name} date={key.date} description={key.description} />

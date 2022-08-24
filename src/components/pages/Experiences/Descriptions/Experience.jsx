@@ -2,7 +2,7 @@ import { React, useState, useRef } from "react";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import "./Experience.css";
-import SetOverflow from "../../Modal/SetOverflow";
+import setOverflow from "../../Modal/setOverflow";
 
 const ExperienceSample = (props) => {
     const [click, update] = useState(false);
@@ -20,8 +20,7 @@ const ExperienceSample = (props) => {
             <img className="experience-logo" src={props.image} alt=""/><br/>
             <button className="my-button" type="button" onClick={() => {
                 update(true);
-                SetOverflow(true);
-
+                setOverflow(true);
             }}>
                 <p>View Description</p>
             </button>

@@ -1,9 +1,9 @@
-import ExperienceSample from "./ExperienceSample";
+import Experience from "./Experience";
 import { DEEPLogo } from "./imports";
 
 const DeepDescription = () => {
     return (
-       <ExperienceSample 
+       <Experience 
         title="University of Toronto Engineering Outreach Office - DEEP Counsellor"
         date="Jul 2022"
         skills="Python, Mentoring"
@@ -19,7 +19,7 @@ const DeepDescription = () => {
             and Python Libraries such as PyGame, NumPy, and Pandas. <br/><br/>
             I encouraged students to pursue interests in STEM fields and provided information about opportunities 
             for further study and careers in these areas. 
-        </ExperienceSample>
+        </Experience>
     );
 }
 
