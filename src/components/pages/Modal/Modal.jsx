@@ -3,7 +3,7 @@ import BriefDescription from './BriefDescription';
 import ImageSlide from '../../../assets/ImageSlide/ImageSlide';
 import { xBar } from '../../../assets/GeneralLogos';
 import ProjectLinks from './ProjectLinks';
-import setOverflow from './setOverflow';
+import SetOverflow from './SetOverflow';
 
 const Modal = (props) => {
     return (
@@ -13,7 +13,7 @@ const Modal = (props) => {
                 <span className="modal__bar-title-alt">Description</span>
                 <img src={xBar} alt="&times;" onClick={() => {
                     props.update(false); 
-                    setOverflow(false);
+                    SetOverflow(false);
                 }}/>
             </div>
             <div className="modal__contents">

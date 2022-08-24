@@ -4,7 +4,7 @@ import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import "./Project.css";
 import ProjectLinks from "../../Modal/ProjectLinks";
-import setOverflow from "../../Modal/setOverflow";
+import SetOverflow from "../../Modal/SetOverflow";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
@@ -26,7 +26,7 @@ const ProjectSample = (props) => {
             </div>
             <button className="my-button" type="button" onClick={() => {
                 update(true);
-                setOverflow(true);
+                SetOverflow(true);
             }}>
                 <p>View Description</p>
             </button>
