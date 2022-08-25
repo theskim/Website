@@ -3,14 +3,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;  
-    padding: 10vh 7vw 10vh 7vw;
+    padding: 10vh 15vw 10vh 15vw;
 }
 
 .experience-box .experience-title h1 {
     font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);
     line-height: min(6.5vw, 3rem);
-    padding: 0 10vw 0 10vw;
     font-weight: normal;
 }
 
@@ -44,9 +43,9 @@
 }
 
 /* below 1250px */
-@media screen and (max-width: 1250px){
-    .experience-box .experience-title {
-        padding: 0 5vw 0 5vw;
+@media screen and (max-width: 1000px){
+    .experience-box {
+        padding: 10vh 5vw 10vh 5vw;
     }
     
     .experience-box .experience-skills {

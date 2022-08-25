@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
 import "./Tools.css"
 
 const ToolsTitle = (props) => {
@@ -39,6 +39,7 @@ const Tools = () => {
                 <Tool location={JavascriptLogo} name="JavaScript (ES6+)"/>
                 <Tool location={PythonLogo} name="Python"/>
                 <Tool location={CLogo} name="C"/>
+                <Tool location={PHPLogo} name="PHP"/>
             </div>
             <div className="divider"/>
             <div className="tool__section">
