@@ -4,9 +4,9 @@ import DegreeTable from "./DegreeTable";
 
 const Title = () => {
   return ( 
-    <title>
+    <h1>
       &#x1F393;&nbsp;&nbsp;EDUCATION
-    </title>
+    </h1>
   )
 }
 
@@ -22,7 +22,7 @@ const Description = () => {
         2021 - 2026 (PEY CO-OP)
       </h2>
       <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
-        {padding:"min(1rem, 3vw)", textDecoration:"none", marginTop:"1.5rem", marginBottom:"3rem"}
+        {padding:"min(1rem, 3vw)", textDecoration:"none", marginTop:"6vh", marginBottom:"8vh"}
       }>
         Learn More
       </a>

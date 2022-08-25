@@ -5,6 +5,7 @@ const Reversi = () => {
     return (
         <Project 
             title="Reversi AI Algorithm"
+            alt="Reversi AI"
             date="Mar 2022"
             skills="C"
             images={[

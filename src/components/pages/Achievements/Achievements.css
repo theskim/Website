@@ -1,4 +1,4 @@
-.achievement-title {
+.achievement-title h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -6,7 +6,24 @@
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
     padding-left: min(5vw, 5rem); padding-right: min(5vw, 5rem);
-    padding-top: 20vh; padding-bottom: 10vh;
+    padding-top: 20vh;
+    font-weight: normal;
+}
+
+.achievement__text-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 3vh 10vw 10vh 10vw;
+}
+
+.achievement__text-box p {
+    font-family: var(--default-text-font);
+    font-size: var(--default-text-size);
+    line-height: min(6.5vw, 3rem);
 }
 
 .achievement-overview p {
@@ -14,7 +31,7 @@
     font-family: var(--default-text-font);
     font-size: min(4vw, 1.5rem);
     line-height: min(7.5vw, 2.5rem);
-    margin-left: 10vw; margin-right: 10vw;
+    margin-left: 15vw; margin-right: 15vw;
 }
 
 .achievement-overview b {
@@ -29,7 +46,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 10vh;
+    padding-top: min(20vw, 20vh);
 }
 
 .achievement-box .my-button {
@@ -37,7 +54,7 @@
 }
 
 @media screen and (max-width: 1350px){
-    .achievement-title {
+    .achievement-title h1 {
         font-size: min(9vw, 3.8rem);
     }
     .achievement-overview p {

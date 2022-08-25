@@ -12,16 +12,16 @@ const ProjectSample = (props) => {
     const scrollToElement = () => ref.current?.scrollIntoView({ behavior: "auto" });
 
     return (
-        <div className = "project-box">
-            <div className = "project-title" ref={ref}>
-                <p>
+        <div className="project-box">
+            <div className="project-title" ref={ref}>
+                <h1>
                     {props.title}
-                </p>
+                </h1>
             </div>
-            <div className = "project-tools">
+            <div className="project-tools">
                 <BriefDescription {...props}/>
             </div>
-            <div className = "project-image-box">
+            <div className="project-image-box">
                 <ImageSlide img={props.images}/>
             </div>
             <button className="my-button" type="button" onClick={() => {
@@ -30,7 +30,7 @@ const ProjectSample = (props) => {
             }}>
                 <p>View Description</p>
             </button>
-            <div className = "project-description">
+            <div className="project-description">
                 { click
                     ?  <Modal update={update} {...props}/>
                     :  <>{scrollToElement()}</>

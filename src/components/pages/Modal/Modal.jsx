@@ -10,7 +10,7 @@ const Modal = (props) => {
         <div className="modal">
             <div className="modal__bar">
                 <span className="modal__bar-title">{props.title}</span>
-                <span className="modal__bar-title-alt">Description</span>
+                <span className="modal__bar-title-alt">{props.alt}</span>
                 <img src={xBar} alt="&times;" onClick={() => {
                     props.update(false); 
                     SetOverflow(false);

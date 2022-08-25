@@ -5,6 +5,7 @@ const EspDescription = () => {
     return (
        <Experience 
         title="Engineering Strategies and Practice - Engineering Project Manager"
+        alt="ESP Project Manager"
         date="Sep 2021 - Apr 2022"
         skills="Project Management, Gantt Chart, Engineering Design, Presentation"
         image={ESPLogo}

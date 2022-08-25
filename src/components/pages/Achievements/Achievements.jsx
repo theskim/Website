@@ -17,7 +17,7 @@ const Achievement = (props) => {
                     : <p>{props.description}<br/><br/></p>
                 }   
             </div>
-            <button className="my-button" type="button" onClick={() => update(!click)}>
+            <button className="my-button" type="button" style={{margin:"0"}} onClick={() => update(!click)}>
                 { click
                     ? <p>View Description</p>
                     : <p>&emsp;View Title&emsp;</p>

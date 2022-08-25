@@ -1,11 +1,8 @@
-export const PortfolioTwoFirst = require('./PortfolioTwoImages/Portfolio-two-image1.png');
-export const PortfolioTwoSecond = require('./PortfolioTwoImages/Portfolio-two-image2.png');
-export const PortfolioTwoThird = require('./PortfolioTwoImages/Portfolio-two-image3.png');
-export const PortfolioTwoFourth = require('./PortfolioTwoImages/Portfolio-two-image4.png');
-export const PortfolioTwoFive = require('./PortfolioTwoImages/Portfolio-two-image5.png');
-export const PortfolioOneFirst = require('./PortfolioOneImages/Portfolio-one-image1.png');
-export const PortfolioOneSecond = require('./PortfolioOneImages/Portfolio-one-image2.png');
-export const PortfolioOneThird = require('./PortfolioOneImages/Portfolio-one-image3.png');
+export const PortfolioFirst = require('./PortfolioImages/Portfolio-image1.png');
+export const PortfolioSecond = require('./PortfolioImages/Portfolio-image2.png');
+export const PortfolioThird = require('./PortfolioImages/Portfolio-image3.png');
+export const PortfolioFourth = require('./PortfolioImages/Portfolio-image4.png');
+export const PortfolioFive = require('./PortfolioImages/Portfolio-image5.png');
 export const ReversiFirst = require('./ReversiImages/Reversi-image1.png');
 export const ReversiSecond = require('./ReversiImages/Reversi-image2.png');
 export const ReversiThird = require('./ReversiImages/Reversi-image3.png');

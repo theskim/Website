@@ -1,7 +1,6 @@
 import ProjectsTitle from "./ProjectsTitle";
 import ContactMe from "../ContactMe/ContactMe";
-import NewPortfolio from "./Descriptions/NewPortfolio";
-import OldPortfolio from "./Descriptions/OldPortfolio";
+import Portfolio from "./Descriptions/Portfolio";
 import Reversi from "./Descriptions/Reversi";
 import LeagueSimulator from "./Descriptions/LeagueSimulator";
 import Background from "../../../assets/Background/Background";
@@ -13,9 +12,7 @@ const Projects = () => {
         <Background>
             <ProjectsTitle/>
             <Divider/>
-            <NewPortfolio/>
-            <Divider/>
-            <OldPortfolio/>
+            <Portfolio/>
             <Divider/>
             <Reversi/>
             <Divider/>

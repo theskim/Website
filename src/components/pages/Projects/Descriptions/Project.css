@@ -6,11 +6,12 @@
     padding: min(20vw, 10rem) 7vw min(20vw, 10rem) 7vw;
 }
 
-.project-box .project-title {
+.project-box h1 {
     font-family: var(--default-header-font);
     font-size: min(5vw, 2rem);
     height: 100%;
     line-height: min(6.5vw, 3rem);
+    font-weight: normal;
 }
 
 .project-box .project-tools {
@@ -29,10 +30,6 @@
 .project-description {
     display: flex;
     justify-content: center;  
-}
-
-.project-box .my-button {
-    margin: 8vh 0 5vh 0;
 }
 
 .gray {

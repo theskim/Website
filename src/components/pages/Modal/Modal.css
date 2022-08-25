@@ -47,6 +47,7 @@
     text-align: left;
     font-family: var(--default-text-font);
     font-size: var(--default-text-size);
+    line-height: var(--default-text-height);
 }
 
 .modal__contents .experience-logo {
@@ -56,7 +57,7 @@
 
 .modal__contents .slide-container {
     width: min(60vw, 30rem); height: min(60vw, 30rem);
-    margin: 0 6vw 0 0; 
+    margin: 5vh 6vw 0 0; 
 }
 
 /* Disable Project Links under Experiences */
@@ -105,7 +106,7 @@
 }
 
 /* below 1250px */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1150px){
     .modal__bar-title {
         display: none;
     }

@@ -60,6 +60,7 @@ code {
   border-color: #000;
   font-family: var(--default-text-font); font-size: min(3vw, 1rem);
   box-shadow: 6px 6px 1px 0.5px rgba(0, 0, 3, 0.2);
+  margin: 8vh 0 5vh 0;
 }
 
 .my-button:hover {

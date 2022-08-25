@@ -6,12 +6,13 @@
     padding-top: 15vh;
 }
 
-.experiences__title-box p {
+.experiences__title-box h1 {
     font-family: var(--default-title-font);
     font-size: min(10.5vw, 4rem);
     line-height: min(10.5vw, 5rem);
     margin-left: 5vw;
     margin-right: 5vw;
+    font-weight: normal;
 }
 
 .experiences__text-box {

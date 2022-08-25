@@ -8,7 +8,7 @@ const Title = () => {
     return ( 
         <div className="skills">
             <div className = "skills__title">
-                <p> &#128104;&#8205;&#128187;&nbsp;&nbsp;SKILLS</p>
+                <h1> &#128104;&#8205;&#128187;&nbsp;&nbsp;SKILLS</h1>
             </div>  
             <div className = "skills__text-box">
                 <p>

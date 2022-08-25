@@ -5,6 +5,7 @@ const LeagueSimulator = () => {
     return (
         <Project
             title="Soccer League Simulator"
+            alt="League Simulator"
             date="Dec 2021"
             skills="Python"
             images={[

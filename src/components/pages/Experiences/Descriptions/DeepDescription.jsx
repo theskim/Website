@@ -5,6 +5,7 @@ const DeepDescription = () => {
     return (
        <Experience 
         title="University of Toronto Engineering Outreach Office - DEEP Counsellor"
+        alt="DEEP Counsellor"
         date="Jul 2022"
         skills="Python, Mentoring"
         image={DEEPLogo}

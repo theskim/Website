@@ -7,16 +7,17 @@
     padding-bottom: 20vh;
 }
   
-.school-information title, .school-information h2, .school-information p {
+.school-information h1, .school-information h2, .school-information p {
     display: inline-block;
     text-align: center;
     margin: 0 7vw 0 7vw;
 }
 
-.school-information title {
+.school-information h1 {
     font-family: var(--default-title-font);
     font-size: var(--default-title-size);
     padding-bottom: 5rem;
+    font-weight: normal;
 }
 
 .school-information img {

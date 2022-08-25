@@ -12,7 +12,7 @@ const ExperienceSample = (props) => {
     return (
         <div className = "experience-box">
             <div className = "experience-title" ref={ref}>
-                <p>{props.title}</p>
+                <h1>{props.title}</h1>
             </div>
             <div className = "experience-skills">
                 <BriefDescription {...props}/>

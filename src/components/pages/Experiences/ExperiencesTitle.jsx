@@ -2,7 +2,7 @@ const ExperiencesTitle = () => {
     return (
         <>
             <div className = "experiences__title-box">
-                <p>&#128188;&nbsp;&nbsp;EXPERIENCES</p>
+                <h1>&#128188;&nbsp;&nbsp;EXPERIENCES</h1>
             </div>
             <div className = "experiences__text-box">
                 <p>

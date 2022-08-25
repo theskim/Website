@@ -1,18 +1,19 @@
 import Project from "./Project";
-import { PortfolioTwoFirst, PortfolioTwoSecond, PortfolioTwoThird, PortfolioTwoFourth, PortfolioTwoFive } from '../../../../assets/ProjectImages';
+import { PortfolioFirst, PortfolioSecond, PortfolioThird, PortfolioFourth, PortfolioFive } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {
     return (
         <Project
-            title="Portfolio Website - New"
+            title="Portfolio Website"
+            alt="Portfolio Website"
             date="Jul 2022"
             skills="React.js, Redux, HTML5, CSS3, JavaScript"
             images={[
-                PortfolioTwoFirst, 
-                PortfolioTwoSecond, 
-                PortfolioTwoThird, 
-                PortfolioTwoFourth,
-                PortfolioTwoFive
+                PortfolioFirst, 
+                PortfolioSecond, 
+                PortfolioThird, 
+                PortfolioFourth,
+                PortfolioFive
             ]}
             link="https://skim1601.com"
             github="https://github.com/skim1601/sean-kim-website"
