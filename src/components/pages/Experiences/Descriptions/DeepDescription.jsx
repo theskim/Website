@@ -14,8 +14,8 @@ const DeepDescription = () => {
             gifted and highly motivated high school students from Canada and internationally with 
             the opportunity for advanced study in a variety of science, technology, and engineering disciplines. <br/><br/>
             My work started by participating in training to review standard operating procedures, 
-            emergency protocols and industry standards. <br/><br/> <br/><br/>
-            As a counsellor, I assisted graduate students or upper-year students in organizing
+            emergency protocols and industry standards. <br/><br/>
+            After training, I assisted graduate students or upper-year students in organizing
             and mentoring up to 20 high school students. 
             This was done by preparing pre-class multiple-choice questions, taking attendance, 
             and supporting students during challenging in-class activities that 
