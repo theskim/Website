@@ -3,7 +3,7 @@
     position: fixed;
     justify-content: center;
     top: 0; left: 0;
-    width: 100%; max-height: 100%; min-height: 100%;
+    width: 100vw; max-height: 100vh; min-height: 100vh;
     z-index: 50;
     background: #eeffff;
     overflow-y: auto;
@@ -13,13 +13,13 @@
     position: fixed; z-index: 51;
     background: #4a448d;
     top: 0; left: 0;
-    width: 100%; height: min(15vw, 12vh);
+    width: 100vw; height: min(15vw, 12vh);
     vertical-align: middle;
     display: flex;
 }
 
 .modal__bar-title, .modal__bar-title-alt {
-    margin: auto;
+    margin: calc(min(15vw, 12vh) / 2 - min(5vw, 2rem) / 2) 0 calc(min(15vw, 12vh) / 2 - min(5vw, 2rem) / 2) 10vw;
     display: inline-block;
     color: #eeffff;
     font-family: var(--default-header-font);
@@ -31,7 +31,8 @@
 }
 
 .modal__bar img {
-    margin: auto;
+    position: fixed;
+    right: 20%; top: calc(min(15vw, 12vh) / 2 - min(5vw, 2.5rem) / 2);
     display: inline-block;
     height: min(5vw, 2.5rem);
     cursor: pointer;
@@ -116,9 +117,6 @@
     .modal__contents .experience-logo, .modal__contents .slide-container {
         margin: auto;
         margin-bottom: 0;
-    }
-    .modal__bar img {
-        margin-right: 20vw;
     }
     .modal__contents {
         display: grid; 

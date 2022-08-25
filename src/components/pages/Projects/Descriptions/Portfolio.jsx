@@ -4,7 +4,7 @@ import { PortfolioFirst, PortfolioSecond, PortfolioThird, PortfolioFourth, Portf
 const NewPortfolio = () => {
     return (
         <Project
-            title="Portfolio Website"
+            title="Personal Portfolio Website"
             alt="Portfolio Website"
             date="Jul 2022"
             skills="React.js, Redux, HTML5, CSS3, JavaScript"
