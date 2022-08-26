@@ -1,5 +1,5 @@
-import { HtmlLogo, CssLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
-import "./Tools.css"
+import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
+import "./Tools.scss"
 
 const ToolsTitle = (props) => {
     return (
@@ -37,6 +37,7 @@ const Tools = () => {
                 <Tool location={HtmlLogo} name="HTML5"/>
                 <Tool location={CssLogo} name="CSS3"/>
                 <Tool location={JavascriptLogo} name="JavaScript (ES6+)"/>
+                <Tool location={SASSLogo} name="SASS"/>
                 <Tool location={PythonLogo} name="Python"/>
                 <Tool location={CLogo} name="C"/>
                 <Tool location={PHPLogo} name="PHP"/>

@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { blackBurgerBar } from '../GeneralLogos';
-import './Background.css';
+import './Background.scss';
 
 const BackgroundAll = (props) => {
     const dispatch = useDispatch();

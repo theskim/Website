@@ -1,6 +1,6 @@
-import "./AboutMe.css";
 import { locationLogo } from "../../../../assets/GeneralLogos";
 import GetDate from "../../API/GetDate";
+import "./AboutMe.scss";
 
 const Title = () => {
     return (

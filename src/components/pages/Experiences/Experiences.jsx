@@ -5,7 +5,7 @@ import UofTHacksDescription from './Descriptions/UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
 import Background from '../../../assets/Background/Background';
 import Divider from '../../../assets/Divider/Divider';
-import './Experiences.css';
+import './Experiences.scss';
 
 const Experiences = () => {
     return (

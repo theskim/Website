@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import './Imageslide.css';
+import 'react-slideshow-image/dist/styles.css';
+import './Imageslide.scss';
 
 const SlideShow = (props) => {
     return (

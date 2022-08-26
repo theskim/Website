@@ -5,9 +5,9 @@
     box-shadow: 6px 6px 1px 0.5px rgba(0, 0, 3, 0.2); border: 1%;
     border-color: #000;
     border-style: solid;
-}
-
-.slide-container img {
-    pointer-events: none;
-    object-fit: contain;
+    
+    img {
+        pointer-events: none;
+        object-fit: contain;
+    }
 }

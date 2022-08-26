@@ -5,7 +5,7 @@ import Reversi from "./Descriptions/Reversi";
 import LeagueSimulator from "./Descriptions/LeagueSimulator";
 import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";
-import "./Projects.css";
+import "./Projects.scss";
 
 const Projects = () => {
     return (

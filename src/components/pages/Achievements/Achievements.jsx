@@ -2,9 +2,9 @@ import { useState } from "react";
 import AchievementTitle from "./AchievementsTitle";
 import achievementData from "./AchievementsData.json"
 import ContactMe from "../ContactMe/ContactMe";
-import BackgroundAll from "../../../assets/Background/Background";
+import Background from "../../../assets/Background/Background";
 import Divider from "../../../assets/Divider/Divider";
-import "./Achievements.css"
+import "./Achievements.scss"
 
 const Achievement = (props) => { 
     const [click, update] = useState(true);
@@ -29,15 +29,15 @@ const Achievement = (props) => {
 
 const Achievements = () => {
     return (
-        <BackgroundAll>
+        <Background>
             <AchievementTitle/>
             <Divider/>
-                {(Object.values(Object.values(achievementData))).map(key => (
-                    <Achievement name={key.name} date={key.date} description={key.description} />
-                ))}
+            {(Object.values(Object.values(achievementData))).map(key => (
+                <Achievement name={key.name} date={key.date} description={key.description} />
+            ))}
             <Divider/>
             <ContactMe/>
-        </BackgroundAll>
+        </Background>
     );
 }
 

@@ -4,6 +4,7 @@ export const JavascriptLogo = require('./js-logo.png');
 export const CLogo = require('./c-logo.png');
 export const PythonLogo = require('./python-logo.png');
 export const PHPLogo = require('./php-logo.png');
+export const SASSLogo = require('./sass-logo.png');
 export const GithubLogo = require('./github-logo.png');
 export const GitLogo = require('./git-logo.png');
 export const ReactLogo = require('./react-logo.png');

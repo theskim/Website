@@ -15,6 +15,10 @@ const LeagueSimulator = () => {
                 LeagueSimulatorFourth
             ]}
             github="https://github.com/skim1601/LeagueSimulator"
+            setup= {[
+                "git clone https://github.com/skim1601/LeagueSimulator.git", 
+                "python leaguerunner.py"
+            ]}
         >
             A Python program that simulates the entire season of the Top 4 European Soccer (Football) Leagues. 
             I built the league as an object, allowing the user to access built-in methods and properties. 

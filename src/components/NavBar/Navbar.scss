@@ -1,0 +1,90 @@
+@use '../../variables' as *;
+$navbar-background: #434343;
+$navbar-col: #fff;
+$navbar-font-size: min(3vw, 1.75rem);
+
+.nav-bar {
+	display: flex;
+	width: 100%;
+	height: min(21vw, 7rem);
+	background: $navbar-background;
+	border-top: $navbar-col;
+	border-bottom: $navbar-col;
+	border-top-width: min(8vw, 1.5rem);
+	border-bottom-width: min(8vw, 1.5rem);
+	border-top-style: groove;
+	border-bottom-style: groove;
+	z-index: 15;
+	position: fixed;
+	top: -50%;
+	transition: all 0.4s $custom-transition;
+}
+
+.nav-bar__activate {
+	display: flex;
+	width: 100%;
+	height: min(21vw, 7rem);
+	background: $navbar-background;
+	border-top: $navbar-col;
+	border-bottom: $navbar-col;
+	border-top-width: min(8vw, 1.5rem); border-bottom-width: min(8vw, 1.5rem);
+	border-top-style: groove; border-bottom-style: groove;
+	z-index: 15;
+	position: fixed;
+	top: 0%;
+	transition: all 0.3s $custom-transition;
+}
+
+.top-bar {
+	display: flex;
+	.nav-link {
+		margin-left: min(4.5vw, 1.5rem);
+		margin-right: min(4.5vw, 1.5rem);
+	}
+}
+
+.nav-bar__image {
+	img {
+		margin-left: min(21vw, 7rem);
+		display: inline-block;
+		vertical-align: middle;
+		width: min(21vw, 7rem);
+		pointer-events: none;
+	}
+}
+
+.nav-bar__links {
+	display: flex;
+	padding-left: min(20vw, 6rem);
+	.nav-link {
+		p {
+			font-family: $header-font;
+			font-size: $navbar-font-size;
+			transition: all 0.8s ease-out;
+			&:hover {
+				background-color: $navbar-col;
+				color: $navbar-background;
+				border-width: 0.5rem;
+				border-color: $navbar-col;
+				border-style: groove;
+				text-decoration: none;
+				padding: min(2vw, 1rem);
+				border-radius: min(16vw, 4rem);
+				transition: all 0.8s ease-out;
+			}
+		}
+	}
+}
+
+.nav-link {
+	color: $navbar-col;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 1450px) {
+	.top-bar {
+		display: none;
+	}
+}

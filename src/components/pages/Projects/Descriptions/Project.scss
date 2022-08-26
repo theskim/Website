@@ -1,0 +1,41 @@
+@use '../../../../variables' as *;
+
+.project-box {
+	display: absolute;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: min(20vw, 10rem) 7vw min(20vw, 10rem) 7vw;
+
+	h1 {
+		font-family: $header-font;
+		font-size: $header-size;
+		height: 100%;
+		line-height: min(6.5vw, 3rem);
+		font-weight: normal;
+	}
+
+	.project-tools {
+		p {
+			font-family: $text-font;
+			font-size: $text-size;
+			line-height: min(5vw, 2.5rem);
+		}
+	}
+}
+
+.project-image-box {
+	display: flex;
+	justify-content: center;
+	margin-bottom: min(2.1vw, 1rem);
+	object-fit: contain;
+}
+
+.project-description {
+	display: flex;
+	justify-content: center;
+}
+
+.gray {
+	color: #626262;
+}

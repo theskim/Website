@@ -1,8 +1,9 @@
-import './Modal.css';
+import './Modal.scss';
 import BriefDescription from './BriefDescription';
 import ImageSlide from '../../../assets/ImageSlide/ImageSlide';
 import { xBar } from '../../../assets/GeneralLogos';
 import ProjectLinks from './ProjectLinks';
+import ProjectSetUp from './ProjectSetUp';
 import SetOverflow from './SetOverflow';
 
 const Modal = (props) => {
@@ -21,12 +22,13 @@ const Modal = (props) => {
                     ? <ImageSlide img={props.images}/>
                     : <img className="experience-logo" src={props.image} alt=""/> 
                 }
-                <p>
+                <div className="brief-description">
                     <BriefDescription {...props}/>
-                    {props.children}
-                </p>
+                    <p>{props.children}</p>
+                </div>
             </div>
             <ProjectLinks {...props}/>
+            <ProjectSetUp {...props}/>
         </div>
     );
 }

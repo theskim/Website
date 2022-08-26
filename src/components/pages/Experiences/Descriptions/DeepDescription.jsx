@@ -9,6 +9,7 @@ const DeepDescription = () => {
         date="Jun 2022 - Jul 2022"
         skills="Python, Mentoring"
         image={DEEPLogo}
+        link="https://outreach.engineering.utoronto.ca/pre-university-programs/deep/"
         >
             The Da Vinci Engineering Enrichment Program (DEEP) is a summer camp that provides
             gifted and highly motivated high school students from Canada and internationally with 

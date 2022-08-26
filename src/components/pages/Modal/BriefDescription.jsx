@@ -1,8 +1,12 @@
 const BriefDescription = (props) => {
     return (
         <>
-            <h4>&#128197;&nbsp;{props.date}&nbsp;&nbsp;</h4>
-            <b>Skills:&nbsp;</b>{props.skills}<br/><br/>
+            <p>
+                <b>&#128197;&nbsp;{props.date}&nbsp;&nbsp;</b>
+            </p>
+            <p>
+                <b>Skills:&nbsp;</b>{props.skills}
+            </p>
         </>
     );
 } 

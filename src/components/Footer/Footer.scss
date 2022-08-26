@@ -1,0 +1,30 @@
+@use '../../variables' as *;
+$footer-col: #fff;
+$footer-background: #434343;
+
+.footer {
+	background: $footer-background;
+	border-top: $footer-col;
+	border-top-style: groove;
+	border-top-width: 1rem;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	p {
+		color: $footer-col;
+		font-size: min(3vh, 1.5rem);
+		line-height: min(3vh, 1rem);
+		font-family: $header-font;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.footer {
+		p {
+			color: $footer-col;
+			font-size: min(3vh, 1rem);
+		}
+	}
+}

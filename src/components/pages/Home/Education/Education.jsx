@@ -1,6 +1,6 @@
-import "./Education.css";
 import { UofTLogo } from "../../../../assets/GeneralLogos";
 import DegreeTable from "./DegreeTable";
+import "./Education.scss";
 
 const Title = () => {
   return ( 

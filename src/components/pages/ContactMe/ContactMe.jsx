@@ -4,7 +4,7 @@ import ContactInfo from "./Sections/ContactInfo";
 import SocialMedia from "./Sections/SocialMedia";
 import { ResumeLogo, LinkedInLogo, phoneLogo, mailLogo } from "../../../assets/GeneralLogos";
 import { GithubLogo } from "../../../assets/ToolLogos";
-import "./ContactMe.css";
+import "./ContactMe.scss";
 
 const ContactMe = () => {
     return (

@@ -2,8 +2,8 @@ import { React, useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
 import NavOptions from "./NavOptions";
-import "./Navbar.css";
-import "./Sidebar.css";
+import "./Navbar.scss";
+import "./Sidebar.scss";
 
 const NavBar = () => {
   const [yPos, setYPos] = useState(0);

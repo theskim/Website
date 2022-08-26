@@ -7,7 +7,7 @@ const NewPortfolio = () => {
             title="Personal Portfolio Website"
             alt="Portfolio Website"
             date="Jul 2022"
-            skills="React.js, Redux, HTML5, CSS3, JavaScript"
+            skills="React.js, Redux, HTML5, SASS, JavaScript"
             images={[
                 PortfolioFirst, 
                 PortfolioSecond, 
@@ -17,6 +17,11 @@ const NewPortfolio = () => {
             ]}
             link="https://skim1601.com"
             github="https://github.com/skim1601/sean-kim-website"
+            setup= {[
+                "git clone https://github.com/skim1601/sean-kim-website.git", 
+                "npm install",
+                "npm start"
+            ]}
         >
             A personal website for portfolio usage developed with React. 
             The website is responsive on almost every dimension including mobile and 

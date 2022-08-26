@@ -1,8 +1,8 @@
 import { React, useState, useRef } from "react";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
-import "./Experience.css";
 import SetOverflow from "../../Modal/SetOverflow";
+import "./Experience.scss";
 
 const ExperienceSample = (props) => {
     const [click, update] = useState(false);

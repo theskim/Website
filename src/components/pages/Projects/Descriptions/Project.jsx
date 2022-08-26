@@ -2,9 +2,9 @@ import { useState, useRef } from "react";
 import ImageSlide from "../../../../assets/ImageSlide/ImageSlide";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
-import "./Project.css";
 import ProjectLinks from "../../Modal/ProjectLinks";
 import SetOverflow from "../../Modal/SetOverflow";
+import "./Project.scss";
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);

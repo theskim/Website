@@ -1,0 +1,33 @@
+@use '../../../variables' as *;
+
+.experiences__title-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 15vh;
+	h1 {
+		font-family: $title-font;
+		font-size: min(10.5vw, 4rem);
+		line-height: min(10.5vw, 5rem);
+		margin-left: 5vw;
+		margin-right: 5vw;
+		font-weight: normal;
+	}
+}
+
+.experiences__text-box {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	p {
+		font-family: $text-font;
+		font-size: min(4.3vw, 1.5rem);
+		line-height: min(6.5vw, 3rem);
+		margin-left: 10vw;
+		margin-right: 10vw;
+		padding-bottom: 10vh;
+	}
+}
