@@ -9,18 +9,8 @@ const SideBarReducer = (state = false, action) => {
   }
 }
 
-const NavBarReducer = (state = true, action) => {
-  switch (action.type) {
-    case 'SET_NAVBAR':
-      return action.given;
-    default:
-      return true;
-  }
-}
-
 export default configureStore({
   reducer: {
-    sidebar_reducer: SideBarReducer, 
-    navbar_reducer: NavBarReducer
+    sidebar_reducer: SideBarReducer
   }
 });

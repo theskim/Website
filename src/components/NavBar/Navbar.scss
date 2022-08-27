@@ -3,7 +3,7 @@ $navbar-background: #434343;
 $navbar-col: #fff;
 $navbar-font-size: min(3vw, 1.75rem);
 
-.nav-bar {
+.nav-bar, .nav-bar__activate {
 	display: flex;
 	width: 100%;
 	height: min(21vw, 7rem);
@@ -16,21 +16,14 @@ $navbar-font-size: min(3vw, 1.75rem);
 	border-bottom-style: groove;
 	z-index: 15;
 	position: fixed;
-	top: -50%;
+}
+
+.nav-bar {
+	top: -30%;
 	transition: all 0.4s $custom-transition;
 }
 
 .nav-bar__activate {
-	display: flex;
-	width: 100%;
-	height: min(21vw, 7rem);
-	background: $navbar-background;
-	border-top: $navbar-col;
-	border-bottom: $navbar-col;
-	border-top-width: min(8vw, 1.5rem); border-bottom-width: min(8vw, 1.5rem);
-	border-top-style: groove; border-bottom-style: groove;
-	z-index: 15;
-	position: fixed;
 	top: 0%;
 	transition: all 0.3s $custom-transition;
 }

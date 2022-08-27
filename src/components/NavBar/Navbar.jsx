@@ -2,7 +2,7 @@ import { React, useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
 import NavOptions from "./NavOptions";
-import { setNavBar, setSideBar } from "../..";
+import { setSideBar } from "../..";
 import "./Navbar.scss";
 import "./Sidebar.scss";
 
@@ -10,14 +10,14 @@ const NavBar = () => {
   const [yPos, setYPos] = useState(0);
 
   const sideBarOn = useSelector((store) => store.sidebar_reducer);
-  const navBarOn = useSelector((store) => store.navbar_reducer);
   const dispatch = useDispatch();
+  const [navBarOn, setNavBar] = useState(true);
 
   const handleScroll = useCallback(() => {
     const currentYPos = window.pageYOffset;
-    dispatch(setNavBar(currentYPos < yPos || currentYPos < 300 || sideBarOn));
+    setNavBar(currentYPos <= yPos || currentYPos < 300 || sideBarOn);
     setYPos(currentYPos);
-  }, [yPos, sideBarOn, dispatch]);
+  }, [yPos, sideBarOn]);
 
   useEffect (() => {
     window.addEventListener("scroll", handleScroll);
