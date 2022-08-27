@@ -4,9 +4,9 @@ import "./AboutMe.scss";
 
 const Title = () => {
     return (
-        <title>
+        <h1>
             &#x1F464;&nbsp;&nbsp;SEAN KIM
-        </title>   
+        </h1>   
     )
 }
 

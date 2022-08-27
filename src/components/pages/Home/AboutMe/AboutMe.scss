@@ -7,7 +7,7 @@
 	text-align: center;
 	padding: 15vh 0 20vh 0;
 	
-	title {
+	h1 {
 		display: inline-block;
 		text-align: center;
 		margin: 0 8vw 0 8vw;
@@ -26,19 +26,17 @@
 			font-size: min(5.25vw, 1.5rem);
 			line-height: min(8vw, 3rem);
 		}
-	}
-}
-
-.about-me-description {
-	img {
-		height: min(6.5vw, 2.5rem);
-		pointer-events: none;
-	}
-	p {
-		font-family: $text-font;
-		font-size: $text-size;
-		line-height: $text-height;
-		margin: 0 8vw 0 8vw;
+		img {
+			height: min(6.5vw, 2.5rem);
+			pointer-events: none;
+		}
+		p {
+			color: #000;
+			font-family: $text-font;
+			font-size: $text-size;
+			line-height: $text-height;
+			margin: 0 8vw 0 8vw;
+		}
 	}
 }
 

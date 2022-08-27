@@ -1,8 +1,8 @@
 const ContactMeTitle = () => {
     return (
-        <title>
+        <h1>
             &#x1F4F2;&nbsp;&nbsp;CONTACT ME
-        </title>
+        </h1>
     )
 }
 

@@ -5,6 +5,20 @@ import App from './App';
 import { Provider } from 'react-redux';
 import store from './Redux/store';
 
+export const setSideBar = (given) => {
+  return {
+      type: 'SET_SIDEBAR',
+      given: given,
+  }
+}
+
+export const setNavBar = (given) => {
+  return {
+      type: 'SET_NAVBAR',
+      given: given,
+  }
+}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>

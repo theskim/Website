@@ -33,7 +33,7 @@ const Achievements = () => {
             <AchievementTitle/>
             <Divider/>
             {(Object.values(Object.values(achievementData))).map(key => (
-                <Achievement name={key.name} date={key.date} description={key.description} />
+                <Achievement name={key.name} date={key.date} description={key.description}/>
             ))}
             <Divider/>
             <ContactMe/>

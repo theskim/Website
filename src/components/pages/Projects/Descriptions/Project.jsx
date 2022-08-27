@@ -14,9 +14,9 @@ const ProjectSample = (props) => {
     return (
         <div className="project-box">
             <div className="project-title" ref={ref}>
-                <h1>
+                <h2>
                     {props.title}
-                </h1>
+                </h2>
             </div>
             <div className="project-tools">
                 <BriefDescription {...props}/>
