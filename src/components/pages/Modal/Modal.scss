@@ -15,6 +15,25 @@ $xbar-height: min(5vw, 2.5rem);
 	z-index: 50;
 	background: #eeffff;
 	overflow-y: auto;
+	.modal__bar {
+		position: fixed;
+		z-index: 51;
+		background: $modal-background;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: $bar-height;
+		vertical-align: middle;
+		display: flex;
+		img {
+			position: fixed;
+			right: 20%;
+			top: calc(($bar-height - $xbar-height) / 2);
+			display: inline-block;
+			height: $xbar-height;
+			cursor: pointer;
+		}	
+	}	
 	.project__setup {
 		display: grid;
 		background: #434343;
@@ -34,26 +53,6 @@ $xbar-height: min(5vw, 2.5rem);
 	}
 }
 
-.modal__bar {
-	position: fixed;
-	z-index: 51;
-	background: $modal-background;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: $bar-height;
-	vertical-align: middle;
-	display: flex;
-	img {
-		position: fixed;
-		right: 20%;
-		top: calc(($bar-height - $xbar-height) / 2);
-		display: inline-block;
-		height: $xbar-height;
-		cursor: pointer;
-	}
-}
-
 .modal__bar-title {
 	margin: calc(($bar-height - $header-size) / 2) 0 calc(($bar-height - $header-size) / 2) 10vw;
 	display: inline-block;
@@ -69,7 +68,7 @@ $xbar-height: min(5vw, 2.5rem);
 	font-family: $header-font;
 	font-size: min(5vw, 2rem);
 	display: none;
-}
+}	
 
 .modal__contents {
 	display: flex;
@@ -153,12 +152,12 @@ $xbar-height: min(5vw, 2.5rem);
 		}
 		.slide-container {
 			margin: auto;
-			margin-bottom: 0;
+			margin-bottom: 10vh;
 		}
 		display: grid;
 		margin: 15vh 1vw 0 1vw;
 		p {
-			margin: min(10vw, 3rem) min(10vw, 3rem) 5vh min(10vw, 3rem);
+			margin: 0 min(10vw, 3rem) 3vh min(10vw, 3rem);
 		}
 	}
 	.modal {
