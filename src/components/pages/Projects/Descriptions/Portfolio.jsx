@@ -1,5 +1,5 @@
 import Project from "./Project";
-import { PortfolioFirst, PortfolioSecond, PortfolioThird, PortfolioFourth, PortfolioFive } from '../../../../assets/ProjectImages';
+import { PortfolioFirst, PortfolioSecond, PortfolioThird, PortfolioFourth, PortfolioFive, PortfolioSix } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {
     return (
@@ -13,7 +13,8 @@ const NewPortfolio = () => {
                 PortfolioSecond, 
                 PortfolioThird, 
                 PortfolioFourth,
-                PortfolioFive
+                PortfolioFive,
+                PortfolioSix
             ]}
             link="https://skim1601.com"
             github="https://github.com/skim1601/sean-kim-website"

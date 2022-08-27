@@ -1,11 +1,11 @@
 const Contact = (props) => {
     return (
-        <>
+        <div className="contact">
             <img src={props.src} alt=""/>&nbsp;&nbsp;
             <a href={props.href}>
-                {props.children}<br/>
+                {props.children}
             </a>
-        </>
+        </div>
     );
 }
 

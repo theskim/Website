@@ -3,6 +3,7 @@ export const PortfolioSecond = require('./PortfolioImages/Portfolio-image2.png')
 export const PortfolioThird = require('./PortfolioImages/Portfolio-image3.png');
 export const PortfolioFourth = require('./PortfolioImages/Portfolio-image4.png');
 export const PortfolioFive = require('./PortfolioImages/Portfolio-image5.png');
+export const PortfolioSix = require('./PortfolioImages/Portfolio-image6.png');
 export const ReversiFirst = require('./ReversiImages/Reversi-image1.png');
 export const ReversiSecond = require('./ReversiImages/Reversi-image2.png');
 export const ReversiThird = require('./ReversiImages/Reversi-image3.png');
