@@ -17,6 +17,12 @@ $sidebar-background: #4a448d;
 	height: min(9vw, 3rem);
 	right: min(21vw, 7rem);
 	top: calc(50% - min(9vw, 3rem) / 2);
+	transition: all 0.3s ease-in-out;			
+	-webkit-user-drag: none;
+	&:hover {
+		transform: scale(1.15);
+		transition: all 0.3s ease-in-out;
+	}
 }
 
 .side-bar-box {
@@ -46,7 +52,7 @@ $sidebar-background: #4a448d;
 		p {
 			&:hover {
 				background-color: $sidebar-hover-col;
-				color: #000000;
+				color: #000000;				
 				text-decoration: none;
 				transition: all 0.5s ease-in-out;
 			}
@@ -85,7 +91,7 @@ $sidebar-background: #4a448d;
 	}
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1400px) {
 	.side-bar {
 		display: flex;
 	}

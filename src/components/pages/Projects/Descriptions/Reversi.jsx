@@ -13,6 +13,7 @@ const Reversi = () => {
                 ReversiSecond, 
                 ReversiThird 
             ]}
+            project={true}
         >
             The Reversi Project is a 3-week long project to create a 
             "strong" Reversi game algorithm, offered by APS105 (Computer Fundamentals) course

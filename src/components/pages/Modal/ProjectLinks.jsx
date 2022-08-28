@@ -10,18 +10,21 @@ const ProjectLinks = (props) => {
                     : <span className = "gray">Unavailable</span>
                 }
             </span>
-            <span className="project-link">
-                <img src={GithubLogo} alt='main'/>
-                <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
-                {props.github !== undefined
-                    ?<a href = {props.github}>
-                        Click Here
-                        </a>
-                    :<span className = "gray">
-                            Unavailable
+            { props.project 
+                ?   <span className="project-link">
+                        <img src={GithubLogo} alt='main' />
+                            <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
+                            {props.github !== undefined
+                                ?<a href = {props.github}>
+                                    Click Here
+                                    </a>
+                                :<span className = "gray">
+                                        Unavailable
+                                </span>
+                            }
                     </span>
-                }
-            </span>
+                : <></>
+            }
             <br/><br/>
         </div>     
     );

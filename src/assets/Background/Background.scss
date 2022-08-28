@@ -2,9 +2,9 @@
 $box-col: #eeffff;
 
 .background__all {
-	background: linear-gradient(95deg, rgb(115, 88, 249), rgb(112, 172, 250) 20%, rgb(115, 88, 249) 30%, rgb(112, 172, 250) 40%, rgb(115, 88, 249) 90%, rgb(112, 172, 250) 60%, rgb(115, 88, 249) 70%, rgb(112, 172, 250) 80%, rgb(115, 88, 249) 90%, rgb(112, 172, 250));
+	background: linear-gradient(95deg, rgb(127, 103, 250), rgb(112, 172, 250),rgb(139, 117, 252));
 	background-size: 600% 100%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 7s ease infinite;
 	animation-direction: alternate;
 	padding-top: 20vh;
 	padding-bottom: 20vh;
@@ -17,7 +17,7 @@ $box-col: #eeffff;
 	margin-left: 20vw;
 	margin-right: 20vw;
 	border-radius: min(3vh, 1rem);
-	box-shadow: 12px 12px 2px 1px rgba(0, 0, 3, 0.2);
+	box-shadow: 0 0 10px 16px rgba(0, 0, 3, 0.2);
 	p {
 		font-family: $text-font;
 		color: #000;
@@ -40,7 +40,7 @@ $box-col: #eeffff;
 	margin-left: 15vw;
 	margin-right: 15vw;
 	border-radius: min(10vh, 5rem);
-	box-shadow: 12px 12px 2px 1px rgba(0, 0, 3, 0.2);
+	box-shadow: 0 0 10px 16px rgba(0, 0, 3, 0.2);
 }
 
 @media screen and (max-width: 1350px) {

@@ -3,18 +3,8 @@ import { SmoothScroll } from "./SmoothScroll";
 
 const NavOptionInner = (props) => {
     return (
-        <>
-            { props.mobile
-                ?   <p>&nbsp;&nbsp;{props.title}</p>
-                :   <p onMouseOver={() => props.update(true)} onMouseOut={() => props.update(false)}> 
-                        { props.hover
-                            ? <>{props.emoji}&nbsp;&nbsp;{props.title}</>
-                            : <>{props.title}</>
-                        }
-                    </p>
-            }
-        </>
-    )
+        <p>{props.title}</p>
+    );
 }
 
 const NavOption = (props) => {

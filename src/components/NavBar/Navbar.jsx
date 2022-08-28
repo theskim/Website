@@ -31,7 +31,7 @@ const NavBar = () => {
             </div>
             <div className = "top-bar">
               <div className = "nav-bar__links">
-                <NavOptions mobile={false}/>
+                <NavOptions/>
               </div>
             </div>
             <div className = "side-bar">      
@@ -43,7 +43,7 @@ const NavBar = () => {
                   e.stopPropagation(); 
                   dispatch(setSideBar(true));
                 }}>
-                    <NavOptions mobile={true}/>
+                    <NavOptions/>
                 </div>
             </div>
           </div>

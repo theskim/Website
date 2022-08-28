@@ -44,24 +44,12 @@ const Tools = () => {
             </div>
             <div className="divider"/>
             <div className="tool__section">
-                <ToolsTitle emoji={<>&#128736;&#65039;</>}>Frameworks</ToolsTitle>
+                <ToolsTitle emoji={<>&#128736;&#65039;</>}>Technologies</ToolsTitle>
                 <Tool location={ReactLogo} name="React.js"/>
                 <Tool location={NextLogo} name="Next.js"/>
-            </div>
-            <div className="divider"/>
-            <div className="tool__section">
-                <ToolsTitle emoji={<>&#128218;</>}>Libraries</ToolsTitle>
                 <Tool location={ReduxLogo} name="Redux"/>
-            </div>
-            <div className="divider"/>
-            <div className="tool__section">
-                <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
                 <Tool location={GitLogo} name="Git"/>
                 <Tool location={GithubLogo} name="GitHub"/>
-            </div>
-            <div className="divider"/>
-            <div className="tool__section">
-                <ToolsTitle emoji={<>&#128233;</>}>Deployment</ToolsTitle>
                 <Tool location={NetlifyLogo} name="Netlify"/>
             </div>
         </ToolsBox>

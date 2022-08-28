@@ -8,28 +8,25 @@
 .tool__section {
 	padding-top: 15vh;
 	padding-bottom: 10vh;
-	margin-left: 5vw;
-	margin-right: 5vw;
+	margin: 0 5vw;
 }
 
 .tools-bold {
 	p {
 		display: block;
 		font-family: $header-font;
-		font-size: $header-size;
+		font-size: min(7vw, 2.2rem);
 		line-height: min(10vh, 3rem);
 	}
 }
 
 .tooltip-wrap {
 	display: inline-block;
-	margin-left: min(3vw, 3rem);
-	margin-right: min(3vw, 3rem);
-	padding-bottom: 7vh;
+	padding: 4vh;
 	img {
 		cursor: pointer;
-		width: min(30vw, 10rem);
-		margin: min(10vw, 5rem);
+		width: min(20vw, 8rem);
+		margin: min(9vw, 3rem);
 		pointer-events: none;
 	}
 	.tooltip-content {
@@ -43,7 +40,20 @@
 			opacity: 1;
 			font-family: $header-font;
 			transition: all 0.3s ease-out;
-			font-size: $header-size;
+			font-size: $text-size;
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.tooltip-wrap {
+		img {
+			width: min(30vw, 10rem);
+		}
+		&:hover {
+			.tooltip-content {
+				font-size: $header-size;
+			}
 		}
 	}
 }

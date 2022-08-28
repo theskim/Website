@@ -1,12 +1,11 @@
 @use '../../variables' as *;
 $footer-col: #fff;
-$footer-background: #434343;
+$footer-background: linear-gradient(90deg, rgb(45, 102, 176), rgb(58, 38, 162));
 
 .footer {
 	background: $footer-background;
 	border-top: $footer-col;
-	border-top-style: groove;
-	border-top-width: 1rem;
+	border-top-style: solid;
 	height: 12vh;
 	display: flex;
 	justify-content: center;
@@ -14,8 +13,7 @@ $footer-background: #434343;
 	p {
 		color: $footer-col;
 		font-size: min(3vh, 1.5rem);
-		line-height: min(3vh, 1rem);
-		font-family: $header-font;
+		font-family: $text-font;
 		text-align: center;
 	}
 }

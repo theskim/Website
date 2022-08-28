@@ -4,30 +4,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 15vh;
-
+	padding: 15vh 0 10vh 0;
 	h1 {
 		font-family: $title-font;
 		font-size: $title-size;
 		line-height: min(10.5vw, 5rem);
-		padding: 0 5vw 0 5vw;
+		padding: 0 5vw;
 		font-weight: normal;
-	}
-}
-
-.projects__text-box {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	flex-direction: column;
-	padding: 0 10vw 15vh 10vw;
-    
-	p {
-		font-family: $text-font;
-		font-size: $text-size;
-		line-height: min(6.5vw, 3rem);
-		padding-left: 0 10vw 15vh 10vw;
 	}
 }

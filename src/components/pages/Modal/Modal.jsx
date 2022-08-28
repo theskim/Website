@@ -18,10 +18,12 @@ const Modal = (props) => {
                 }}/>
             </div>
             <div className="modal__contents">
-                { props.image === undefined 
-                    ? <ImageSlide img={props.images}/>
-                    : <img className="experience-logo" src={props.image} alt=""/> 
-                }
+                <div className="modal__image">
+                    { props.image === undefined 
+                        ? <ImageSlide img={props.images}/>
+                        : <img className="experience-logo" src={props.image} alt=""/> 
+                    }
+                </div>
                 <div className="brief-description">
                     <BriefDescription {...props}/>
                     <p>{props.children}</p>

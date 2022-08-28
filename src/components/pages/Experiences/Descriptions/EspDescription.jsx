@@ -10,6 +10,7 @@ const EspDescription = () => {
         skills="Project Management, Gantt Chart, Engineering Design, Presentation"
         image={ESPLogo}
         link="http://www.esp.engineering.utoronto.ca/"
+        project={false}
         >
             Engineering Strategies and Practice is a design course, 
             offered in first year engineering at the University of Toronto.

@@ -5,7 +5,7 @@ const BriefDescription = (props) => {
                 <b>&#128197;&nbsp;{props.date}&nbsp;&nbsp;</b>
             </p>
             <p>
-                <b>Skills:&nbsp;</b>{props.skills}
+                <b>{props.project ? <>Tech Stack</> :<>Skills</>}:&nbsp;</b>{props.skills}
             </p>
         </>
     );

@@ -10,6 +10,7 @@ const EspDescription = () => {
         skills="Next.js"
         image={UofTHacksLogo}
         link="https://linktr.ee/uofthacks"
+        project={false}
        >
             UofTHacks is known to be the University of Toronto's annual hackathon 
             and the first student-run hackathon in Canada. 

@@ -7,7 +7,7 @@ const NewPortfolio = () => {
             title="Personal Portfolio Website"
             alt="Portfolio Website"
             date="Jul 2022"
-            skills="React.js, Redux, HTML5, SASS, JavaScript"
+            skills="React.js, Redux, HTML5, SASS, JavaScript (ES6)"
             images={[
                 PortfolioFirst, 
                 PortfolioSecond, 
@@ -23,6 +23,7 @@ const NewPortfolio = () => {
                 "npm install",
                 "npm start"
             ]}
+            project={true}
         >
             A personal website for portfolio usage developed with React. 
             The website is responsive on almost every dimension including mobile and 

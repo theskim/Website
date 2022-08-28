@@ -37,7 +37,9 @@ $xbar-height: min(5vw, 2.5rem);
 	.project__setup {
 		display: grid;
 		background: #434343;
-		color: #eeffff;
+		color: #eeffff;	
+		justify-content: center;
+		text-align: center;
 		margin-top: min(10vh, 10vw);
 		padding-bottom: min(5vh, 5vw);
 		code {
@@ -80,52 +82,21 @@ $xbar-height: min(5vw, 2.5rem);
 		font-size: $text-size;
 		line-height: $text-height;
 	}
-	.experience-logo {
-		width: min(50vw, 20rem);
-		height: min(50vw, 20rem);
-		margin: 5vh 6vw 0 0;
-	}
-	.slide-container {
-		width: min(60vw, 30rem);
-		height: min(60vw, 30rem);
-		margin: 5vh 6vw 0 0;
-	}
-}
-
-.experience-box {
-	.project-link {
-		&:nth-child(2){
-			display: none;
+	.modal__image {
+		transition: all 0.2s ease-in-out;
+		.experience-logo {
+			width: min(50vw, 20rem);
+			height: min(50vw, 20rem);
+			margin: 5vh 6vw 0 0;
 		}
-	}
-}
-
-.experience-box, .project-box {
-	.project-links {
-		display: grid;
-		font-family: $text-font;
-		font-size: min(4.3vw, 1.5rem);
-		line-height: min(5vw, 2.5rem);
-	}
-	.project-link {
-		margin: min(10vw, 5rem) 2vw 0 2vw;    
-	}
-	.modal {
-		.project-links {
-			display: flex;
-			justify-content: center;
-			margin-bottom: 10vh;
+		.slide-container {
+			width: min(60vw, 30rem);
+			height: min(60vw, 30rem);
+			margin: 5vh 6vw 0 0;
 		}
-	}
-	a {
-		transition: all 0.7s ease-out;
-		text-decoration: none;
-		color: #000;
 		&:hover {
-			transition: all 0.7s ease-out;
-			box-shadow: inset 0 0 0 30px #000, 0 0 0 5px #000;
-			border-radius: 1rem;
-			color: #fff;
+			transform: scale(1.1);
+			transition: all 0.2s ease-in-out;
 		}
 	}
 }
@@ -146,16 +117,14 @@ $xbar-height: min(5vw, 2.5rem);
 		display: block;
 	}
 	.modal__contents {
-		.experience-logo {
-			margin: auto;
-			margin-bottom: 7vh;
-		}
-		.slide-container {
-			margin: auto;
-			margin-bottom: 7vh;
+		.modal__image {
+			.experience-logo, .slide-container {
+				margin: auto;
+			}
+			margin: min(15vw, 10vh) 0 !important;
 		}
 		display: grid;
-		margin: 15vh 1vw 0 1vw;
+		margin: min(15vw, 15vh) 1vw 0 1vw;
 		p {
 			margin: 0 min(10vw, 3rem) 3vh min(10vw, 3rem);
 		}
