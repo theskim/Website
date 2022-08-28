@@ -94,10 +94,6 @@ $xbar-height: min(5vw, 2.5rem);
 			height: min(60vw, 30rem);
 			margin: 5vh 6vw 0 0;
 		}
-		&:hover {
-			transform: scale(1.1);
-			transition: all 0.2s ease-in-out;
-		}
 	}
 }
 
