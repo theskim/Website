@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
 import "./Tools.scss"
 
 const ToolsTitle = (props) => {
@@ -50,6 +50,7 @@ const Tools = () => {
                 <Tool location={ReduxLogo} name="Redux"/>
                 <Tool location={GitLogo} name="Git"/>
                 <Tool location={GithubLogo} name="GitHub"/>
+                <Tool location={HerokuLogo} name="Heroku"/>
                 <Tool location={NetlifyLogo} name="Netlify"/>
             </div>
         </ToolsBox>

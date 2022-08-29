@@ -1,3 +1,7 @@
+export const ClickFirst = require('./ClickImages/click-image1.png');
+export const ClickSecond = require('./ClickImages/click-image2.png');
+export const ClickThird = require('./ClickImages/click-image3.png');
+export const ClickFourth = require('./ClickImages/click-image4.png');
 export const PortfolioFirst = require('./PortfolioImages/Portfolio-image1.png');
 export const PortfolioSecond = require('./PortfolioImages/Portfolio-image2.png');
 export const PortfolioThird = require('./PortfolioImages/Portfolio-image3.png');

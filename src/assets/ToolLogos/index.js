@@ -10,4 +10,5 @@ export const GitLogo = require('./git-logo.png');
 export const ReactLogo = require('./react-logo.png');
 export const NextLogo = require('./next-logo.png');
 export const ReduxLogo = require('./redux-logo.png');
+export const HerokuLogo = require('./heroku-logo.png');
 export const NetlifyLogo = require('./netlify-logo.png');

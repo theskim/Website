@@ -1,5 +1,6 @@
 import ProjectsTitle from "./ProjectsTitle";
 import ContactMe from "../ContactMe/ContactMe";
+import Click from "./Descriptions/Click";
 import Portfolio from "./Descriptions/Portfolio";
 import Reversi from "./Descriptions/Reversi";
 import LeagueSimulator from "./Descriptions/LeagueSimulator";
@@ -11,6 +12,8 @@ const Projects = () => {
     return (
         <Background>
             <ProjectsTitle/>
+            <Divider/>
+            <Click/>
             <Divider/>
             <Portfolio/>
             <Divider/>
