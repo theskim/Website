@@ -8,7 +8,6 @@ const ProjectSetUp = (props) => {
                         <code key={command}>{command}</code>
                     )}
                  </div>
-
                 : <></>
             }
         </>

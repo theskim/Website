@@ -1,2 +1,2 @@
-import { ESPLogo, DEEPLogo, UofTHacksLogo } from "../../../../assets/ExperienceLogos";
-export { ESPLogo, DEEPLogo, UofTHacksLogo };
+import { ESPLogo, DEEPLogo, UofTHacksLogo, CommuterLogo } from "../../../../assets/ExperienceLogos";
+export { ESPLogo, DEEPLogo, UofTHacksLogo, CommuterLogo };

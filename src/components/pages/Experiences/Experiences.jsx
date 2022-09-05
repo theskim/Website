@@ -1,6 +1,7 @@
 import ExperiencesTitle from './ExperiencesTitle';
 import EspDescription from './Descriptions/EspDescription';
 import DeepDescription from './Descriptions/DeepDescription';
+import CommuterDescription from './Descriptions/CommuterDescription';
 import UofTHacksDescription from './Descriptions/UofTHacksDescription';
 import ContactMe from "../ContactMe/ContactMe";
 import Background from '../../../assets/Background/Background';
@@ -13,6 +14,8 @@ const Experiences = () => {
             <ExperiencesTitle/>
             <Divider/>
             <UofTHacksDescription/>
+            <Divider/>
+            <CommuterDescription/>
             <Divider/>
             <DeepDescription/>
             <Divider/>
