@@ -13,7 +13,7 @@ const Title = () => {
 const Description = () => {
     return (
         <div className = 'about-me-description'>
-            <h4><img src={locationLogo} alt=""/>&nbsp;Oakville, ON, Canada</h4>
+            <h4><img src={locationLogo} alt=""/>&nbsp;Toronto, ON, Canada</h4>
             <h5><GetDate/></h5>
             <p>
                 Welcome!

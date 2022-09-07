@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo } from "../../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo, MATLABLogo } from "../../../../assets/ToolLogos";
 import "./Tools.scss"
 
 const ToolsTitle = (props) => {
@@ -33,14 +33,15 @@ const Tools = () => {
     return (
         <ToolsBox>
             <div className="tool__section">
-                <ToolsTitle emoji={<>&#128187;</>}>Languages</ToolsTitle>
+                <ToolsTitle emoji={<>&#128187;</>}>Languages</ToolsTitle>               
+                <Tool location={CLogo} name="C"/>
+                <Tool location={PythonLogo} name="Python"/>
                 <Tool location={HtmlLogo} name="HTML5"/>
                 <Tool location={CssLogo} name="CSS3"/>
                 <Tool location={JavascriptLogo} name="JavaScript (ES6+)"/>
                 <Tool location={SASSLogo} name="SASS"/>
-                <Tool location={PythonLogo} name="Python"/>
-                <Tool location={CLogo} name="C"/>
                 <Tool location={PHPLogo} name="PHP"/>
+                <Tool location={MATLABLogo} name="MATLAB"/>
             </div>
             <div className="divider"/>
             <div className="tool__section">
