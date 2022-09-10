@@ -1,5 +1,7 @@
 import ProjectsTitle from "./ProjectsTitle";
 import ContactMe from "../ContactMe/ContactMe";
+import NumberSystem from "./Descriptions/NumberSystem";
+import CommuterStudent from "./Descriptions/CommuterStudent";
 import Click from "./Descriptions/Click";
 import Portfolio from "./Descriptions/Portfolio";
 import Reversi from "./Descriptions/Reversi";
@@ -12,6 +14,10 @@ const Projects = () => {
     return (
         <Background>
             <ProjectsTitle/>
+            <Divider/>
+            <NumberSystem/>
+            <Divider/>
+            <CommuterStudent/>
             <Divider/>
             <Click/>
             <Divider/>

@@ -17,7 +17,7 @@ const NewPortfolio = () => {
                 PortfolioSix
             ]}
             link="https://skim1601.com"
-            github="https://github.com/skim1601/sean-kim-website"
+            github="https://github.com/skim1601/SeanKim-Website"
             setup= {[
                 "git clone https://github.com/skim1601/sean-kim-website.git", 
                 "npm install",

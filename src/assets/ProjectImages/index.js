@@ -1,3 +1,8 @@
+export const NumberSystemFirst = require('./NumberSystemImages/number-system-image1.png');
+export const NumberSystemSecond = require('./NumberSystemImages/number-system-image2.png');
+export const CommuterStudentFirst = require('./CommuterStudentImages/commuter-image1.png');
+export const CommuterStudentSecond = require('./CommuterStudentImages/commuter-image2.png');
+export const CommuterStudentThird = require('./CommuterStudentImages/commuter-image3.png');
 export const ClickFirst = require('./ClickImages/click-image1.png');
 export const ClickSecond = require('./ClickImages/click-image2.png');
 export const ClickThird = require('./ClickImages/click-image3.png');
