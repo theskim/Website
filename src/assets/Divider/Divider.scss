@@ -6,7 +6,7 @@ $divider-width: 30%;
     padding: min(1vw, 0.5rem);
     border-radius: 20px;
     width: $divider-width;
-    left: (100% - $divider-width) / 2;
+    left: calc((100% - $divider-width) / 2);
     background-origin: content-box, padding-box;
     background-clip: content-box, padding-box;
 }

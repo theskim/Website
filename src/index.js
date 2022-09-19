@@ -12,13 +12,6 @@ export const setSideBar = (given) => {
   }
 }
 
-export const setNavBar = (given) => {
-  return {
-      type: 'SET_NAVBAR',
-      given: given,
-  }
-}
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>

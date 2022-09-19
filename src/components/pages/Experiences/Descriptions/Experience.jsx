@@ -3,23 +3,18 @@ import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import SetOverflow from "../../Modal/SetOverflow";
 import { useCallback } from "react";
-import { useDispatch } from "react-redux";
-import { setNavBar } from "../../../../index";
 import "../../Modal/Section.scss";
 
 const ExperienceSample = (props) => {
     const [click, update] = useState(false);
     const ref = useRef(null);
     const scrollToElement = () => ref.current?.scrollIntoView();
-    const dispatch = useDispatch();
 
     const handleReturn = useCallback(() => {
         if (!click){
-            dispatch(setNavBar(false));
-            console.log(ref.current);
             scrollToElement(); 
         }
-    }, [click, dispatch]);
+    }, [click]);
 
     return (
         <div className = "section-wrapper">

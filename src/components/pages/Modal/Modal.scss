@@ -105,13 +105,7 @@ $xbar-height: min(5vw, 2.5rem);
 	}
 }
 
-@media screen and (max-width: 1550px) {
-	.modal__bar-title {
-		display: none;
-	}
-	.modal__bar-title-alt {
-		display: block;
-	}
+@media screen and (max-width: 1200px) {
 	.modal__contents {
 		.modal__image {
 			.experience-logo, .slide-container {
@@ -129,6 +123,15 @@ $xbar-height: min(5vw, 2.5rem);
 		.project-links {
 			display: grid !important;
 		}
+	}
+}
+
+@media screen and (max-width: 1550px) {
+	.modal__bar-title {
+		display: none;
+	}
+	.modal__bar-title-alt {
+		display: block;
 	}
 }
 
