@@ -5,8 +5,15 @@ import { xBar } from '../../../assets/GeneralLogos';
 import ProjectLinks from './ProjectLinks';
 import ProjectSetUp from './ProjectSetUp';
 import SetOverflow from './SetOverflow';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
-const Modal = (props) => {
+const Modal = (props) => {  
+    const { pathname } = useLocation();
+    useEffect(() => {
+        SetOverflow(false);
+    }, [pathname]);
+
     return (
         <div className="modal">
             <div className="modal__bar">
