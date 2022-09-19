@@ -13,7 +13,7 @@ const Title = () => {
 const Description = () => {
   return (
     <>
-      <img src={UofTLogo} alt='main'/><br/>
+      <img src={UofTLogo} loading='lazy' alt=''/><br/>
       <p>
         University of Toronto - St. George<br/>
         Bachelor of Applied Science in Computer Engineering

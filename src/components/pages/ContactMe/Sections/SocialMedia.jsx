@@ -2,7 +2,7 @@ const Logo = (props) => {
     return (
         <div className="social__logo">
             <a className="external-link" href={props.href}>
-                <img src={props.src} alt="Loading.."/>
+                <img src={props.src} loading='lazy' alt=''/>
             </a> 
         </div>
     );

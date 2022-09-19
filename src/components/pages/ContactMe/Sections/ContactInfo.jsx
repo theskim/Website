@@ -1,7 +1,7 @@
 const Contact = (props) => {
     return (
         <div className="contact">
-            <img src={props.src} alt=""/>&nbsp;&nbsp;
+            <img src={props.src} loading='lazy' alt=''/>&nbsp;&nbsp;
             <a href={props.href}>
                 {props.children}
             </a>

@@ -12,7 +12,7 @@ const ProjectLinks = (props) => {
             </span>
             { props.project 
                 ?   <span className="project-link">
-                        <img src={GithubLogo} alt='Loading..'/>
+                        <img src={GithubLogo} loading='lazy' alt='Loading..'/>
                             <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
                             {props.github !== undefined
                                 ?   <a href={props.github}>Click Here</a>

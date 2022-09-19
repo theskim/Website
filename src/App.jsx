@@ -1,5 +1,5 @@
 import React from "react";
-import './App.scss';
+import './global.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, Skills, Projects, Experiences, Achievements, NavBar, Footer } from "./components/imports";
 

@@ -1,5 +1,13 @@
 @use './variables' as *;
 
+.App {
+	text-align: center;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
 @font-face {
 	font-family: "Changa One";
 	src: url('./assets/fonts/ChangaOne-Regular.ttf');

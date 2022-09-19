@@ -2,6 +2,7 @@
 $modal-background: #4a448d;
 $bar-height: min(15vw, 12vh);
 $xbar-height: min(5vw, 2.5rem);
+$bar-col: #fff;
 
 .modal {
 	display: block;
@@ -25,6 +26,8 @@ $xbar-height: min(5vw, 2.5rem);
 		height: $bar-height;
 		vertical-align: middle;
 		display: flex;
+		border-bottom: $bar-col;
+		border-bottom-style: solid;
 		img {
 			position: fixed;
 			right: 20%;
@@ -42,6 +45,8 @@ $xbar-height: min(5vw, 2.5rem);
 		text-align: center;
 		margin-top: min(10vh, 10vw);
 		padding-bottom: min(5vh, 5vw);
+		border-top: $bar-col;
+		border-top-style: solid;
 		code {
 			line-height: $text-height;
 			font-size: min(3vw, 1rem);
