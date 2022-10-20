@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo, MATLABLogo } from "../../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, CPPLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo, MATLABLogo, VerilogLogo } from "../../../../assets/ToolLogos";
 import "./Tools.scss"
 
 const ToolsTitle = (props) => {
@@ -35,12 +35,14 @@ const Tools = () => {
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128187;</>}>Languages</ToolsTitle>               
                 <Tool location={CLogo} name="C"/>
+                <Tool location={CPPLogo} name="C++"/>
                 <Tool location={PythonLogo} name="Python"/>
                 <Tool location={HtmlLogo} name="HTML5"/>
                 <Tool location={CssLogo} name="CSS3"/>
                 <Tool location={JavascriptLogo} name="JavaScript (ES6+)"/>
                 <Tool location={SASSLogo} name="SASS"/>
                 <Tool location={PHPLogo} name="PHP"/>
+                <Tool location={VerilogLogo} name="Verilog"/>
                 <Tool location={MATLABLogo} name="MATLAB"/>
             </div>
             <div className="divider"/>
