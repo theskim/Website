@@ -15,12 +15,16 @@ const Description = () => {
     <>
       <img src={UofTLogo} loading='lazy' alt=''/><br/>
       <p>
-        University of Toronto - St. George<br/>
+        University of Toronto<br/>
         Bachelor of Applied Science in Computer Engineering
       </p>
       <h2>
         2021 - 2026 (PEY CO-OP)
       </h2>
+      <p>
+        <b>Dean's List:</b> Fall 2021, Winter 2022 <br/>
+        Pursuing a minor in <b>Artificial Intelligence Engineering</b>
+      </p>
       <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
         {padding:"min(1rem, 3vw)", textDecoration:"none", marginTop:"6vh", marginBottom:"8vh"}
       }>

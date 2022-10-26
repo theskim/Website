@@ -1,5 +1,3 @@
-export const NumberSystemFirst = require('./NumberSystemImages/number-system-image1.png');
-export const NumberSystemSecond = require('./NumberSystemImages/number-system-image2.png');
 export const CommuterStudentFirst = require('./CommuterStudentImages/commuter-image1.png');
 export const CommuterStudentSecond = require('./CommuterStudentImages/commuter-image2.png');
 export const CommuterStudentThird = require('./CommuterStudentImages/commuter-image3.png');
@@ -15,8 +13,4 @@ export const PortfolioFive = require('./PortfolioImages/Portfolio-image5.png');
 export const PortfolioSix = require('./PortfolioImages/Portfolio-image6.png');
 export const ReversiFirst = require('./ReversiImages/Reversi-image1.png');
 export const ReversiSecond = require('./ReversiImages/Reversi-image2.png');
-export const ReversiThird = require('./ReversiImages/Reversi-image3.png');
-export const LeagueSimulatorFirst = require('./LeagueSimulatorImages/league-simulator-image1.png');
-export const LeagueSimulatorSecond = require('./LeagueSimulatorImages/league-simulator-image2.png');
-export const LeagueSimulatorThird = require('./LeagueSimulatorImages/league-simulator-image3.png');
-export const LeagueSimulatorFourth = require('./LeagueSimulatorImages/league-simulator-image4.png'); 
+export const ReversiThird = require('./ReversiImages/Reversi-image3.png'); 
