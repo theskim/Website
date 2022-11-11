@@ -1,21 +1,13 @@
 import Project from "./Project";
-import { PortfolioFirst, PortfolioSecond, PortfolioThird, PortfolioFourth, PortfolioFive, PortfolioSix } from '../../../../assets/ProjectImages';
+import { PortfolioImage } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {
     return (
         <Project
             title="Personal Portfolio Website"
             alt="Portfolio Website"
-            date="Jul 2022"
-            skills="React.js, Redux, HTML5, SASS, JavaScript (ES6)"
-            images={[
-                PortfolioFirst, 
-                PortfolioSecond, 
-                PortfolioThird, 
-                PortfolioFourth,
-                PortfolioFive,
-                PortfolioSix
-            ]}
+            skills="React.js, Redux, SCSS"
+            image={PortfolioImage}
             link="https://skim1601.com"
             github="https://github.com/skim1601/SeanKim-Website"
             setup= {[

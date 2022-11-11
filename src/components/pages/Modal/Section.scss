@@ -23,11 +23,6 @@
 		}
 	}
 
-	.slide-container {
-		width: min(50vw, 25rem);
-		height: min(50vw, 25rem);
-	}
-
 	.my-button {
 		margin: 2vh 0;
 	}
@@ -79,7 +74,7 @@
 	justify-content: center;
 }
 
-.experience-logo {
+.section-logo {
 	border: 1%;
 	border-color: #000;
 	border-style: solid;
@@ -104,10 +99,6 @@
 		margin: 0;
 		.my-button {
 			margin: 3vh 0 3vh 0;
-		}
-		.slide-container {
-			width: min(70vw, 30rem);
-			height: min(70vw, 30rem);
 		}
 	}
 	.section-image-box {

@@ -1,19 +1,13 @@
 import Project from "./Project";
-import { ClickFirst, ClickSecond, ClickThird, ClickFourth } from '../../../../assets/ProjectImages';
+import { ClickImage } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {
     return (
         <Project
             title="Click."
             alt="Click."
-            date="Aug 2022"
             skills="PHP, MySQL, HTML5, CSS3"
-            images={[
-                ClickFirst, 
-                ClickSecond, 
-                ClickThird, 
-                ClickFourth
-            ]}
+            image={ClickImage}
             link="https://click-universe.herokuapp.com/"
             github="https://github.com/skim1601/Click"
             project={true}

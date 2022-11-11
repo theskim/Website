@@ -7,17 +7,15 @@ const EspDescription = () => {
         title="UofTHacks - Frontend Web Developer"
         alt="UofTHacks Frontend"
         date="Jul 2022 - Present"
-        skills="Next.js"
+        skills="Next.js, Stitches, Figma"
         image={UofTHacksLogo}
         link="https://linktr.ee/uofthacks"
         project={false}
        >
-            UofTHacks is known to be the University of Toronto's annual hackathon 
-            and the first student-run hackathon in Canada. 
-            As a Frontend Developer, my task is to work on developing 
-            the hackathon's landing page and dashboard. This required me to follow
-            Figma prototypes and actively communicate with the team.
-            Our website is expected to handle more than 300 monthly visitors. 
+            UofTHacks is the University of Toronto's annual hackathon 
+            and the first student-run hackathon in Canada, where over 500+ students with different experience levels participate in.
+            As a Frontend Web Developer, my task is to work on developing 
+            the hackathon's landing page and dashboard. More details on Project page.
         </Experience>
     );
 }

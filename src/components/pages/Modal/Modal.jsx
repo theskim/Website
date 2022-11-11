@@ -1,6 +1,5 @@
 import './Modal.scss';
 import BriefDescription from './BriefDescription';
-import ImageSlide from '../../../assets/ImageSlide/ImageSlide';
 import { xBar } from '../../../assets/GeneralLogos';
 import ProjectLinks from './ProjectLinks';
 import ProjectSetUp from './ProjectSetUp';
@@ -26,10 +25,7 @@ const Modal = (props) => {
             </div>
             <div className="modal__contents">
                 <div className="modal__image">
-                    { props.image === undefined 
-                        ? <ImageSlide img={props.images}/>
-                        : <img className="experience-logo" src={props.image} alt=""/> 
-                    }
+                    <img className="section-logo" src={props.image} alt=""/> 
                 </div>
                 <div className="brief-description">
                     <BriefDescription {...props}/>

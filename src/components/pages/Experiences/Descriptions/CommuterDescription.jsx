@@ -7,7 +7,7 @@ const CommuterDescription = () => {
         title="Skule Commuter Student Directorship - Webmaster"
         alt="Commuter Webmaster"
         date="Jul 2022 - Present"
-        skills="React.js, PHP"
+        skills="React.js, Redux, Figma"
         image={CommuterLogo}
         link="https://commuter.skule.ca/"
         project={false}

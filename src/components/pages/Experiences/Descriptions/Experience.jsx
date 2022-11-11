@@ -19,7 +19,7 @@ const ExperienceSample = (props) => {
     return (
         <div className = "section-wrapper">
             <div className="section-image-box">
-                <img className="experience-logo" src={props.image} alt=""/>
+                <img className="section-logo" src={props.image}/>
             </div>
             <div className="section-text-box">    
                 <div className = "section-title" ref={ref}>
@@ -29,7 +29,7 @@ const ExperienceSample = (props) => {
                     <BriefDescription {...props}/>
                 </div>
                 <div className="section-image-box__mobile">
-                    <img className="experience-logo" src={props.image} alt=""/><br/>
+                    <img className="section-logo" src={props.image}/><br/>
                 </div>
                 <button className="my-button" type="button" onClick={() => {
                     update(true);
