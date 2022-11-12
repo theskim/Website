@@ -16,9 +16,8 @@ const CommuterDescription = () => {
             all student commuters in University of Toronto Engineering Community 
             by creating opportunities, events, and programs to enrich the commuter community. <br/><br/>
             I developed the organization’s website with React.js, which is 
-            expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community.
+            expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. More details available on the Project page. <br/><br/>
             The website is accessible by the link below.
-            Currently I am optimizing the Skule EngSoc Locker Website.
         </Experience>
     );
 }

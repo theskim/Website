@@ -23,7 +23,8 @@ const NewPortfolio = () => {
             bar. Although Redux is usually used for large amounts of application states 
             that are needed in many places, I wanted to learn its basics and implementations through this project. <br/><br/>
             And yes, you are currently on the website. 
-            I am planning to continuously improve this website as my career progresses.
+            I am planning to continuously improve this website as my career progresses.<br/><br/>
+            Created by: Sean Kim
         </Project>
     );
 }

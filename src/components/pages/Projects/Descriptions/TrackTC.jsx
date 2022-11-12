@@ -23,7 +23,8 @@ const TrackTC = () => {
         >
         Commuter students wont be able to be aware of possible ttc delays or cancelation due to different reasons. For some people, it is a challenge to regularly check media and internet, and this could potentially lead to them not noticing the closure. At various points in time, members of our team have been late to examinations or other important events due to unknown commute interreferences.<br/><br/>
         Check out the current and planned TTC delays, provided by the TTC API. Enter your email and buses/trains and we will email you their delay status every 12 hours! <br/><br/>
-        I mostly worked on the frontend, especially creating the Figma prototype and working on the website's responsive design. Also I worked on implementing GET and POST requests. Overall, it was a great experience to learn how Django-React stack works and how to send requests to Django REST Framework.
+        I mostly worked on the frontend, especially creating the Figma prototype and working on the website's responsive design. Also I worked on implementing GET and POST requests. Overall, it was a great experience to learn how Django-React stack works and how to send requests to Django REST Framework. Submitted at NewHacks 2022.<br/><br/>
+        Created by: Amirreza Aazam, Avid Eslami, Sean Kim, and Michael Zhou 
         </Project>
     );
 }

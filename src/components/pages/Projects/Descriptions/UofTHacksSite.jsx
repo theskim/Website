@@ -17,7 +17,8 @@ const UofTHacksSite = () => {
             ]}
             project={true}
         >
-        This is the official website for UofTHacks X, University of Toronto's annual hackathon, where over 500+ students with different experience levels participate in. I was responsible for generating different components such as Sponsors and Q&A page. We developed the website and dashboard for the hackathon using Next.js and Stitches (CSS Library) based on Figma prototype from the design team.  Through this project, I learned a lot about refactoring code using CSSin-JS libraries and atomic design model.
+        This is the official website for UofTHacks X, University of Toronto's annual hackathon, where over 500+ students with different experience levels participate in. I was responsible for generating different components such as Sponsors and Q&A page. We used Next.js and Stitches (CSS Library) to minimize the rendering time. The styling was applied based on the Figma prototype from the design team. Through this project, I learned a lot about refactoring code using CSS-in-JS libraries and atomic design model, as well as integrating Figma design.<br/><br/>
+        Created by: Shernan Javier, Sean Kim, and Daniel Liu
         </Project>
     );
 }

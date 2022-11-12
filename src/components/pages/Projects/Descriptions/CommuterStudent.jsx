@@ -24,7 +24,8 @@ const CommuterStudent = () => {
         is responsive on almost every dimension including mobile and 
         wide monitors. Redux was implemented to control the state of the side navigation
         bar globally. Overall, it was a great experience to reflect on changes
-        based on suggestions and requests from the Director and other team members.
+        based on suggestions and requests from the Director and other team members. <br/><br/>
+        Created by: Sean Kim and Ayaan Pathan
         </Project>
     );
 }

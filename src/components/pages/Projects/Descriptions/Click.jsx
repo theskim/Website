@@ -16,7 +16,8 @@ const NewPortfolio = () => {
         Click is a simple full-stack webgame that only expects you to click.
         Your goal is to reach far and far away from Solar System and record yourself on the leaderboard.
         Note that as you move far away, the distance between planets or exoplanets will increase.
-        Click utilizes sign-up, log-in, and live scoring leaderboard systems using HTTP requests and MYSQL.
+        Click utilizes sign-up, log-in, and live scoring leaderboard systems using HTTP requests and MYSQL.<br/><br/>
+        Created by: Sean Kim
         </Project>
     );
 }
