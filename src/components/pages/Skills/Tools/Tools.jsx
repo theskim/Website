@@ -53,7 +53,7 @@ const Tools = () => {
                 <Tool location={NextLogo} name="Next.js"/>
                 <Tool location={ReduxLogo} name="Redux"/>
                 <Tool location={SASSLogo} name="SASS"/>
-                <Tool location={StyledComponentsLogo} name="Styled Components"/>
+                <Tool location={StyledComponentsLogo} name="styled-components"/>
                 <Tool location={FigmaLogo} name="Figma"/>
             </div>
             <div className="divider"/>

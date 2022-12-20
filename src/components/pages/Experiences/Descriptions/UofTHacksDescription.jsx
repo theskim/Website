@@ -7,7 +7,7 @@ const EspDescription = () => {
         title="UofTHacks - Frontend Web Developer"
         alt="UofTHacks Frontend"
         date="Jul 2022 - Present"
-        skills="Next.js, Stitches, Figma"
+        skills="Next.js, stitches.dev, Figma"
         image={UofTHacksLogo}
         link="https://uofthacks.com/"
         project={false}

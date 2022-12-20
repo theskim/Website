@@ -6,7 +6,7 @@ const TrackTC = () => {
         <Project
             title="TrackTC"
             alt="TrackTC"
-            skills="React.js, Styled Components, Django, Django REST"
+            skills="React.js, styled-components, Django, Django REST"
             image={TracTCImage}
             link="https://devpost.com/software/tracktc"
             github="https://github.com/skim1601/TrackTC"
