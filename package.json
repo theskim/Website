@@ -12,6 +12,7 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-slideshow-image": "^3.7.5",
+    "react-vertical-timeline-component": "^3.6.0",
     "scss": "^0.2.4",
     "styled-components": "^5.3.5",
     "validator": ">=13.7.0",
