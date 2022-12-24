@@ -24,16 +24,15 @@ $bar-col: #fff;
 		left: 0;
 		width: 100%;
 		height: $bar-height;
-		vertical-align: middle;
 		display: flex;
 		border-bottom: $bar-col;
 		border-bottom-style: solid;
-		img {
-			position: fixed;
+		.modal__xbar {
 			right: 20%;
-			top: calc(($bar-height - $xbar-height) / 2);
+			position: fixed;
+			color: #eeffff;	
+			font-size: calc($header-size * 2);
 			display: inline-block;
-			height: $xbar-height;
 			cursor: pointer;
 		}	
 	}	

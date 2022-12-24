@@ -13,7 +13,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Sep 2022 - present"
+                date="Sep 2022 - Present"
                 iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization </h3>
@@ -103,7 +103,7 @@ const Experiences = () => {
                         As a team, we conducted various physical experiments at the Walberg Chemical Engineering lab 
                         to test the hydrophilicity and transparency of the glass when the Titanium Dioxide solution is applied. 
                         Ultimately, the team presented a 10-minute long final design to the client and the Engineering Manager
-                        in a professional manner. <br/><br/>
+                        in a professional manner. 
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline><br/><br/>

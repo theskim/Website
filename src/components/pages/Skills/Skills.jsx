@@ -14,7 +14,6 @@ const Skills = () => {
     return (
         <>
             <Title/>
-            <Divider/>
             <Tools/>
             <Divider/>
         </>
