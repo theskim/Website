@@ -27,7 +27,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Jul 2022 - present"
+                date="Jul 2022 - Present"
                 iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">UofTHacks - Frontend Web Developer</h3>
@@ -44,7 +44,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins', 	boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Jul 2022 - present"
+                date="Jul 2022 - Present"
                 iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">Skule Commuter Student Directorship - Webmaster</h3>
