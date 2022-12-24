@@ -58,7 +58,7 @@
 	object-fit: contain;
 	transition: all 0.2s ease-in-out;
 	&:hover {
-		transform: scale(1.05);
+		transform: scale(1.1);
 		transition: all 0.2s ease-in-out;
 	}
 }
@@ -78,8 +78,8 @@
 	border: 1%;
 	border-color: #000;
 	border-style: solid;
-	width: min(55vw, 22rem);
-	height: min(55vw, 22rem);
+	width: min(57vw, 23rem);
+	height: min(57vw, 23rem);
 	margin: min(2.3vw, 1.2rem) 0;
 	object-fit: contain;
 	box-shadow: 0 0 10px 8px rgba(0, 0, 3, 0.2);		

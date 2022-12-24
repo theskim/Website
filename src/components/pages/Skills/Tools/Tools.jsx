@@ -1,4 +1,4 @@
-import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, CPPLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, HerokuLogo, NetlifyLogo, ReduxLogo, MATLABLogo, VerilogLogo, StyledComponentsLogo, VSCodeLogo, MySQLLogo, FigmaLogo, ModelsimLogo, QuartusLogo, DjangoLogo, DjangoRestLogo } from "../../../../assets/ToolLogos";
+import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, CPPLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, ReduxLogo, MATLABLogo, VerilogLogo, StyledComponentsLogo, VSCodeLogo, MySQLLogo, FigmaLogo, ModelsimLogo, QuartusLogo, DjangoLogo, DjangoRestLogo } from "../../../../assets/ToolLogos";
 import "./Tools.scss"
 
 const ToolsTitle = (props) => {
@@ -31,7 +31,8 @@ const ToolsBox = (props) => {
 
 const Tools = () => {
     return (
-        <ToolsBox>
+        <ToolsBox>            
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#9997;</>}>Languages</ToolsTitle>               
                 <Tool location={CLogo} name="C"/>
@@ -44,6 +45,7 @@ const Tools = () => {
                 <Tool location={VerilogLogo} name="Verilog"/>
                 <Tool location={MATLABLogo} name="MATLAB"/>
             </div>
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128187;</>}>Frontend</ToolsTitle>               
                 <Tool location={HtmlLogo} name="HTML5"/>
@@ -55,7 +57,7 @@ const Tools = () => {
                 <Tool location={SASSLogo} name="SASS"/>
                 <Tool location={StyledComponentsLogo} name="styled-components"/>
                 <Tool location={FigmaLogo} name="Figma"/>
-            </div>
+            </div>            
             <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128421;&#65039;</>}>Backend</ToolsTitle>
@@ -63,23 +65,21 @@ const Tools = () => {
                 <Tool location={PythonLogo} name="Python"/>
                 <Tool location={DjangoLogo} name="Django"/>
                 <Tool location={DjangoRestLogo} name="Django REST"/>
-            </div>
+            </div>           
+             <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128202;</>}>Database</ToolsTitle>
                 <Tool location={MySQLLogo} name="MySQL"/>
                 <Tool location={DjangoLogo} name="Django"/>
-            </div>
+            </div>           
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#127899;&#65039;</>}>Version Control</ToolsTitle>
                 <Tool location={GitLogo} name="Git"/>
                 <Tool location={GithubLogo} name="GitHub"/>
                 <Tool location={VSCodeLogo} name="VSCode"/>
-            </div>
-            <div className="tool__section">
-                <ToolsTitle emoji={<>&#128228;</>}>Deploy</ToolsTitle>
-                <Tool location={HerokuLogo} name="Heroku"/>
-                <Tool location={NetlifyLogo} name="Netlify"/>
-            </div>
+            </div>            
+            <div className="divider"/>
             <div className="tool__section">
                 <ToolsTitle emoji={<>&#128297;</>}>Hardware</ToolsTitle>
                 <Tool location={VerilogLogo} name="Verilog"/>
