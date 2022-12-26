@@ -8,7 +8,6 @@ const NewPortfolio = () => {
             alt="Click."
             skills="PHP, MySQL, HTML5, CSS3"
             image={ClickImage}
-            link="https://click-universe.herokuapp.com/"
             github="https://github.com/skim1601/Click"
             project={true}
         >
