@@ -19,7 +19,7 @@ const Description = () => {
         Bachelor of Applied Science in Computer Engineering
       </p>
       <h2>
-        2021 - 2026 (PEY CO-OP)
+        2021 - Present (PEY CO-OP)
       </h2>
       <p>
         <b>Dean's List:</b> Fall 2021, Winter 2022 <br/>
