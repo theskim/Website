@@ -37,7 +37,7 @@ const Experiences = () => {
                         UofTHacks is the University of Toronto's annual hackathon 
                         and the first student-run hackathon in Canada, where over 500+ students with different experience levels participate in.
                         As a Frontend Web Developer, my task is to work on developing 
-                        the hackathon's landing page and dashboard. More details available on the Project page.
+                        the hackathon's landing page and dashboard. More details available on the Project section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -55,7 +55,7 @@ const Experiences = () => {
                         all student commuters in University of Toronto Engineering Community 
                         by creating opportunities, events, and programs to enrich the commuter community. <br/><br/>
                         I developed the organization’s website with React.js, which is 
-                        expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. More details available on the Project page.
+                        expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. More details available on the Project section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

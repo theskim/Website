@@ -19,8 +19,15 @@ const Description = () => {
                 Welcome!
                 I am a second year Computer Engineering Student at the University
                 of Toronto with a huge interest in the field of Web Development and Software Engineering. 
-                Currently, I am a Frontend Developer at UofTHacks
-                to develop the hackathon's website and dashboard which will be visited by hundreds of applicants. Moreover, I am involved in University of Toronto Freelencers' Organization to develop website/software for the clients. I am also a Webmaster Executive at Skule Commuter Directorship, which is a community to support commuter students in Faculty of Applied Science and Engineering.
+                Furthermore, my interest towards Artificial Intelligence has increased over last few months.
+                I am currently planning to pursue a minor in it and considering my career in AI. <br/><br/>
+
+                I am a Frontend Developer at UofTHacks
+                to develop the hackathon's website and dashboard which will be visited by hundreds of applicants. 
+                Moreover, I am involved in the University of Toronto Freelencers' Organization to develop websites/softwares for the clients within UofT. 
+                I am also a Webmaster Executive at Skule Commuter Directorship, 
+                which is a community to support commuter students in the Faculty of Applied Science and Engineering.
+                More details are available on the Experiences section.
             </p>
         </div>
     )
