@@ -16,18 +16,11 @@ const Description = () => {
             <h4><img src={locationLogo} alt=""/>&nbsp;Toronto, ON, Canada</h4>
             <h5><GetDate/></h5>
             <p>
-                Welcome!
-                I am a second year Computer Engineering Student at the University
-                of Toronto with a huge interest in the field of Web Development and Software Engineering. 
-                Furthermore, my interest towards Artificial Intelligence has increased over last few months.
-                I am currently planning to pursue a minor in it and considering my career in AI. <br/><br/>
+                Welcome, my name is Sean Kim and I am a second year Computer Engineering student at the University of Toronto. I am passionate about using my technical skills to develop innovative solutions and improve user experiences. My interest towards Artificial Intelligence has increased over last few months. I am currently planning to pursue a minor in it and seriously considering my career in AI. My skills include programming languages such as C, C++, Python, and JavaScript, as well as frameworks like React.js and Next.js.<br/><br/>
 
-                I am a Frontend Developer at UofTHacks
-                to develop the hackathon's website and dashboard which will be visited by hundreds of applicants. 
-                Moreover, I am involved in the University of Toronto Freelencers' Organization to develop websites/softwares for the clients within UofT. 
-                I am also a Webmaster Executive at Skule Commuter Directorship, 
-                which is a community to support commuter students in the Faculty of Applied Science and Engineering.
-                More details are available on the Experiences section.
+I have gained experience in web development through my roles at the University of Toronto Freelancer's Organization, UofTHacks, and Skule Commuter Students Directorship, where I have built and maintained websites and applied best practices such as reusable code and atomic design. In addition to my technical skills, I am a proactive and collaborative team member, having served as a counsellor for the Da Vinci Engineering Enrichment Program, where I mentored high school students in STEM fields. <br/><br/>
+
+I am always looking for new opportunities to learn and grow as a software engineer, and I am excited to connect with professionals in the industry.
             </p>
         </div>
     )
