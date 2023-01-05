@@ -17,13 +17,9 @@ const NewPortfolio = () => {
             ]}
             project={true}
         >
-            A personal website for portfolio usage developed with React. 
-            The website is responsive on almost every dimension including mobile and 
-            wide monitors. I also implemented Redux to control the state of the side navigation
-            bar. Although Redux is usually used for large amounts of application states 
-            that are needed in many places, I wanted to learn its basics and implementations through this project. <br/><br/>
-            And yes, you are currently on the website. 
-            I am planning to continuously improve this website as my career progresses.<br/><br/>
+           This is a personal website that I developed using React for portfolio purposes. It is designed to be responsive on a variety of devices, including mobile phones and wide monitors. I also implemented Redux to manage the global state of the side navigation bar. Although Redux is often used for managing large amounts of application state that are needed in multiple locations, I wanted to learn the basics and implementation of this technology through this project. <br/><br/>
+
+You are currently viewing this website. I plan to continue improving it as my career progresses.<br/><br/>
             Created by: Sean Kim
         </Project>
     );
