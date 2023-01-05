@@ -5,6 +5,7 @@ import Portfolio from "./Descriptions/Portfolio";
 import UofTHacksSite from "./Descriptions/UofTHacksSite";
 import TrackTC from "./Descriptions/TrackTC";
 import FutbolTabol from "./Descriptions/FutbolTabol";
+import UofTHacksDashboard from "./Descriptions/UofTHacksDashboard";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
 
@@ -12,6 +13,8 @@ const Projects = () => {
     return (
         <>
             <ProjectsTitle/>
+            <Divider/>
+            <UofTHacksDashboard/>
             <Divider/>
             <FutbolTabol/>
             <Divider/>

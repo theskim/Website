@@ -20,7 +20,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">React.js, styled-components</h4>
                     <p>
-                        The University of Toronto Freelancers' Organization is a group dedicated to providing software development services for other University of Toronto associated groups or individuals. Our team has successfully recreated a website for FSAT (The Filipino Students' Association of Uniersity of Toronto) in a team of 5 freelancer developers. I generated reusable code using React.js and Styled Components, which reduced development time by 40%.
+                    The University of Toronto Freelancers' Organization is a group of software developers who offer their services to University of Toronto-affiliated groups and individuals. Our team of four freelance developers successfully created a new website for FSAT (The Filipino Students' Association of University of Toronto). I contributed to the project by creating reusable code using React.js and Styled Components, which reduced development time by 40%. This allowed us to efficiently deliver a high-quality product to our client.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -34,10 +34,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">Next.js, stitches.dev, Figma</h4>
                     <p>
-                        UofTHacks is the University of Toronto's annual hackathon 
-                        and the first student-run hackathon in Canada, where over 500+ students with different experience levels participate in.
-                        As a Frontend Web Developer, my task is to work on developing 
-                        the hackathon's landing page and dashboard. More details available on the Project section.
+                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard. You can find more information about this project in the Projects section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -51,11 +48,9 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">Skills: React.js, Redux, Figma</h4>
                     <p>
-                        The Commuter Student Directorship is planned to foster a sense of belonging and involvement between 
-                        all student commuters in University of Toronto Engineering Community 
-                        by creating opportunities, events, and programs to enrich the commuter community. <br/><br/>
-                        I developed the organization’s website with React.js, which is 
-                        expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. More details available on the Project section.
+                    The Commuter Student Directorship is a student-led organization that aims to build a sense of community and engagement among commuter students in the University of Toronto Engineering program. We do this by organizing events, programs, and opportunities that enrich the experience of commuting students. <br/><br/>
+
+I developed the organization's website using React.js, which is expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. You can find more information about this project in the Projects section
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -69,13 +64,11 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
                     <h4 className="vertical-timeline-element-subtitle">Skills: Python, Mentoring</h4>
                     <p>
-                    The Da Vinci Engineering Enrichment Program (DEEP) is a summer camp that provides gifted and highly motivated high school students from Canada and internationally with the opportunity for advanced study in a variety of science, technology, and engineering disciplines.
+                    The Da Vinci Engineering Enrichment Program (DEEP) is a summer camp that offers gifted and highly motivated high school students from Canada and around the world the opportunity to study advanced topics in science, technology, and engineering. <br/><br/>
 
-                    My work started by participating in training to review standard operating procedures, emergency protocols and industry standards.
+As part of my work with DEEP, I participated in training to review standard operating procedures, emergency protocols, and industry standards. After completing training, I assisted graduate students or upper-year students in mentoring groups of up to 20 high school students. This included preparing pre-class multiple-choice questions, taking attendance, and supporting students during challenging in-class activities that covered topics such as object-oriented programming, recursion, and Python libraries such as PyGame, NumPy, and Pandas.<br/><br/>
 
-                    After training, I assisted graduate students or upper-year students in organizing and mentoring up to 20 high school students. This was done by preparing pre-class multiple-choice questions, taking attendance, and supporting students during challenging in-class activities that incorporated concepts such as object-oriented programming, recursion, and Python Libraries such as PyGame, NumPy, and Pandas.
-
-                    I also encouraged students to pursue interests in STEM fields and provided information about opportunities for further study and careers in these areas.
+In addition to providing academic support, I also encouraged students to pursue interests in STEM fields and provided information about opportunities for further study and careers in these areas.
                                         </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

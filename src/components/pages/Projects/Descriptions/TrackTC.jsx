@@ -21,9 +21,11 @@ const TrackTC = () => {
             ]}
             project={true}
         >
-        Commuter students wont be able to be aware of possible ttc delays or cancelation due to different reasons. For some people, it is a challenge to regularly check media and internet, and this could potentially lead to them not noticing the closure. At various points in time, members of our team have been late to examinations or other important events due to unknown commute interreferences.<br/><br/>
-        Check out the current and planned TTC delays, provided by the TTC API. Enter your email and buses/trains and we will email you their delay status every 12 hours! <br/><br/>
-        I mostly worked on the frontend, especially creating the Figma prototype and working on the website's responsive design. Also I worked on implementing GET and POST requests. Overall, it was a great experience to learn how Django-React stack works and how to send requests to Django REST Framework. Submitted at NewHacks 2022.<br/><br/>
+       Commuter students may not always be aware of potential delays or cancellations on the TTC due to various reasons. For some individuals, it can be difficult to regularly check media and the internet for updates, which can result in missing important closure information. Our team has personally experienced being late to exams or other important events due to unexpected commute interruptions. <br/><br/>
+
+To help address this issue, we have developed a service that provides real-time and planned TTC delays, accessed through the TTC API. Simply enter your email and select your preferred buses and trains, and we will send you updates on their delay status every 12 hours.<br/><br/>
+
+I primarily focused on the frontend of this project, including creating a Figma prototype and enhancing the website's responsive design. I also worked on implementing GET and POST requests using the Django-React stack and the Django REST Framework. Overall, it was a valuable learning experience and we are pleased to present this service at NewHacks 2022.<br/><br/>
         Created by: Amirreza Aazam, Avid Eslami, Sean Kim, and Michael Zhou 
         </Project>
     );
