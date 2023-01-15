@@ -58,6 +58,7 @@ $navbar-font-size: min(3vw, 1.75rem);
 			font-size: $navbar-font-size;
 			transition: all 0.1s ease-out;
 			color: rgb(238, 238, 238);
+			cursor: pointer;
 			&:hover {
 				font-size: $header-size;
 				color: $navbar-col;
@@ -74,7 +75,7 @@ $navbar-font-size: min(3vw, 1.75rem);
 	align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	.top-bar {
 		display: none;
 	}

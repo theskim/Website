@@ -24,16 +24,15 @@ $bar-col: #fff;
 		left: 0;
 		width: 100%;
 		height: $bar-height;
-		vertical-align: middle;
 		display: flex;
 		border-bottom: $bar-col;
 		border-bottom-style: solid;
-		img {
-			position: fixed;
+		.modal__xbar {
 			right: 20%;
-			top: calc(($bar-height - $xbar-height) / 2);
+			position: fixed;
+			color: #eeffff;	
+			font-size: calc($header-size * 2);
 			display: inline-block;
-			height: $xbar-height;
 			cursor: pointer;
 		}	
 	}	
@@ -88,15 +87,9 @@ $bar-col: #fff;
 		line-height: $text-height;
 	}
 	.modal__image {
-		transition: all 0.2s ease-in-out;
-		.experience-logo {
-			width: min(50vw, 20rem);
-			height: min(50vw, 20rem);
-			margin: 5vh 6vw 0 0;
-		}
-		.slide-container {
-			width: min(60vw, 30rem);
-			height: min(60vw, 30rem);
+		.section-logo {
+			width: min(56vw, 23rem);
+			height: min(56vw, 23rem);
 			margin: 5vh 6vw 0 0;
 		}
 	}
@@ -113,7 +106,7 @@ $bar-col: #fff;
 @media screen and (max-width: 1200px) {
 	.modal__contents {
 		.modal__image {
-			.experience-logo, .slide-container {
+			.section-logo {
 				margin: auto;
 			}
 			margin: min(15vw, 10vh) 0 !important;

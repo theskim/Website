@@ -10,17 +10,14 @@ const ProjectLinks = (props) => {
                     : <span className = "gray">Unavailable</span>
                 }
             </span>
-            { props.project 
-                ?   <span className="project-link">
-                        <img src={GithubLogo} loading='lazy' alt='Loading..'/>
-                            <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
-                            {props.github !== undefined
-                                ?   <a href={props.github}>Click Here</a>
-                                :   <span className = "gray">Unavailable</span>
-                            }
-                    </span>
-                : <></>
-            }
+            <span className="project-link">
+                <img src={GithubLogo} loading='lazy' alt='Loading..'/>
+                <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
+                {props.github !== undefined
+                    ?   <a href={props.github}>Click Here</a>
+                    :   <span className = "gray">Unavailable</span>
+                }
+            </span>
             <br/><br/>
         </div>     
     );

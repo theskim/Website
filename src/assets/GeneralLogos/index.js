@@ -7,4 +7,3 @@ export const blackBurgerBar = require('./black-nav-bar.png');
 export const mailLogo = require('./mail-logo.png');
 export const phoneLogo = require('./phone-logo.png');
 export const locationLogo = require('./location-logo.png');
-export const xBar = require('./x-bar.png');

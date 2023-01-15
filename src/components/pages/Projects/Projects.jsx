@@ -1,17 +1,26 @@
 import ProjectsTitle from "./ProjectsTitle";
-import ContactMe from "../ContactMe/ContactMe";
 import CommuterStudent from "./Descriptions/CommuterStudent";
 import Click from "./Descriptions/Click";
 import Portfolio from "./Descriptions/Portfolio";
-import Reversi from "./Descriptions/Reversi";
-import Background from "../../../assets/Background/Background";
+import UofTHacksSite from "./Descriptions/UofTHacksSite";
+import TrackTC from "./Descriptions/TrackTC";
+import FutbolTabol from "./Descriptions/FutbolTabol";
+import UofTHacksDashboard from "./Descriptions/UofTHacksDashboard";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
 
 const Projects = () => {
     return (
-        <Background>
+        <>
             <ProjectsTitle/>
+            <Divider/>
+            <UofTHacksDashboard/>
+            <Divider/>
+            <FutbolTabol/>
+            <Divider/>
+            <UofTHacksSite/>
+            <Divider/>
+            <TrackTC/>
             <Divider/>
             <CommuterStudent/>
             <Divider/>
@@ -19,10 +28,7 @@ const Projects = () => {
             <Divider/>
             <Portfolio/>
             <Divider/>
-            <Reversi/>
-            <Divider/>
-            <ContactMe/>
-        </Background>
+        </>
     );
 }
 

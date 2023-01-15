@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-import ImageSlide from "../../../../assets/ImageSlide/ImageSlide";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import SetOverflow from "../../Modal/SetOverflow";
@@ -13,7 +12,7 @@ const ProjectSample = (props) => {
     return (
         <div className="section-wrapper">
             <div className="section-image-box">
-                <ImageSlide img={props.images}/>
+                <img className="section-logo" src={props.image}/>
             </div>
             <div className="section-text-box">
                 <h2 ref={ref}>
@@ -23,7 +22,7 @@ const ProjectSample = (props) => {
                     <BriefDescription {...props}/>
                 </div>
                 <div className="section-image-box__mobile">
-                    <ImageSlide img={props.images}/>
+                    <img className="section-logo" src={props.image} alt=""/><br/>
                 </div>
                 <button className="my-button" type="button" onClick={() => {
                     update(true);

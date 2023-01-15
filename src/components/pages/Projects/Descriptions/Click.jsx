@@ -1,28 +1,20 @@
 import Project from "./Project";
-import { ClickFirst, ClickSecond, ClickThird, ClickFourth } from '../../../../assets/ProjectImages';
+import { ClickImage } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {
     return (
         <Project
             title="Click."
             alt="Click."
-            date="Aug 2022"
             skills="PHP, MySQL, HTML5, CSS3"
-            images={[
-                ClickFirst, 
-                ClickSecond, 
-                ClickThird, 
-                ClickFourth
-            ]}
-            link="https://click-universe.herokuapp.com/"
+            image={ClickImage}
             github="https://github.com/skim1601/Click"
             project={true}
         >
-        Have you felt that modern games are too complicated? 
-        Click is a simple full-stack webgame that only expects you to click.
-        Your goal is to reach far and far away from Solar System and record yourself on the leaderboard.
-        Note that as you move far away, the distance between planets or exoplanets will increase.
-        Click utilizes sign-up, log-in, and live scoring leaderboard systems using HTTP requests and MYSQL.
+       Do you feel that modern games have become too complicated? Click is a straightforward full-stack webgame that only requires you to click. Your objective is to travel as far away from the solar system as possible and record your progress on the leaderboard. Keep in mind that as you journey further, the distance between planets and exoplanets will increase. <br/><br/>
+       
+       Click includes sign-up, log-in, and live scoring leaderboard systems that utilize HTTP requests and MySQL for tracking and recording player progress. <br/><br/>
+        Created by: Sean Kim
         </Project>
     );
 }

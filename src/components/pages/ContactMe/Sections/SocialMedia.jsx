@@ -1,8 +1,8 @@
-const Logo = (props) => {
+const Logo = ({href, src}) => {
     return (
         <div className="social__logo">
-            <a className="external-link" href={props.href}>
-                <img src={props.src} loading='lazy' alt=''/>
+            <a className="external-link" href={href}>
+                <img src={src} loading='lazy' alt=''/>
             </a> 
         </div>
     );
