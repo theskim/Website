@@ -16,7 +16,7 @@ const Experiences = () => {
                 date="Sep 2022 - Present"
                 iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
-                    <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization </h3>
+                    <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization - Freenlance Web Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">React.js, styled-components</h4>
                     <p>
@@ -34,7 +34,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">Next.js, stitches.dev, Figma</h4>
                     <p>
-                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard. You can find more information about this project in the Projects section.
+                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using Next.js and stitches.dev. You can find more information about this project in the Projects section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -50,7 +50,7 @@ const Experiences = () => {
                     <p>
                     The Commuter Student Directorship is a student-led organization that aims to build a sense of community and engagement among commuter students in the University of Toronto Engineering program. We do this by organizing events, programs, and opportunities that enrich the experience of commuting students. <br/><br/>
 
-I developed the organization's website using React.js, which is expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. You can find more information about this project in the Projects section
+I developed the organization's website using React.js, which is expected to be accessed by over 400 commuter students at the University of Toronto Engineering Community. You can find more information about this project in the Projects section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
