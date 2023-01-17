@@ -16,7 +16,7 @@ const Experiences = () => {
                 date="Sep 2022 - Present"
                 iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
-                    <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization - Freenlance Web Developer</h3>
+                    <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization - Freelance Web Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">React.js, styled-components</h4>
                     <p>
