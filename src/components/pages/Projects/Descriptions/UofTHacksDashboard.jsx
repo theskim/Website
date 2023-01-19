@@ -6,7 +6,7 @@ const UofTHacksDashboard = () => {
         <Project
             title="UofTHacks X Dashboard"
             alt="UofTHacks X"
-            skills="Next.js, stitches.dev"
+            skills="React.js • Next.js • stitches.dev"
             image={UofTHacksDashboardImage}
             link="https://uofthacks.com/"
         >

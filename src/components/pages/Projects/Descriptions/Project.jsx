@@ -1,14 +1,20 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Modal from "../../Modal/Modal";
 import BriefDescription from "../../Modal/BriefDescription";
 import SetOverflow from "../../Modal/SetOverflow";
 import "../../Modal/Section.scss";
 
-const ProjectSample = (props) => {
-    const [click, update] = useState(false);
-    const ref = useRef(null);
-    const scrollToElement = () => ref.current?.scrollIntoView({ behavior: "auto" });
+const useModal = (initialState, ref) => {
+    const [click, update] = useState(initialState);
+    useEffect(() => {
+        ref.current?.scrollIntoView({ behavior: "auto" });
+    }, [click]);
+    return [click, update];
+};
 
+const ProjectSample = (props) => {
+    const ref = useRef(null);
+    const [click, update] = useModal(false, ref);
     return (
         <div className="section-wrapper">
             <div className="section-image-box">
@@ -33,7 +39,7 @@ const ProjectSample = (props) => {
                 <div className="section-description">
                     { click
                         ?  <Modal update={update} {...props}/>
-                        :  <>{scrollToElement()}</>
+                        :  null
                     }  
                     <br/><br/>
                 </div>

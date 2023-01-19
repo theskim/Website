@@ -1,26 +1,21 @@
 import { GithubLogo } from "../../../assets/ToolLogos";
 
-const ProjectLinks = (props) => {
+const ProjectLinks = ({ link, github }) => {
     return (
         <div className = "project-links">
             <span className="project-link">
                 <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
-                {props.link !== undefined
-                    ? <a href = {props.link}>Click Here</a>
-                    : <span className = "gray">Unavailable</span>
-                }
+                {link !== undefined && <a href = {link}>Click Here</a>}
+                {link === undefined && <span className="gray">Unavailable</span>}
             </span>
             <span className="project-link">
                 <img src={GithubLogo} loading='lazy' alt='Loading..'/>
                 <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
-                {props.github !== undefined
-                    ?   <a href={props.github}>Click Here</a>
-                    :   <span className = "gray">Unavailable</span>
-                }
+                {github !== undefined && <a href={github}>Click Here</a>}
+                {github === undefined && <span className="gray">Unavailable</span>}
             </span>
             <br/><br/>
         </div>     
     );
 }
-
 export default ProjectLinks;

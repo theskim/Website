@@ -22,7 +22,7 @@ const Description = () => {
         2021 - Present (PEY CO-OP)
       </h2>
       <p>
-        <b>Dean's List:</b> Fall 2021, Winter 2022, Fall 2022 <br/>
+        <b>Awards: </b>3 &#215; Dean's List<br/>
         Pursuing a minor in <b>Artificial Intelligence Engineering</b>
       </p>
       <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
@@ -35,10 +35,10 @@ const Description = () => {
   )
 }
 
-const EducationBox = (props) => {
+const EducationBox = ({ children }) => {
   return (
     <div className = 'school-information'>
-      {props.children}
+      {children}
     </div>
   );
 }

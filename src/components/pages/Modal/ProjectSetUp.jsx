@@ -1,10 +1,10 @@
-const ProjectSetUp = (props) => {
+const ProjectSetUp = ({ setup }) => {
     return (
         <>
-            { props.setup !== undefined 
+            { setup !== undefined 
                 ? <div className="project__setup">
                     <p>&#9881;&#65039;&nbsp;&nbsp;Set Up:</p>
-                    {props.setup.map((command) =>  
+                    {setup.map((command) =>  
                         <code key={command}>{command}</code>
                     )}
                  </div>

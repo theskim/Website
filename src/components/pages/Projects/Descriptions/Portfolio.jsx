@@ -6,7 +6,7 @@ const NewPortfolio = () => {
         <Project
             title="Personal Portfolio Website"
             alt="Portfolio Website"
-            skills="React.js, Redux, SCSS"
+            skills="React.js • Redux • SCSS"
             image={PortfolioImage}
             link="https://skim1601.com"
             github="https://github.com/skim1601/SeanKim-Website"

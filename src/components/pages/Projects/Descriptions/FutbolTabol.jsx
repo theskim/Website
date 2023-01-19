@@ -6,7 +6,7 @@ const FutbolTabol = () => {
         <Project
             title="FutbolTabol"
             alt="FutbolTabol"
-            skills="Next.js, styled-components, Football Standings API"
+            skills="React.js • Next.js • styled-components • Football Standings API"
             image={FutbolTabolImage}
             link="https://futboltabol.netlify.app/"
             github="https://github.com/skim1601/FutbolTabol"

@@ -6,7 +6,7 @@ const CommuterStudent = () => {
         <Project
             title="Skule Commuter Students 22-23 Website"
             alt="Commuter Students"
-            skills="React.js, Redux"
+            skills="React.js • Redux • CSS3"
             image={CommuterStudentImage}
             link="https://commuter.skule.ca/"
             github="https://github.com/skim1601/CommuterStudent"
