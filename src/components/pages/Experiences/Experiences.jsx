@@ -34,7 +34,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">Skills: React.js • Next.js • stitches.dev • Figma</h4>
                     <p>
-                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using Next.js and stitches.dev. You can find more information about this project in the Projects section.
+                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using React.js, Next.js, and stitches.dev. You can find more information about this project in the Projects section.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

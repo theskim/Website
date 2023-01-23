@@ -16,7 +16,7 @@ const UofTHacksSite = () => {
                 "npm run dev"
             ]}
         >
-        Welcome to the official website for UofTHacks X, the University of Toronto's annual hackathon that brings together over 500+ students with a diverse range of experience levels. My role on this project was to develop various components, including the sponsors page and Q&A page. To optimize rendering time, we used the Next.js and Stitches (CSS library) frameworks. The styling of the website was based on the Figma prototype provided by the design team. Working on this project allowed me to gain valuable experience in refactoring code with CSS-in-JS libraries and utilizing the atomic design model, as well as integrating designs from Figma.<br/><br/>
+        Welcome to the official website for UofTHacks X, the University of Toronto's annual hackathon that brings together over 500+ students with a diverse range of experience levels. My role on this project was to develop various components, including the sponsors page and Q&A page. To optimize rendering time, we used the React.js, Next.js, and stitches.dev (CSS library) frameworks. The styling of the website was based on the Figma prototype provided by the design team. Working on this project allowed me to gain valuable experience in refactoring code with CSS-in-JS libraries and utilizing the atomic design model, as well as integrating designs from Figma.<br/><br/>
         Created by: Shernan Javier, Sean Kim, and Daniel Liu
         </Project>
     );

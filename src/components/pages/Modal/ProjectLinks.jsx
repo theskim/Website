@@ -4,7 +4,7 @@ const ProjectLinks = ({ link, github }) => {
     return (
         <div className = "project-links">
             <span className="project-link">
-                <b>&#128279;&nbsp;&nbsp;Link:&nbsp;&nbsp;</b>                  
+                <b>&#128279;&nbsp;&nbsp;Demo:&nbsp;&nbsp;</b>                  
                 {link !== undefined && <a href = {link}>Click Here</a>}
                 {link === undefined && <span className="gray">Unavailable</span>}
             </span>
