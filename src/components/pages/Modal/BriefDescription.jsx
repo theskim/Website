@@ -1,13 +1,9 @@
-const BriefDescription = (props) => {
+const BriefDescription = ({ skills }) => {
     return (
-        <>  {props.date == null ? <></> 
-                :<p>
-                    <b>&#128197;&nbsp;{props.date}&nbsp;&nbsp;</b>
-                </p>
-            }
-
+        <>  
             <p>
-                <b>{props.project ? <>Tech Stack</> :<>Skills</>}:&nbsp;</b>{props.skills}
+                <b>Tech Stack:&nbsp;</b>
+                {skills}
             </p>
         </>
     );

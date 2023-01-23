@@ -6,10 +6,9 @@ const UofTHacksDashboard = () => {
         <Project
             title="UofTHacks X Dashboard"
             alt="UofTHacks X"
-            skills="Next.js, stitches.dev"
+            skills="React.js • Next.js • stitches.dev"
             image={UofTHacksDashboardImage}
             link="https://uofthacks.com/"
-            project={true}
         >
        This is the official dashboard for UofTHacks X, the annual hackathon hosted by the University of Toronto. 
        Over 500+ students with a range of experience levels participated in the event. 

@@ -1,22 +1,22 @@
 import Scroll from 'react-scroll';
 let Link = Scroll.Link;
 
-const NavOption = (props) => {
+const NavOption = ({to, title, href}) => {
     return (
         <> 
-            { props.href === undefined
+            { href === undefined
                 ?   <Link
                         activeClass="active"
                         className="nav-link"
-                        to={props.to} 
+                        to={to} 
                         spy={true} 
                         smooth={true}  
                         duration={500}
                     > 
-                      <p>{props.title}</p>
+                      <p>{title}</p>
                     </Link>
-                :   <a href={props.href} className ="nav-link"> 
-                      <p>{props.title}</p>
+                :   <a href={href} className ="nav-link"> 
+                      <p>{title}</p>
                     </a>
             }
         </>
@@ -31,7 +31,7 @@ const NavOptions = (props) => {
         <NavOption to='experiences' title="Experiences"{...props}/>
         <NavOption to='projects' title="Projects"{...props}/>
         <NavOption to='contact' title="Contact"{...props}/>
-        <NavOption href='https://docs.google.com/document/d/10CALRWLR5nVSGOBpfnZh3_F1aLwK4bNRlKlNvgoBtwk/edit?usp=sharing' title="Resume" {...props}/>
+        <NavOption href='https://docs.google.com/document/d/10CALRWLR5nVSGOBpfnZh3_F1aLwK4bNRlKlNvgoBtwk/export?format=pdf' title="Resume" {...props}/>
       </>
     );
 }

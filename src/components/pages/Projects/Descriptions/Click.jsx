@@ -6,7 +6,7 @@ const NewPortfolio = () => {
         <Project
             title="Click."
             alt="Click."
-            skills="PHP, MySQL, HTML5, CSS3"
+            skills="HTML5 • CSS3 • PHP • MySQL"
             image={ClickImage}
             github="https://github.com/skim1601/Click"
             project={true}
