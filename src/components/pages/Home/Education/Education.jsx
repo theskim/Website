@@ -22,8 +22,8 @@ const Description = () => {
         2021 - Present (PEY CO-OP)
       </h2>
       <p>
-        <b>Awards: </b>3 &#215; Dean's List<br/>
-        Pursuing a minor in <b>Artificial Intelligence Engineering</b>
+        <b>Dean's List</b> in All Semesters<br/>
+        Minor in <b>Artificial Intelligence Engineering</b>
       </p>
       <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
         {padding:"min(1rem, 3vw)", textDecoration:"none", marginTop:"6vh", marginBottom:"8vh"}
