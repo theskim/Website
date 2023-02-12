@@ -1,8 +1,8 @@
 const Tool = ({ location, name }) => {
     return (
         <div className="tooltip-wrap">
-            <img src={location} loading='lazy' alt={`${name} logo`}/> <br/>
-            <div className="tooltip-content">{name}</div> 
+            {location}<br/>
+            <p className="tooltip-content">{name}</p> 
         </div>
     )
 }

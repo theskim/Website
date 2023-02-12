@@ -1,7 +1,6 @@
 import ProjectsTitle from "./ProjectsTitle";
 import CommuterStudent from "./Descriptions/CommuterStudent";
 import Click from "./Descriptions/Click";
-import Portfolio from "./Descriptions/Portfolio";
 import UofTHacksSite from "./Descriptions/UofTHacksSite";
 import TrackTC from "./Descriptions/TrackTC";
 import FutbolTabol from "./Descriptions/FutbolTabol";
@@ -25,8 +24,6 @@ const Projects = () => {
             <CommuterStudent/>
             <Divider/>
             <Click/>
-            <Divider/>
-            <Portfolio/>
             <Divider/>
         </>
     );

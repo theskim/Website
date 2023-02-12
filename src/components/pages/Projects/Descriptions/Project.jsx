@@ -12,7 +12,7 @@ const ProjectSample = (props) => {
     return (
         <div className="section-wrapper">
             <div className="section-image-box">
-                <img className="section-logo" src={props.image}/>
+                <img className="section-logo" src={props.image} alt=""/>
             </div>
             <div className="section-text-box">
                 <h2 ref={ref}>

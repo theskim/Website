@@ -1,6 +1,6 @@
-import { HtmlLogo, CssLogo, SASSLogo, JavascriptLogo, PythonLogo, CLogo, CPPLogo, PHPLogo, ReactLogo, NextLogo, GitLogo, GithubLogo, ReduxLogo, MATLABLogo, VerilogLogo, StyledComponentsLogo, VSCodeLogo, MySQLLogo, FigmaLogo, ModelsimLogo, QuartusLogo, DjangoLogo, DjangoRestLogo } from "../../../../assets/ToolLogos";
 import Tool from "./Tool";
 import "./Tools.scss"
+import { Icon } from '@iconify/react';
 
 const ToolsTitle = ({ emoji, children }) => {
     return (
@@ -37,47 +37,52 @@ const ToolSection = ({ title, emoji, tools }) => {
 
 const Tools = () => {
     const languages = [
-        {location: CLogo, name: "C"},
-        {location: CPPLogo, name: "C++"},
-        {location: PythonLogo, name: "Python"},
-        {location: HtmlLogo, name: "HTML5"},
-        {location: CssLogo, name: "CSS3"},
-        {location: JavascriptLogo, name: "JavaScript (ES6+)"},
-        {location: PHPLogo, name: "PHP"},
-        {location: VerilogLogo, name: "Verilog"},
-        {location: MATLABLogo, name: "MATLAB"}
+        {location: <Icon icon="nonicons:c-16" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "C"},
+        {location:<Icon icon="teenyicons:cplusplus-outline" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "C++"},
+        {location: <Icon icon="mdi:language-python"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"/>, name: "Python"},
+        {location: <Icon icon="ion:logo-html5" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "HTML5"},
+        {location: <Icon icon="ion:logo-css3" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "CSS3"},
+        {location: <Icon icon="mdi:language-javascript" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "JavaScript (ES6+)"},
+        {location: <Icon icon="mdi:language-php" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "PHP"},
+        {location: <Icon icon="file-icons:verilog" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />
+        , name: "Verilog"},
+        {location: <Icon icon="file-icons:assembly-arm" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ARM Assembly"},
+        {location:<Icon icon="file-icons:matlab" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "MATLAB"}
     ];
     const frontend = [
-        {location: HtmlLogo, name: "HTML5"},
-        {location: CssLogo, name: "CSS3"},
-        {location: JavascriptLogo, name: "JavaScript (ES6+)"},
-        {location: ReactLogo, name: "React.js"},
-        {location: NextLogo, name: "Next.js"},
-        {location: ReduxLogo, name: "Redux"},
-        {location: SASSLogo, name: "SASS"},
-        {location: StyledComponentsLogo, name: "styled-components"},
-        {location: FigmaLogo, name: "Figma"}
+        {location: <Icon icon="ion:logo-html5" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "HTML5"},
+        {location: <Icon icon="ion:logo-css3" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "CSS3"},
+        {location: <Icon icon="mdi:language-javascript" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "JavaScript (ES6+)"},
+        {location: <Icon icon="mdi:react" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "React.js"},
+        {location: <Icon icon="tabler:brand-nextjs" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Next.js"},
+        {location: <Icon icon="tabler:brand-redux" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Redux"},
+        {location: <Icon icon="mdi:sass" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "SASS"},
+        {location: <Icon icon="file-icons:styledcomponents" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "styled-components"},
+        {location: <Icon icon="radix-icons:stitches-logo" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "stitches.dev"},
+        {location: <Icon icon="ph:figma-logo-bold" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Figma"}
     ];
     const backend = [
-        {location: PHPLogo, name: "PHP"},
-        {location: PythonLogo, name: "Python"},
-        {location: DjangoLogo, name: "Django"},
-        {location: DjangoRestLogo, name: "Django REST"}
+        {location: <Icon icon="mdi:language-php" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "PHP"},
+        {location: <Icon icon="mdi:language-javascript" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "JavaScript (ES6+)"},
+        {location: <Icon icon="akar-icons:node-fill"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Node.js"},
+        {location: <Icon  icon="simple-icons:express"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Express.js"},
     ];
     const database = [
-        {location: MySQLLogo, name: "MySQL"},
-        {location: DjangoLogo, name: "Django"}
+        {location: <Icon icon="tabler:brand-mysql" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "MySQL"},
+        {location: <Icon icon="tabler:brand-mongodb" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "MongoDB"}
     ];
     const versionControl = [
-        {location: GitLogo, name: "Git"},
-        {location: GithubLogo, name: "GitHub"},
-        {location: VSCodeLogo, name: "VSCode"}
+        {location: <Icon icon="ph:git-branch" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Git"},
+        {location: <Icon icon="mdi:github" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "GitHub"},
+        {location: <Icon icon="akar-icons:vscode-fill" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "VSCode"}
     ];
     const hardware = [
-        {location: VerilogLogo, name: "Verilog"},
-        {location: ModelsimLogo, name: "Modelsim"},
-        {location: QuartusLogo, name: "Quartus"}
-    ];
+        {location: <Icon icon="file-icons:verilog" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />
+        , name: "Verilog"},
+        {location: <Icon icon="file-icons:assembly-arm" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ARM Assembly"},
+        {location: <Icon icon="file-icons:assembly-intel" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Intel Quartus Prime"},
+        {location: <Icon icon="mdi:integrated-circuit" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ModelSim"},
+    ];	
 
     return (
         <ToolsBox>
