@@ -17,6 +17,13 @@
 		font-family: $header-font;
 		font-size: min(7vw, 2.2rem);
 		line-height: min(10vh, 3rem);
+		font-weight: normal;
+		background-image: linear-gradient(90deg, rgb(91, 58, 255), rgb(91, 58, 255));
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-text-fill-color: transparent;
 	}
 }
 

@@ -14,7 +14,7 @@ const Experiences = () => {
                 contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
                 date="Sep 2022 - Present"
-                iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
+                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">University of Toronto Freelancers' Organization • Freelance Web Developer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
@@ -27,22 +27,23 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Jul 2022 - Present"
-                iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
+                date="Sep 2022 - Present"
+                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
-                    <h3 className="vertical-timeline-element-title">UofTHacks • Frontend Web Developer</h3>
+                    <h3 className="vertical-timeline-element-title">UofTHacks • Frontend Web Developer & Organizer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
                     <h4 className="vertical-timeline-element-subtitle">Skills: React.js • Next.js • stitches.dev • Figma</h4>
                     <p>
-                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using React.js, Next.js, and stitches.dev. You can find more information about this project in the Projects section.
+                    UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using React.js, Next.js, and stitches.dev. 
+                    You can find more information about this project in the Projects section. I also helped the team during the hackathon as part of UofTHacks X Organizers.
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins', 	boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
+                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Jul 2022 - Present"
-                iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
+                date="Sep 2022 - Present"
+                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">Skule Commuter Student Directorship • Webmaster Executive</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
@@ -55,10 +56,10 @@ I developed the organization's website using React.js, which is expected to be a
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins', boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
+                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Jun 2022 - Jul 2022"
-                iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
+                date="Sep 2022 - Present"
+                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">University of Toronto Engineering Outreach Office • DEEP Counsellor</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
@@ -73,10 +74,10 @@ In addition to providing academic support, I also encouraged students to pursue 
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins', 	boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
+                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
                 contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Sep 2021 - Apr 2022"
-                iconStyle={{ background: 'rgb(139, 117, 252)', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
+                date="Sep 2022 - Present"
+                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
                     <h3 className="vertical-timeline-element-title">Engineering Strategies and Practice • Engineering Project Manager</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
