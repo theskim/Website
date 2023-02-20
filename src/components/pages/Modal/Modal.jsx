@@ -4,7 +4,7 @@ import BriefDescription from './BriefDescription';
 import ProjectLinks from './ProjectLinks';
 import ProjectSetUp from './ProjectSetUp';
 import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const Modal = (props) => {  
     const { pathname } = useLocation();
@@ -12,11 +12,18 @@ const Modal = (props) => {
         SetOverflow(false);
     }, [pathname]);
 
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      const handleResize = () => setScreenWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <div className="modal">
             <div className="modal__bar">
-                <span className="modal__bar-title">{props.title}</span>
-                <span className="modal__bar-title-alt">{props.alt}</span>
+                <span className="modal__bar-title">{(props.title.length * 25 < screenWidth) ? props.title : props.alt}</span>
                 <span className="modal__xbar" onClick={() => props.update(false)}> &#xd7;</span>
             </div>
             <div className="modal__contents">
