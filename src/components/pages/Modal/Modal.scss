@@ -67,15 +67,6 @@ $bar-col: #fff;
 	font-size: $header-size;
 }
 
-.modal__bar-title-alt {
-	margin: calc(min(15vw, 12vh) / 2 - min(5vw, 2rem) / 2) 0 calc(min(15vw, 12vh) / 2 - min(5vw, 2rem) / 2) 10vw;
-	display: inline-block;
-	color: #eeffff;
-	font-family: $header-font;
-	font-size: min(5vw, 2rem);
-	display: none;
-}	
-
 .modal__contents {
 	display: flex;
 	margin: 15vh 4vw 0 4vw;
@@ -121,15 +112,6 @@ $bar-col: #fff;
 		.project-links {
 			display: grid !important;
 		}
-	}
-}
-
-@media screen and (max-width: 1550px) {
-	.modal__bar-title {
-		display: none;
-	}
-	.modal__bar-title-alt {
-		display: block;
 	}
 }
 
