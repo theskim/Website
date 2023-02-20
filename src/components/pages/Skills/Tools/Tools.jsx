@@ -55,6 +55,7 @@ const Tools = () => {
         {location: <Icon icon="mdi:language-javascript" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "JavaScript (ES6+)"},
         {location: <Icon icon="mdi:react" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "React.js"},
         {location: <Icon icon="tabler:brand-nextjs" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Next.js"},
+        {location: <Icon icon="mdi:vuejs" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Vue.js"},
         {location: <Icon icon="tabler:brand-redux" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Redux"},
         {location: <Icon icon="mdi:sass" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "SASS"},
         {location: <Icon icon="file-icons:styledcomponents" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "styled-components"},

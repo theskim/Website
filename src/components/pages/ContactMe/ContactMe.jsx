@@ -1,8 +1,8 @@
 import ContactMeBox from "./Sections/ContactMeBox";
 import ContactMeTitle from "./Sections/ContactMeTitle";
-import ContactInfo from "./Sections/ContactInfo";
+import MailInfo from "./Sections/MailInfo";
 import SocialMedia from "./Sections/SocialMedia";
-import { ResumeLogo, LinkedInLogo, mailLogo } from "../../../assets/GeneralLogos";
+import { ResumeLogo, LinkedInLogo } from "../../../assets/GeneralLogos";
 import { GithubLogo } from "../../../assets/ToolLogos";
 import "./ContactMe.scss";
 
@@ -10,10 +10,9 @@ const ContactMe = () => {
     return (
       <ContactMeBox>
         <ContactMeTitle/>
-        <ContactInfo 
-            src={[mailLogo]}
-            href={["mailto:kimsihy093@gmail.com?subject = Feedback&body = Message"]}
-            display={["kimsihy093@gmail.com"]}
+        <MailInfo 
+            href={"mailto:kimsihy093@gmail.com?subject = Feedback&body = Message"}
+            display={"kimsihy093@gmail.com"}
         />
         <SocialMedia 
             src={[GithubLogo, LinkedInLogo, ResumeLogo]} 
