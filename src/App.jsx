@@ -11,9 +11,9 @@ function App() {
         <Route path="/" element={
           <BackgroundAll>
             <Home/>
-            <Skills/>
-            <Experiences id='experiences'/>
             <Projects id='projects'/>
+            <Experiences id='experiences'/>
+            <Skills/>
             <ContactMe/>
           </BackgroundAll>
         }/>
