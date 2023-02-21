@@ -88,7 +88,7 @@ const Projects = () => {
 
     const SectionSelect = () => {
         return (
-            <div style={{margin: '0 auto 5rem auto', width: "max(50%, 30rem)"}}>
+            <div style={{margin: '0 auto 5rem auto', width: "min(75%, 40rem)"}}>
                 <Select
                     options={[
                         { value: null, label: 'All sections' },
