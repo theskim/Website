@@ -1,7 +1,7 @@
 import SetOverflow from './SetOverflow';
 import './Modal.scss';
 import BriefDescription from './BriefDescription';
-import ProjectLinks from './ProjectLinks';
+import ProjectLinks from './Descriptions/ProjectLinks';
 import ProjectSetUp from './ProjectSetUp';
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';

@@ -1,3 +1,5 @@
+import { Icon } from '@iconify/react';
+
 const DegreeTable = () => {
     const firstYear = {
         "First Semester": [
@@ -51,9 +53,9 @@ const DegreeTable = () => {
 
     return (
         <details>
-            <summary className="degree_table__title">My Courses</summary>
-            <span>
-                <p className="degree_table__header">First Year</p>
+            <summary className="degree_table__title"><Icon icon="fluent-mdl2:publish-course" width='1.5rem' />&nbsp;My Courses</summary>
+            <span> 
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-1" width='1.5rem' />&nbsp;First Year</p>
                 <span className="degree_table__contents">
                     <table>
                         <thead>
@@ -67,7 +69,7 @@ const DegreeTable = () => {
                         </tbody>
                     </table>
                 </span>
-                <p className="degree_table__header">Second Year</p>
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-2" width='1.5rem' />&nbsp;Second Year</p>
                 <span className="degree_table__contents">
                     <table>
                         <thead>
