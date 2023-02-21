@@ -1,4 +1,4 @@
-@use '../../../variables' as *;
+@use '../../../../variables' as *;
 
 .section-wrapper {
 	display: flex;
@@ -76,13 +76,13 @@
 
 .section-logo {
 	border: 1%;
-	border-color: linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255));
+	border-color: #000;
 	border-style: solid;
-	width: min(57vw, 23rem);
-	height: min(57vw, 23rem);
+	width: min(56vw, 25rem);
+	height: min(56vw, 25rem);
 	margin: min(2.3vw, 1.2rem) 0;
 	object-fit: contain;
-	box-shadow: 0 0 10px 8px rgba(0, 0, 3, 0.2);		
+	box-shadow: 0 0 10px 8px #626262;		
 	pointer-events: none;
 }
 
@@ -108,7 +108,7 @@
 		display: flex;	
 	}
 	.section-logo {
-		width: min(70vw, 27rem);
-		height: min(70vw, 27rem);
+		width: min(70vw, 25rem);
+		height: min(70vw, 25rem);
 	}
 }

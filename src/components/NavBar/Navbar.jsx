@@ -1,10 +1,11 @@
 import { React, useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { SkimLogo, burgerBar } from "../../assets/GeneralLogos";
+import { SkimLogo } from "../../assets/GeneralLogos";
 import NavOptions from "./NavOptions";
 import { setSideBar } from "../..";
 import "./Navbar.scss";
 import "./Sidebar.scss";
+import { Icon } from '@iconify/react';
 
 const NavBar = () => {
   const [yPos, setYPos] = useState(0);
@@ -34,8 +35,8 @@ const NavBar = () => {
                 <NavOptions/>
               </div>
             </div>
-            <div className = "side-bar">      
-              <img className = "burger-bar" src={burgerBar} onClick={(e) => {
+            <div className="side-bar">      
+              <Icon icon="pajamas:hamburger"  className="burger-bar" color="#fff" onClick={(e) => {
                 e.stopPropagation(); 
                 dispatch(setSideBar(true));
               }} alt=""/>

@@ -1,15 +1,16 @@
-import { GithubLogo } from "../../../assets/ToolLogos";
+import { Icon } from '@iconify/react';
 
 const ProjectLinks = ({ link, github }) => {
     return (
         <div className = "project-links">
             <span className="project-link">
-                <b>&#128279;&nbsp;&nbsp;Demo:&nbsp;&nbsp;</b>                  
+                <Icon icon="material-symbols:media-link" width="1.9rem"/>
+                <b>&nbsp;Demo:&nbsp;&nbsp;</b>                  
                 {link !== undefined && <a href = {link}>Click Here</a>}
                 {link === undefined && <span className="gray">Unavailable</span>}
             </span>
             <span className="project-link">
-                <img src={GithubLogo} loading='lazy' alt='Loading..'/>
+                <Icon icon="mdi:github" width="1.9rem"/>
                 <b>&nbsp;GitHub:&nbsp;&nbsp;</b>                  
                 {github !== undefined && <a href={github}>Click Here</a>}
                 {github === undefined && <span className="gray">Unavailable</span>}

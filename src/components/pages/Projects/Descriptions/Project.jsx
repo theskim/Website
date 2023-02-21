@@ -1,8 +1,9 @@
 import { useState, useRef } from "react";
-import Modal from "../../Modal/Modal";
-import BriefDescription from "../../Modal/BriefDescription";
-import SetOverflow from "../../Modal/SetOverflow";
-import "../../Modal/Section.scss";
+import Modal from "../Modal";
+import BriefDescription from "../BriefDescription";
+import SetOverflow from "../SetOverflow";
+import "./Section.scss";
+import { Icon } from '@iconify/react';
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
@@ -16,7 +17,7 @@ const ProjectSample = (props) => {
             </div>
             <div className="section-text-box">
                 <h2 ref={ref}>
-                    {props.title}
+                    <Icon icon="ant-design:project-filled" />&nbsp;{props.title}
                 </h2>
                 <div className="section-skills">
                     <BriefDescription {...props}/>

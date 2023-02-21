@@ -8,26 +8,123 @@ import UofTHacksDashboard from "./Descriptions/UofTHacksDashboard";
 import Aazami from "./Descriptions/Aazami";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
+import Select from 'react-select';
+import { useState } from "react";
+import React from "react";
+import { scroller } from 'react-scroll';
+
+const customStyles = {
+    control: (provided, state) => ({
+      ...provided,
+      backgroundColor: "white",
+      border: "3px solid rgb(91, 58, 255)",
+      borderRadius: "30px",
+      boxShadow: state.isFocused ? "0 0 0 3px rgb(91, 58, 255)" : null,
+      "&:hover": {
+        border: "3px solid rgb(91, 58, 255)",
+      },
+      fontFamily: "Poppins",
+    }),
+    menu: (provided) => ({
+        ...provided,
+        borderRadius: "20px 20px 20px 20px",
+        border: "3px solid rgb(91, 58, 255)",
+    }),
+    menuList: (provided) => ({
+      ...provided,
+      paddingTop: 0,
+      paddingBottom: 0,
+      fontFamily: "Poppins",
+      borderRadius: "20px 20px 20px 20px",
+    }),
+    option: (provided, state) => ({
+      ...provided,
+      backgroundColor: state.isSelected
+        ? "rgb(91, 58, 255)"
+        : state.isFocused
+        ? "rgba(91, 58, 255, 0.1)"
+        : "white",
+      color: state.isSelected ? "white" : "rgb(91, 58, 255)",
+      "&:hover": {
+        backgroundColor: "rgba(91, 58, 255, 0.1)",
+      },
+      fontFamily: "Poppins",
+    }),
+    singleValue: (provided) => ({
+      ...provided,
+      color: "rgb(91, 58, 255)",
+      fontFamily: "Poppins",
+    }),
+    valueContainer: (provided) => ({
+      ...provided,
+      color: "rgb(91, 58, 255)",
+      padding: "0.5rem",
+      maxWidth: "50%",
+    }),
+};
 
 const Projects = () => {
+    const [selectedSection, setSelectedSection] = useState(null);
+
+    const projects = [
+        { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
+        { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
+        { name: 'UofTHacksDashboard', section: 'Fullstack', component: <UofTHacksDashboard /> },
+        { name: 'UofTHacksSite', section: 'Fullstack', component: <UofTHacksSite /> },
+        { name: 'TrackTC', section: 'Fullstack', component: <TrackTC /> },
+        { name: 'FutbolTabol', section: 'Fullstack', component: <FutbolTabol /> },
+        { name: 'CommuterStudent', section: 'Fullstack', component: <CommuterStudent /> },
+        { name: 'Click', section: 'Fullstack', component: <Click /> },
+    ];
+
+    const handleSelectChange = (selectedOption) => {
+        setSelectedSection(selectedOption.value);
+        scroller.scrollTo('projects', {
+          duration: 800,
+          delay: 0,
+          smooth: 'easeInOutQuart'
+        });
+    };
+
+    const SectionSelect = () => {
+        return (
+            <div style={{margin: '0 auto 5rem auto', width: "max(50%, 30rem)"}}>
+                <Select
+                    options={[
+                        { value: null, label: 'All sections' },
+                        { value: 'Fullstack', label: 'Fullstack' },
+                        { value: 'Machine Learning', label: 'Machine Learning' },
+                        { value: 'Hardware', label: 'Hardware' },
+                    ]}
+                    styles={customStyles}
+                    defaultValue={{ value: selectedSection, label: selectedSection ? selectedSection : 'All sections'}}
+                    onChange={handleSelectChange}
+                />
+            </div>
+        );
+    };
+
+    const uniqueProjects = projects.reduce((acc, curr) => {
+        if (selectedSection != null || !acc.some(project => project.name === curr.name)) {
+          acc.push(curr);
+        } 
+        return acc;
+    }, []);
+
+    const filteredProjects = uniqueProjects.filter(project => {
+        return selectedSection ? project.section === selectedSection : true;
+    });
+
     return (
         <>
             <ProjectsTitle/>
-            <Divider/>
-            <Aazami/>
-            <Divider/>
-            <UofTHacksDashboard/>
-            <Divider/>
-            <FutbolTabol/>
-            <Divider/>
-            <UofTHacksSite/>
-            <Divider/>
-            <TrackTC/>
-            <Divider/>
-            <CommuterStudent/>
-            <Divider/>
-            <Click/>
-            <Divider/>
+            <SectionSelect/>
+            {filteredProjects.map(project => (
+                <React.Fragment key={project.name}>
+                    {project.component}
+                    <Divider/>
+                </React.Fragment>
+            ))}
         </>
     );
 }
