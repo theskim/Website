@@ -6,3 +6,4 @@ export const UofTHacksDashboardImage = require('./uofthacksdashboard-image.png')
 export const FutbolTabolImage = require('./futboltabol-image.png');
 export const TrackTCImage = require('./tracktc-image.png');
 export const Aazami = require('./aazami.png');
+export const MapperImage = require('./mapper.png');
