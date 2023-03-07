@@ -6,6 +6,7 @@ import TrackTC from "./Descriptions/TrackTC";
 import FutbolTabol from "./Descriptions/FutbolTabol";
 import UofTHacksDashboard from "./Descriptions/UofTHacksDashboard";
 import Aazami from "./Descriptions/Aazami";
+import Mapper from "./Descriptions/Mapper";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
 import Select from 'react-select';
@@ -67,14 +68,15 @@ const Projects = () => {
     const [selectedSection, setSelectedSection] = useState(null);
 
     const projects = [
+        { name: 'Mapper', section: 'Fullstack / Software', component: <Mapper /> },
         { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
         { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
-        { name: 'UofTHacksDashboard', section: 'Fullstack', component: <UofTHacksDashboard /> },
-        { name: 'UofTHacksSite', section: 'Fullstack', component: <UofTHacksSite /> },
-        { name: 'TrackTC', section: 'Fullstack', component: <TrackTC /> },
-        { name: 'FutbolTabol', section: 'Fullstack', component: <FutbolTabol /> },
-        { name: 'CommuterStudent', section: 'Fullstack', component: <CommuterStudent /> },
-        { name: 'Click', section: 'Fullstack', component: <Click /> },
+        { name: 'UofTHacksDashboard', section: 'Fullstack / Software', component: <UofTHacksDashboard /> },
+        { name: 'UofTHacksSite', section: 'Fullstack / Software', component: <UofTHacksSite /> },
+        { name: 'TrackTC', section: 'Fullstack / Software', component: <TrackTC /> },
+        { name: 'FutbolTabol', section: 'Fullstack / Software', component: <FutbolTabol /> },
+        { name: 'CommuterStudent', section: 'Fullstack / Software', component: <CommuterStudent /> },
+        { name: 'Click', section: 'Fullstack / Software', component: <Click /> },
     ];
 
     const handleSelectChange = (selectedOption) => {
@@ -92,7 +94,7 @@ const Projects = () => {
                 <Select
                     options={[
                         { value: null, label: 'All sections' },
-                        { value: 'Fullstack', label: 'Fullstack' },
+                        { value: 'Fullstack / Software', label: 'Fullstack / Software' },
                         { value: 'Machine Learning', label: 'Machine Learning' },
                         { value: 'Hardware', label: 'Hardware' },
                     ]}
