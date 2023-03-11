@@ -6,7 +6,7 @@ const Mapper = () => {
         <Project
             title="Mapper"
             alt="Mapper"
-            skills="C++, GTK, EZGL, OpenStreetMap API"
+            skills="C++, GTK, Glade, EZGL, OpenStreetMap API"
             image={MapperImage}
         >
             In progress
