@@ -5,6 +5,7 @@ import SocialMedia from "./Sections/SocialMedia";
 import { ResumeLogo, LinkedInLogo } from "../../../assets/GeneralLogos";
 import { GithubLogo } from "../../../assets/ToolLogos";
 import "./ContactMe.scss";
+import Resume from "../../../assets/Resume/resume.pdf"
 
 const ContactMe = () => {
     return (
@@ -16,7 +17,7 @@ const ContactMe = () => {
         />
         <SocialMedia 
             src={[GithubLogo, LinkedInLogo, ResumeLogo]} 
-            href={["https://github.com/skim1601", "https://www.linkedin.com/in/skim1601/", "https://docs.google.com/document/d/10CALRWLR5nVSGOBpfnZh3_F1aLwK4bNRlKlNvgoBtwk/export?format=pdf"]}
+            href={["https://github.com/skim1601", "https://www.linkedin.com/in/skim1601/", Resume]}
         />
       </ContactMeBox>
     );
