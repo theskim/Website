@@ -50,6 +50,7 @@ $bar-col: #fff;
 			line-height: $text-height;
 			font-size: min(3vw, 1rem);
 			margin: min(0.75rem, 3vh) 0 min(0.75rem, 3vh) 0;
+			overflow-wrap: break-word;
 		}
 		p {
 			font-family: $header-font;

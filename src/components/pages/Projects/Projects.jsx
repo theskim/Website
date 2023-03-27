@@ -7,6 +7,7 @@ import FutbolTabol from "./Descriptions/FutbolTabol";
 import UofTHacksDashboard from "./Descriptions/UofTHacksDashboard";
 import Aazami from "./Descriptions/Aazami";
 import Mapper from "./Descriptions/Mapper";
+import Processor from "./Descriptions/Processor";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
 import Select from 'react-select';
@@ -71,6 +72,7 @@ const Projects = () => {
         { name: 'Mapper', section: 'Fullstack / Software', component: <Mapper /> },
         { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
         { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
+        { name: 'Processor', section: 'Hardware', component: <Processor /> },
         { name: 'UofTHacksDashboard', section: 'Fullstack / Software', component: <UofTHacksDashboard /> },
         { name: 'UofTHacksSite', section: 'Fullstack / Software', component: <UofTHacksSite /> },
         { name: 'TrackTC', section: 'Fullstack / Software', component: <TrackTC /> },
