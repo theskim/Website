@@ -1,1 +1,0 @@
-export const GithubLogo = require('./github-logo.png');

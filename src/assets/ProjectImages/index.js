@@ -7,3 +7,4 @@ export const FutbolTabolImage = require('./futboltabol-image.png');
 export const TrackTCImage = require('./tracktc-image.png');
 export const Aazami = require('./aazami.png');
 export const MapperImage = require('./mapper.png');
+export const ProcessorImage = require('./processor.png');

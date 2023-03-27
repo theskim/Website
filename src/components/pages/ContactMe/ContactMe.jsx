@@ -3,7 +3,7 @@ import ContactMeTitle from "./Sections/ContactMeTitle";
 import MailInfo from "./Sections/MailInfo";
 import SocialMedia from "./Sections/SocialMedia";
 import { ResumeLogo, LinkedInLogo } from "../../../assets/GeneralLogos";
-import { GithubLogo } from "../../../assets/ToolLogos";
+import { GithubLogo } from "../../../assets/GeneralLogos";
 import "./ContactMe.scss";
 import Resume from "../../../assets/Resume/resume.pdf"
 
