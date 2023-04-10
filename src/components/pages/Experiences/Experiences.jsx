@@ -73,34 +73,6 @@ As part of my work with DEEP, I participated in training to review standard oper
 In addition to providing academic support, I also encouraged students to pursue interests in STEM fields and provided information about opportunities for further study and careers in these areas.
                                         </p>
                 </VerticalTimelineElement>
-                <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: '#fff', color: '#000', border: 'solid #000', fontFamily: 'Poppins',  boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)'}}
-                contentArrowStyle={{ borderRight: '9px solid #000' }}
-                date="Sep 2022 - Present"
-                iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
-                >
-                    <h3 className="vertical-timeline-element-title"><Icon icon="material-symbols:work" width='1.5rem' />&nbsp;Engineering Strategies and Practice • Engineering Project Manager</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
-                    <h4 className="vertical-timeline-element-subtitle">Skills: Project Management • Gantt Chart • Engineering Design • Presentation</h4>
-                    <p>
-                    Engineering Strategies and Practice is a design course, 
-                        offered in first year engineering at the University of Toronto.
-                        The course focuses on developing skills in engineering communication, 
-                        problem solving, engineering project management, client relationships, and team dynamics. <br/><br/>
-
-                        The first project was about developing an efficient unloading system for a delivery
-                        robot. After thoroughly exploring the design space, the team selected a hydraulic design
-                        as the final conceptual design.
-                        <br/><br/>
-                        
-                        The second project was about developing a design for efficient grime removal on the client's window.
-                        As a team, we conducted various physical experiments at the Walberg Chemical Engineering lab 
-                        to test the hydrophilicity and transparency of the glass when the Titanium Dioxide solution is applied. 
-                        Ultimately, the team presented a 10-minute long final design to the client and the Engineering Manager
-                        in a professional manner. 
-                    </p>
-                </VerticalTimelineElement>
             </VerticalTimeline><br/><br/>
             <Divider/>
         </>

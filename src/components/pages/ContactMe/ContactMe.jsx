@@ -17,7 +17,7 @@ const ContactMe = () => {
         />
         <SocialMedia 
             src={[GithubLogo, LinkedInLogo, ResumeLogo]} 
-            href={["https://github.com/skim1601", "https://www.linkedin.com/in/skim1601/", Resume]}
+            href={["https://github.com/theskim", "https://www.linkedin.com/in/seankim7/", Resume]}
         />
       </ContactMeBox>
     );
