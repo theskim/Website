@@ -3,7 +3,7 @@ This is my personal portfolio website.
 I am planning to continuously improve this website as my career progresses.
 
 ## Link: 
-https://skim1601.com
+https://seankim.netlify.app
 
 ## Technologies
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
