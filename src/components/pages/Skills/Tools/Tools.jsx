@@ -45,7 +45,7 @@ const Tools = () => {
         {location: <Icon icon="mdi:language-javascript" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "JavaScript (ES6+)"},
         {location: <Icon icon="mdi:language-php" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "PHP"},
         {location: <Icon icon="file-icons:verilog" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />
-        , name: "Verilog"},
+        , name: "SystemVerilog"},
         {location: <Icon icon="file-icons:assembly-arm" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ARM Assembly"},
         {location:<Icon icon="file-icons:matlab" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "MATLAB"}
     ];
@@ -79,7 +79,7 @@ const Tools = () => {
     ];
     const hardware = [
         {location: <Icon icon="file-icons:verilog" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />
-        , name: "Verilog"},
+        , name: "SystemVerilog"},
         {location: <Icon icon="file-icons:assembly-arm" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ARM Assembly"},
         {location: <Icon icon="file-icons:assembly-intel" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Intel Quartus Prime"},
         {location: <Icon icon="mdi:integrated-circuit" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ModelSim"},

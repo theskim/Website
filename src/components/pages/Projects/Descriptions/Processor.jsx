@@ -4,13 +4,23 @@ import { ProcessorImage } from '../../../../assets/ProjectImages';
 const Processor = () => {
     return (
         <Project
-            title="Processor"
+            title="16-bit Processor"
             alt="Processor"
             image={ProcessorImage}
-            skills="Verilog • ARM Assembly"
+            skills="SystemVerilog • Assembly • ModelSim • DESim"
             project={true}
         >
-       In Progress
+ I worked on developing a processor with a 16-bit architecture and 8 registers, 
+ where r6 was designated as the stack pointer, r7 as the link register, 
+ and r8 as the program counter. The processor was capable of executing a variety of instructions such as mov, movt, add, sub, ldr, str, and, b (along with all conditional flags), 
+ lsl, lsr, asr, ror, and flag checking.
+
+To debug the SystemVerilog code, I utilized an FSM timing diagram from ModelSim. 
+I also made modifications to the ALU to implement the above instructions, such as add, sub, and and. 
+I utilized tools such as DESim to test the processor so that it implements a program (word matching game) on board.
+While I am unable to share the code due to academic integrity (future course takers), I can provide it upon request. <br/><br/>
+
+Created by: Sean Kim
         </Project>
     );
 }

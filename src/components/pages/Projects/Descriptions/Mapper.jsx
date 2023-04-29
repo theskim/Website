@@ -4,8 +4,8 @@ import { MapperImage } from '../../../../assets/ProjectImages';
 const Mapper = () => {
     return (
         <Project
-            title="Mapper"
-            alt="Mapper"
+            title="OTFMap"
+            alt="OTFMap"
             skills="C++, GTK, Glade, EZGL, OpenStreetMap API"
             image={MapperImage}
         >
