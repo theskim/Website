@@ -7,6 +7,7 @@ const Processor = () => {
             title="16-bit Processor"
             alt="Processor"
             image={ProcessorImage}
+            link="https://youtu.be/JpTqb0nLZSQc"
             skills="SystemVerilog • Assembly • ModelSim • DESim"
             project={true}
         >
@@ -18,7 +19,7 @@ const Processor = () => {
 To debug the SystemVerilog code, I utilized an FSM timing diagram from ModelSim. 
 I also made modifications to the ALU to implement the above instructions, such as add, sub, and and. 
 I utilized tools such as DESim to test the processor so that it implements a program (word matching game) on board.
-While I am unable to share the code due to academic integrity (future course takers), I can provide it upon request. <br/><br/>
+While I am unable to share the code due to academic integrity, I can provide it upon request. <br/><br/>
 
 Created by: Sean Kim
         </Project>
