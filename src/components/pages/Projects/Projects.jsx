@@ -69,9 +69,9 @@ const Projects = () => {
     const [selectedSection, setSelectedSection] = useState(null);
 
     const projects = [
+      { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
+      { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
         { name: 'Mapper', section: 'Fullstack / Software', component: <Mapper /> },
-        { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
-        { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
         { name: 'Processor', section: 'Hardware', component: <Processor /> },
         { name: 'UofTHacksDashboard', section: 'Fullstack / Software', component: <UofTHacksDashboard /> },
         { name: 'UofTHacksSite', section: 'Fullstack / Software', component: <UofTHacksSite /> },
