@@ -25,17 +25,18 @@ $bar-col: #fff;
 		width: 100%;
 		height: $bar-height;
 		display: flex;
+		align-items: center; /* add this line */
 		border-bottom: $bar-col;
 		border-bottom-style: solid;
 		.modal__xbar {
 			right: 20%;
 			position: fixed;
-			color: #eeffff;	
+			color: #eeffff;
 			font-size: calc($header-size * 2);
-			display: inline-block;
+			line-height: 1rem;
 			cursor: pointer;
-		}	
-	}	
+		}
+	}
 	.project__setup {
 		display: grid;
 		background: #434343;
