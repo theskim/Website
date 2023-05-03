@@ -15,7 +15,9 @@ $bar-col: #fff;
 	min-height: 100%;
 	z-index: 50;
 	background: #eeffff;
-	overflow-y: auto;
+	overflow-x: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;  /* Firefox */
 	.modal__bar {
 		position: fixed;
 		z-index: 51;
@@ -61,6 +63,9 @@ $bar-col: #fff;
 	}
 }
 
+.modal::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
 .modal__bar-title {
 	margin: calc(($bar-height - $header-size) / 2) 0 calc(($bar-height - $header-size) / 2) 10vw;
 	display: inline-block;

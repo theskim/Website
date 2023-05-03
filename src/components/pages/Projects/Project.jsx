@@ -1,13 +1,13 @@
 import { useState, useRef } from "react";
-import Modal from "../Modal";
-import BriefDescription from "../BriefDescription";
-import SetOverflow from "../SetOverflow";
+import Modal from "./Modal";
+import BriefDescription from "./BriefDescription";
 import "./Section.scss";
 import { Icon } from '@iconify/react';
 
 const ProjectSample = (props) => {
     const [click, update] = useState(false);
     const ref = useRef(null);
+
     const scrollToElement = () => ref.current?.scrollIntoView({ behavior: "auto" });
 
     return (
@@ -27,7 +27,6 @@ const ProjectSample = (props) => {
                 </div>
                 <button className="my-button" type="button" onClick={() => {
                     update(true);
-                    SetOverflow(true);
                 }}>
                     <p>View Description</p>
                 </button>

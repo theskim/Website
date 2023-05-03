@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { ClickImage } from '../../../../assets/ProjectImages';
 
 const NewPortfolio = () => {

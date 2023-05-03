@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { ProcessorImage } from '../../../../assets/ProjectImages';
 
 const Processor = () => {

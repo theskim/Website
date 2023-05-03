@@ -1,4 +1,4 @@
-@use '../../../../variables' as *;
+@use '../../../variables' as *;
 
 .section-wrapper {
 	display: flex;
@@ -82,7 +82,7 @@
 	height: min(56vw, 22rem);
 	margin: min(2.3vw, 1.2rem) 0;
 	object-fit: contain;
-	box-shadow: 0 0 10px 8px #626262;		
+	box-shadow: 0 0 3px 1px #626262;		
 	pointer-events: none;
 }
 
