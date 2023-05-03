@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { Aazami } from "../../../../assets/ProjectImages";
 
 const TrackTC = () => {

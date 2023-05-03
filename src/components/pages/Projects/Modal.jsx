@@ -1,23 +1,16 @@
-import SetOverflow from './SetOverflow';
 import './Modal.scss';
 import BriefDescription from './BriefDescription';
 import ProjectLinks from './Descriptions/ProjectLinks';
 import ProjectSetUp from './ProjectSetUp';
-import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 const Modal = (props) => {  
-    const { pathname } = useLocation();
-    useEffect(() => {
-        SetOverflow(false);
-    }, [pathname]);
-
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
     useEffect(() => {
-      const handleResize = () => setScreenWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
+        const handleResize = () => setScreenWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
     }, []);
 
     return (

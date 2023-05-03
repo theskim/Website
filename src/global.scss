@@ -6,6 +6,12 @@
 
 html, body {
 	overflow-x: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
 }
 
 @font-face {

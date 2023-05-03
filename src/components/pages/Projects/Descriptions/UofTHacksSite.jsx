@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { UofTHacksSiteImage } from '../../../../assets/ProjectImages';
 
 const UofTHacksSite = () => {

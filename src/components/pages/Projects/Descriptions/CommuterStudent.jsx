@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { CommuterStudentImage } from '../../../../assets/ProjectImages';
 
 const CommuterStudent = () => {

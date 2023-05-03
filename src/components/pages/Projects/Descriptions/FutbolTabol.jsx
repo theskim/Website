@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../Project";
 import { FutbolTabolImage } from '../../../../assets/ProjectImages';
 
 const FutbolTabol = () => {
