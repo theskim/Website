@@ -17,9 +17,8 @@ const Experiences = () => {
                 date="Sep 2022 - Jan 2022"
                 iconStyle={{ background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))', color: '#000', border: 'solid 0.2rem #000', boxShadow: 'none'}}
                 >
-                    <h3 className="vertical-timeline-element-title"><Icon icon="material-symbols:work" width='1.5rem' />&nbsp;UofTHacks • Frontend Web Developer & Organizer</h3>
+                    <h3 className="vertical-timeline-element-title"><Icon icon="material-symbols:work" width='1.5rem' />&nbsp;UofTHacks • Web Developer & Organizer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
-                    <h4 className="vertical-timeline-element-subtitle">Skills: React.js • Next.js • stitches.dev • Figma</h4>
                     <p>
                     UofTHacks is the University of Toronto's annual hackathon and the first student-run hackathon in Canada. Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer, my role is to contribute to the development of the hackathon's landing page and dashboard using React.js, Next.js, and stitches.dev. 
                     You can find more information about this project in the Projects section. I also helped the team during the hackathon as part of UofTHacks X Organizers.
@@ -34,7 +33,6 @@ const Experiences = () => {
                 >
                     <h3 className="vertical-timeline-element-title"><Icon icon="material-symbols:work" width='1.5rem' />&nbsp;University of Toronto Engineering Outreach Office • DEEP Counsellor</h3>
                     <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
-                    <h4 className="vertical-timeline-element-subtitle">Skills: Python • Mentoring</h4>
                     <p>
                     The Da Vinci Engineering Enrichment Program (DEEP) is a summer camp that offers gifted and highly motivated high school students from Canada and around the world the opportunity to study advanced topics in science, technology, and engineering. <br/><br/>
 
