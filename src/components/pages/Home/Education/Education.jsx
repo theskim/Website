@@ -24,6 +24,7 @@ const Description = () => {
       </h2>
       <p>
         <b><Icon icon="mdi:award" width='1.3rem'/>&nbsp;Dean's List</b> in All Semesters<br/>
+        <b><Icon icon="tabler:award" width='1.3rem'/>&nbsp;NSERC</b> Undergraduate Student Research Award<br/>
         <Icon icon="mdi:certificate" width='1.3rem'/>&nbsp;Minor in <b>Artificial Intelligence Engineering</b>
       </p>
       <a className="my-button" href="https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/" style={
