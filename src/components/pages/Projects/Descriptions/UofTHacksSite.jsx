@@ -4,20 +4,18 @@ import { UofTHacksSiteImage } from '../../../../assets/ProjectImages';
 const UofTHacksSite = () => {
     return (
         <Project
-            title="UofTHacks X Site"
+            title="UofTHacks X Site & Dashboard"
             alt="UofTHacks X"
             skills="React.js • Next.js • stitches.dev"
             image={UofTHacksSiteImage}
             link="https://uofthacks.com/"
             github="https://github.com/UofTHacks-Official/site-x"
-            setup= {[
-                "git clone https://github.com/UofTHacks-Official/site-x.git", 
-                "npm install",
-                "npm run dev"
-            ]}
         >
-        Welcome to the official website for UofTHacks X, the University of Toronto's annual hackathon that brings together over 500+ students with a diverse range of experience levels. My role on this project was to develop various components, including the sponsors page and Q&A page. To optimize rendering time, we used the React.js, Next.js, and stitches.dev (CSS library) frameworks. The styling of the website was based on the Figma prototype provided by the design team. Working on this project allowed me to gain valuable experience in refactoring code with CSS-in-JS libraries and utilizing the atomic design model, as well as integrating designs from Figma.<br/><br/>
-        Created by: Shernan Javier, Sean Kim, and Daniel Liu
+      This is the official website and dashboard for UofTHacks X, the annual hackathon hosted by the University of Toronto. 
+       Over 500+ students with a range of experience levels participated in the event. 
+       I was responsible for working on the main site and creating the sign-in page for applicants and authentication.
+        In order to complete this task, I had to work closely with the backend team to ensure that the data from my page was properly validated.<br/><br/>
+        Created by: UofTHacks Web Development Team
         </Project>
     );
 }
