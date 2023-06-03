@@ -16,9 +16,6 @@ const TrackTC = () => {
        To develop Aazami, we utilized a combination of hardware and software components including Arduino and Adafruit's Neopixel for the hardware, and Edge Impulse for machine learning. Our team started off by recording our own voices to create a dataset for "I forgot" voice detection, and refined it through trial and error to ensure the most appropriate dataset for our constraints. I was mostly involved in training the model; I conducted extensive Machine Learning training with Edge Impulse on the voice recognition system, totaling over 1 hour and 27 minutes, resulting in a 98.7% accuracy rate. <br/><br/>
        
        Then we generated Arduino code and improved it to optimize the hardware performance, and also created an amplifier circuit to boost the sound of the device. Through these iterative processes, we combined all the components to create a functional and effective solution. <br/><br/>
-    
-
-        Created by: Amirreza Aazam, Vishwa Eswaran, and Sean Kim
         </Project>
     );
 }

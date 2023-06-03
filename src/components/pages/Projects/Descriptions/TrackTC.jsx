@@ -26,9 +26,7 @@ To help address this issue, we have developed a service that provides real-time 
 
 I primarily focused on the frontend of this project, including creating a Figma prototype and enhancing the website's responsive design. I also worked on implementing GET and POST requests using the Django-React stack and the Django REST Framework. Overall, it was a valuable learning experience and we are pleased to present this service at NewHacks 2022.<br/><br/>
         
-Please be advised that in December 2022, we made updates to the backend and database for our software. The previous version, Version 1.0, utilized Django as the backend, while the current version, Version 2.0, now utilizes Express.js. <br/><br/>
-
-        Created by: Amirreza Aazam, Avid Eslami, Sean Kim, and Michael Zhou 
+Please be advised that in December 2022, we made updates to the backend and database for our software. The previous version, Version 1.0, utilized Django as the backend, while the current version, Version 2.0, now utilizes Express.js. <br/><br/> 
         </Project>
     );
 }

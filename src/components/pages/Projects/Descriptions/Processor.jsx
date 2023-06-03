@@ -21,8 +21,6 @@ I also made modifications to the ALU to implement the above instructions, such a
 I utilized tools such as DESim to test the processor so that it implements a program (word matching game) on board.
 The demonstration of this program is available through demo link below.
 While I am unable to share the code due to academic integrity, I can provide it upon request. <br/><br/>
-
-Created by: Sean Kim
         </Project>
     );
 }

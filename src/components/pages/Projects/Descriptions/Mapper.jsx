@@ -25,8 +25,6 @@ In the final milestone, we tackled the Travelling Courier Problem, utilizing var
 Our focus on the map was on eco-friendly GIS, with features that promoted public transit. Working on this Agile Software Development project was a remarkable experience that strengthened my skills in C++, Data Structures, and Algorithms.<br/><br/>
 
 While I am unable to share the code due to academic integrity, I can provide it upon request. The demo video is available through link below. <br/><br/>
-
-Created by: Zhi Yang Chen, Rayman Huang, and Sean Kim
         </Project>
     );
 }

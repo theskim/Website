@@ -15,7 +15,6 @@ const UofTHacksSite = () => {
        Over 500+ students with a range of experience levels participated in the event. 
        I was responsible for working on the main site and creating the sign-in page for applicants and authentication.
         In order to complete this task, I had to work closely with the backend team to ensure that the data from my page was properly validated.<br/><br/>
-        Created by: UofTHacks Web Development Team
         </Project>
     );
 }
