@@ -6,7 +6,7 @@ const Mapper = () => {
         <Project
             title="OTFMap"
             alt="OTFMap"
-            skills="C++, GTK, Glade, EZGL, OpenStreetMap API"
+            skills="C++ • GTK • Glade • EZGL • OpenStreetMap API"
             link="https://youtu.be/OgRmhjl-Iy8"
             image={MapperImage}
         >

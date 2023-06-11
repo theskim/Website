@@ -1,4 +1,7 @@
-import ProjectsTitle from "./ProjectsTitle";
+import React from "react";
+import { scroller } from 'react-scroll';
+import Select from 'react-select';
+import { useState } from "react";
 import CommuterStudent from "./Descriptions/CommuterStudent";
 import Click from "./Descriptions/Click";
 import UofTHacksSite from "./Descriptions/UofTHacksSite";
@@ -8,10 +11,16 @@ import Mapper from "./Descriptions/Mapper";
 import Processor from "./Descriptions/Processor";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
-import Select from 'react-select';
-import { useState } from "react";
-import React from "react";
-import { scroller } from 'react-scroll';
+
+const ProjectsTitle = () => {
+  return (
+      <>
+          <div id='projects' className='projects__title'>
+              <h1>&#128194;&nbsp;&nbsp;PROJECTS</h1>
+          </div>
+      </>
+  );
+}
 
 const customStyles = {
     control: (provided, state) => ({

@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='footer' onClick={(e) => {e.stopPropagation(); dispatch(setSideBar(false));}}>
             <footer>
-                <p>&copy; Sean Kim 2023. All rights reserved.</p>
+                <p>&copy; Sean Kim {new Date().getFullYear()}. All rights reserved.</p>
             </footer>
         </div>
     );

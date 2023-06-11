@@ -5,63 +5,52 @@ $xbar-height: min(5vw, 2.5rem);
 $bar-col: #fff;
 
 .modal {
-	display: block;
-	position: fixed;
-	justify-content: center;
-	top: 0;
-	left: 0;
-	width: 100%;
-	max-height: 100%;
-	min-height: 100%;
-	z-index: 50;
-	background: #eeffff;
-	overflow-x: hidden;
-	-ms-overflow-style: none;
-	scrollbar-width: none;  /* Firefox */
-	.modal__bar {
-		position: fixed;
-		z-index: 51;
-		background: $modal-background;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: $bar-height;
-		display: flex;
-		align-items: center; /* add this line */
-		border-bottom: $bar-col;
-		border-bottom-style: solid;
-		.modal__xbar {
-			right: 20%;
-			position: fixed;
-			color: #eeffff;
-			font-size: calc($header-size * 2);
-			line-height: 1rem;
-			cursor: pointer;
-		}
-	}
-	.project__setup {
-		display: grid;
-		background: #434343;
-		color: #eeffff;	
-		justify-content: center;
-		text-align: center;
-		margin-top: min(10vh, 10vw);
-		padding-bottom: min(5vh, 5vw);
-		border-top: $bar-col;
-		border-top-style: solid;
-		code {
-			line-height: $text-height;
-			font-size: min(3vw, 1rem);
-			margin: min(0.75rem, 3vh) 0 min(0.75rem, 3vh) 0;
-			overflow-wrap: break-word;
-		}
-		p {
-			font-family: $header-font;
-			font-size: $text-size;
-			padding-top: min(1.5rem, 3vh);
-		}
-	}
+    display: block;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    z-index: 50;
+    background: #eeffff;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  /* Firefox */
+ 	animation: fadeIn 0.5s ease; 
+    .modal__bar {
+        position: fixed;
+        z-index: 51;
+        background: $modal-background;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: $bar-height;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* evenly space items */
+        padding: 0 1.5rem; /* horizontal padding */
+        border-bottom: $bar-col;
+        border-bottom-style: solid;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* shadow for depth */
+
+        .modal__xbar {
+            position: absolute; /* Absolute positioning relative to parent */
+            right: 20%; /* Positioned 20% from the right */
+            color: #eeffff; /* light modern blue color */
+            font-size: calc($header-size * 2);
+            line-height: 1rem;
+            cursor: pointer;
+            transition: color 0.3s ease; /* transition for a smoother color change */
+        }
+
+        .modal__xbar:hover {
+            color: #8cb9ed; /* light modern blue color */
+        }
+    }
 }
+
 
 .modal::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
@@ -72,6 +61,24 @@ $bar-col: #fff;
 	color: #eeffff;
 	font-family: $header-font;
 	font-size: $header-size;
+}
+
+.modal.fade-out {
+    animation: fadeOut 0.5s;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .modal__contents {

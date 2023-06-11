@@ -1,5 +1,6 @@
-import { UofTLogo } from "../../../../assets/GeneralLogos";
+import { UofTLogo } from "../../../assets/GeneralLogos";
 import DegreeTable from "./DegreeTable";
+import Divider from "../../../assets/Divider/Divider";
 import "./Education.scss";
 import { Icon } from '@iconify/react';
 
@@ -37,7 +38,7 @@ const Description = () => {
   )
 }
 
-const EducationBox = ({ children }) => {
+const Wrapper = ({ children }) => {
   return (
     <div className = 'school-information'>
       {children}
@@ -47,10 +48,13 @@ const EducationBox = ({ children }) => {
 
 const Education = () => {
   return (
-    <EducationBox>
-      <Title/>
-      <Description/>
-    </EducationBox>
+    <>
+      <Wrapper>
+        <Title/>
+        <Description/>
+      </Wrapper>
+      <Divider/>
+    </>
   );
 }
 

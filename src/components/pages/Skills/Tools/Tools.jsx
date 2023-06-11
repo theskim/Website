@@ -1,4 +1,3 @@
-import Tool from "./Tool";
 import "./Tools.scss"
 import { Icon } from '@iconify/react';
 
@@ -13,12 +12,21 @@ const ToolsTitle = ({ emoji, children }) => {
     )
 }
 
-const ToolsBox = ({ children }) => {
+const Wrapper = ({ children }) => {
     return (
         <div className="tools">
             {children}
         </div>
     );
+}
+
+const Tool = ({ location, name }) => {
+    return (
+        <div className="tooltip-wrap">
+            {location}<br/>
+            <p className="tooltip-content">{name}</p> 
+        </div>
+    )
 }
 
 const ToolSection = ({ title, emoji, tools }) => {
@@ -50,7 +58,6 @@ const Tools = () => {
         {location: <Icon icon="tabler:brand-redux" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Redux"},
         {location: <Icon icon="mdi:sass" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "SASS"},
         {location: <Icon icon="radix-icons:stitches-logo" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "stitches.dev"},
-        {location: <Icon icon="file-icons:styledcomponents" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "styled-components"},
         {location: <Icon icon="mdi:language-php" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"  />, name: "PHP"},
         {location: <Icon icon="akar-icons:node-fill"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Node.js"},
         {location: <Icon  icon="simple-icons:express"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Express.js"},
@@ -70,9 +77,9 @@ const Tools = () => {
     ];	
 
     return (
-        <ToolsBox>
+        <Wrapper>
             <ToolSection title="Prior Experience In" emoji={<>&#128071;</>} tools={section} />
-        </ToolsBox>
+        </Wrapper>
     );
 }
 

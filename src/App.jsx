@@ -1,7 +1,7 @@
 import React from "react";
 import './global.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Skills, Projects, Experiences, NavBar, Footer, BackgroundAll, ContactMe } from "./components/imports";
+import { Home, Education, Skills, Projects, Experiences, NavBar, Footer, BackgroundAll, ContactMe } from "./components/imports";
 
 function App() {
   return (     
@@ -12,6 +12,7 @@ function App() {
           <BackgroundAll>
             <Home/>
             <Projects id='projects'/>
+            <Education/>
             <Experiences id='experiences'/>
             <Skills/>
             <ContactMe/>

@@ -10,15 +10,6 @@ const TrackTC = () => {
             image={TrackTCImage}
             link="https://devpost.com/software/tracktc"
             github="https://github.com/skim1601/Enhanced-TrackTC"
-            setup= {[
-                "git clone https://github.com/skim1601/Enhanced-TrackTC", 
-                "cd backend", 
-                "npm install",
-                "nodemon app.js",
-                "cd ../frontend",
-                "npm install",
-                "npm start"
-            ]}
         >
        Commuter students may not always be aware of potential delays or cancellations on the TTC due to various reasons. For some individuals, it can be difficult to regularly check media and the internet for updates, which can result in missing important closure information. Our team has personally experienced being late to exams or other important events due to unexpected commute interruptions. <br/><br/>
 

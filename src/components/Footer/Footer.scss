@@ -12,17 +12,8 @@ $footer-background: linear-gradient(90deg, rgb(45, 102, 176), rgb(58, 38, 162));
 	align-items: center;
 	p {
 		color: $footer-col;
-		font-size: min(3vh, 1.5rem);
+		font-size: calc(1rem + 0.3vw); // Combination of relative unit and viewport unit
 		font-family: $text-font;
 		text-align: center;
-	}
-}
-
-@media screen and (max-width: 1350px) {
-	.footer {
-		p {
-			color: $footer-col;
-			font-size: min(3vh, 1rem);
-		}
 	}
 }

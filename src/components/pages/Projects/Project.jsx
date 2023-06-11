@@ -1,6 +1,5 @@
 import { useState, useRef } from "react";
 import Modal from "./Modal";
-import BriefDescription from "./BriefDescription";
 import "./Section.scss";
 import { Icon } from '@iconify/react';
 
@@ -20,19 +19,24 @@ const ProjectSample = (props) => {
                     <Icon icon="ant-design:project-filled" />&nbsp;{props.title}
                 </h2>
                 <div className="section-skills">
-                    <BriefDescription {...props}/>
+                    <p>
+                        <b><Icon icon="material-symbols:keyboard-previous-language" width="1.4rem"/>&nbsp;Tech Stack:&nbsp;</b>
+                        {props.skills}
+                    </p>
                 </div>
                 <div className="section-image-box__mobile">
                     <img className="section-logo" src={props.image} alt=""/><br/>
                 </div>
                 <button className="my-button" type="button" onClick={() => {
-                    update(true);
+                    setTimeout(() => {
+                        update(true);
+                    }, 250);
                 }}>
                     <p>View Description</p>
                 </button>
                 <div className="section-description">
                     { click
-                        ?  <Modal update={update} {...props}/>
+                        ?  <Modal update={update} scrollToElement={scrollToElement} {...props}/>
                         :  <>{scrollToElement()}</>
                     }  
                     <br/><br/>

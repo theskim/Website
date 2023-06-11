@@ -1,5 +1,5 @@
-import GetDate from "../../../API/GetDate";
-import "./AboutMe.scss";
+import Clock from "../../../API/Clock";
+import "./Hero.scss";
 import { Icon } from '@iconify/react';
 
 const Title = () => {
@@ -14,17 +14,15 @@ const Description = () => {
     return (
         <div className = 'about-me-description'>
             <h4 style={{color: "rgb(91, 58, 255)"}}><Icon icon="material-symbols:location-on" color="rgb(91, 58, 255)"  />&nbsp;Toronto, ON, Canada</h4>
-            <h5><Icon icon="ic:round-access-time-filled"  />&nbsp;<GetDate/></h5>
+            <h5><Icon icon="ic:round-access-time-filled" />&nbsp;<Clock/></h5>
             <p>
-                Welcome, my name is Sean Kim and I am a second year Computer Engineering student at the University of Toronto.
-
-           
+                Welcome, my name is Sean Kim and I am going into third year Computer Engineering student at the University of Toronto.
             </p>
         </div>
     )
 }
 
-const AboutMeBox = (props) => {
+const Wrapper = (props) => {
     return (
         <div className='about-me'>
             {props.children}
@@ -32,13 +30,13 @@ const AboutMeBox = (props) => {
     );
 }
 
-const AboutMe = () => {
+const Hero = () => {
     return (
-        <AboutMeBox>
+        <Wrapper>
             <Title/>
             <Description/>
-        </AboutMeBox>
+        </Wrapper>
     );
 }
 
-export default AboutMe;
+export default Hero;

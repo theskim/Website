@@ -75,16 +75,17 @@
 }
 
 .section-logo {
-	border: 1%;
-	border-color: #000;
-	border-style: solid;
-	width: min(56vw, 22rem);
-	height: min(56vw, 22rem);
-	margin: min(2.3vw, 1.2rem) 0;
-	object-fit: contain;
-	box-shadow: 0 0 3px 1px #626262;		
-	pointer-events: none;
+    border: 1px solid #444; /* Specific unit and darker color for better contrast */
+    width: min(56vw, 22rem);
+    height: min(56vw, 22rem);
+    margin: min(2.3vw, 1.2rem) 0;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(98, 98, 98, 0.5); /* Softer shadow */
+    border-radius: 5px; /* Rounded corners */
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out; /* Transition for smooth scaling */
 }
+
 
 .gray {
 	color: #626262;
