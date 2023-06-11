@@ -1,0 +1,48 @@
+@use '../../../../variables' as *;
+
+.tools {
+	align-items: center;
+	text-align: center;
+}
+
+.tool__section {
+	padding-top: 15vh;
+	padding-bottom: 10vh;
+	margin: 0 5vw;
+}
+
+.tools-bold {
+	p {
+		display: block;
+		font-family: $header-font;
+		font-size: min(7vw, 2.2rem);
+		line-height: min(10vh, 3rem);
+		font-weight: normal;
+		background-image: linear-gradient(90deg, rgb(91, 58, 255), rgb(91, 58, 255));
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-text-fill-color: transparent;
+	}
+}
+
+.tooltip-wrap {
+	vertical-align: top;
+	display: inline-block;
+	width: min(20vw, 8rem);
+	padding: 4vh;
+	.tooltip-content {
+		font-family: $header-font;		
+		font-size: min(5vw, 1.5rem);
+		line-height: min(10vh, 2rem);
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.tooltip-wrap {
+		.icon {
+			width: min(15vw, 5rem);
+		}
+	}
+}
