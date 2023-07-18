@@ -37,6 +37,22 @@ const DegreeTable = () => {
             {"": ""},
         ]
     };
+    const thirdYear = {
+        "First Semester": [
+            {"ECE302: Probability and Applications": "https://engineering.calendar.utoronto.ca/course/ece302h1"},
+            {"ECE344: Operating Systems": "https://engineering.calendar.utoronto.ca/course/ece344h1"}, 
+            {"ECE345: Algorithms and Data Structures": "https://engineering.calendar.utoronto.ca/course/ece345h1"}, 
+            {"ECE361: Computer Networks I": "https://engineering.calendar.utoronto.ca/course/ece361h1"},
+            {"HSS/CS": ""},
+        ],
+        "Second Semester": [
+            {"APS360: Applied Fundamentals of Deep Learning": "https://engineering.calendar.utoronto.ca/course/aps360h1"}, 
+            {"CSC343: Introduction to Databases": "https://engineering.calendar.utoronto.ca/course/csc343h1"}, 
+            {"ECE311: Introduction to Control Systems": "https://engineering.calendar.utoronto.ca/course/ece311h1"},
+            {"ECE419: Distributed Systems": "https://engineering.calendar.utoronto.ca/course/ece419h1"}, 
+            {"HSS/CS": ""},
+        ]
+    };
 
     const mapObject = (obj) => {
         return obj["First Semester"].map((course, i) => (
@@ -80,6 +96,20 @@ const DegreeTable = () => {
                         </thead>
                         <tbody>
                             {mapObject(secondYear)}
+                        </tbody>
+                    </table>
+                </span>
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-2" width='1.5rem' />&nbsp;Third Year</p>
+                <span className="degree_table__contents">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fall 2023</th>
+                                <th>Winter 2024</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {mapObject(thirdYear)}
                         </tbody>
                     </table>
                 </span>

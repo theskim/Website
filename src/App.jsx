@@ -11,11 +11,11 @@ function App() {
         <Route path="/" element={
           <BackgroundAll>
             <Home/>
+            <Education id='education' />
             <Projects id='projects'/>
-            <Education/>
             <Experiences id='experiences'/>
-            <Skills/>
-            <ContactMe/>
+            <Skills />
+            <ContactMe />
           </BackgroundAll>
         }/>
       </Routes>

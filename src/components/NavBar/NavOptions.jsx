@@ -32,6 +32,7 @@ const NavOptions = (props) => {
   return (
     <>
       <NavOption to="home" title="Home" {...props} />
+      <NavOption to="education" title="Education" {...props} />
       <NavOption to="projects" title="Projects" {...props} />
       <NavOption to="experiences" title="Experiences" {...props} />
       <NavOption to="skills" title="Skills" {...props} />

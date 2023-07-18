@@ -1,15 +1,22 @@
 import React from 'react';
-import ExperiencesTitle from './ExperiencesTitle';
 import Divider from '../../../assets/Divider/Divider';
 import './Experiences.scss';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { Icon } from '@iconify/react';
 
+const Title = () => {
+  return (
+      <div id='experiences' className='experiences__title-box'>
+          <h1>&#128188;&nbsp;&nbsp;EXPERIENCES</h1>
+      </div>
+  );
+};
+
 const Experiences = () => {
   return (
     <>
-      <ExperiencesTitle />
+      <Title />
       <VerticalTimeline lineColor="#000">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -30,10 +37,13 @@ const Experiences = () => {
           }}
         >
           <h3 className="vertical-timeline-element-title">
-            <Icon icon="material-symbols:work" width="1.5rem" /> University of Toronto - iQua Group • Research Intern
+            <Icon icon="material-symbols:work" width="1.5rem" /> University of Toronto - iQua Group • 
+            Undegraduate Research Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
-          <p>In Progress</p>
+          <p>
+          I worked on Strato, an overlay network that provides an inter-cloud private environment for ML pipelines. I extended test functions in Rust, focusing on TCP connection setup, metric transmission, and the utilization of the TUN interface. To augment real-time data collection, I built a WebSocket server in Node.js and integrated it with a Rust-based dataplane, improving data processing speed and transmission efficiency. <br/><br/> Furthermore, I developed an analytics dashboard using React.js, Next.js, TailWindCSS for web access, and Python for command-line access, which facilitated real-time tracking of essential metrics, with backend integration to a PostgreSQL database. To optimize Strato's deployment process, I utilized Docker for containerization, which streamlined integration with cloud infrastructure and reduced deployment time by 25%.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -45,7 +55,7 @@ const Experiences = () => {
             boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)',
           }}
           contentArrowStyle={{ borderRight: '9px solid #000' }}
-          date="Sep 2022 - Jan 2023"
+          date="Sep 2022 - Present"
           iconStyle={{
             background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))',
             color: '#000',
@@ -54,7 +64,7 @@ const Experiences = () => {
           }}
         >
           <h3 className="vertical-timeline-element-title">
-            <Icon icon="material-symbols:work" width="1.5rem" /> UofTHacks • Web Developer & Organizer
+            <Icon icon="material-symbols:work" width="1.5rem" /> UofTHacks • Web Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
           <p>
@@ -62,7 +72,8 @@ const Experiences = () => {
             Over 500+ students with a range of experience levels participate in the event. As a Frontend Web Developer,
             my role is to contribute to the development of the hackathon's landing page and dashboard using React.js,
             Next.js, and stitches.dev. You can find more information about this project in the Projects section.
-            I also helped the team during the hackathon as part of UofTHacks X Organizers.
+            I also helped the team during the hackathon as part of UofTHacks X Organizers. 
+            I transitioned from a front-end developer to a full-stack developer for UofTHacks 11.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

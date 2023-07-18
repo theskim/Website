@@ -51,10 +51,10 @@ $bar-col: #fff;
     }
 }
 
-
 .modal::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
 }
+
 .modal__bar-title {
 	margin: calc(($bar-height - $header-size) / 2) 0 calc(($bar-height - $header-size) / 2) 10vw;
 	display: inline-block;
@@ -84,7 +84,8 @@ $bar-col: #fff;
 .modal__contents {
 	display: flex;
 	margin: 15vh 4vw 0 4vw;
-	p {
+	p {	
+        scale: (0.9);
 		color: #000;
 		text-align: left;
 		font-family: $text-font;

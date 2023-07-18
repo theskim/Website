@@ -6,15 +6,21 @@
 	display: inline-block;
 	text-align: center;
 	padding: 15vh 0 20vh 0;
+	scale: 0.9;
 	
 	h1 {
 		display: inline-block;
 		text-align: center;
-		margin: 0 8vw 0 8vw;
+		margin: 0 8vw;
 		font-family: $title-font;
-		font-size: min(13vw, 5rem);
+		font-size: 4rem; 
 		line-height: min(17vw, 8rem);
+	
+		@media screen and (min-width: 768px) {
+			font-size: calc(5rem + (10 - 5) * ((100vw - 768px) / (1200 - 768)));
+		}
 	}
+	
 	.about-me-description {
 		h4 {
 			font-family: $header-font;

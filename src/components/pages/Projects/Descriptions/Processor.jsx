@@ -8,19 +8,12 @@ const Processor = () => {
             alt="Processor"
             image={ProcessorImage}
             link="https://youtu.be/JpTqb0nLZSQc"
-            skills="SystemVerilog • Assembly • ModelSim • DESim"
+            skills="Verilog (HDL) • Assembly • ModelSim • DESim"
             project={true}
         >
- I worked on developing a processor with a 16-bit architecture and 8 registers, 
- where r6 was designated as the stack pointer, r7 as the link register, 
- and r8 as the program counter. The processor was capable of executing a variety of instructions such as mov, movt, add, sub, ldr, str, and, b (along with all conditional flags), 
- lsl, lsr, asr, ror, and flag checking. <br/><br/>
+I was part of the development of a processor featuring a 16-bit architecture and 8 registers. The processor is capable of executing various instructions like mov, movt, add, sub, ldr, str, and b, among others. <br/><br/>
 
-To debug my SystemVerilog code, I utilized an FSM timing diagram from ModelSim. 
-I also made modifications to the ALU to implement the above instructions, such as add, sub, and and. 
-I utilized tools such as DESim to test the processor so that it implements a program (word matching game) on board.
-The demonstration of this program is available through demo link below.
-While I am unable to share the code due to academic integrity, I can provide it upon request. <br/><br/>
+ To debug the SystemVerilog code, I employed an FSM timing diagram from ModelSim. I modified the ALU to implement instructions such as add, sub, and and. Tools like DESim were used to test the processor, which implements a word-matching game. A demonstration of this program is available through the demo link below. Code sharing is restricted due to academic integrity, but it can be provided upon request. <br/><br/>
         </Project>
     );
 }

@@ -40,7 +40,7 @@ const Description = () => {
 
 const Wrapper = ({ children }) => {
   return (
-    <div className = 'school-information'>
+    <div id='education' className='school-information'>
       {children}
     </div>
   );

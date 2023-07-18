@@ -8,6 +8,7 @@
 	padding-top: 20vh;
 	padding-bottom: 20vh;
 	h1 {
+		scale: (0.9);
 		display: inline-block;
 		text-align: center;
 		margin: 0 7vw 0 7vw;
@@ -17,6 +18,7 @@
 		font-weight: normal;
 	}
 	h2 {
+		scale: (0.9);
 		display: inline-block;
 		text-align: center;
 		margin: 0 7vw 0 7vw;
@@ -25,6 +27,7 @@
 		line-height: $text-height;
 	}
 	p {
+		scale: (0.9);
 		display: inline-block;
 		text-align: center;
 		margin: 0 7vw 0 7vw;
@@ -35,8 +38,9 @@
 		margin-bottom: min(2rem, 6vw);
 	}
 	img {
+		scale: (0.9);
 		width: min(40vw, 17rem);
-		padding-bottom: min(2.1vw, 1rem);
+		padding-bottom: min(2vw, 0.5rem);
 		object-fit: contain;
 		pointer-events: none;
 	}
@@ -83,7 +87,8 @@
     
     /* Hover effect for individual table cell */
     td:hover {
-        background-color: #cccccc;
+        background-color: #d2e5fa;
+		cursor: pointer;
     }
 }
 
