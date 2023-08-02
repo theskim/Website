@@ -99,7 +99,7 @@ const DegreeTable = () => {
                         </tbody>
                     </table>
                 </span>
-                <p className="degree_table__header"><Icon icon="material-symbols:filter-2" width='1.5rem' />&nbsp;Third Year</p>
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-3" width='1.5rem' />&nbsp;Third Year</p>
                 <span className="degree_table__contents">
                     <table>
                         <thead>

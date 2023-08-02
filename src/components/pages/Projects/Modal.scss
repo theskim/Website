@@ -85,7 +85,6 @@ $bar-col: #fff;
 	display: flex;
 	margin: 15vh 4vw 0 4vw;
 	p {	
-        scale: (0.9);
 		color: #000;
 		text-align: left;
 		font-family: $text-font;
@@ -115,7 +114,7 @@ $bar-col: #fff;
 			.section-logo {
 				margin: auto;
 			}
-			margin: min(15vw, 10vh) 0 !important;
+			margin: min(10vw, 5vh) 0 !important;
 		}
 		display: grid;
 		margin: min(15vw, 15vh) 1vw 0 1vw;

@@ -69,6 +69,7 @@ const Tools = () => {
         {location: <Icon icon="file-icons:assembly-arm" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "ARM Assembly"},
         {location: <Icon icon="file-icons:assembly-intel" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Intel Quartus Prime"},
         {location: <Icon icon="mdi:docker"  width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)"/>, name: "Docker"},
+        {location: <Icon icon="simple-icons:vim" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Vim"},
         {location: <Icon icon="simple-icons:tmux" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "tmux"},
         {location: <Icon icon="simple-icons:gtk" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "GTK"},
         {location: <Icon icon="ph:git-branch" width="min(20vw, 8rem)" cursor="pointer" margin="min(19vw, 3rem)" color="rgb(91, 58, 255)" />, name: "Git"},

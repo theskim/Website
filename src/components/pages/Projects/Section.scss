@@ -9,7 +9,6 @@
 	margin: auto;
 
 	h2 {
-		scale: (0.9);
 		font-family: $header-font;
 		font-size: $header-size;
 		line-height: min(6.5vw, 3rem);
@@ -18,7 +17,6 @@
 
 	.section-skills {
 		p {
-			scale: (0.9);
 			font-family: $text-font;
 			font-size: $text-size;
 			line-height: $text-height;
@@ -57,7 +55,6 @@
 }
 
 .section-image-box, .section-image-box__mobile {
-	scale: (0.9);
 	margin-bottom: min(2vw, 0.8rem);
 	object-fit: contain;
 	transition: all 0.2s ease-in-out;
@@ -103,7 +100,7 @@
 		text-align: center !important;
 		margin: 0;
 		.my-button {
-			margin: 3vh 0 3vh 0;
+			margin: 1vh 0 1vh 0;
 		}
 	}
 	.section-image-box {
@@ -113,7 +110,7 @@
 		display: flex;	
 	}
 	.section-logo {
-		width: min(70vw, 25rem);
-		height: min(70vw, 25rem);
+		width: min(60vw, 20rem);
+		height: min(60vw, 20rem);
 	}
 }
