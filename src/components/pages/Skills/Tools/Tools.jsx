@@ -1,17 +1,6 @@
 import "./Tools.scss"
 import { Icon } from '@iconify/react';
 
-const ToolsTitle = ({ emoji, children }) => {
-    return (
-        <>
-            <div className="tools-bold">
-                <p>{emoji}&nbsp;&nbsp;{children}</p>
-            </div>
-            <br/>
-        </>
-    )
-}
-
 const Wrapper = ({ children }) => {
     return (
         <div className="tools">
@@ -32,8 +21,8 @@ const Tool = ({ location, name }) => {
 const ToolSection = ({ title, emoji, tools }) => {
     return (
         <>
-            <div className="tool__section">
-                <ToolsTitle emoji={emoji}>{title}</ToolsTitle>               
+            <div className="tool__section">    
+            <br/><br/>           
                 {tools.map((tool, index) => (
                     <Tool key={index} location={tool.location} name={tool.name}/>
                 ))}
@@ -79,7 +68,7 @@ const Tools = () => {
 
     return (
         <Wrapper>
-            <ToolSection title="Prior Experience In" emoji={<>&#128071;</>} tools={section} />
+            <ToolSection tools={section} />
         </Wrapper>
     );
 }
