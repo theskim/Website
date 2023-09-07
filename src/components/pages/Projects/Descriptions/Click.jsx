@@ -1,7 +1,7 @@
 import Project from "../Project";
 import { ClickImage } from '../../../../assets/ProjectImages';
 
-const NewPortfolio = () => {
+const Click = () => {
     return (
         <Project
             title="Click."
@@ -18,4 +18,4 @@ const NewPortfolio = () => {
     );
 }
 
-export default NewPortfolio;
+export default Click;

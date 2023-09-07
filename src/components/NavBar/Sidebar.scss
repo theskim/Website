@@ -82,6 +82,7 @@ $sidebar-background: #4a448d;
 		font-size: min(4.5vw, 1.5rem);
 		scroll-behavior: smooth;
 		transition: all 0.7s ease-in-out;
+		cursor: pointer;
 		&:hover {
 			background-color: $sidebar-hover-col;
 			color: #000000;

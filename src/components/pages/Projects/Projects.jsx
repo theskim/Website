@@ -7,6 +7,7 @@ import Click from "./Descriptions/Click";
 import UofTHacksSite from "./Descriptions/UofTHacksSite";
 import TrackTC from "./Descriptions/TrackTC";
 import Aazami from "./Descriptions/Aazami";
+import CareerTrace from "./Descriptions/CareerTrace";
 import Mapper from "./Descriptions/Mapper";
 import Processor from "./Descriptions/Processor";
 import Divider from "../../../assets/Divider/Divider";
@@ -76,14 +77,15 @@ const Projects = () => {
     const [selectedSection, setSelectedSection] = useState(null);
 
     const projects = [
+      { name: 'CareerTrace', section: 'Software', component: <CareerTrace /> },
       { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
       { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
-        { name: 'Mapper', section: 'Fullstack / Software', component: <Mapper /> },
+        { name: 'Mapper', section: 'Software', component: <Mapper /> },
         { name: 'Processor', section: 'Hardware', component: <Processor /> },
-        { name: 'UofTHacksSite', section: 'Fullstack / Software', component: <UofTHacksSite /> },
-        { name: 'TrackTC', section: 'Fullstack / Software', component: <TrackTC /> },
-        { name: 'CommuterStudent', section: 'Fullstack / Software', component: <CommuterStudent /> },
-        { name: 'Click', section: 'Fullstack / Software', component: <Click /> },
+        { name: 'UofTHacksSite', section: 'Software', component: <UofTHacksSite /> },
+        { name: 'TrackTC', section: 'Software', component: <TrackTC /> },
+        { name: 'CommuterStudent', section: 'Software', component: <CommuterStudent /> },
+        { name: 'Click', section: 'Software', component: <Click /> },
     ];
 
     const handleSelectChange = (selectedOption) => {
@@ -101,7 +103,7 @@ const Projects = () => {
                 <Select
                     options={[
                         { value: null, label: 'All sections' },
-                        { value: 'Fullstack / Software', label: 'Fullstack / Software' },
+                        { value: 'Software', label: 'Software' },
                         { value: 'Machine Learning', label: 'Machine Learning' },
                         { value: 'Hardware', label: 'Hardware' },
                     ]}

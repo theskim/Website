@@ -1,4 +1,4 @@
-import Home from './pages/Home/Home.jsx';
+import Home from './pages/Main/Home.jsx';
 import Education from './pages/Education/Education.jsx';
 import Skills from './pages/Skills/Skills.jsx';
 import Projects from './pages/Projects/Projects.jsx';

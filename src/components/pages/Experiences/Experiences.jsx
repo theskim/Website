@@ -38,7 +38,7 @@ const Experiences = () => {
         >
           <h3 className="vertical-timeline-element-title">
             <Icon icon="material-symbols:work" width="1.5rem" /> University of Toronto - iQua Group • 
-            Undegraduate Research Intern
+            Undegraduate Researcher Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
         </VerticalTimelineElement>

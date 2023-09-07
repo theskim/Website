@@ -1,12 +1,12 @@
 import Project from "../Project";
 import { Aazami } from "../../../../assets/ProjectImages";
 
-const TrackTC = () => {
+const AazamiP = () => {
     return (
         <Project
             title="Aazami - MakeUofT Winner of Most Innovative Power Efficient Hack using the Tiny ML Kit"
             alt="Aazami"
-            skills="Qualcomm Tiny ML Kit • Edge Impulse • Arduino Nano 33 BLE Sense • Neo Pixels"
+            skills="Arduino Nano 33 BLE Sense • Qualcomm Tiny ML Kit • Edge Impulse • Neo Pixels"
             image={Aazami}
             link="https://devpost.com/software/aazami"
             github="https://github.com/skim1601/Aazami"
@@ -17,4 +17,4 @@ We subsequently generated Arduino code, optimized hardware performance, and buil
     );
 }
 
-export default TrackTC;
+export default AazamiP;

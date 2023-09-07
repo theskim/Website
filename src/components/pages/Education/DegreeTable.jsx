@@ -39,11 +39,11 @@ const DegreeTable = () => {
     };
     const thirdYear = {
         "First Semester": [
+            {"CLA204: Introduction to Classical Mythology": "https://artsci.calendar.utoronto.ca/course/cla204h1"},
             {"ECE302: Probability and Applications": "https://engineering.calendar.utoronto.ca/course/ece302h1"},
             {"ECE344: Operating Systems": "https://engineering.calendar.utoronto.ca/course/ece344h1"}, 
             {"ECE345: Algorithms and Data Structures": "https://engineering.calendar.utoronto.ca/course/ece345h1"}, 
             {"ECE361: Computer Networks I": "https://engineering.calendar.utoronto.ca/course/ece361h1"},
-            {"HSS/CS": ""},
         ],
         "Second Semester": [
             {"APS360: Applied Fundamentals of Deep Learning": "https://engineering.calendar.utoronto.ca/course/aps360h1"}, 
@@ -69,7 +69,7 @@ const DegreeTable = () => {
 
     return (
         <details>
-            <summary className="degree_table__title"><Icon icon="fluent-mdl2:publish-course" width='1.5rem' />&nbsp;My Courses</summary>
+            <summary className="degree_table__title"><Icon icon="fluent-mdl2:publish-course" width='1.5rem' />&nbsp;Courses</summary>
             <span> 
                 <p className="degree_table__header"><Icon icon="material-symbols:filter-1" width='1.5rem' />&nbsp;First Year</p>
                 <span className="degree_table__contents">

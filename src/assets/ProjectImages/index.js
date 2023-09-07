@@ -6,3 +6,4 @@ export const TrackTCImage = require('./tracktc-image.png');
 export const Aazami = require('./aazami.png');
 export const MapperImage = require('./mapper.png');
 export const ProcessorImage = require('./processor.png');
+export const CareerTraceImage = require('./careertrace-image.png');
