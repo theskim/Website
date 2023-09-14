@@ -39,11 +39,11 @@ const DegreeTable = () => {
     };
     const thirdYear = {
         "First Semester": [
-            {"CLA204: Introduction to Classical Mythology": "https://artsci.calendar.utoronto.ca/course/cla204h1"},
             {"ECE302: Probability and Applications": "https://engineering.calendar.utoronto.ca/course/ece302h1"},
             {"ECE344: Operating Systems": "https://engineering.calendar.utoronto.ca/course/ece344h1"}, 
             {"ECE345: Algorithms and Data Structures": "https://engineering.calendar.utoronto.ca/course/ece345h1"}, 
             {"ECE361: Computer Networks I": "https://engineering.calendar.utoronto.ca/course/ece361h1"},
+            {"ECE472: Engineering Economic Analysis & Entrepreneurship": "https://engineering.calendar.utoronto.ca/course/ece472h1"},
         ],
         "Second Semester": [
             {"APS360: Applied Fundamentals of Deep Learning": "https://engineering.calendar.utoronto.ca/course/aps360h1"}, 

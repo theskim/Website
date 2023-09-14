@@ -28,7 +28,7 @@ const Experiences = () => {
             boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)',
           }}
           contentArrowStyle={{ borderRight: '9px solid #000' }}
-          date="May 2023 - Present"
+          date="May 2023 - Sep 2023"
           iconStyle={{
             background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))',
             color: '#000',
