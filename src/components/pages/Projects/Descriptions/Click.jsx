@@ -6,7 +6,7 @@ const Click = () => {
         <Project
             title="Click."
             alt="Click."
-            skills="HTML5 • CSS3 • PHP • MySQL"
+            skills="HTML5 • CSS3 • JavaScript • PHP • MySQL"
             image={ClickImage}
             github="https://github.com/skim1601/Click"
             project={true}

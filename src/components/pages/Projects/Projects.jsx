@@ -10,6 +10,7 @@ import Aazami from "./Descriptions/Aazami";
 import CareerTrace from "./Descriptions/CareerTrace";
 import Mapper from "./Descriptions/Mapper";
 import Processor from "./Descriptions/Processor";
+import TextConferencing from "./Descriptions/TextConferencing";
 import Divider from "../../../assets/Divider/Divider";
 import "./Projects.scss";
 
@@ -78,14 +79,16 @@ const Projects = () => {
 
     const projects = [
       { name: 'CareerTrace', section: 'Software', component: <CareerTrace /> },
+      { name: 'Mapper', section: 'Software', component: <Mapper /> },
+      { name: 'TextConferencing', section: 'Software', component: <TextConferencing /> },
+      { name: 'TextConferencing', section: 'Networks', component: <TextConferencing /> },
       { name: 'Aazami', section: 'Machine Learning', component: <Aazami /> },
       { name: 'Aazami', section: 'Hardware', component: <Aazami /> },
-        { name: 'Mapper', section: 'Software', component: <Mapper /> },
-        { name: 'Processor', section: 'Hardware', component: <Processor /> },
-        { name: 'UofTHacksSite', section: 'Software', component: <UofTHacksSite /> },
-        { name: 'TrackTC', section: 'Software', component: <TrackTC /> },
-        { name: 'CommuterStudent', section: 'Software', component: <CommuterStudent /> },
-        { name: 'Click', section: 'Software', component: <Click /> },
+      { name: 'Processor', section: 'Hardware', component: <Processor /> },
+      { name: 'UofTHacksSite', section: 'Software', component: <UofTHacksSite /> },
+      { name: 'TrackTC', section: 'Software', component: <TrackTC /> },
+      { name: 'CommuterStudent', section: 'Software', component: <CommuterStudent /> },
+      { name: 'Click', section: 'Software', component: <Click /> },
     ];
 
     const handleSelectChange = (selectedOption) => {
@@ -104,6 +107,7 @@ const Projects = () => {
                     options={[
                         { value: null, label: 'All sections' },
                         { value: 'Software', label: 'Software' },
+                        { value: 'Networks', label: 'Networks' },
                         { value: 'Machine Learning', label: 'Machine Learning' },
                         { value: 'Hardware', label: 'Hardware' },
                     ]}
