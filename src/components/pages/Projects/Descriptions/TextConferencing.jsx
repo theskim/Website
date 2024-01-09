@@ -6,7 +6,7 @@ const TextConferencing = () => {
         <Project
             title="TCP Text Conferencing Server & Client"
             alt="Text Conferencing"
-            skills="C • Unix • TCP/IP • Socket Programming • Multi-threading • Makefile"
+            skills="C • Unix • TCP/IP • Socket Programming"
             image={TextConferencingImage}
             link="https://youtu.be/5Aqu36Bgceo"
         >

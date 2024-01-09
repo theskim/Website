@@ -73,17 +73,17 @@ const DegreeTable = () => {
         <details>
             <summary className="degree_table__title"><Icon icon="fluent-mdl2:publish-course" width='1.5rem' />&nbsp;Courses</summary>
             <span> 
-                <p className="degree_table__header"><Icon icon="material-symbols:filter-1" width='1.5rem' />&nbsp;First Year</p>
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-3" width='1.5rem' />&nbsp;Third Year</p>
                 <span className="degree_table__contents">
                     <table>
                         <thead>
                             <tr>
-                                <th>Fall 2021</th>
-                                <th>Winter 2022</th>
+                                <th>Fall 2023</th>
+                                <th>Winter 2024</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {mapObject(firstYear)}
+                            {mapObject(thirdYear)}
                         </tbody>
                     </table>
                 </span>
@@ -101,17 +101,17 @@ const DegreeTable = () => {
                         </tbody>
                     </table>
                 </span>
-                <p className="degree_table__header"><Icon icon="material-symbols:filter-3" width='1.5rem' />&nbsp;Third Year</p>
+                <p className="degree_table__header"><Icon icon="material-symbols:filter-1" width='1.5rem' />&nbsp;First Year</p>
                 <span className="degree_table__contents">
                     <table>
                         <thead>
                             <tr>
-                                <th>Fall 2023</th>
-                                <th>Winter 2024</th>
+                                <th>Fall 2021</th>
+                                <th>Winter 2022</th>
                             </tr>
                         </thead>
                         <tbody>
-                            {mapObject(thirdYear)}
+                            {mapObject(firstYear)}
                         </tbody>
                     </table>
                 </span>

@@ -4,7 +4,7 @@ import { ProcessorImage } from '../../../../assets/ProjectImages';
 const Processor = () => {
     return (
         <Project
-            title="16-bit Processor"
+            title="16-bit Enhanced Processor"
             alt="Processor"
             image={ProcessorImage}
             link="https://youtu.be/JpTqb0nLZSQc"
