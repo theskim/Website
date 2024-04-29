@@ -68,16 +68,26 @@ $bar-col: #fff;
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(0.95);
+    }
 }
 
 @keyframes fadeIn {
-    from {
+    0% {
         opacity: 0;
+        transform: scale(0.95);
     }
-    to {
+
+    100% {
         opacity: 1;
+        transform: scale(1);
     }
 }
 

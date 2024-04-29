@@ -44,15 +44,13 @@ const DegreeTable = () => {
             {"ECE345: Algorithms and Data Structures": "https://engineering.calendar.utoronto.ca/course/ece345h1"}, 
             {"ECE361: Computer Networks I": "https://engineering.calendar.utoronto.ca/course/ece361h1"},
             {"ECE472: Engineering Economic Analysis & Entrepreneurship": "https://engineering.calendar.utoronto.ca/course/ece472h1"},
-            {"": ""},
         ],
         "Second Semester": [
             {"APS360: Applied Fundamentals of Deep Learning": "https://engineering.calendar.utoronto.ca/course/aps360h1"}, 
             {"AST121: Origin and Evolution of the Universe": "https://artsci.calendar.utoronto.ca/course/ast121h1"}, 
             {"CSC300: Computers and Society": "https://artsci.calendar.utoronto.ca/course/csc300h1"}, 
-            {"CSC343: Introduction to Databases": "https://engineering.calendar.utoronto.ca/course/csc343h1"}, 
+            {"CSC343: Introduction to Databases": "https://artsci.calendar.utoronto.ca/course/csc343h1"}, 
             {"ECE311: Introduction to Control Systems": "https://engineering.calendar.utoronto.ca/course/ece311h1"},
-            {"ECE419: Distributed Systems": "https://engineering.calendar.utoronto.ca/course/ece419h1"}, 
         ]
     };
 

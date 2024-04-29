@@ -17,7 +17,34 @@ const Experiences = () => {
   return (
     <>
       <Title />
-      <VerticalTimeline lineColor="#000">
+        <VerticalTimeline lineColor="#000">
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: '#fff',
+            color: '#000',
+            border: '1px solid #000',
+            fontFamily: 'Poppins',
+            boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)',
+          }}
+          contentArrowStyle={{ borderRight: '9px solid #000' }}
+          date="May 2024 -"
+          iconStyle={{
+            background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))',
+            color: '#000',
+            border: '1px solid #000',
+            boxShadow: 'none',
+          }}
+        >
+          <h3 className="vertical-timeline-element-title">
+            <Icon icon="material-symbols:work" width="1.5rem" /> Mozilla Corp. • 
+            Software Engineer Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
+          <p>
+            - Firefox Necko Networking Team &#129418;&#127760;
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
@@ -38,13 +65,14 @@ const Experiences = () => {
         >
           <h3 className="vertical-timeline-element-title">
             <Icon icon="material-symbols:work" width="1.5rem" /> iQua Research Group - University of Toronto • 
-            Distributed Network Research Intern
+            Distributed ML System Research Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
           <p>
-            - Extended the functionality of over 10 distinct Rust test functions to scrutinize TCP connection behavior and metric transmission via network packets.<br/>
             - Developed a Max-min fairness routing algorithm for bandwidth optimization and analytics dashboard for tracking bandwidth allocation.<br/>
-            - Implemented a WebSocket server with Node.js, integrated with a Rust-based dataplane.<br/>
+            - Extended the functionality of over 10 distinct Rust tests to evaluate TCP connection behavior and metric transmission via network packets.<br/>
+            - Implemented a WebSocket server with Node.js, integrated with a Rust-based dataplane.<br />
+            - <b>Tech Stack:</b> Python, Rust, JavaScript, Node.js, SciPy, PostgreSQL and Docker
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -57,7 +85,7 @@ const Experiences = () => {
             boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)',
           }}
           contentArrowStyle={{ borderRight: '9px solid #000' }}
-          date="Sep 2022 - Present"
+          date="Sep 2022 - Jan 2024"
           iconStyle={{
             background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))',
             color: '#000',
@@ -66,14 +94,41 @@ const Experiences = () => {
           }}
         >
           <h3 className="vertical-timeline-element-title">
-            <Icon icon="material-symbols:work" width="1.5rem" /> UofTHacks • Web Developer
+            <Icon icon="material-symbols:work" width="1.5rem" /> UofTHacks • Full-stack Web Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
           <p>
-            - Developed the Main Website and Dashboard for UofTHacks X, benefiting over 600+ hackathon participants with seamless access.<br/>
-            - Current working on the Dashboard for UofTHacks 11.
+                      - Developed the main website and dashboard for UofTHacks X and the dashboard and applicant portal for UofTHacks 11, benefiting over 600+ hackathon participants with seamless access.<br />
+                      - <b>Tech Stack:</b> React.js, Next.js, Node.js, Express.js, and MariaDB
           </p>
         </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background: '#fff',
+            color: '#000',
+            border: '1px solid #000',
+            fontFamily: 'Poppins',
+            boxShadow: '0 0 10px 4px rgba(0, 0, 3, 0.2)',
+          }}
+          contentArrowStyle={{ borderRight: '9px solid #000' }}
+          date="Jul 2022 - Apr 2023"
+          iconStyle={{
+            background: 'linear-gradient(90deg, rgb(85, 159, 255), rgb(91, 58, 255))',
+            color: '#000',
+            border: '1px solid #000',
+            boxShadow: 'none',
+          }}
+        >
+          <h3 className="vertical-timeline-element-title">
+            <Icon icon="material-symbols:work" width="1.5rem" /> UofT Engineering Commuter Student Directorship • Webmaster
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Toronto, ON (Remote)</h4>
+          <p>
+                - Lead the development of main website for UofT Engineering Commuter Student Directorship, a commuter community for over 400 students. <br/>
+                - <b>Tech Stack:</b> React.js, CSS, and Figma
+          </p>
+        </VerticalTimelineElement>      
       </VerticalTimeline>
       <br /><br />
       <Divider />

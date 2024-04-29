@@ -3,7 +3,6 @@ import { scroller } from 'react-scroll';
 import Select from 'react-select';
 import { useState } from "react";
 import CommuterStudent from "./Descriptions/CommuterStudent";
-import Click from "./Descriptions/Click";
 import UofTHacksSite from "./Descriptions/UofTHacksSite";
 import TrackTC from "./Descriptions/TrackTC";
 import Aazami from "./Descriptions/Aazami";
@@ -12,6 +11,7 @@ import Mapper from "./Descriptions/Mapper";
 import Processor from "./Descriptions/Processor";
 import TextConferencing from "./Descriptions/TextConferencing";
 import Divider from "../../../assets/Divider/Divider";
+import Handwriting from "./Descriptions/Handwriting";
 import "./Projects.scss";
 
 const ProjectsTitle = () => {
@@ -77,6 +77,7 @@ const Projects = () => {
 
     const projects = [
       { name: 'CareerTrace', section: 'Software', component: <CareerTrace /> },
+      { name: 'Handwriting', section: 'Machine Learning', component: <Handwriting /> },
       { name: 'Mapper', section: 'Software', component: <Mapper /> },
       { name: 'TextConferencing', section: 'Software', component: <TextConferencing /> },
       { name: 'TextConferencing', section: 'Networks', component: <TextConferencing /> },
@@ -86,7 +87,6 @@ const Projects = () => {
       { name: 'UofTHacksSite', section: 'Software', component: <UofTHacksSite /> },
       { name: 'TrackTC', section: 'Software', component: <TrackTC /> },
       { name: 'CommuterStudent', section: 'Software', component: <CommuterStudent /> },
-      { name: 'Click', section: 'Software', component: <Click /> },
     ];
 
     const handleSelectChange = (selectedOption) => {

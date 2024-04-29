@@ -1,4 +1,4 @@
-import Tools from "./Tools/Tools";
+import Tools from "./Tools/ToolSection";
 import Divider from "../../../assets/Divider/Divider";
 import "./Skills.scss";
 
