@@ -1,0 +1,60 @@
+@use "../../variables" as *;
+$box-col: #121212;
+
+.background__all {
+  background: #121212;
+  background-size: 600% 100%;
+  animation: gradient 7s ease infinite;
+  animation-direction: alternate;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.box__all {
+  padding: 1vw 1vw;
+  border-radius: 20px;
+  background-origin: content-box, padding-box;
+  background-clip: content-box, padding-box;
+  margin-top: min(10vh, 5rem);
+  background-color: $box-col;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  border-radius: min(10vh, 5rem);
+  box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0.1),
+      0 0 80px 20px rgba(255, 255, 255, 0.06);
+
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .box__all:hover {
+    box-shadow:
+        0 0 40px 15px rgba(255, 255, 255, 0.25),
+        0 0 140px 40px rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .box__all {
+    box-shadow:
+      0 0 40px 15px rgba(255, 255, 255, 0.25),
+      0 0 140px 40px rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .nav__suggestion {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .nav__suggestion {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .box__all {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}

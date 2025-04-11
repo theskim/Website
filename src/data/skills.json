@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Python",
+    "devicon": "mdi:language-python"
+  },
+  {
+    "name": "C",
+    "devicon": "devicon-plain:c"
+  },
+  {
+    "name": "C++",
+    "devicon": "simple-icons:cplusplus"
+  },
+  {
+    "name": "Objective-C",
+    "devicon": "devicon-plain:objectivec"
+  },
+  {
+    "name": "Java",
+    "devicon": "bxl:java"
+  },
+  {
+    "name": "Kotlin",
+    "devicon": "mdi:language-kotlin"
+  },
+  {
+    "name": "HTML",
+    "devicon": "ion:logo-html5"
+  },
+  {
+    "name": "CSS",
+    "devicon": "ion:logo-css3"
+  },
+  {
+    "name": "JavaScript",
+    "devicon": "mdi:language-javascript"
+  },
+  {
+    "name": "TypeScript",
+    "devicon": "mdi:language-typescript"
+  },
+  {
+    "name": "Rust",
+    "devicon": "mdi:language-rust"
+  },
+  {
+    "name": "React.js",
+    "devicon": "mdi:react"
+  },
+  {
+    "name": "Next.js",
+    "devicon": "tabler:brand-nextjs"
+  },
+  {
+    "name": "Redux",
+    "devicon": "tabler:brand-redux"
+  },
+  {
+    "name": "Node.js",
+    "devicon": "akar-icons:node-fill"
+  },
+  {
+    "name": "Express.js",
+    "devicon": "simple-icons:express"
+  },
+  {
+    "name": "MongoDB",
+    "devicon": "tabler:brand-mongodb"
+  },
+  {
+    "name": "SQL",
+    "devicon": "ph:file-sql"
+  },
+  {
+    "name": "MySQL",
+    "devicon": "tabler:brand-mysql"
+  },
+  {
+    "name": "PostgreSQL",
+    "devicon": "bxl:postgresql"
+  },
+  {
+    "name": "Jetpack Compose",
+    "devicon": "simple-icons:jetpackcompose"
+  },
+  {
+    "name": "PyTorch",
+    "devicon": "simple-icons:pytorch"
+  },
+  {
+    "name": "TensorFlow",
+    "devicon": "simple-icons:tensorflow"
+  },
+  {
+    "name": "Jupyter Notebook",
+    "devicon": "simple-icons:jupyter"
+  },
+  {
+    "name": "Docker",
+    "devicon": "mdi:docker"
+  },
+  {
+    "name": "Git",
+    "devicon": "ph:git-branch"
+  },
+  {
+    "name": "Mercurial",
+    "devicon": "simple-icons:mercurial"
+  },
+  {
+    "name": "Vim",
+    "devicon": "simple-icons:vim"
+  },
+  {
+    "name": "JUnit",
+    "devicon": "devicon-plain:junit"
+  },
+  {
+    "name": "Jira",
+    "devicon": "simple-icons:jira"
+  },
+  {
+    "name": "AWS",
+    "devicon": "simple-icons:amazonwebservices"
+  }
+]
