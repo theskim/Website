@@ -1,0 +1,21 @@
+{
+  "websiteLogo": "/images/logo.png",
+  "websiteAlt": "SK",
+  "name": "Sean Kim",
+  "location": "University of Toronto, Canada",
+  "email": "sean.skim21@gmail.com",
+  "schoolName": "University of Toronto",
+  "degree": "Bachelor of Applied Science in Computer Engineering",
+  "schoolDuration": "2021 - Present (PEY CO-OP)",
+  "schoolLearnMore": "https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/",
+  "schoolDetails": [
+    "Minor in **Artificial Intelligence Engineering**",
+    "**NSERC** Undergraduate Student Research Award",
+    "**Dean's List** in All Semesters",
+    "Courses focused in **ML/AI**, **Software Engineering**, and **Computer Networks**"
+  ],
+  "schoolLogo": "/images/uoft.png",
+  "github": "https://github.com/theskim",
+  "linkedin": "https://www.linkedin.com/in/seankim7/",
+  "description": "I am an undergraduate **Computer Engineering** Student at the **University of Toronto**, also pursuing a minor in Artificial Intelligence,  expected to graduate in June 2026.\n\n\u00A0\n\nBetween May 2024 and April 2025, I had worked as a Software Engineering Intern at **Mozilla Corporation** on the **Firefox** Networking Team. I had worked on the networking stack of Firefox utilized by over 140 million global users, including but not limited to Microsoft Entra SSO on macOS, URL parsing layer, IDN spoofing detection mechanism, WebTransport over HTTP/2, DNS over HTTPS on Firefox Android, and networking error page enhancement. I had previously worked as a research intern at **iQua Research Group** in Summer 2023 and contributed to a research project involving Distributed ML Systems. I am passionate about the software development cycle, distributed systems, computer networks, security and privacy, web applications, and computer architecture.\n\n\u00A0\n\nAside from work, I follow **Tottenham Hotspur** and the **Toronto Maple Leafs**. FYI, Spurs are the 2024/25 Europa League champions!\n\n\u00A0\n\nI'm happy to connect if you have any project ideas or would like to chat!"
+}

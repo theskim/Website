@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "mapper",
+    "name": "Mapper",
+    "section": "Software",
+    "title": "Geographic Information System Mapper",
+    "alt": "GIS Mapper",
+    "tags": ["C++", "STL", "GTK", "Glade", "EZGL", "OpenStreetMap API"],
+    "link": "https://youtu.be/OgRmhjl-Iy8",
+    "image": "/images/mapper.png",
+    "description": "Over the course of four months, we broke down this project into four major milestones, each with its own specific objectives.\n\nThe first milestone involved organizing vast amounts of data into structured formats, as well as utilizing and extending the **OpenStreetMap API** by developing useful functions that would be utilized in later milestones. To achieve this, we created our data structures using various **STL** structures such as maps, sets, vectors, and queues.\n\nThe second milestone centered around the development of the map's frontend, which included streets, points of interest, subway mode (shows subway lines), and bike mode (shows bike lanes) using a graphics library called **EZGL**, which depends on **GTK 3** and **Cairo**. The biggest challenge here, unironically, was avoiding segmentation faults.\n\nFor the third milestone, we implemented pathfinding between two intersection points on the map using **Dijkstra** and **A\\*** algorithms. We also showcased the pathfinding (from one point to another) in our **GTK Mapper**.\n\nIn the final milestone, we tackled the **Travelling Courier Problem**, utilizing various heuristics such as **Greedy**, **Multi-Start**, **3-opt**, and **Hill-Climbing**. Our team's efforts paid off, as we finished in the top 10% (out of 91 teams).\n\nOur focus on the map was eco-friendly **GIS**, with features that promoted public transit. Working on this **Agile Software Development** project was a remarkable experience that strengthened my skills in **C++**, **Data Structures**, and **Algorithms**.\n\nWhile I am unable to share the code due to academic integrity, I can provide it upon request. The demo is available through the link above."
+  },
+  {
+    "slug": "handwriting",
+    "name": "Handwriting",
+    "section": "Machine Learning",
+    "title": "Handwriting to Text Converter (CNN + GRU Architecture)",
+    "alt": "Handwriting",
+    "tags": [
+      "Python",
+      "PyTorch",
+      "Matplotlib",
+      "Pandas",
+      "IAM Handwriting Database",
+      "CNN",
+      "GRU",
+      "Deep Learning"
+    ],
+    "link": "https://youtu.be/ZADPbL7FWgE",
+    "image": "/images/handwriting.png",
+    "description": "The project aimed to develop a deep-learning model capable of **Optical Character Recognition (OCR)** to transform handwritten text into digital format. If we think about it, this technology has potential applications in various fields including education, healthcare, and business.\n\nUnlike traditional methods, such as Hidden Markov Models, **Recurrent Neural Network (RNN)** based architectures like **Gated Recurrent Unit (GRU)** and **Long short-term memory (LSTM)**, can consider larger contextual information making it more effective for the sequential nature of handwritten text.\n\nWe utilized a combination of **Convolutional Neural Network (CNN)** for initial image processing and GRUs for sequence analysis, employing **Connectionist Temporal Classification (CTC)** loss for training the model.\n\nThe **IAM Handwriting Database** was used to create a balanced training dataset to prevent biases related to word length. We ensured a rigorous splitting protocol for training, validation, and testing to maintain integrity in model evaluation.\n\nA ResNet152-based model served as our baseline to compare improvements. Our final model significantly outperformed the baseline **(52% vs 29% test accuracy)**, demonstrating the effectiveness of our chosen architecture in handling real-world handwritten text.\n\nThe project not only met but exceeded initial expectations in terms of accuracy and application readiness, marking a significant step forward in the practical use of OCR technologies in diverse real-world scenarios."
+  },
+  {
+    "slug": "career-trace",
+    "name": "CareerTrace",
+    "section": "Software",
+    "title": "CareerTrace - Job Application Tracker",
+    "alt": "CareerTrace",
+    "tags": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Google OAuth 2.0",
+      "AWS"
+    ],
+    "link": "https://careertrace.ca/",
+    "github": "https://github.com/michaelzixizhou/CareerTrace",
+    "image": "/images/careertrace-image.png",
+    "description": "CareerTrace is a powerful platform designed to streamline and enhance your job application process. With **CareerTrace**, you can effortlessly track your job applications, monitor application stages, and keep a record of important interview dates. It empowers you to make data-driven decisions by providing valuable insights into your application success rates.\n\n**CareerTrace** offers a range of key features to streamline your job application process. You can effortlessly manage and organize your applications, maintaining a comprehensive record of applied companies, dates, and application statuses. Stay on top of your interview schedule by recording important interview dates and times, ensuring you never miss an opportunity.\n\n**CareerTrace** employed a responsive design, ensuring a seamless user experience on both mobile and desktop devices. To enhance security and convenience, it offers **Google Authentication** for secure access. Behind the scenes, **CareerTrace** is built with the **MERN stack**; **MongoDB** for data storage, **Express.js** for backend, **React** and **styled-components** for frontend, **Google OAuth 2.0** for authentication, and hosted on **AWS**."
+  },
+  {
+    "slug": "aazami",
+    "name": "Aazami",
+    "section": "Hardware",
+    "title": "Aazami - MakeUofT Winner of Most Innovative Power Efficient Hack using the Tiny ML Kit",
+    "alt": "Aazami",
+    "tags": [
+      "C++",
+      "Arduino Nano 33 BLE Sense",
+      "Qualcomm Tiny ML Kit",
+      "Edge Impulse",
+      "Neo Pixels"
+    ],
+    "link": "https://devpost.com/software/aazami",
+    "github": "https://github.com/theskim/Aazami",
+    "image": "/images/aazami.png",
+    "description": "Imagine the challenges faced by those caring for loved ones with **dementia**. **Aazami** is designed to address the gap to elevate the life quality of dementia patients and their families. It records the last 10 seconds of audio, which can be replayed by saying \"I forgot\".\n\nDeveloping **Aazami** involved integrating hardware and software components, including **Arduino** and **Adafruit’s Neopixel** for hardware, and **Edge Impulse** for **Machine Learning**. Honestly, we were relatively new to Machine Learning back then. We used a built-in framework rather than training the model from scratch; we initiated the process by recording various voices for voice detection. We achieved around **95% accuracy** in both training and validation sets. However, due to time constraints and limited datasets, there is a possibility that the model is overfitting and biased towards a specific voiceset.\n\nDespite its areas for improvement, **Aazami** won the **MakeUofT Category** of Most Innovative Power Efficient Hack using the **Tiny ML Kit**."
+  }
+]

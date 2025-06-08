@@ -1,0 +1,1 @@
+npx prettier 'src/**/*.{js,jsx,json}' --write

@@ -1,0 +1,107 @@
+[
+  {
+    "date": "May 2025 - Aug 2025",
+    "logo": "/images/patreon.png",
+    "name": "Patreon",
+    "position": "Software Engineering Intern",
+    "location": "New York, NY, United States",
+    "tags": ["Python", "Terraform", "AWS Lambda", "AWS DynamoDB"],
+    "description": ["Security Team"]
+  },
+  {
+    "date": "Jan 2025 — Apr 2025",
+    "logo": "/images/mozilla.png",
+    "name": "Mozilla Corp.",
+    "position": "Software Engineering Intern",
+    "location": "Toronto, ON, Canada",
+    "tags": [
+      "C++",
+      "JavaScript",
+      "Java",
+      "Kotlin",
+      "Android Jetpack Compose",
+      "Redux",
+      "Mercurial",
+      "Open-source development",
+      "Computer Networking",
+      "Android Development"
+    ],
+    "description": [
+      "Firefox Networking (Necko) Team but working with Android Team as well 🦊",
+      "[Extended DNS over HTTPS (DoH) in Firefox for Android](https://support.mozilla.org/en-US/kb/configure-dns-over-https-protection-levels-firefox-android) (Kotlin, Jetpack Compose, Redux-based architecture), integrating GeckoView API (via Java) to deliver desktop-level privacy for over 178 million mobile users",
+      "Implemented WebTransport datagram send and receive support over HTTP/2 in C++, making Firefox the first browser to support HTTP/2 fallback and promote developers to build and test in Firefox",
+      "Revamped networking error pages with refined messages alongside content team, bringing Firefox in line with competitors",
+      "[100+ bugs I had worked on!](https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&emailtype1=exact&emailassigned_to1=1&resolution=FIXED&email1=sean.skim21%40gmail.com&list_id=17548436)"
+    ]
+  },
+  {
+    "date": "May 2024 — Dec 2024",
+    "logo": "/images/mozilla.png",
+    "name": "Mozilla Corp.",
+    "position": "Software Engineering Intern",
+    "location": "Toronto, ON, Canada",
+    "tags": [
+      "C++",
+      "Objective-C",
+      "Rust",
+      "JavaScript",
+      "SQL",
+      "Redash",
+      "Mercurial",
+      "Open-source development",
+      "Computer Networking"
+    ],
+    "description": [
+      "Firefox Networking (Necko) Team 🦊",
+      "[Integrated Microsoft Entra Single Sign-On for Firefox on macOS](https://bugzilla.mozilla.org/show_bug.cgi?id=1768724) via Apple’s Authorization API in Objective-C, potentially benefiting 7+ million users, and represented Mozilla in cross-company discussion with Microsoft",
+      "Enhanced the URL parsing layer (C++, JavaScript, Rust) for 25+ URL schemes and query encodings in Firefox, elevating Firefox Nightly’s Interop 2024 URL score to 99.3% and solidifying cross-platform compatibility",
+      "Enhanced spoofing detection for 70+ IDNs in C++, preventing malicious alpha-numeric lookalike combinations",
+      "Migrated 50+ networking Telemetry probes to the Glean API and built a real-time dashboard on Redash, used weekly by 10+ engineers to pinpoint the root cause of performance issues in Firefox Desktop and Androids",
+      "[100+ bugs I had worked on!](https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&emailtype1=exact&emailassigned_to1=1&resolution=FIXED&email1=sean.skim21%40gmail.com&list_id=17548436)"
+    ]
+  },
+  {
+    "date": "May 2023 — Aug 2023",
+    "logo": "/images/uoft.png",
+    "name": "iQua Research Group — University of Toronto",
+    "position": "Distributed Systems Research Intern",
+    "location": "Toronto, ON, Canada",
+    "tags": [
+      "Python",
+      "SciPy",
+      "psycopg2",
+      "Rust",
+      "Tokio",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "Linux",
+      "Distributed Systems",
+      "Computer Networking"
+    ],
+    "description": [
+      "Devised a max-min fairness algorithm in Python using SciPy and NetworkX, yielding up to a 300% increase in minimum flow bandwidth over baseline flows and significantly enhancing resource allocation across the network",
+      "Built a Node.js server to collect metrics (address, port, bandwidths) and a psycopg2-based CLI dashboard to rank 1,000+ connections from PostgreSQL, enabling coordinated communication across cloud nodes and benefiting research efforts",
+      "Extended 10+ unit tests in Rust to analyze TCP connection and transmission via evaluating packets"
+    ]
+  },
+  {
+    "date": "Jul 2022 — Jan 2024",
+    "logo": "/images/uofthacks.png",
+    "name": "UofTHacks Organizer Team",
+    "position": "Software Engineer — Full-stack Web",
+    "location": "Remote",
+    "tags": [
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MariaDB"
+    ],
+    "description": [
+      "Created reusable Next.js components and backend endpoints in Node.js for the website and applicant dashboard for the Canada’s first student-run hackathon, UofTHacks, benefiting over 1000+ applicants"
+    ]
+  }
+]

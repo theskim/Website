@@ -1,0 +1,127 @@
+@use "./variables" as *;
+
+.App {
+  text-align: center;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+  color: #fff;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Changa One";
+  src: url("./assets/fonts/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("./assets/fonts/InterTight-VariableFont_wght.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Small";
+  src: url("./assets/fonts/InterTight-VariableFont_wght.ttf");
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Button */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-weight: normal;
+  background-image: linear-gradient(45deg, #ddd,
+    #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+b {
+  font-weight: 700;
+}
+
+.my-button {
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  background: transparent;
+  font-family: $text-font;
+  font-size: min(3vw, 1rem);
+  margin: 8vh 0 5vh 0;
+  transition: opacity 0.3s ease, transform 0.3s ease !important;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      opacity: 0.6;
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .divider {
+    width: 50vw;
+    left: 25vw;
+  }
+}
+
+.tag-badge {
+  background-color: #3b424b;
+  color: #fff;
+  padding: 6px 11px !important;
+  border-radius: 9999px !important;
+  display: inline-block;
+  margin: 0 7px 7px 0 !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.07);
+  transition: all 0.3s ease-out;
+}
