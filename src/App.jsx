@@ -9,6 +9,7 @@ import {
   NavBar,
   Footer,
   BackgroundAll,
+  SnakeGame,
 } from "./components/imports";
 import Modal from "./components/pages/Projects/Modal";
 
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/project/:slug" element={<Modal />} />
+        <Route path="/snake-game" element={<SnakeGame />} />
         <Route
           path="/"
           element={

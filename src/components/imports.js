@@ -5,6 +5,7 @@ import Experiences from "./pages/Experiences/Experiences.jsx";
 import NavBar from "./NavBar/Navbar.jsx";
 import Footer from "./Footer/Footer.jsx";
 import BackgroundAll from "../assets/Background/Background.jsx";
+import SnakeGame from "./SnakeGame/SnakeGame.jsx";
 
 export {
   Home,
@@ -14,4 +15,5 @@ export {
   NavBar,
   Footer,
   BackgroundAll,
+  SnakeGame,
 };

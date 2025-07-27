@@ -40,6 +40,7 @@ const NavOptions = (props) => {
       <NavOption to="experience" title="Experience" {...props} />
       <NavOption to="education" title="Education" {...props} />
       <NavOption to="project" title="Projects" {...props} />
+      <NavOption href="/snake-game" title="🐍 Snake Game" {...props} />
       <NavOption href={Resume} title="Resume" {...props} />
     </>
   );
