@@ -1,0 +1,259 @@
+@use "./variables" as *;
+
+html,
+body {
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Firefox */
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Changa One";
+  src: url("./assets/fonts/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("./assets/fonts/InterTight-VariableFont_wght.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Small";
+  src: url("./assets/fonts/InterTight-VariableFont_wght.ttf");
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Button */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-weight: normal;
+  background-image: linear-gradient(45deg, #ddd,
+      #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+b {
+  font-weight: 700;
+}
+
+.my-button {
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  background: transparent;
+  font-family: $text-font;
+  font-size: min(3vw, 1rem);
+  margin: 8vh 0 5vh 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      opacity: 0.8;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+
+      &::before {
+        left: 100%;
+      }
+    }
+  }
+}
+
+/* Scroll to top button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+  }
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Fade in animations for sections */
+.fade-in {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.fade-in-delay-1 {
+  animation: slideInUp 0.6s ease-out 0.1s both;
+}
+
+.fade-in-delay-2 {
+  animation: slideInUp 0.6s ease-out 0.2s both;
+}
+
+.fade-in-delay-3 {
+  animation: slideInUp 0.6s ease-out 0.3s both;
+}
+
+@media screen and (max-width: 1000px) {
+  .divider {
+    width: 50vw;
+    left: 25vw;
+  }
+}
+
+.tag-badge {
+  background-color: #3b424b;
+  color: #fff;
+  padding: 6px 11px !important;
+  border-radius: 9999px !important;
+  display: inline-block;
+  margin: 0 7px 7px 0 !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+  }
+}
+
+// Smooth page transitions
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+// Prevent white flash during navigation
+html {
+  background: #000;
+}

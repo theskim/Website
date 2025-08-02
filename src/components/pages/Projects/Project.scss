@@ -1,0 +1,140 @@
+@use "../../../variables" as *;
+
+.section-wrapper {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  padding: min(10vw, 5rem) 10vw;
+  gap: min(8rem, 6vw);
+  margin: auto;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  h2 {
+    font-family: $header-font;
+    font-size: $header-size;
+    line-height: min(6.5vw, 3rem);
+    font-weight: normal;
+    transition: color 0.3s ease;
+  }
+
+  .section-skills {
+    p {
+      font-family: $text-font;
+      font-size: $text-size;
+      line-height: $text-height;
+    }
+  }
+
+  .my-button {
+    transform: scale(0.8);
+    margin: 1vh 0;
+    padding: 8px 16px;
+    font-size: min(2.5vw, 0.9rem);
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s;
+    }
+
+    &:hover::before {
+      left: 100%;
+    }
+  }
+
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+
+    .section-logo {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      color: #ddd;
+    }
+  }
+}
+
+.section-image-box,
+.section-image-box__mobile {
+  margin-bottom: min(2vw, 0.8rem);
+  object-fit: contain;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.section-image-box__mobile {
+  display: none;
+  justify-content: center;
+  margin: 5vh 0;
+}
+
+.section-description {
+  display: flex;
+  justify-content: center;
+}
+
+.section-logo {
+  border: 1px solid #ddd;
+  width: min(56vw, 22rem);
+  height: min(56vw, 22rem);
+  margin: min(2.3vw, 1.2rem) 0;
+  object-fit: contain;
+  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: brightness(0.9);
+
+  &:hover {
+    filter: brightness(1);
+    box-shadow: 0 12px 40px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.gray {
+  color: #626262;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-wrapper {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    margin: 0;
+
+    .my-button {
+      margin: 1vh 0 1vh 0;
+      transform: scale(0.9);
+    }
+  }
+
+  .section-image-box {
+    display: none;
+  }
+
+  .section-image-box__mobile {
+    display: flex;
+  }
+
+  .section-logo {
+    width: min(60vw, 20rem);
+    height: min(60vw, 20rem);
+  }
+}
