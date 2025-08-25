@@ -1,0 +1,33 @@
+@use "../../../variables" as *;
+
+.vertical-timeline::before {
+  background: #fff !important;
+}
+
+// Force timeline elements to be visible
+.vertical-timeline-element {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.vertical-timeline-element.is-hidden {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.vertical-timeline-element-icon.is-hidden {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.vertical-timeline-element-content.is-hidden {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.experiences__title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15vh 0 10vh 0;
+}

@@ -1,0 +1,95 @@
+/* Base layout */
+.social {
+  --glass: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.12);
+  --ring: rgba(255, 255, 255, 0.28);
+  --fg: #fff;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Sizes (buttons + icon) */
+.social--sm {
+  --btn: 40px;
+  --ico: 20px;
+  --pad: 6px;
+  --gap: 10px;
+}
+
+.social--md {
+  --btn: 48px;
+  --ico: 26px;
+  --pad: 8px;
+  --gap: 14px;
+}
+
+.social--lg {
+  --btn: 56px;
+  --ico: 30px;
+  --pad: 10px;
+  --gap: 18px;
+}
+
+/* Variant: simple row with gaps */
+.social--icons {
+  gap: var(--gap);
+}
+
+.social--bar {
+  display: inline-flex;
+  gap: 36px;
+  padding: 15px 36px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, .45),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* Buttons */
+.social__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: transform .2s ease, color .2s ease, text-shadow .2s ease;
+
+  svg {
+    width: 42px;
+    /* 28px × 1.5 */
+    height: 42px;
+  }
+
+  @media (hover:hover) and (pointer:fine) {
+    &:hover {
+      transform: translateY(-3px);
+      text-shadow: 0 0 16px rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &:focus-visible {
+    outline: none;
+    text-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Icon itself */
+.social__icon {
+  width: var(--ico);
+  height: var(--ico);
+  color: currentColor;
+  fill: currentColor;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .social__button {
+    transition: none;
+  }
+}

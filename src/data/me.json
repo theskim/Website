@@ -1,0 +1,20 @@
+{
+  "websiteLogo": "/images/logo.png",
+  "websiteAlt": "SK",
+  "name": "Sean Kim",
+  "musicYoutubeId": "3GCSUSwcDwg",
+  "location": "Toronto • New York City",
+  "email": "sean.skim21@gmail.com",
+  "schoolName": "University of Toronto",
+  "degree": "Bachelor of Applied Science in Computer Engineering, Minor in Artificial Intelligence Engineering",
+  "schoolDuration": "Expected April 2026",
+  "schoolLearnMore": "https://discover.engineering.utoronto.ca/programs/engineering-programs/electrical-computer-engineering/",
+  "schoolDetails": [
+    "NSERC Undergraduate Student Research Award",
+    "Dean's List in All Semesters (3.86 / 4.0 cGPA)"
+  ],
+  "schoolLogo": "/images/uoft.png",
+  "github": "https://github.com/theskim",
+  "linkedin": "https://www.linkedin.com/in/seankim7/",
+  "description": "I am an undergraduate Computer Engineering Student at the University of Toronto, also pursuing a minor in Artificial Intelligence,  expected to graduate in April 2026! My interests span backend and infrastructure engineering, with a strong foundation in networking and security. Aside work, I love Oasis, my favourite Oasis song is Slide Away!"
+}

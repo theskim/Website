@@ -1,0 +1,68 @@
+@use "../../../../variables" as *;
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 15vh 0 20vh 0;
+
+  .about-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6vh;
+
+    .about-me-time {
+      font-family: $header-font;
+      font-size: min(5.25vw, 1.5rem);
+      line-height: min(8vw, 3rem);
+    }
+
+    .about-me-location+.about-me-time {
+      margin-top: 0;
+    }
+  }
+
+  .react-markdown {
+    white-space: 'pre-wrap';
+    line-height: 1.5;
+  }
+
+  .about-me-description {
+    h4 {
+      font-family: $header-font;
+      font-size: min(6vw, 1.75rem);
+      line-height: min(8vw, 3rem);
+    }
+
+    img {
+      height: min(6.5vw, 2.5rem);
+      pointer-events: none;
+    }
+
+    p {
+      font-family: $text-font;
+      font-size: $text-size;
+      line-height: $text-height;
+      margin: 0.5rem 8vw 0.85rem 8vw;
+    }
+  }
+
+  .about-me-location {
+    font-family: $header-font;
+    font-size: min(6vw, 1.75rem);
+    line-height: min(8vw, 3rem);
+    margin-top: 0.05rem;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .about-me-description {
+    p {
+      margin: 0 10vw 0 10vw;
+    }
+  }
+}

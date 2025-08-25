@@ -1,0 +1,80 @@
+[
+  {
+    "date": "May 2025 - Aug 2025",
+    "logo": "/images/patreon.png",
+    "name": "Patreon",
+    "position": "Software Engineering Intern",
+    "location": "New York, NY, United States",
+    "tags": [
+      "Python",
+      "Terraform",
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS Bedrock",
+      "Datadog",
+      "CI/CD"
+    ],
+    "description": ["Infra & Security Team"]
+  },
+  {
+    "date": "May 2024 — Apr 2025",
+    "logo": "/images/mozilla.png",
+    "name": "Mozilla Corp.",
+    "position": "Software Engineering Intern",
+    "location": "Toronto, ON, Canada",
+    "tags": [
+      "C++",
+      "Objective-C",
+      "JavaScript",
+      "Rust",
+      "Java",
+      "Kotlin",
+      "Android Jetpack Compose",
+      "Redux",
+      "Mercurial",
+      "Redash",
+      "Open-source development",
+      "Computer Networking",
+      "Android Development"
+    ],
+    "description": ["Firefox Networking Team"]
+  },
+  {
+    "date": "May 2023 — Aug 2023",
+    "logo": "/images/uoft.png",
+    "name": "iQua Research Group — University of Toronto",
+    "position": "Distributed Systems Research Intern",
+    "location": "Toronto, ON, Canada",
+    "tags": [
+      "Python",
+      "SciPy",
+      "psycopg2",
+      "Rust",
+      "Tokio",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "Linux",
+      "Distributed Systems",
+      "Computer Networking"
+    ],
+    "description": ["NSERC Undergraduate Research Award"]
+  },
+  {
+    "date": "Jul 2022 — Jan 2024",
+    "logo": "/images/uofthacks.png",
+    "name": "UofTHacks Organizer Team",
+    "position": "Software Engineer",
+    "location": "Remote",
+    "tags": [
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MariaDB"
+    ],
+    "description": ["UofTHacks X & UofTHacks 11 Organizer Team"]
+  }
+]

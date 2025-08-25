@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "mapper",
+    "name": "Mapper",
+    "title": "OTFMap - Geographic Information System Mapper",
+    "alt": "OTFMap",
+    "tags": ["C++", "STL", "GTK", "EZGL", "OpenStreetMap API"],
+    "link": "https://youtu.be/OgRmhjl-Iy8",
+    "logo": "mdi:map-check-outline",
+    "description": "Over the span of four months, our team structured the project into four major milestones, each with well-defined objectives.\n\nThe first milestone focused on organizing large volumes of data into structured formats and extending the functionality of the OpenStreetMap API by developing custom functions for later use. To support this, we implemented efficient data structures using STL containers such as maps, sets, vectors, and queues.\n\nThe second milestone concentrated on building the map’s frontend. We integrated features such as street rendering, points of interest, subway visualization (with line overlays), and bike lane support. This was achieved using the EZGL graphics library, which is built on GTK 3 and Cairo. The primary challenge at this stage was ensuring stability and robustness, particularly in preventing segmentation faults during rendering.\n\nThe third milestone introduced pathfinding functionality between intersections on the map. We implemented both Dijkstra’s algorithm and the A* algorithm, then visualized the computed routes through our GTK-based Mapper interface.\n\nIn the final milestone, we addressed the Travelling Courier Problem by applying multiple heuristic approaches, including Greedy, Multi-Start, 3-opt, and Hill-Climbing. These optimizations led our team to finish in the top 10% out of 91 participating teams.\n\nThe overarching theme of the project was eco-friendly GIS, with a focus on promoting sustainable transportation through public transit features. This Agile Software Development experience significantly strengthened my expertise in C++, data structures, and algorithms.\n\nDue to academic integrity, the source code cannot be shared publicly. However, it can be provided upon request. A demo of the project is available through the link."
+  },
+  {
+    "slug": "deepwrite",
+    "name": "DeepWrite OCR",
+    "title": "DeepWrite OCR - Handwriting to Text Converter (CNN + GRU Architecture)",
+    "alt": "DeepWrite OCR",
+    "tags": [
+      "Python",
+      "PyTorch",
+      "Matplotlib",
+      "Pandas",
+      "IAM Handwriting Database",
+      "CNN",
+      "GRU",
+      "Deep Learning"
+    ],
+    "link": "https://youtu.be/ZADPbL7FWgE",
+    "logo": "mdi:pencil-box-multiple",
+    "description": "The project aimed to develop a deep learning model capable of Optical Character Recognition (OCR) to transform handwritten text into digital format. This technology has wide-ranging applications in education, healthcare, and business, where digitizing handwritten content can streamline accessibility and automation.\n\nWe implemented a hybrid architecture combining a Convolutional Neural Network (CNN) for image feature extraction and Gated Recurrent Units (GRUs) for sequence modeling. GRUs were chosen over LSTMs due to their lower computational requirements and faster training times, making them more suitable given project constraints. To address the sequential nature of handwritten text, the model was trained using Connectionist Temporal Classification (CTC) loss, which enabled alignment-free recognition. Compared to traditional approaches such as Hidden Markov Models, this architecture captured broader contextual information, improving recognition accuracy for continuous sequences.\n\nThe IAM Handwriting Database served as the foundation for training. To ensure fairness, we created a balanced dataset accounting for word length variations and adopted a strict train–validation–test split protocol to preserve evaluation integrity.\n\nAs a baseline, we designed a ResNet152-based model that first segmented word images into individual characters and then performed classification. While effective for isolated symbols, this approach struggled with natural handwriting continuity. Our final CNN + GRU model achieved a test accuracy of 52%, significantly outperforming the baseline accuracy of 29%. This demonstrated the advantage of handling handwriting as a sequence prediction task rather than a character-level classification task.\n\nThe project not only met but exceeded initial expectations, showcasing practical readiness for deployment in real-world applications. Beyond academic evaluation, it highlighted the potential of deep learning architectures to push OCR technology toward broader adoption across industries."
+  }
+]

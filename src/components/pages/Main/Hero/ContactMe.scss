@@ -1,0 +1,14 @@
+@use "../../../../variables" as *;
+
+.social-media {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: min(10vw, 10rem);
+}
+
+.skills__contact {
+  .contact-me {
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
+  }
+}
